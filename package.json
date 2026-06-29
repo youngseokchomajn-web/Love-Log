@@ -1,0 +1,29 @@
+{
+  "name": "love-log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngseokchomajn-web/Love-Log.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/youngseokchomajn-web/Love-Log/issues"
+  },
+  "homepage": "https://github.com/youngseokchomajn-web/Love-Log#readme",
+  "dependencies": {
+    "kaboom": "^3000.1.17"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}
