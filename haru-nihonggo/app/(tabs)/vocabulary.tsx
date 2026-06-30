@@ -32,7 +32,10 @@ export default function VocabularyScreen() {
       <View className="bg-white rounded-2xl p-4 mb-3 shadow-sm border border-gray-100 flex-row justify-between items-center">
         <View className="flex-1">
           <Text className="text-sm text-gray-500 mb-1">{item.hiragana}</Text>
-          <Text className="text-2xl font-bold text-gray-800 mb-2">{item.kanji || item.hiragana}</Text>
+          <Text className="text-2xl font-bold text-gray-800 mb-1">{item.kanji || item.hiragana}</Text>
+          {item.pronunciation && (
+            <Text className="text-sm text-gray-400 mb-2">[{item.pronunciation}]</Text>
+          )}
           <Text className="text-base text-gray-700">{item.korean}</Text>
         </View>
         <View className="items-end justify-between h-full">
