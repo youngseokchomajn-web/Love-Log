@@ -109,19 +109,17 @@ export default function SRSScreen() {
       {/* Action Buttons */}
       <View className="flex-row justify-between h-14 mb-4">
         <TouchableOpacity 
-          className={`flex-1 rounded-full items-center justify-center mr-2 ${flipped ? 'bg-[#FBE9E7]' : 'bg-[#F0F0F0]'}`}
-          disabled={!flipped}
+          className="flex-1 rounded-full items-center justify-center mr-2 bg-[#FBE9E7]"
           onPress={() => handleReview(false)}
         >
-          <Text className={`text-lg font-medium ${flipped ? 'text-[#D96B6B]' : 'text-gray-400'}`}>몰라요</Text>
+          <Text className="text-lg font-medium text-[#D96B6B]">몰라요</Text>
         </TouchableOpacity>
         
         <TouchableOpacity 
-          className={`flex-1 rounded-full items-center justify-center ml-2 ${flipped ? 'bg-[#E9F3EB]' : 'bg-[#F0F0F0]'}`}
-          disabled={!flipped}
+          className="flex-1 rounded-full items-center justify-center ml-2 bg-[#E9F3EB]"
           onPress={() => handleReview(true)}
         >
-          <Text className={`text-lg font-medium ${flipped ? 'text-[#7EA48F]' : 'text-gray-400'}`}>알아요</Text>
+          <Text className="text-lg font-medium text-[#7EA48F]">알아요</Text>
         </TouchableOpacity>
       </View>
     </View>
