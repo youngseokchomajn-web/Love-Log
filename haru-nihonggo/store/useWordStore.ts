@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { seedWords } from '../data/seedWords';
 
 export type WordStatus = 'new' | 'learning' | 'mastered';
 
@@ -9,39 +10,47 @@ export interface Word {
   kanji: string;
   hiragana: string;
   korean: string;
+  pronunciation?: string;
   english: string;
   status: WordStatus;
-  nextReviewDate: string; // ISO date string
+  nextReviewDate: number;
   interval: number; // in days
   easeFactor: number;
   incorrectCount: number;
 }
 
+export interface Settings {
+  dailyGoal: number;
+  autoPlayAudio: boolean;
+}
+
 interface WordState {
   words: Word[];
-  dailyLimit: number;
+  settings: Settings;
   addWords: (newWords: Word[]) => void;
+  updateSettings: (newSettings: Partial<Settings>) => void;
   reviewWord: (id: string, isCorrect: boolean) => void;
   getTodayReviewWords: () => Word[];
   getTodayNewWords: () => Word[];
   getIncorrectWords: () => Word[];
+  generateQuiz: (count: number) => { question: Word, options: string[] }[];
+  resetData: () => void;
 }
 
-// Initial mock data to show UI
-const INITIAL_WORDS: Word[] = [
-  { id: '1', kanji: '駅', hiragana: 'えき', korean: '역', english: 'Station', status: 'new', nextReviewDate: new Date().toISOString(), interval: 0, easeFactor: 2.5, incorrectCount: 0 },
-  { id: '2', kanji: '学校', hiragana: 'がっこう', korean: '학교', english: 'School', status: 'new', nextReviewDate: new Date().toISOString(), interval: 0, easeFactor: 2.5, incorrectCount: 0 },
-  { id: '3', kanji: '本', hiragana: 'ほん', korean: '책', english: 'Book', status: 'learning', nextReviewDate: new Date(Date.now() - 86400000).toISOString(), interval: 1, easeFactor: 2.5, incorrectCount: 1 },
-  { id: '4', kanji: '猫', hiragana: 'ねこ', korean: '고양이', english: 'Cat', status: 'learning', nextReviewDate: new Date(Date.now() - 86400000).toISOString(), interval: 1, easeFactor: 2.3, incorrectCount: 2 },
-];
+// Initial seed data from external file
+const INITIAL_WORDS: Word[] = seedWords as Word[];
 
 export const useWordStore = create<WordState>()(
   persist(
     (set, get) => ({
       words: INITIAL_WORDS,
-      dailyLimit: 10,
+      settings: {
+        dailyGoal: 10,
+        autoPlayAudio: true,
+      },
       
       addWords: (newWords) => set((state) => ({ words: [...state.words, ...newWords] })),
+      updateSettings: (newSettings) => set((state) => ({ settings: { ...state.settings, ...newSettings } })),
       
       reviewWord: (id, isCorrect) => set((state) => {
         const words = state.words.map(word => {
@@ -75,7 +84,7 @@ export const useWordStore = create<WordState>()(
             easeFactor: newEaseFactor,
             status: newStatus,
             incorrectCount: newIncorrectCount,
-            nextReviewDate: nextDate.toISOString()
+            nextReviewDate: nextDate.getTime()
           };
         });
         
@@ -84,19 +93,47 @@ export const useWordStore = create<WordState>()(
       
       getTodayReviewWords: () => {
         const { words } = get();
-        const now = new Date().toISOString();
+        const now = Date.now();
         return words.filter(w => w.status !== 'new' && w.nextReviewDate <= now);
       },
       
       getTodayNewWords: () => {
-        const { words, dailyLimit } = get();
-        return words.filter(w => w.status === 'new').slice(0, dailyLimit);
+        const { words, settings } = get();
+        return words.filter(w => w.status === 'new').slice(0, settings.dailyGoal);
       },
       
       getIncorrectWords: () => {
         const { words } = get();
         return words.filter(w => w.incorrectCount > 0).sort((a, b) => b.incorrectCount - a.incorrectCount);
-      }
+      },
+      
+      generateQuiz: (count) => {
+        const { words } = get();
+        // Get up to `count` words that are currently learning or mastered, fallback to all words
+        let candidates = words.filter(w => w.status !== 'new');
+        if (candidates.length < count) {
+            candidates = [...words];
+        }
+        
+        // Shuffle candidates
+        const shuffled = [...candidates].sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, count);
+        
+        return selected.map(word => {
+            // Pick 3 random wrong answers (korean meanings)
+            const otherWords = words.filter(w => w.id !== word.id);
+            const wrongOptions = [...otherWords].sort(() => 0.5 - Math.random()).slice(0, 3).map(w => w.korean);
+            
+            // Mix correct answer with wrong options
+            const options = [...wrongOptions, word.korean].sort(() => 0.5 - Math.random());
+            
+            return {
+                question: word,
+                options
+            };
+        });
+      },
+      resetData: () => set({ words: INITIAL_WORDS }),
     }),
     {
       name: 'word-storage',

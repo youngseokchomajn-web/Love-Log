@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
+import * as Speech from 'expo-speech';
 
 export default function SRSScreen() {
   const router = useRouter();
@@ -10,6 +11,7 @@ export default function SRSScreen() {
   const getTodayNewWords = useWordStore(state => state.getTodayNewWords);
   const reviewWord = useWordStore(state => state.reviewWord);
 
+  const settings = useWordStore(state => state.settings);
   const [queue, setQueue] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -31,6 +33,14 @@ export default function SRSScreen() {
       setCurrentIndex(prev => prev + 1);
     } else {
       router.back();
+    }
+  };
+
+  const handleFlip = () => {
+    setFlipped(true);
+    if (settings.autoPlayAudio) {
+      const currentWord = queue[currentIndex];
+      Speech.speak(currentWord.hiragana, { language: 'ja-JP' });
     }
   };
 
@@ -72,7 +82,7 @@ export default function SRSScreen() {
       <TouchableOpacity 
         className="flex-1 bg-white rounded-3xl p-6 shadow-sm border border-gray-100 items-center mb-10 overflow-hidden"
         activeOpacity={0.9}
-        onPress={() => setFlipped(true)}
+        onPress={handleFlip}
       >
         <View className="w-full h-48 bg-[#F0F4F1] rounded-2xl mb-6 items-center justify-center">
           {/* Placeholder for train station illustration */}
@@ -84,7 +94,10 @@ export default function SRSScreen() {
         
         {flipped ? (
           <View className="items-center mt-auto w-full">
-            <Text className="text-3xl font-bold text-gray-800">{currentWord.korean}</Text>
+            <Text className="text-3xl font-bold text-gray-800 mb-2">{currentWord.korean}</Text>
+            {currentWord.pronunciation && (
+              <Text className="text-xl text-gray-500 mb-2">[{currentWord.pronunciation}]</Text>
+            )}
           </View>
         ) : (
           <View className="items-center mt-auto">

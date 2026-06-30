@@ -2,9 +2,11 @@ import React from 'react';
 import { View, Text, FlatList, TouchableOpacity } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
 import { Ionicons } from '@expo/vector-icons';
+import * as Speech from 'expo-speech';
 
 export default function IncorrectScreen() {
-  const incorrectWords = useWordStore((state) => state.getIncorrectWords());
+  const words = useWordStore((state) => state.words);
+  const incorrectWords = words.filter(w => w.incorrectCount > 0).sort((a, b) => b.incorrectCount - a.incorrectCount);
 
   if (incorrectWords.length === 0) {
     return (
@@ -21,16 +23,23 @@ export default function IncorrectScreen() {
       <View className="flex-row justify-between items-start mb-2">
         <View>
           <Text className="text-sm text-subtext mb-1">{item.hiragana}</Text>
-          <Text className="text-2xl font-bold text-text">{item.kanji || item.hiragana}</Text>
+          <Text className="text-2xl font-bold text-text mb-1">{item.kanji || item.hiragana}</Text>
+          {item.pronunciation && (
+            <Text className="text-sm text-gray-400 mb-2">[{item.pronunciation}]</Text>
+          )}
         </View>
-        <View className="bg-pink px-2 py-1 rounded">
-          <Text className="text-xs text-red-500 font-bold">{item.incorrectCount}번 틀림</Text>
+        <View className="bg-pink px-2 py-1 rounded flex-row items-center">
+          <Ionicons name="alert-circle-outline" size={14} color="#ef4444" />
+          <Text className="text-xs text-red-500 font-bold ml-1">{item.incorrectCount}번 오답</Text>
         </View>
       </View>
       <View className="bg-gray-50 rounded-xl p-3 mt-2 flex-row justify-between items-center">
-        <Text className="text-base text-gray-700">{item.korean}</Text>
-        <TouchableOpacity>
-          <Text className="text-sm text-subtext font-medium text-green-700">집중 학습 ></Text>
+        <Text className="text-base text-gray-700 font-medium">{item.korean}</Text>
+        <TouchableOpacity 
+          className="p-2 bg-white rounded-full shadow-sm border border-gray-100"
+          onPress={() => Speech.speak(item.hiragana, { language: 'ja-JP' })}
+        >
+          <Ionicons name="volume-medium" size={20} color="#8EAAA3" />
         </TouchableOpacity>
       </View>
     </View>

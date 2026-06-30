@@ -9,6 +9,7 @@ export default function HomeScreen() {
   const getTodayNewWords = useWordStore((state) => state.getTodayNewWords);
   const getTodayReviewWords = useWordStore((state) => state.getTodayReviewWords);
   const getIncorrectWords = useWordStore((state) => state.getIncorrectWords);
+  const settings = useWordStore((state) => state.settings);
 
   const newCount = getTodayNewWords().length;
   const reviewCount = getTodayReviewWords().length;
@@ -18,7 +19,7 @@ export default function HomeScreen() {
     <ScrollView className="flex-1 bg-[#FAF9F6] px-5 pt-4">
       <View className="mb-8">
         <Text className="text-xl font-medium text-gray-800 tracking-wide">좋은 아침이에요 ☀️</Text>
-        <Text className="text-lg text-gray-600 mt-1">오늘도 5분, 일본어를 만나봐요</Text>
+        <Text className="text-lg text-gray-600 mt-1">오늘 목표는 {settings.dailyGoal}개, 일본어를 만나봐요</Text>
       </View>
 
       <View className="flex-row justify-between items-center mb-4">
