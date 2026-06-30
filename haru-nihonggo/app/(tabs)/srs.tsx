@@ -107,20 +107,31 @@ export default function SRSScreen() {
       </TouchableOpacity>
 
       {/* Action Buttons */}
-      <View className="flex-row justify-between h-14 mb-4">
-        <TouchableOpacity 
-          className="flex-1 rounded-full items-center justify-center mr-2 bg-[#FBE9E7]"
-          onPress={() => handleReview(false)}
-        >
-          <Text className="text-lg font-medium text-[#D96B6B]">몰라요</Text>
-        </TouchableOpacity>
-        
-        <TouchableOpacity 
-          className="flex-1 rounded-full items-center justify-center ml-2 bg-[#E9F3EB]"
-          onPress={() => handleReview(true)}
-        >
-          <Text className="text-lg font-medium text-[#7EA48F]">알아요</Text>
-        </TouchableOpacity>
+      <View className="flex-row justify-between h-14 mb-4 w-full">
+        {!flipped ? (
+          <TouchableOpacity 
+            className="flex-1 rounded-full items-center justify-center bg-[#8EAAA3]"
+            onPress={handleFlip}
+          >
+            <Text className="text-lg font-bold text-white">정답 확인하기</Text>
+          </TouchableOpacity>
+        ) : (
+          <>
+            <TouchableOpacity 
+              className="flex-1 rounded-full items-center justify-center mr-2 bg-[#FBE9E7]"
+              onPress={() => handleReview(false)}
+            >
+              <Text className="text-lg font-bold text-[#D96B6B]">몰라요</Text>
+            </TouchableOpacity>
+            
+            <TouchableOpacity 
+              className="flex-1 rounded-full items-center justify-center ml-2 bg-[#E9F3EB]"
+              onPress={() => handleReview(true)}
+            >
+              <Text className="text-lg font-bold text-[#7EA48F]">알아요</Text>
+            </TouchableOpacity>
+          </>
+        )}
       </View>
     </View>
   );
