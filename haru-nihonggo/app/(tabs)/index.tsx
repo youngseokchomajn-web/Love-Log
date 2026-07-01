@@ -67,7 +67,6 @@ export default function HomeScreen() {
         <MenuRow icon="time-outline" label="복습하기" onPress={() => router.push('/srs')} />
         <MenuRow icon="book-outline" label="오답노트" onPress={() => router.push('/incorrect')} />
         <MenuRow icon="library-outline" label="JLPT N4 단어 목록" onPress={() => router.push('/vocabulary')} />
-        <MenuRow icon="settings-outline" label="설정" onPress={() => {}} />
       </View>
     </ScrollView>
   );

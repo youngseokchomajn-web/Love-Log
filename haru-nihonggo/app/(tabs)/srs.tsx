@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, Image } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
+import { wordImages } from '../../data/wordImages';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import * as Speech from 'expo-speech';
+import { playJapaneseTTS } from '../../utils/tts';
 
 export default function SRSScreen() {
   const router = useRouter();
@@ -40,7 +41,7 @@ export default function SRSScreen() {
     setFlipped(true);
     if (settings.autoPlayAudio) {
       const currentWord = queue[currentIndex];
-      Speech.speak(currentWord.hiragana, { language: 'ja-JP' });
+      playJapaneseTTS(currentWord.hiragana);
     }
   };
 
@@ -84,9 +85,16 @@ export default function SRSScreen() {
         activeOpacity={0.9}
         onPress={handleFlip}
       >
-        <View className="w-full h-48 bg-[#F0F4F1] rounded-2xl mb-6 items-center justify-center">
-          {/* Placeholder for train station illustration */}
-          <Ionicons name="train-outline" size={64} color="#8EAAA3" />
+        <View className="w-full h-48 bg-[#F0F4F1] rounded-2xl mb-6 items-center justify-center overflow-hidden">
+          {currentWord.imageKey && wordImages[currentWord.imageKey] ? (
+            <Image 
+              source={wordImages[currentWord.imageKey]} 
+              className="w-full h-full"
+              resizeMode="cover"
+            />
+          ) : (
+            <Ionicons name="train-outline" size={64} color="#8EAAA3" />
+          )}
         </View>
 
         <Text className="text-xl text-gray-500 mb-2">{currentWord.hiragana}</Text>

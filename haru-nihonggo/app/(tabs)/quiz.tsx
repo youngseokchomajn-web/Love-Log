@@ -4,6 +4,7 @@ import { useWordStore } from '../../store/useWordStore';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import * as Speech from 'expo-speech';
+import { playJapaneseTTS } from '../../utils/tts';
 
 export default function QuizScreen() {
   const router = useRouter();
@@ -63,8 +64,9 @@ export default function QuizScreen() {
     );
   }
 
-  const speak = () => {
-    Speech.speak(currentQuiz.question.hiragana, { language: 'ja-JP' });
+  const handleListen = () => {
+    if (!currentQuiz) return;
+    playJapaneseTTS(currentQuiz.question.hiragana);
   };
 
   return (
@@ -82,7 +84,7 @@ export default function QuizScreen() {
 
       <Text className="text-center text-gray-700 text-lg mb-8">다음 단어의 뜻으로 알맞은 것을 고르세요.</Text>
 
-      <TouchableOpacity className="items-center mb-10" onPress={speak}>
+      <TouchableOpacity className="items-center mb-10" onPress={handleListen}>
         <Text className="text-xl text-gray-500 mb-1">{currentQuiz.question.hiragana} <Ionicons name="volume-medium" size={16} /></Text>
         <Text className="text-5xl font-medium text-gray-800">{currentQuiz.question.kanji || currentQuiz.question.hiragana}</Text>
       </TouchableOpacity>

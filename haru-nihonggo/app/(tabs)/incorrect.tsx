@@ -3,6 +3,7 @@ import { View, Text, FlatList, TouchableOpacity } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
 import { Ionicons } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
+import { playJapaneseTTS } from '../../utils/tts';
 
 export default function IncorrectScreen() {
   const words = useWordStore((state) => state.words);
@@ -36,10 +37,10 @@ export default function IncorrectScreen() {
       <View className="bg-gray-50 rounded-xl p-3 mt-2 flex-row justify-between items-center">
         <Text className="text-base text-gray-700 font-medium">{item.korean}</Text>
         <TouchableOpacity 
-          className="p-2 bg-white rounded-full shadow-sm border border-gray-100"
-          onPress={() => Speech.speak(item.hiragana, { language: 'ja-JP' })}
+          className="p-3 mr-1"
+          onPress={() => playJapaneseTTS(item.hiragana)}
         >
-          <Ionicons name="volume-medium" size={20} color="#8EAAA3" />
+          <Ionicons name="volume-high" size={24} color="#8EAAA3" />
         </TouchableOpacity>
       </View>
     </View>

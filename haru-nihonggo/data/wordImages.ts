@@ -1,0 +1,17 @@
+export const wordImages: Record<string, any> = {
+  time: require('../assets/images/words/time.png'),
+  train: require('../assets/images/words/train.png'),
+  company: require('../assets/images/words/company.png'),
+  hospital: require('../assets/images/words/hospital.png'),
+  homework: require('../assets/images/words/homework.png'),
+  deadline: require('../assets/images/words/deadline.png'),
+  on_time: require('../assets/images/words/on_time.png'),
+  exam: require('../assets/images/words/exam.png'),
+  problem: require('../assets/images/words/problem.png'),
+  promise: require('../assets/images/words/promise.png'),
+  weather: require('../assets/images/words/weather.png'),
+  travel: require('../assets/images/words/travel.png'),
+  study: require('../assets/images/words/study.png'),
+  meeting: require('../assets/images/words/meeting.png'),
+  schedule: require('../assets/images/words/schedule.png'),
+};

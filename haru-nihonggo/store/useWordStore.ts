@@ -11,6 +11,7 @@ export interface Word {
   hiragana: string;
   korean: string;
   pronunciation?: string;
+  imageKey?: string;
   english: string;
   status: WordStatus;
   nextReviewDate: number;
