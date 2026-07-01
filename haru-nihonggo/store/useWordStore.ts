@@ -25,12 +25,28 @@ export interface Settings {
   autoPlayAudio: boolean;
 }
 
+export const calculateWordLevel = (word: Word): number => {
+  if (word.status === 'new') return 0;
+  
+  const now = Date.now();
+  const daysOverdue = (now - word.nextReviewDate) / (1000 * 60 * 60 * 24);
+  
+  if (word.interval >= 6) { // Mastered or late-stage learning
+    if (daysOverdue > 3) return 1; // Dynamic degradation (Level 1)
+    return 2; // Strict recall (Level 2)
+  }
+  
+  // Early learning stage
+  if (daysOverdue > 2) return 0; // Degrade to full hint (Level 0)
+  return 1; // Normal learning (Toggle hint Level 1)
+};
+
 interface WordState {
   words: Word[];
   settings: Settings;
   addWords: (newWords: Word[]) => void;
   updateSettings: (newSettings: Partial<Settings>) => void;
-  reviewWord: (id: string, isCorrect: boolean) => void;
+  reviewWord: (id: string, isCorrect: boolean, isQuiz?: boolean) => void;
   getTodayReviewWords: () => Word[];
   getTodayNewWords: () => Word[];
   getIncorrectWords: () => Word[];
@@ -53,7 +69,7 @@ export const useWordStore = create<WordState>()(
       addWords: (newWords) => set((state) => ({ words: [...state.words, ...newWords] })),
       updateSettings: (newSettings) => set((state) => ({ settings: { ...state.settings, ...newSettings } })),
       
-      reviewWord: (id, isCorrect) => set((state) => {
+      reviewWord: (id, isCorrect, isQuiz = false) => set((state) => {
         const words = state.words.map(word => {
           if (word.id !== id) return word;
           
@@ -74,7 +90,9 @@ export const useWordStore = create<WordState>()(
             newInterval = 1;
             newEaseFactor = Math.max(1.3, newEaseFactor - 0.2);
             newStatus = 'learning';
-            newIncorrectCount += 1;
+            if (isQuiz) {
+              newIncorrectCount += 1;
+            }
           }
           
           const nextDate = new Date(now.getTime() + newInterval * 24 * 60 * 60 * 1000);
@@ -100,7 +118,17 @@ export const useWordStore = create<WordState>()(
       
       getTodayNewWords: () => {
         const { words, settings } = get();
-        return words.filter(w => w.status === 'new').slice(0, settings.dailyGoal);
+        const now = Date.now();
+        const reviewCount = words.filter(w => w.status !== 'new' && w.nextReviewDate <= now).length;
+        
+        // 미완료 방지: 복습 카드가 목표치의 1.5배 이상 쌓였다면 새 단어를 줄이거나 중단합니다.
+        let maxNew = settings.dailyGoal;
+        if (reviewCount > settings.dailyGoal * 1.5) {
+            maxNew = Math.max(0, settings.dailyGoal - Math.floor(reviewCount / 2));
+        }
+        
+        if (maxNew === 0) return [];
+        return words.filter(w => w.status === 'new').slice(0, maxNew);
       },
       
       getIncorrectWords: () => {

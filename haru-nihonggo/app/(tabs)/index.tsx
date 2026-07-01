@@ -45,6 +45,23 @@ export default function HomeScreen() {
         </View>
       </View>
 
+      {/* Warm-up Mode Banner */}
+      {reviewCount >= Math.max(15, settings.dailyGoal * 1.5) && (
+        <TouchableOpacity 
+          className="bg-[#E9F3EB] rounded-3xl p-5 mb-6 flex-row items-center justify-between border border-[#D1E5D5]"
+          activeOpacity={0.8}
+          onPress={() => router.push('/srs?mode=warmup')}
+        >
+          <View className="flex-1">
+            <Text className="text-lg font-bold text-[#4A725D] mb-1">🧠 가볍게 뇌풀기 (웜업)</Text>
+            <Text className="text-[#6B8E7B] text-sm">복습이 많이 밀렸네요! 힌트와 함께 부담 없이 워밍업부터 해보세요.</Text>
+          </View>
+          <View className="ml-3">
+            <Ionicons name="fitness" size={40} color="#7EA48F" />
+          </View>
+        </TouchableOpacity>
+      )}
+
       {/* Start Button */}
       <View className="bg-[#FDF6E3] rounded-3xl p-5 mb-8 relative overflow-hidden">
         <Text className="text-lg font-bold text-gray-800 mb-2 z-10">단어 학습 시작하기</Text>

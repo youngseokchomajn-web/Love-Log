@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
-import { useWordStore } from '../../store/useWordStore';
+import { useWordStore, calculateWordLevel } from '../../store/useWordStore';
 import { wordImages } from '../../data/wordImages';
-import { useRouter } from 'expo-router';
+import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { playJapaneseTTS } from '../../utils/tts';
 
 export default function SRSScreen() {
   const router = useRouter();
+  const params = useLocalSearchParams();
+  const isWarmup = params.mode === 'warmup';
+
   const getTodayReviewWords = useWordStore(state => state.getTodayReviewWords);
   const getTodayNewWords = useWordStore(state => state.getTodayNewWords);
   const reviewWord = useWordStore(state => state.reviewWord);
@@ -16,11 +19,18 @@ export default function SRSScreen() {
   const [queue, setQueue] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
+  const [showHint, setShowHint] = useState(false);
 
   useEffect(() => {
     const reviews = getTodayReviewWords();
     const news = getTodayNewWords();
-    setQueue([...reviews, ...news]);
+    
+    if (isWarmup) {
+      // 웜업 모드: 복습 단어만 무작위 20개로 제한하여 부담을 줄임
+      setQueue([...reviews].sort(() => 0.5 - Math.random()).slice(0, 20));
+    } else {
+      setQueue([...reviews, ...news]);
+    }
   }, []);
 
   const handleReview = (isCorrect: boolean) => {
@@ -31,6 +41,7 @@ export default function SRSScreen() {
 
     if (currentIndex < queue.length - 1) {
       setFlipped(false);
+      setShowHint(false);
       setCurrentIndex(prev => prev + 1);
     } else {
       router.back();
@@ -63,6 +74,11 @@ export default function SRSScreen() {
 
   const currentWord = queue[currentIndex];
   const progress = ((currentIndex + 1) / queue.length) * 100;
+  
+  let level = calculateWordLevel(currentWord);
+  if (isWarmup) level = 0; // 웜업 모드에서는 무조건 힌트 제공
+  
+  const shouldShowImage = level === 0 || (level === 1 && showHint) || flipped;
 
   return (
     <View className="flex-1 bg-[#FAF9F6] p-5 pt-10">
@@ -71,7 +87,7 @@ export default function SRSScreen() {
         <TouchableOpacity onPress={() => router.back()}>
           <Ionicons name="close" size={28} color="#333" />
         </TouchableOpacity>
-        <Text className="text-gray-500 font-medium text-sm">{currentIndex + 1} / {queue.length}</Text>
+        <Text className="text-gray-500 font-medium text-sm">{isWarmup ? '웜업 모드 🚀 ' : ''}{currentIndex + 1} / {queue.length}</Text>
       </View>
 
       {/* Progress Bar */}
@@ -86,14 +102,31 @@ export default function SRSScreen() {
         onPress={handleFlip}
       >
         <View className="w-full h-48 bg-[#F0F4F1] rounded-2xl mb-6 items-center justify-center overflow-hidden">
-          {currentWord.imageKey && wordImages[currentWord.imageKey] ? (
-            <Image 
-              source={wordImages[currentWord.imageKey]} 
-              className="w-full h-full"
-              resizeMode="cover"
-            />
+          {shouldShowImage ? (
+            currentWord.imageKey && wordImages[currentWord.imageKey] ? (
+              <Image 
+                source={wordImages[currentWord.imageKey]} 
+                className="w-full h-full"
+                resizeMode="cover"
+              />
+            ) : (
+              <Ionicons name="train-outline" size={64} color="#8EAAA3" />
+            )
           ) : (
-            <Ionicons name="train-outline" size={64} color="#8EAAA3" />
+            level === 1 ? (
+              <TouchableOpacity 
+                className="items-center justify-center w-full h-full"
+                onPress={() => setShowHint(true)}
+              >
+                <Ionicons name="image-outline" size={36} color="#8EAAA3" className="mb-2" />
+                <Text className="text-[#8EAAA3] font-medium">터치해서 힌트 보기</Text>
+              </TouchableOpacity>
+            ) : (
+              <View className="items-center justify-center w-full h-full">
+                <Ionicons name="eye-off-outline" size={36} color="#D1E5D5" className="mb-2" />
+                <Text className="text-[#A2C4B1] font-medium">스스로 떠올려보세요!</Text>
+              </View>
+            )
           )}
         </View>
 
