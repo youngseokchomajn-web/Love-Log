@@ -11,8 +11,8 @@ export default function VocabularyScreen() {
 
   const filteredWords = words.filter(w => {
     if (filter === 'all') return true;
-    if (filter === 'learning') return w.status === 'learning' || w.status === 'new';
-    if (filter === 'mastered') return w.status === 'mastered';
+    if (filter === 'learning') return w.status === 'new' || w.interval < 6;
+    if (filter === 'mastered') return w.interval >= 6 || w.status === 'mastered';
     return true;
   });
 
@@ -53,9 +53,9 @@ export default function VocabularyScreen() {
           >
             <Ionicons name="volume-high" size={24} color="#8EAAA3" />
           </TouchableOpacity>
-          <View className={`px-2 py-1 rounded mt-4 ${item.status === 'mastered' ? 'bg-[#E9F3EB]' : 'bg-gray-100'}`}>
-            <Text className={`text-xs ${item.status === 'mastered' ? 'text-green-800' : 'text-gray-500'}`}>
-              {item.status === 'mastered' ? '마스터' : '학습중'}
+          <View className={`px-2 py-1 rounded mt-4 ${(item.interval >= 6 || item.status === 'mastered') ? 'bg-[#E9F3EB]' : 'bg-gray-100'}`}>
+            <Text className={`text-xs ${(item.interval >= 6 || item.status === 'mastered') ? 'text-green-800' : 'text-gray-500'}`}>
+              {(item.interval >= 6 || item.status === 'mastered') ? '알아요' : '몰라요'}
             </Text>
           </View>
         </View>
@@ -68,8 +68,8 @@ export default function VocabularyScreen() {
       <View className="flex-row mb-4">
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
           <FilterButton title="전체보기" value="all" />
-          <FilterButton title="학습중" value="learning" />
-          <FilterButton title="마스터" value="mastered" />
+          <FilterButton title="몰라요" value="learning" />
+          <FilterButton title="알아요" value="mastered" />
         </ScrollView>
       </View>
       

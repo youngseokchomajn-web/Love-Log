@@ -167,6 +167,17 @@ export const useWordStore = create<WordState>()(
     {
       name: 'word-storage',
       storage: createJSONStorage(() => AsyncStorage),
+      merge: (persistedState: any, currentState: WordState) => {
+        const persistedWords = persistedState.words || [];
+        const existingIds = new Set(persistedWords.map((w: Word) => w.id));
+        const newWords = INITIAL_WORDS.filter(w => !existingIds.has(w.id));
+        
+        return {
+          ...currentState,
+          ...persistedState,
+          words: [...persistedWords, ...newWords]
+        };
+      }
     }
   )
 );
