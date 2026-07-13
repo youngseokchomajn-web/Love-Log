@@ -5,13 +5,19 @@ import { getWordImage } from '../../data/wordImages';
 import { Ionicons } from '@expo/vector-icons';
 import { playJapaneseTTS } from '../../utils/tts';
 
+const LEVELS = ['all', 'n5', 'n4', 'n3', 'n2', 'n1'] as const;
+type LevelFilter = typeof LEVELS[number];
+
 export default function VocabularyScreen() {
   const words = useWordStore((state) => state.words);
   const [filter, setFilter] = useState<'all' | 'learning' | 'mastered'>('all');
+  const [levelFilter, setLevelFilter] = useState<LevelFilter>('all');
   const [search, setSearch] = useState('');
 
   const query = search.trim().toLowerCase();
   const filteredWords = words.filter(w => {
+    // 레벨 필터 (레거시 등 level 미지정은 특정 레벨 선택 시 제외)
+    if (levelFilter !== 'all' && w.level !== levelFilter) return false;
     // 상태 필터
     if (filter === 'learning' && !(w.status === 'new' || w.interval < 6)) return false;
     if (filter === 'mastered' && !(w.interval >= 6 || w.status === 'mastered')) return false;
@@ -89,6 +95,26 @@ export default function VocabularyScreen() {
             <Ionicons name="close-circle" size={18} color="#CBD5E1" />
           </TouchableOpacity>
         )}
+      </View>
+
+      {/* 레벨 필터 */}
+      <View className="mb-2">
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+          {LEVELS.map(lv => {
+            const on = levelFilter === lv;
+            return (
+              <TouchableOpacity
+                key={lv}
+                onPress={() => setLevelFilter(lv)}
+                className={`px-4 py-1.5 rounded-full mr-2 ${on ? 'bg-[#4A725D]' : 'bg-gray-100'}`}
+              >
+                <Text className={`font-bold text-xs ${on ? 'text-white' : 'text-gray-500'}`}>
+                  {lv === 'all' ? '전체' : lv.toUpperCase()}
+                </Text>
+              </TouchableOpacity>
+            );
+          })}
+        </ScrollView>
       </View>
 
       <View className="flex-row items-center mb-4">

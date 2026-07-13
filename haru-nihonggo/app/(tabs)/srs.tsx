@@ -111,7 +111,7 @@ export default function SRSScreen() {
         activeOpacity={0.9}
         onPress={handleFlip}
       >
-        <View className="w-full h-48 bg-[#F0F4F1] rounded-2xl mb-6 items-center justify-center overflow-hidden">
+        <View className={`w-full ${flipped ? 'h-28' : 'h-48'} bg-[#F0F4F1] rounded-2xl mb-4 items-center justify-center overflow-hidden`}>
           {shouldShowImage ? (
             cardImage ? (
               <Image
@@ -140,14 +140,25 @@ export default function SRSScreen() {
           )}
         </View>
 
-        <Text className="text-xl text-gray-500 mb-2">{currentWord.hiragana}</Text>
-        <Text className="text-5xl font-medium text-gray-800 mb-6">{currentWord.kanji || currentWord.hiragana}</Text>
-        
+        <Text className="text-lg text-gray-500 mb-1">{currentWord.hiragana}</Text>
+        <Text className={`font-medium text-gray-800 ${flipped ? 'text-4xl mb-3' : 'text-5xl mb-6'}`}>{currentWord.kanji || currentWord.hiragana}</Text>
+
         {flipped ? (
-          <View className="items-center mt-auto w-full">
+          <View className="items-center w-full">
             <Text className="text-3xl font-bold text-gray-800 mb-2">{currentWord.korean}</Text>
             {currentWord.pronunciation && (
-              <Text className="text-xl text-gray-500 mb-2">[{currentWord.pronunciation}]</Text>
+              <Text className="text-lg text-gray-500 mb-2">[{currentWord.pronunciation}]</Text>
+            )}
+            {currentWord.exampleJp && (
+              <View className="mt-2 w-full bg-[#F7F9F7] rounded-2xl p-4 border border-[#E5EDE7]">
+                <Text className="text-base text-gray-800 mb-1">{currentWord.exampleJp}</Text>
+                {currentWord.exampleReading && (
+                  <Text className="text-sm text-[#8EAAA3] mb-1">{currentWord.exampleReading}</Text>
+                )}
+                {currentWord.exampleKo && (
+                  <Text className="text-sm text-gray-500">{currentWord.exampleKo}</Text>
+                )}
+              </View>
             )}
           </View>
         ) : (

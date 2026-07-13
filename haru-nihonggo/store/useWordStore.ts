@@ -4,6 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { seedWords } from '../data/seedWords';
 
 export type WordStatus = 'new' | 'learning' | 'mastered';
+export type JlptLevel = 'n1' | 'n2' | 'n3' | 'n4' | 'n5';
 
 export interface Word {
   id: string;
@@ -13,6 +14,10 @@ export interface Word {
   pronunciation?: string;
   imageKey?: string;
   english: string;
+  level?: JlptLevel;        // JLPT 레벨 (미지정 시 기존 N4로 간주)
+  exampleJp?: string;       // 예문 (한자 포함)
+  exampleReading?: string;  // 예문 읽기 (후리가나/가나)
+  exampleKo?: string;       // 예문 한국어 번역
   status: WordStatus;
   nextReviewDate: number;
   interval: number; // in days
@@ -211,6 +216,10 @@ export const useWordStore = create<WordState>()(
               pronunciation: cw.pronunciation,
               korean: cw.korean,
               english: cw.english,
+              level: cw.level,
+              exampleJp: cw.exampleJp,
+              exampleReading: cw.exampleReading,
+              exampleKo: cw.exampleKo,
               imageKey: cw.imageKey || pw.imageKey,
             };
           }
