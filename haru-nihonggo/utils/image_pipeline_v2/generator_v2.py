@@ -138,6 +138,8 @@ def parse_args():
     parser.add_argument('--ids', type=str, default='', help='Comma-separated word ids to generate (e.g. n4_118,n4_190)')
     parser.add_argument('--count', type=int, default=0, help='Generate the first N words across all categories')
     parser.add_argument('--overwrite', action='store_true', help='Regenerate even if the image already exists')
+    parser.add_argument('--categories', type=str, default=categories_path,
+                        help='Path to a {category: [words]} JSON (default: N4 word_categories.json)')
     return parser.parse_args()
 
 
@@ -174,7 +176,7 @@ def output_path_for(cat_name, w):
 def main():
     args = parse_args()
 
-    with open(categories_path, 'r', encoding='utf-8') as f:
+    with open(args.categories, 'r', encoding='utf-8') as f:
         categories = json.load(f)
 
     work = build_work_list(categories, args)
