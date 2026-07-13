@@ -243,7 +243,11 @@ def main():
     )
     pipe.scheduler = EulerAncestralDiscreteScheduler.from_config(pipe.scheduler.config)
     pipe = pipe.to("mps")
-    # pipe.enable_attention_slicing()  # Memory optimization if needed
+    # M4 베이스(16GB 통합메모리)에서 attention slicing 없이 832x1216을 돌리면
+    # 메모리가 부족해 macOS가 스왑을 유발, step당 8초 -> 40초로 5배 이상 느려짐을 실측 확인.
+    # 슬라이싱은 step당 약간의 오버헤드가 있지만, 스왑 지옥보다는 훨씬 빠르다.
+    pipe.enable_attention_slicing()
+    pipe.vae.enable_slicing()
 
     for i, (cat_name, w) in enumerate(work, 1):
         eng = w['english']
