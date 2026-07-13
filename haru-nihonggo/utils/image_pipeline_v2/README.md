@@ -26,9 +26,18 @@ python utils/image_pipeline_v2/generator_v2.py \
 
 # 이미 있으면 건너뜀. 다시 뽑으려면 --overwrite
 ```
-출력: `assets/images/words_v2/{id}_{category}_{일본어}_{한국어}.png` (832×1216).
-파일명이 앱의 `getWordImage`(id 기반 매칭)와 호환되므로, 다 뽑은 뒤
-`wordImages.ts`를 `words_v2/` 기준으로 재생성하면 앱에 바로 반영된다.
+출력: `assets/images/words_v2/{레벨}_{일본어}_{한국어}.png` (832×1216).
+예: `n5_お茶_차녹차.png`, `n4_生産する_생산하다.png`.
+(레벨+한자/히라가나+한국어 조합으로 8,424단어 전체에서 유니크함을 확인함.
+id 기반이 아니므로, 앱에 적용하려면 `wordImages.ts`의 매칭 방식도 레벨+일본어+한국어
+조합으로 바꿔야 한다 — 아직 반영 전.)
+
+## 예문 기반 그라운딩
+`concrete_nouns`(사물)는 예문 없이 객체 하나만 깔끔하게 그린다.
+반면 `abstract_nouns`·`adverbs_functional`·`adjectives_states`는 단어 하나만으론
+그림으로 표현하기 어려운 경우가 많아(気=신경, それで=그래서 등), **예문 문장의 장면을
+근거로 삼도록** Gemini 프롬프트에 강제한다(`CATEGORY_GUIDANCE[...]['use_example']`).
+큐레이션 태그는 이미 손으로 예문/맥락을 반영해 작성하므로 별도 처리 불필요.
 
 ## 품질을 높이려면
 헷갈리는 단어는 `curated_tags.json`에 id→태그를 직접 추가하면 Gemini보다 우선 적용된다

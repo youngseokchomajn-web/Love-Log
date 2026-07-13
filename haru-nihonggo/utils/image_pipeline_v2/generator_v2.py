@@ -44,19 +44,37 @@ PROMPT_TEMPLATES = {
 }
 
 # 카테고리별로 "어떤 그림이어야 하는지" 일반 지침 (단어별 하드코딩 대신 전 단어에 적용)
+# concrete_nouns는 단어 자체를 깔끔하게 보여주는 게 최선이라 예문에 얽매이지 않는다.
+# 반대로 abstract/adverbs/adjectives는 단어 하나만으론 그릴 수 없는 경우가 많아
+# 예문이 제공하는 구체적 장면을 근거로 삼도록 강제한다(USE_EXAMPLE=True).
 CATEGORY_GUIDANCE = {
-    "concrete_nouns": "This is a physical object. Show ONE clear, iconic instance of it, centered and large, on a simple background. Usually NO people. Make the object instantly recognizable and not confusable with similar objects.",
-    "abstract_nouns": "This is an abstract concept. Depict it with a single clear visual metaphor or a symbolic scene that evokes the concept. Make the mood or symbol unambiguous.",
-    "action_verbs": "This is an action. Show exactly ONE person mid-action. The pose, hands, gaze, facial expression and surrounding context together must make THIS specific action obvious and clearly different from similar verbs.",
-    "adjectives_states": "This is a quality or emotional state. Convey it through the character's facial expression, body language and the mood of the environment. The state must be unmistakable.",
-    "adverbs_functional": "This is a functional/adverbial word. Show a concrete everyday situation that clearly exemplifies the word, using an expressive single character.",
+    "concrete_nouns": {
+        "text": "This is a physical object. Show ONE clear, iconic instance of it, centered and large, on a simple background. Usually NO people. Make the object instantly recognizable and not confusable with similar objects.",
+        "use_example": False,
+    },
+    "abstract_nouns": {
+        "text": "This is an abstract concept — often impossible to draw in isolation. Do NOT try to depict the word directly; instead depict the concrete SCENE from the example sentence below, since that scene is what makes the abstract meaning visible.",
+        "use_example": True,
+    },
+    "action_verbs": {
+        "text": "This is an action. Show exactly ONE person mid-action. The pose, hands, gaze, facial expression and surrounding context together must make THIS specific action obvious and clearly different from similar verbs. Use the example sentence to pick the right context if the action alone is ambiguous.",
+        "use_example": True,
+    },
+    "adjectives_states": {
+        "text": "This is a quality or emotional state. Convey it through the character's facial expression, body language and the mood of the environment, grounded in the situation from the example sentence. The state must be unmistakable.",
+        "use_example": True,
+    },
+    "adverbs_functional": {
+        "text": "This is a functional/grammatical word (adverb, conjunction, particle, counter, pronoun) — it has no picture of its own. You MUST depict the concrete scene from the example sentence below as a mini cause-and-effect or situational illustration; do not attempt to symbolize the word itself.",
+        "use_example": True,
+    },
 }
 
 
-def get_danbooru_tags(category, eng, kor, hiragana=""):
+def get_danbooru_tags(category, eng, kor, hiragana="", example_jp="", example_ko=""):
     if not client:
         return eng
-        
+
     sub_rule = ""
     if hiragana == 'あげる':
         sub_rule = "\\nSPECIAL RULE for 'あげる' (to give): The character must be extending a gift forward, palms facing out (e.g. '1boy, looking at viewer, holding gift, extending arm forward, offering')."
@@ -69,15 +87,22 @@ def get_danbooru_tags(category, eng, kor, hiragana=""):
     elif hiragana == 'それで':
         sub_rule = "\\nSPECIAL RULE for 'それで' (because of that, so): Create an expressive scene showing a consequence or realization (e.g. '1boy, looking at viewer, pointing up, realization, lightbulb icon, explaining')."
 
-    category_guidance = CATEGORY_GUIDANCE.get(category, "")
+    guidance = CATEGORY_GUIDANCE.get(category, {"text": "", "use_example": False})
+    example_block = ""
+    if guidance.get("use_example") and example_jp:
+        example_block = f"""
+Example sentence using this word (this is your primary visual source — depict THIS scene):
+  Japanese: {example_jp}
+  Korean: {example_ko}
+"""
 
     prompt = f"""
 You are an expert prompt engineer for a Stable Diffusion Anime model (Danbooru tags).
 Generate tags for an educational Japanese vocabulary flashcard.
 Word meaning: '{eng}' (Korean: '{kor}')
 Category: {category}
-Category guidance: {category_guidance}
-
+Category guidance: {guidance.get("text", "")}
+{example_block}
 The illustration MUST be a peaceful, everyday-life scene. NEVER use fighting, extreme action, or surreal/violent concepts.
 
 MOST IMPORTANT — DISAMBIGUATION:
@@ -95,6 +120,8 @@ Output rules:
 3. For interactions (greeting, giving, talking), use a SINGLE character interacting with the viewer
    ('looking at viewer', 'POV hands', ...). Do NOT use 2+ characters — the model struggles with interactions.
 4. Provide 6-10 highly descriptive tags, front-loading the ones that carry the specific meaning.
+5. If an example sentence is given above, it is your PRIMARY source for the scene — build the tags around what is
+   literally happening in that sentence, not a generic/textbook depiction of the word.
 {sub_rule}
 
 Few-shot Examples (note how each adds cues that rule out look-alike words):
@@ -112,6 +139,12 @@ Tags: 1girl, sleeping, thought bubble, floating stars, soft glow, night, peacefu
 
 Word: 'lonely' (외로운) [adjectives_states]
 Tags: 1boy, sitting alone, empty bench, downcast eyes, melancholy, dim evening light, long shadow
+
+Word: 'so, because of that' (그래서) [adverbs_functional], example: "雨が降っていました。それで、傘を持って行きました。" (비가 내려서 우산을 가지고 갔다)
+Tags: 1girl, looking out window, rain outside, holding umbrella by the door, about to leave, cause and effect, everyday morning
+
+Word: 'nerve, mind, feeling' (신경) [concrete_nouns], example: "気にしないでください。" (신경 쓰지 마세요)
+Tags: 1boy, reassuring gesture, hand up, gentle smile, comforting another person off-frame, relieved atmosphere
 
 Word: '{eng}' ({kor}) [{category}]
 Tags:"""
@@ -167,9 +200,11 @@ def build_work_list(categories, args):
 
 
 def output_path_for(cat_name, w):
+    # 파일명: 레벨_일본어_한글뜻.png (레벨+한자/히라가나+한국어 조합이면 8,424단어 전체에서 유니크함을 확인함)
+    level = w.get('level') or 'n4'
     japanese = (w.get('kanji') or w.get('hiragana', '')).replace(' ', '')
     safe_kor = w['korean'].replace(' ', '').replace('/', '').replace(',', '')
-    filename = f"{w['id']}_{cat_name}_{japanese}_{safe_kor}.png"
+    filename = f"{level}_{japanese}_{safe_kor}.png"
     return filename, os.path.join(output_dir, filename)
 
 
@@ -214,16 +249,18 @@ def main():
         eng = w['english']
         kor = w['korean']
         hiragana = w.get('hiragana', '')
+        example_jp = w.get('exampleJp', '')
+        example_ko = w.get('exampleKo', '')
 
         print(f"\n[{i}/{len(work)}] Generating for: {eng} ({kor}) - {hiragana} [{cat_name}]")
 
-        # 큐레이션 태그가 있으면 우선 사용, 없으면 Gemini로 확장
+        # 큐레이션 태그가 있으면 우선 사용, 없으면 Gemini로 확장(추상/기능어는 예문 장면을 근거로)
         curated_tags = curated.get(w['id'])
         if curated_tags:
             expanded_tags = curated_tags
             print(f"  [Curated Tags]: {expanded_tags}")
         else:
-            expanded_tags = get_danbooru_tags(cat_name, eng, kor, hiragana)
+            expanded_tags = get_danbooru_tags(cat_name, eng, kor, hiragana, example_jp, example_ko)
             print(f"  [Gemini Tags]: {expanded_tags}")
 
         template = PROMPT_TEMPLATES.get(cat_name)
