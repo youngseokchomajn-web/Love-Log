@@ -29,6 +29,7 @@ export interface Settings {
   dailyGoal: number;
   autoPlayAudio: boolean;
   startDate: number; // 학습 시작일(ms) — "함께한 날짜" 계산용
+  studyLevel: JlptLevel | 'all'; // 오늘의 학습에 사용할 레벨 필터
 }
 
 export const calculateWordLevel = (word: Word): number => {
@@ -71,6 +72,7 @@ export const useWordStore = create<WordState>()(
         dailyGoal: 10,
         autoPlayAudio: true,
         startDate: Date.now(),
+        studyLevel: 'all',
       },
       
       addWords: (newWords) => set((state) => ({ words: [...state.words, ...newWords] })),
@@ -94,6 +96,8 @@ export const useWordStore = create<WordState>()(
             // 상한 3.0 — 정답마다 무한 증가해 간격이 폭주하는 것을 방지
             newEaseFactor = Math.min(3.0, newEaseFactor + 0.1);
             newStatus = newInterval > 21 ? 'mastered' : 'learning';
+            // 다시 맞히면 오답노트 카운트 1 감소(0까지) — 재학습 시 오답 목록에서 빠지도록
+            if (newIncorrectCount > 0) newIncorrectCount -= 1;
           } else {
             newInterval = 1;
             newEaseFactor = Math.max(1.3, newEaseFactor - 0.2);
@@ -119,24 +123,27 @@ export const useWordStore = create<WordState>()(
       }),
       
       getTodayReviewWords: () => {
-        const { words } = get();
+        const { words, settings } = get();
         const now = Date.now();
-        return words.filter(w => w.status !== 'new' && w.nextReviewDate <= now);
+        const lvl = settings.studyLevel;
+        return words.filter(w => w.status !== 'new' && w.nextReviewDate <= now && (lvl === 'all' || w.level === lvl));
       },
-      
+
       getTodayNewWords: () => {
         const { words, settings } = get();
         const now = Date.now();
-        const reviewCount = words.filter(w => w.status !== 'new' && w.nextReviewDate <= now).length;
-        
+        const lvl = settings.studyLevel;
+        const inLevel = (w: Word) => lvl === 'all' || w.level === lvl;
+        const reviewCount = words.filter(w => w.status !== 'new' && w.nextReviewDate <= now && inLevel(w)).length;
+
         // 미완료 방지: 복습 카드가 목표치의 1.5배 이상 쌓였다면 새 단어를 줄이거나 중단합니다.
         let maxNew = settings.dailyGoal;
         if (reviewCount > settings.dailyGoal * 1.5) {
             maxNew = Math.max(0, settings.dailyGoal - Math.floor(reviewCount / 2));
         }
-        
+
         if (maxNew === 0) return [];
-        return words.filter(w => w.status === 'new').slice(0, maxNew);
+        return words.filter(w => w.status === 'new' && inLevel(w)).slice(0, maxNew);
       },
       
       getIncorrectWords: () => {
@@ -183,7 +190,21 @@ export const useWordStore = create<WordState>()(
     {
       name: 'word-storage',
       storage: createJSONStorage(() => AsyncStorage),
-      version: 4,
+      version: 5,
+      // 8,424단어 × 정적/예문 필드를 통째로 저장하면 payload가 수 MB에 달해
+      // Android(AsyncStorage=SQLite)의 CursorWindow(~2MB) 한계로 hydration이 실패한다.
+      // 진도(SRS 상태)만 저장하고, 정적 데이터(한자/뜻/예문/이미지키)는 merge에서 시드로 복원한다.
+      partialize: (state: any) => ({
+        settings: state.settings,
+        words: state.words.map((w: Word) => ({
+          id: w.id,
+          status: w.status,
+          nextReviewDate: w.nextReviewDate,
+          interval: w.interval,
+          easeFactor: w.easeFactor,
+          incorrectCount: w.incorrectCount,
+        })),
+      }),
       migrate: (persistedState: any, version: number) => {
         if (version < 3) {
           // Clean up the corrupted n4_ words from previous versions (최초 1회 마이그레이션)
@@ -200,43 +221,47 @@ export const useWordStore = create<WordState>()(
             },
           };
         }
+        if (version < 5) {
+          // v5: 학습 레벨 필터 기본값
+          persistedState = {
+            ...persistedState,
+            settings: {
+              ...(persistedState.settings || {}),
+              studyLevel: persistedState.settings?.studyLevel ?? 'all',
+            },
+          };
+        }
         return persistedState;
       },
       merge: (persistedState: any, currentState: WordState) => {
         const persistedWords = persistedState.words || [];
-        
-        // 1. 이미 진도가 쌓인 단어의 최신 정적 데이터(뜻, 발음, 한자, 이미지키 등) 동기화 (진도 보존)
-        const mergedWords = persistedWords.map((pw: Word) => {
-          const cw = INITIAL_WORDS.find(w => w.id === pw.id);
-          if (cw) {
-            return {
-              ...pw,
-              kanji: cw.kanji,
-              hiragana: cw.hiragana,
-              pronunciation: cw.pronunciation,
-              korean: cw.korean,
-              english: cw.english,
-              level: cw.level,
-              exampleJp: cw.exampleJp,
-              exampleReading: cw.exampleReading,
-              exampleKo: cw.exampleKo,
-              imageKey: cw.imageKey || pw.imageKey,
-            };
-          }
-          return pw;
+
+        // 시드를 Map으로 인덱싱 (기존 O(N^2) find → O(N), 8,424단어 hydration 부담 제거)
+        const seedById = new Map<string, Word>(INITIAL_WORDS.map(w => [w.id, w]));
+
+        // 저장된 진도 위에 최신 정적 데이터를 얹는다(정적은 시드가 진실).
+        const mergedWords: Word[] = persistedWords.map((pw: any) => {
+          const cw = seedById.get(pw.id);
+          if (!cw) return pw as Word; // 시드에서 사라진 단어는 그대로 둠
+          return {
+            ...cw,
+            status: pw.status ?? cw.status,
+            nextReviewDate: pw.nextReviewDate ?? cw.nextReviewDate,
+            interval: pw.interval ?? cw.interval,
+            easeFactor: pw.easeFactor ?? cw.easeFactor,
+            incorrectCount: pw.incorrectCount ?? cw.incorrectCount,
+          };
         });
-        
-        const existingIds = new Set(mergedWords.map((w: Word) => w.id));
-        
-        // 2. 새로 추가된 N4 정제 단어 병합
+
+        const existingIds = new Set(mergedWords.map(w => w.id));
         const newWords = INITIAL_WORDS.filter(w => !existingIds.has(w.id));
-        
+
         return {
           ...currentState,
           ...persistedState,
-          // settings는 얕은 병합으로 새 필드(startDate 등) 기본값을 보존
+          // settings는 얕은 병합으로 새 필드(studyLevel 등) 기본값 보존
           settings: { ...currentState.settings, ...(persistedState.settings || {}) },
-          words: [...mergedWords, ...newWords]
+          words: [...mergedWords, ...newWords],
         };
       }
     }

@@ -17,11 +17,21 @@ export default function ProfileScreen() {
   const newWords = words.filter(w => w.status === 'new').length;
   const totalIncorrect = words.reduce((sum, w) => sum + w.incorrectCount, 0);
 
-  // 학습 시작일로부터 며칠째인지 (첫날 = 1일째)
+  // 학습 시작일로부터 며칠째인지 (달력 기준, 첫날 = 1일째)
+  const dayStart = (ms: number) => {
+    const d = new Date(ms);
+    return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
+  };
   const daysTogether = Math.max(
     1,
-    Math.floor((Date.now() - (settings.startDate ?? Date.now())) / (1000 * 60 * 60 * 24)) + 1
+    Math.round((dayStart(Date.now()) - dayStart(settings.startDate ?? Date.now())) / 86400000) + 1
   );
+
+  const LEVEL_CYCLE: Array<'all' | 'n5' | 'n4' | 'n3' | 'n2' | 'n1'> = ['all', 'n5', 'n4', 'n3', 'n2', 'n1'];
+  const cycleStudyLevel = () => {
+    const i = LEVEL_CYCLE.indexOf(settings.studyLevel);
+    updateSettings({ studyLevel: LEVEL_CYCLE[(i + 1) % LEVEL_CYCLE.length] });
+  };
 
   const handleReset = () => {
     resetData();
@@ -79,8 +89,25 @@ export default function ProfileScreen() {
       <Text className="text-lg font-bold text-gray-800 mb-4">학습 설정</Text>
       <View className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 mb-6">
         
+        {/* Study Level */}
+        <TouchableOpacity
+          className="flex-row justify-between items-center p-5 border-b border-gray-100"
+          onPress={cycleStudyLevel}
+        >
+          <View className="flex-row items-center">
+            <Ionicons name="layers-outline" size={22} color="#555" />
+            <View className="ml-3">
+              <Text className="text-gray-700 font-medium">학습 레벨</Text>
+              <Text className="text-gray-400 text-xs mt-1">오늘의 학습에 사용할 레벨</Text>
+            </View>
+          </View>
+          <View className="bg-[#F0F4F1] px-3 py-1 rounded-full">
+            <Text className="text-[#8EAAA3] font-bold">{settings.studyLevel === 'all' ? '전체' : settings.studyLevel.toUpperCase()}</Text>
+          </View>
+        </TouchableOpacity>
+
         {/* Daily Goal */}
-        <TouchableOpacity 
+        <TouchableOpacity
           className="flex-row justify-between items-center p-5 border-b border-gray-100"
           onPress={cycleDailyGoal}
         >

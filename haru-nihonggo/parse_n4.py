@@ -14,6 +14,14 @@ if "--force" not in sys.argv:
     print("   정말 재생성하려면:  python parse_n4.py --force")
     sys.exit(1)
 
+# ⛔ 구조 가드: seedWords.ts가 다중 레벨(N1~N5) 구조면 이 구버전 스크립트가 파일을 깨뜨린다.
+with open(ts_file, "r", encoding="utf-8") as _f:
+    _existing = _f.read()
+if "baseWords" in _existing or "...n1Words" in _existing:
+    print("⛔ 중단: seedWords.ts가 다중 레벨(N1~N5) 구조입니다. 이 구버전 스크립트는 실행 시 파일을 손상시킵니다.")
+    print("   신규 레벨은 data/jlpt_* 파이프라인으로 관리하세요.")
+    sys.exit(1)
+
 backup = f"{ts_file}.bak-{datetime.datetime.now().strftime('%Y%m%d-%H%M%S')}"
 shutil.copyfile(ts_file, backup)
 print(f"💾 백업 생성: {backup}")

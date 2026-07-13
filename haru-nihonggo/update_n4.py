@@ -18,6 +18,17 @@ if "--force" not in sys.argv:
     print("   정말 재생성하려면:  python update_n4.py --force")
     sys.exit(1)
 
+# ⛔ 구조 가드: seedWords.ts가 다중 레벨(N1~N5) 구조로 재편된 이후엔 이 구버전
+# 단일 배열 append 스크립트가 파일을 깨뜨린다(글로벌 치환이 export 배열까지 건드림).
+# 신규 레벨 데이터는 data/jlpt_* 파이프라인을 사용하라.
+with open(ts_file, "r", encoding="utf-8") as _f:
+    _existing = _f.read()
+if "baseWords" in _existing or "...n1Words" in _existing:
+    print("⛔ 중단: seedWords.ts가 다중 레벨(N1~N5) 구조입니다.")
+    print("   이 스크립트는 구버전 단일 배열 전용이라 지금 실행하면 파일이 손상됩니다.")
+    print("   신규 레벨은 data/jlpt_* 파이프라인으로 관리하세요.")
+    sys.exit(1)
+
 # 실행 전 타임스탬프 백업
 backup = f"{ts_file}.bak-{datetime.datetime.now().strftime('%Y%m%d-%H%M%S')}"
 shutil.copyfile(ts_file, backup)

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useCallback } from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
 import { useWordStore, calculateWordLevel } from '../../store/useWordStore';
 import { getWordImage } from '../../data/wordImages';
-import { useRouter, useLocalSearchParams } from 'expo-router';
+import { useRouter, useLocalSearchParams, useFocusEffect } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { playJapaneseTTS } from '../../utils/tts';
 
@@ -23,23 +23,31 @@ export default function SRSScreen() {
   const [flipped, setFlipped] = useState(false);
   const [showHint, setShowHint] = useState(false);
 
-  useEffect(() => {
-    if (isIncorrectReview) {
-      // 오답 재복습: 틀린 단어(오답 많은 순)만 큐로 구성
-      setQueue([...getIncorrectWords()]);
-      return;
-    }
+  // 탭 화면은 언마운트되지 않으므로, 포커스될 때마다 모드에 맞춰 큐를 재구성한다.
+  // (모드 전환·다음 날 재진입 시 이전 큐가 남아있는 stale 버그 방지)
+  useFocusEffect(
+    useCallback(() => {
+      setCurrentIndex(0);
+      setFlipped(false);
+      setShowHint(false);
 
-    const reviews = getTodayReviewWords();
-    const news = getTodayNewWords();
+      if (isIncorrectReview) {
+        // 오답 재복습: 틀린 단어(오답 많은 순)만 큐로 구성
+        setQueue([...getIncorrectWords()]);
+        return;
+      }
 
-    if (isWarmup) {
-      // 웜업 모드: 복습 단어만 무작위 20개로 제한하여 부담을 줄임
-      setQueue([...reviews].sort(() => 0.5 - Math.random()).slice(0, 20));
-    } else {
-      setQueue([...reviews, ...news]);
-    }
-  }, []);
+      const reviews = getTodayReviewWords();
+      const news = getTodayNewWords();
+
+      if (isWarmup) {
+        // 웜업 모드: 복습 단어만 무작위 20개로 제한하여 부담을 줄임
+        setQueue([...reviews].sort(() => 0.5 - Math.random()).slice(0, 20));
+      } else {
+        setQueue([...reviews, ...news]);
+      }
+    }, [params.mode])
+  );
 
   const handleReview = (isCorrect: boolean) => {
     if (queue.length === 0) return;
@@ -140,7 +148,9 @@ export default function SRSScreen() {
           )}
         </View>
 
-        <Text className="text-lg text-gray-500 mb-1">{currentWord.hiragana}</Text>
+        {currentWord.kanji && currentWord.kanji !== currentWord.hiragana && (
+          <Text className="text-lg text-gray-500 mb-1">{currentWord.hiragana}</Text>
+        )}
         <Text className={`font-medium text-gray-800 ${flipped ? 'text-4xl mb-3' : 'text-5xl mb-6'}`}>{currentWord.kanji || currentWord.hiragana}</Text>
 
         {flipped ? (

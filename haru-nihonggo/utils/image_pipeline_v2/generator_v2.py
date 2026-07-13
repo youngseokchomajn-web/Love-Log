@@ -226,7 +226,10 @@ def main():
             expanded_tags = get_danbooru_tags(cat_name, eng, kor, hiragana)
             print(f"  [Gemini Tags]: {expanded_tags}")
 
-        template = PROMPT_TEMPLATES[cat_name]
+        template = PROMPT_TEMPLATES.get(cat_name)
+        if template is None:
+            print(f"  ⚠️ 알 수 없는 카테고리 '{cat_name}', 건너뜀")
+            continue
 
         try:
             with torch.inference_mode():
