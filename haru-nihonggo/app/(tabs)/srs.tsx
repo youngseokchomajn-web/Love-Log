@@ -37,7 +37,8 @@ export default function SRSScreen() {
     if (queue.length === 0) return;
     
     const currentWord = queue[currentIndex];
-    reviewWord(currentWord.id, isCorrect);
+    // "몰라요"(오답)도 오답노트에 집계되도록 countIncorrect 전달
+    reviewWord(currentWord.id, isCorrect, !isCorrect);
 
     if (currentIndex < queue.length - 1) {
       setFlipped(false);

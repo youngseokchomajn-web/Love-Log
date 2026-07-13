@@ -3,7 +3,6 @@ import { View, Text, TouchableOpacity } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-import * as Speech from 'expo-speech';
 import { playJapaneseTTS } from '../../utils/tts';
 
 export default function QuizScreen() {
@@ -14,6 +13,7 @@ export default function QuizScreen() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
+  const [lastCorrect, setLastCorrect] = useState(false);
 
   useEffect(() => {
     // Generate 10 quiz questions on mount
@@ -45,16 +45,34 @@ export default function QuizScreen() {
   if (showResult) {
     return (
       <View className="flex-1 bg-[#FAF9F6] items-center p-5 pt-20">
-        <View className="w-32 h-32 bg-[#D1E0D7] rounded-full items-center justify-center mb-8 relative">
-          <Ionicons name="happy" size={60} color="#333" />
-          <Text className="absolute -top-2 right-0 text-2xl">✨</Text>
-          <Text className="absolute top-1/2 -left-4 text-xl">🎉</Text>
-        </View>
-        <Text className="text-3xl font-bold text-gray-800 mb-4">정답이에요!</Text>
-        <Text className="text-lg text-gray-600 mb-1">잘했어요! 👏</Text>
-        <Text className="text-lg text-gray-600 mb-12">계속해봐요!</Text>
-        
-        <TouchableOpacity 
+        {lastCorrect ? (
+          <>
+            <View className="w-32 h-32 bg-[#D1E0D7] rounded-full items-center justify-center mb-8 relative">
+              <Ionicons name="happy" size={60} color="#333" />
+              <Text className="absolute -top-2 right-0 text-2xl">✨</Text>
+              <Text className="absolute top-1/2 -left-4 text-xl">🎉</Text>
+            </View>
+            <Text className="text-3xl font-bold text-gray-800 mb-4">정답이에요!</Text>
+            <Text className="text-lg text-gray-600 mb-1">잘했어요! 👏</Text>
+            <Text className="text-lg text-gray-600 mb-12">계속해봐요!</Text>
+          </>
+        ) : (
+          <>
+            <View className="w-32 h-32 bg-[#FBE9E7] rounded-full items-center justify-center mb-8">
+              <Ionicons name="refresh" size={56} color="#D96B6B" />
+            </View>
+            <Text className="text-3xl font-bold text-gray-800 mb-4">아쉬워요!</Text>
+            <Text className="text-lg text-gray-600 mb-6">다시 외워볼까요? 💪</Text>
+            <View className="bg-white rounded-2xl px-8 py-5 items-center border border-gray-100 mb-12">
+              <Text className="text-gray-500 text-base mb-1">
+                {currentQuiz.question.kanji || currentQuiz.question.hiragana}
+              </Text>
+              <Text className="text-2xl font-bold text-[#8EAAA3]">{currentQuiz.question.korean}</Text>
+            </View>
+          </>
+        )}
+
+        <TouchableOpacity
           className="bg-[#8EAAA3] rounded-full py-4 px-8 w-full items-center mt-auto mb-10"
           onPress={handleNext}
         >
@@ -130,14 +148,12 @@ export default function QuizScreen() {
         onPress={() => {
           if (selectedOption === null) return;
           const isCorrect = currentQuiz.options[selectedOption] === currentQuiz.question.korean;
-          // 퀴즈 결과도 학습 스탯(SRS)에 반영하되, 오답노트에 추가되도록 isQuiz=true 전달
+          // 퀴즈 결과를 학습 스탯(SRS)에 반영하되, 오답노트에 추가되도록 countIncorrect=true 전달
           useWordStore.getState().reviewWord(currentQuiz.question.id, isCorrect, true);
 
-          if (isCorrect) {
-            setShowResult(true);
-          } else {
-            handleNext();
-          }
+          // 정답/오답 모두 결과 화면을 보여준다(오답은 정답 뜻을 함께 안내)
+          setLastCorrect(isCorrect);
+          setShowResult(true);
         }}
       >
         <Text className="text-white font-bold text-lg">다음 문제</Text>

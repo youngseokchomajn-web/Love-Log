@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Text, FlatList, TouchableOpacity } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
 import { Ionicons } from '@expo/vector-icons';
-import * as Speech from 'expo-speech';
 import { playJapaneseTTS } from '../../utils/tts';
 
 export default function IncorrectScreen() {

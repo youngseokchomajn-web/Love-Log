@@ -23,6 +23,7 @@ export interface Word {
 export interface Settings {
   dailyGoal: number;
   autoPlayAudio: boolean;
+  startDate: number; // 학습 시작일(ms) — "함께한 날짜" 계산용
 }
 
 export const calculateWordLevel = (word: Word): number => {
@@ -46,7 +47,7 @@ interface WordState {
   settings: Settings;
   addWords: (newWords: Word[]) => void;
   updateSettings: (newSettings: Partial<Settings>) => void;
-  reviewWord: (id: string, isCorrect: boolean, isQuiz?: boolean) => void;
+  reviewWord: (id: string, isCorrect: boolean, countIncorrect?: boolean) => void;
   getTodayReviewWords: () => Word[];
   getTodayNewWords: () => Word[];
   getIncorrectWords: () => Word[];
@@ -64,12 +65,13 @@ export const useWordStore = create<WordState>()(
       settings: {
         dailyGoal: 10,
         autoPlayAudio: true,
+        startDate: Date.now(),
       },
       
       addWords: (newWords) => set((state) => ({ words: [...state.words, ...newWords] })),
       updateSettings: (newSettings) => set((state) => ({ settings: { ...state.settings, ...newSettings } })),
       
-      reviewWord: (id, isCorrect, isQuiz = false) => set((state) => {
+      reviewWord: (id, isCorrect, countIncorrect = false) => set((state) => {
         const words = state.words.map(word => {
           if (word.id !== id) return word;
           
@@ -84,13 +86,14 @@ export const useWordStore = create<WordState>()(
             else if (newInterval === 1) newInterval = 6;
             else newInterval = Math.round(newInterval * newEaseFactor);
             
-            newEaseFactor = newEaseFactor + 0.1;
+            // 상한 3.0 — 정답마다 무한 증가해 간격이 폭주하는 것을 방지
+            newEaseFactor = Math.min(3.0, newEaseFactor + 0.1);
             newStatus = newInterval > 21 ? 'mastered' : 'learning';
           } else {
             newInterval = 1;
             newEaseFactor = Math.max(1.3, newEaseFactor - 0.2);
             newStatus = 'learning';
-            if (isQuiz) {
+            if (countIncorrect) {
               newIncorrectCount += 1;
             }
           }
@@ -149,13 +152,21 @@ export const useWordStore = create<WordState>()(
         const selected = shuffled.slice(0, count);
         
         return selected.map(word => {
-            // Pick 3 random wrong answers (korean meanings)
-            const otherWords = words.filter(w => w.id !== word.id);
-            const wrongOptions = [...otherWords].sort(() => 0.5 - Math.random()).slice(0, 3).map(w => w.korean);
-            
+            // 정답과 겹치지 않고 서로도 중복되지 않는 오답 3개 선택
+            // (한국어 뜻이 중복되는 단어가 있어 정답이 보기에 두 번 나오는 버그 방지)
+            const seen = new Set<string>([word.korean]);
+            const wrongOptions: string[] = [];
+            const pool = words.filter(w => w.id !== word.id).sort(() => 0.5 - Math.random());
+            for (const w of pool) {
+                if (wrongOptions.length >= 3) break;
+                if (seen.has(w.korean)) continue;
+                seen.add(w.korean);
+                wrongOptions.push(w.korean);
+            }
+
             // Mix correct answer with wrong options
             const options = [...wrongOptions, word.korean].sort(() => 0.5 - Math.random());
-            
+
             return {
                 question: word,
                 options
@@ -167,12 +178,22 @@ export const useWordStore = create<WordState>()(
     {
       name: 'word-storage',
       storage: createJSONStorage(() => AsyncStorage),
-      version: 3,
+      version: 4,
       migrate: (persistedState: any, version: number) => {
         if (version < 3) {
           // Clean up the corrupted n4_ words from previous versions (최초 1회 마이그레이션)
           const words = (persistedState.words || []).filter((w: any) => !w.id.startsWith('n4_'));
-          return { ...persistedState, words };
+          persistedState = { ...persistedState, words };
+        }
+        if (version < 4) {
+          // v4: 학습 시작일 필드 추가(없으면 지금 시각으로 초기화)
+          persistedState = {
+            ...persistedState,
+            settings: {
+              ...(persistedState.settings || {}),
+              startDate: persistedState.settings?.startDate ?? Date.now(),
+            },
+          };
         }
         return persistedState;
       },
@@ -204,6 +225,8 @@ export const useWordStore = create<WordState>()(
         return {
           ...currentState,
           ...persistedState,
+          // settings는 얕은 병합으로 새 필드(startDate 등) 기본값을 보존
+          settings: { ...currentState.settings, ...(persistedState.settings || {}) },
           words: [...mergedWords, ...newWords]
         };
       }

@@ -17,10 +17,16 @@ export default function ProfileScreen() {
   const newWords = words.filter(w => w.status === 'new').length;
   const totalIncorrect = words.reduce((sum, w) => sum + w.incorrectCount, 0);
 
+  // 학습 시작일로부터 며칠째인지 (첫날 = 1일째)
+  const daysTogether = Math.max(
+    1,
+    Math.floor((Date.now() - (settings.startDate ?? Date.now())) / (1000 * 60 * 60 * 24)) + 1
+  );
+
   const handleReset = () => {
     resetData();
     setTimeout(() => {
-        alert('데이터가 초기화되었습니다. (JLPT N5 시드 데이터 재로딩)');
+        alert('데이터가 초기화되었습니다. (JLPT N4 시드 데이터 재로딩)');
         router.replace('/');
     }, 100);
   };
@@ -40,7 +46,7 @@ export default function ProfileScreen() {
           <Ionicons name="person" size={48} color="#8EAAA3" />
         </View>
         <Text className="text-2xl font-bold text-gray-800">학습자 님</Text>
-        <Text className="text-gray-500 mt-1">Haru Voca와 함께한지 1일째</Text>
+        <Text className="text-gray-500 mt-1">Haru Voca와 함께한지 {daysTogether}일째</Text>
       </View>
 
       {/* Stats Dashboard */}
