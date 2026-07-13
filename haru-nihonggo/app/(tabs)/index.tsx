@@ -15,34 +15,42 @@ export default function HomeScreen() {
   const reviewCount = getTodayReviewWords().length;
   const incorrectCount = getIncorrectWords().length;
 
+  // 시간대에 맞는 인사말
+  const hour = new Date().getHours();
+  const greeting =
+    hour < 6 ? '늦은 밤이에요 🌙' :
+    hour < 12 ? '좋은 아침이에요 ☀️' :
+    hour < 18 ? '좋은 오후예요 🌤️' :
+    '좋은 저녁이에요 🌙';
+
   return (
     <ScrollView className="flex-1 bg-[#FAF9F6] px-5 pt-4">
       <View className="mb-8">
-        <Text className="text-xl font-medium text-gray-800 tracking-wide">좋은 아침이에요 ☀️</Text>
+        <Text className="text-xl font-medium text-gray-800 tracking-wide">{greeting}</Text>
         <Text className="text-lg text-gray-600 mt-1">오늘 목표는 {settings.dailyGoal}개, 일본어를 만나봐요</Text>
       </View>
 
       <View className="flex-row justify-between items-center mb-4">
         <Text className="text-lg font-bold text-gray-800">오늘의 학습</Text>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => router.push('/vocabulary')}>
           <Text className="text-gray-500 text-sm">전체 보기 &gt;</Text>
         </TouchableOpacity>
       </View>
 
-      {/* Stats Cards */}
+      {/* Stats Cards (탭하면 해당 학습 화면으로 이동) */}
       <View className="flex-row justify-between mb-8">
-        <View className="bg-[#EEEDF9] rounded-2xl p-4 flex-1 mr-2 items-center justify-center">
+        <TouchableOpacity className="bg-[#EEEDF9] rounded-2xl p-4 flex-1 mr-2 items-center justify-center" activeOpacity={0.8} onPress={() => router.push('/srs')}>
           <Text className="text-gray-600 text-xs mb-1 font-medium">새로운 단어</Text>
           <Text className="text-2xl font-bold text-gray-800">{newCount}<Text className="text-sm font-normal">개</Text></Text>
-        </View>
-        <View className="bg-[#E9F3EB] rounded-2xl p-4 flex-1 mx-1 items-center justify-center">
+        </TouchableOpacity>
+        <TouchableOpacity className="bg-[#E9F3EB] rounded-2xl p-4 flex-1 mx-1 items-center justify-center" activeOpacity={0.8} onPress={() => router.push('/srs')}>
           <Text className="text-gray-600 text-xs mb-1 font-medium">복습 단어</Text>
           <Text className="text-2xl font-bold text-gray-800">{reviewCount}<Text className="text-sm font-normal">개</Text></Text>
-        </View>
-        <View className="bg-[#FBE9E7] rounded-2xl p-4 flex-1 ml-2 items-center justify-center">
+        </TouchableOpacity>
+        <TouchableOpacity className="bg-[#FBE9E7] rounded-2xl p-4 flex-1 ml-2 items-center justify-center" activeOpacity={0.8} onPress={() => router.push('/incorrect')}>
           <Text className="text-gray-600 text-xs mb-1 font-medium">틀린 단어</Text>
           <Text className="text-2xl font-bold text-gray-800">{incorrectCount}<Text className="text-sm font-normal">개</Text></Text>
-        </View>
+        </TouchableOpacity>
       </View>
 
       {/* Warm-up Mode Banner */}

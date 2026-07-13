@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, FlatList, TouchableOpacity, ScrollView, Image } from 'react-native';
+import { View, Text, FlatList, TouchableOpacity, ScrollView, Image, TextInput } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
 import { getWordImage } from '../../data/wordImages';
 import { Ionicons } from '@expo/vector-icons';
@@ -8,11 +8,18 @@ import { playJapaneseTTS } from '../../utils/tts';
 export default function VocabularyScreen() {
   const words = useWordStore((state) => state.words);
   const [filter, setFilter] = useState<'all' | 'learning' | 'mastered'>('all');
+  const [search, setSearch] = useState('');
 
+  const query = search.trim().toLowerCase();
   const filteredWords = words.filter(w => {
-    if (filter === 'all') return true;
-    if (filter === 'learning') return w.status === 'new' || w.interval < 6;
-    if (filter === 'mastered') return w.interval >= 6 || w.status === 'mastered';
+    // 상태 필터
+    if (filter === 'learning' && !(w.status === 'new' || w.interval < 6)) return false;
+    if (filter === 'mastered' && !(w.interval >= 6 || w.status === 'mastered')) return false;
+    // 검색(한자/히라가나/한국어/발음)
+    if (query) {
+      const haystack = `${w.kanji} ${w.hiragana} ${w.korean} ${w.pronunciation ?? ''} ${w.english}`.toLowerCase();
+      if (!haystack.includes(query)) return false;
+    }
     return true;
   });
 
@@ -66,31 +73,49 @@ export default function VocabularyScreen() {
 
   return (
     <View className="flex-1 bg-[#FAF9F6] p-4">
-      <View className="flex-row mb-4">
-        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+      {/* 검색 바 */}
+      <View className="flex-row items-center bg-white rounded-2xl px-4 mb-3 border border-gray-100">
+        <Ionicons name="search" size={18} color="#9CA3AF" />
+        <TextInput
+          className="flex-1 py-3 px-2 text-gray-800"
+          placeholder="단어·뜻·발음으로 검색"
+          placeholderTextColor="#9CA3AF"
+          value={search}
+          onChangeText={setSearch}
+          autoCorrect={false}
+        />
+        {search.length > 0 && (
+          <TouchableOpacity onPress={() => setSearch('')} className="p-1">
+            <Ionicons name="close-circle" size={18} color="#CBD5E1" />
+          </TouchableOpacity>
+        )}
+      </View>
+
+      <View className="flex-row items-center mb-4">
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} className="flex-1">
           <FilterButton title="전체보기" value="all" />
           <FilterButton title="몰라요" value="learning" />
           <FilterButton title="알아요" value="mastered" />
         </ScrollView>
+        <Text className="text-gray-400 text-sm ml-2">{filteredWords.length}개</Text>
       </View>
-      
+
       <FlatList
         data={filteredWords}
         keyExtractor={(item) => item.id}
         renderItem={renderWord}
         showsVerticalScrollIndicator={false}
+        initialNumToRender={12}
+        maxToRenderPerBatch={12}
+        windowSize={7}
+        removeClippedSubviews
+        ListEmptyComponent={
+          <View className="items-center mt-20">
+            <Ionicons name="search-outline" size={48} color="#D1D5DB" />
+            <Text className="text-gray-400 mt-3">검색 결과가 없어요</Text>
+          </View>
+        }
       />
     </View>
-  );
-}
-
-function FilterBtn({ label, active, onPress }: { label: string, active: boolean, onPress: () => void }) {
-  return (
-    <TouchableOpacity 
-      className={`flex-1 py-2 items-center rounded-lg ${active ? 'bg-mint shadow-sm' : 'bg-transparent'}`}
-      onPress={onPress}
-    >
-      <Text className={`font-medium ${active ? 'text-green-800' : 'text-subtext'}`}>{label}</Text>
-    </TouchableOpacity>
   );
 }

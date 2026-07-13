@@ -10,9 +10,11 @@ export default function SRSScreen() {
   const router = useRouter();
   const params = useLocalSearchParams();
   const isWarmup = params.mode === 'warmup';
+  const isIncorrectReview = params.mode === 'incorrect';
 
   const getTodayReviewWords = useWordStore(state => state.getTodayReviewWords);
   const getTodayNewWords = useWordStore(state => state.getTodayNewWords);
+  const getIncorrectWords = useWordStore(state => state.getIncorrectWords);
   const reviewWord = useWordStore(state => state.reviewWord);
 
   const settings = useWordStore(state => state.settings);
@@ -22,9 +24,15 @@ export default function SRSScreen() {
   const [showHint, setShowHint] = useState(false);
 
   useEffect(() => {
+    if (isIncorrectReview) {
+      // 오답 재복습: 틀린 단어(오답 많은 순)만 큐로 구성
+      setQueue([...getIncorrectWords()]);
+      return;
+    }
+
     const reviews = getTodayReviewWords();
     const news = getTodayNewWords();
-    
+
     if (isWarmup) {
       // 웜업 모드: 복습 단어만 무작위 20개로 제한하여 부담을 줄임
       setQueue([...reviews].sort(() => 0.5 - Math.random()).slice(0, 20));

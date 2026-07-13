@@ -2,9 +2,11 @@ import React from 'react';
 import { View, Text, FlatList, TouchableOpacity } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
 import { Ionicons } from '@expo/vector-icons';
+import { useRouter } from 'expo-router';
 import { playJapaneseTTS } from '../../utils/tts';
 
 export default function IncorrectScreen() {
+  const router = useRouter();
   const words = useWordStore((state) => state.words);
   const incorrectWords = words.filter(w => w.incorrectCount > 0).sort((a, b) => b.incorrectCount - a.incorrectCount);
 
@@ -50,6 +52,16 @@ export default function IncorrectScreen() {
       <View className="mb-4">
         <Text className="text-subtext">총 <Text className="font-bold text-red-400">{incorrectWords.length}</Text>개의 틀린 단어가 있습니다.</Text>
       </View>
+
+      <TouchableOpacity
+        className="bg-[#8EAAA3] rounded-2xl py-3.5 mb-4 flex-row items-center justify-center"
+        activeOpacity={0.85}
+        onPress={() => router.push('/srs?mode=incorrect')}
+      >
+        <Ionicons name="refresh" size={20} color="#fff" />
+        <Text className="text-white font-bold text-base ml-2">틀린 단어 다시 복습하기</Text>
+      </TouchableOpacity>
+
       <FlatList
         data={incorrectWords}
         keyExtractor={(item) => item.id}
