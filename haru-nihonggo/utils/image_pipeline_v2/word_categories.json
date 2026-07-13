@@ -1,0 +1,4394 @@
+{
+  "action_verbs": [
+    {
+      "id": "n4_100",
+      "kanji": "",
+      "hiragana": "あいさつする",
+      "korean": "인사하다",
+      "english": "to greet"
+    },
+    {
+      "id": "n4_102",
+      "kanji": "合う",
+      "hiragana": "あう",
+      "korean": "맞는",
+      "english": "to match"
+    },
+    {
+      "id": "n4_104",
+      "kanji": "上がる",
+      "hiragana": "あがる",
+      "korean": "오르다",
+      "english": "to rise"
+    },
+    {
+      "id": "n4_106",
+      "kanji": "空く",
+      "hiragana": "あく",
+      "korean": "비우다",
+      "english": "to open, to become empty"
+    },
+    {
+      "id": "n4_108",
+      "kanji": "",
+      "hiragana": "あげる",
+      "korean": "주다",
+      "english": "to give"
+    },
+    {
+      "id": "n4_113",
+      "kanji": "集る",
+      "hiragana": "あつまる",
+      "korean": "모이다",
+      "english": "to gather"
+    },
+    {
+      "id": "n4_114",
+      "kanji": "集める",
+      "hiragana": "あつめる",
+      "korean": "모으다",
+      "english": "to collect something"
+    },
+    {
+      "id": "n4_118",
+      "kanji": "謝る",
+      "hiragana": "あやまる",
+      "korean": "사과하다",
+      "english": "to apologize"
+    },
+    {
+      "id": "n4_124",
+      "kanji": "案内する",
+      "hiragana": "あんないする",
+      "korean": "안내하다",
+      "english": "to guide"
+    },
+    {
+      "id": "n4_128",
+      "kanji": "生きる",
+      "hiragana": "いきる",
+      "korean": "살다",
+      "english": "to live"
+    },
+    {
+      "id": "n4_131",
+      "kanji": "",
+      "hiragana": "いじめる",
+      "korean": "애타게하다",
+      "english": "to tease"
+    },
+    {
+      "id": "n4_133",
+      "kanji": "急ぐ",
+      "hiragana": "いそぐ",
+      "korean": "서두르다",
+      "english": "to hurry"
+    },
+    {
+      "id": "n4_134",
+      "kanji": "致す",
+      "hiragana": "いたす",
+      "korean": "가져오다",
+      "english": "to do"
+    },
+    {
+      "id": "n4_135",
+      "kanji": "",
+      "hiragana": "いただく",
+      "korean": "받다",
+      "english": "to receive"
+    },
+    {
+      "id": "n4_142",
+      "kanji": "祈る",
+      "hiragana": "いのる",
+      "korean": "빌다",
+      "english": "to pray"
+    },
+    {
+      "id": "n4_143",
+      "kanji": "",
+      "hiragana": "いらっしゃる",
+      "korean": "오시다",
+      "english": "to be,to come or to go"
+    },
+    {
+      "id": "n4_144",
+      "kanji": "植える",
+      "hiragana": "うえる",
+      "korean": "심다",
+      "english": "to plant,to grow"
+    },
+    {
+      "id": "n4_145",
+      "kanji": "",
+      "hiragana": "うかがう",
+      "korean": "방문하다",
+      "english": "to visit"
+    },
+    {
+      "id": "n4_147",
+      "kanji": "受ける",
+      "hiragana": "うける",
+      "korean": "받다",
+      "english": "to take a lesson or test"
+    },
+    {
+      "id": "n4_148",
+      "kanji": "動く",
+      "hiragana": "うごく",
+      "korean": "움직이다",
+      "english": "to move"
+    },
+    {
+      "id": "n4_151",
+      "kanji": "打つ",
+      "hiragana": "うつ",
+      "korean": "때리다",
+      "english": "to hit"
+    },
+    {
+      "id": "n4_153",
+      "kanji": "写す",
+      "hiragana": "うつす",
+      "korean": "찍다",
+      "english": "to copy or photograph"
+    },
+    {
+      "id": "n4_154",
+      "kanji": "移る",
+      "hiragana": "うつる",
+      "korean": "이동하다",
+      "english": "to move house or transfer"
+    },
+    {
+      "id": "n4_161",
+      "kanji": "運転する",
+      "hiragana": "うんてんする",
+      "korean": "운전하다",
+      "english": "to drive"
+    },
+    {
+      "id": "n4_163",
+      "kanji": "運動する",
+      "hiragana": "うんどうする",
+      "korean": "운동하다",
+      "english": "to exercise"
+    },
+    {
+      "id": "n4_166",
+      "kanji": "選ぶ",
+      "hiragana": "えらぶ",
+      "korean": "선택하다",
+      "english": "to choose"
+    },
+    {
+      "id": "n4_167",
+      "kanji": "遠慮する",
+      "hiragana": "えんりょする",
+      "korean": "사양하다",
+      "english": "to be restrained"
+    },
+    {
+      "id": "n4_168",
+      "kanji": "",
+      "hiragana": "おいでになる",
+      "korean": "오시다",
+      "english": "to be"
+    },
+    {
+      "id": "n4_176",
+      "kanji": "送る",
+      "hiragana": "おくる",
+      "korean": "보내다",
+      "english": "to send"
+    },
+    {
+      "id": "n4_177",
+      "kanji": "遅れる",
+      "hiragana": "おくれる",
+      "korean": "늦다",
+      "english": "to be late"
+    },
+    {
+      "id": "n4_178",
+      "kanji": "起す",
+      "hiragana": "おこす",
+      "korean": "깨우다",
+      "english": "to wake"
+    },
+    {
+      "id": "n4_179",
+      "kanji": "行う",
+      "hiragana": "おこなう",
+      "korean": "하다",
+      "english": "to do"
+    },
+    {
+      "id": "n4_180",
+      "kanji": "怒る",
+      "hiragana": "おこる",
+      "korean": "화내다",
+      "english": "to get angry,to be angry"
+    },
+    {
+      "id": "n4_184",
+      "kanji": "落ちる",
+      "hiragana": "おちる",
+      "korean": "떨어지다",
+      "english": "to fall or drop"
+    },
+    {
+      "id": "n4_185",
+      "kanji": "",
+      "hiragana": "おっしゃる",
+      "korean": "말씀하시다",
+      "english": "to say"
+    },
+    {
+      "id": "n4_189",
+      "kanji": "落す",
+      "hiragana": "おとす",
+      "korean": "떨어 뜨리다",
+      "english": "to drop"
+    },
+    {
+      "id": "n4_191",
+      "kanji": "踊る",
+      "hiragana": "おどる",
+      "korean": "춤추다",
+      "english": "to dance"
+    },
+    {
+      "id": "n4_192",
+      "kanji": "驚く",
+      "hiragana": "おどろく",
+      "korean": "놀라다",
+      "english": "to be surprised"
+    },
+    {
+      "id": "n4_196",
+      "kanji": "思い出す",
+      "hiragana": "おもいだす",
+      "korean": "기억하다",
+      "english": "to remember"
+    },
+    {
+      "id": "n4_197",
+      "kanji": "思う",
+      "hiragana": "おもう",
+      "korean": "생각하다",
+      "english": "to think,to feel"
+    },
+    {
+      "id": "n4_201",
+      "kanji": "下りる",
+      "hiragana": "おりる",
+      "korean": "내리다",
+      "english": "to get off"
+    },
+    {
+      "id": "n4_202",
+      "kanji": "折る",
+      "hiragana": "おる",
+      "korean": "접다",
+      "english": "to fold"
+    },
+    {
+      "id": "n4_204",
+      "kanji": "折れる",
+      "hiragana": "おれる",
+      "korean": "접히다",
+      "english": "to be folded"
+    },
+    {
+      "id": "n4_212",
+      "kanji": "変える",
+      "hiragana": "かえる",
+      "korean": "바꾸다",
+      "english": "to change"
+    },
+    {
+      "id": "n4_215",
+      "kanji": "掛ける",
+      "hiragana": "かける",
+      "korean": "걸다",
+      "english": "to hang something"
+    },
+    {
+      "id": "n4_216",
+      "kanji": "飾る",
+      "hiragana": "かざる",
+      "korean": "꾸미다",
+      "english": "to decorate"
+    },
+    {
+      "id": "n4_223",
+      "kanji": "片付ける",
+      "hiragana": "かたづける",
+      "korean": "정리하다",
+      "english": "to tidy up"
+    },
+    {
+      "id": "n4_225",
+      "kanji": "勝つ",
+      "hiragana": "かつ",
+      "korean": "이기다",
+      "english": "to win"
+    },
+    {
+      "id": "n4_233",
+      "kanji": "",
+      "hiragana": "かまう",
+      "korean": "마음을 쓰다",
+      "english": "to mind"
+    },
+    {
+      "id": "n4_235",
+      "kanji": "噛む",
+      "hiragana": "かむ",
+      "korean": "씹다",
+      "english": "to chew"
+    },
+    {
+      "id": "n4_236",
+      "kanji": "通う",
+      "hiragana": "かよう",
+      "korean": "다니다",
+      "english": "to commute"
+    },
+    {
+      "id": "n4_240",
+      "kanji": "乾く",
+      "hiragana": "かわく",
+      "korean": "건조하다",
+      "english": "to get dry"
+    },
+    {
+      "id": "n4_242",
+      "kanji": "変わる",
+      "hiragana": "かわる",
+      "korean": "바꾸다",
+      "english": "to change"
+    },
+    {
+      "id": "n4_243",
+      "kanji": "考える",
+      "hiragana": "かんがえる",
+      "korean": "고려하다",
+      "english": "to consider"
+    },
+    {
+      "id": "n4_250",
+      "kanji": "聞こえる",
+      "hiragana": "きこえる",
+      "korean": "들리다",
+      "english": "to be heard"
+    },
+    {
+      "id": "n4_259",
+      "kanji": "決る",
+      "hiragana": "きまる",
+      "korean": "결정되다",
+      "english": "to be decided"
+    },
+    {
+      "id": "n4_261",
+      "kanji": "決める",
+      "hiragana": "きめる",
+      "korean": "결정하다",
+      "english": "to decide"
+    },
+    {
+      "id": "n4_276",
+      "kanji": "",
+      "hiragana": "くださる",
+      "korean": "주시다",
+      "english": "to give"
+    },
+    {
+      "id": "n4_279",
+      "kanji": "比べる",
+      "hiragana": "くらべる",
+      "korean": "비교하다",
+      "english": "to compare"
+    },
+    {
+      "id": "n4_280",
+      "kanji": "",
+      "hiragana": "くれる",
+      "korean": "주다",
+      "english": "to give"
+    },
+    {
+      "id": "n4_281",
+      "kanji": "暮れる",
+      "hiragana": "くれる",
+      "korean": "저물다",
+      "english": "to get dark,to come to an end"
+    },
+    {
+      "id": "n4_284",
+      "kanji": "計画する",
+      "hiragana": "けいかくする",
+      "korean": "계획하다",
+      "english": "to plan"
+    },
+    {
+      "id": "n4_285",
+      "kanji": "経験する",
+      "hiragana": "けいけんする",
+      "korean": "경험하다",
+      "english": "to experience"
+    },
+    {
+      "id": "n4_289",
+      "kanji": "",
+      "hiragana": "けがする",
+      "korean": "다치다",
+      "english": "to injure"
+    },
+    {
+      "id": "n4_296",
+      "kanji": "",
+      "hiragana": "けんかする",
+      "korean": "싸움하다",
+      "english": "to quarrel"
+    },
+    {
+      "id": "n4_316",
+      "kanji": "故障する",
+      "hiragana": "こしょうする",
+      "korean": "고장나다",
+      "english": "to break-down"
+    },
+    {
+      "id": "n4_326",
+      "kanji": "込む",
+      "hiragana": "こむ",
+      "korean": "혼잡하다",
+      "english": "to be crowded"
+    },
+    {
+      "id": "n4_328",
+      "kanji": "",
+      "hiragana": "ごらんになる",
+      "korean": "보시다",
+      "english": "to see"
+    },
+    {
+      "id": "n4_331",
+      "kanji": "壊す",
+      "hiragana": "こわす",
+      "korean": "부수다",
+      "english": "to break"
+    },
+    {
+      "id": "n4_332",
+      "kanji": "壊れる",
+      "hiragana": "こわれる",
+      "korean": "깨지다",
+      "english": "to be broken"
+    },
+    {
+      "id": "n4_341",
+      "kanji": "探す",
+      "hiragana": "さがす",
+      "korean": "찾다",
+      "english": "to look for"
+    },
+    {
+      "id": "n4_342",
+      "kanji": "下がる",
+      "hiragana": "さがる",
+      "korean": "내리다",
+      "english": "to get down"
+    },
+    {
+      "id": "n4_344",
+      "kanji": "下げる",
+      "hiragana": "さげる",
+      "korean": "내리다",
+      "english": "to lower"
+    },
+    {
+      "id": "n4_345",
+      "kanji": "差し上げる",
+      "hiragana": "さしあげる",
+      "korean": "드리다",
+      "english": "to give"
+    },
+    {
+      "id": "n4_351",
+      "kanji": "騒ぐ",
+      "hiragana": "さわぐ",
+      "korean": "떠들다",
+      "english": "to make noise,to be excited"
+    },
+    {
+      "id": "n4_352",
+      "kanji": "触る",
+      "hiragana": "ふる",
+      "korean": "만지다",
+      "english": "to touch"
+    },
+    {
+      "id": "n4_361",
+      "kanji": "",
+      "hiragana": "しかる",
+      "korean": "꾸짖다",
+      "english": "to scold"
+    },
+    {
+      "id": "n4_366",
+      "kanji": "支度する",
+      "hiragana": "したくする",
+      "korean": "준비하다",
+      "english": "to prepare"
+    },
+    {
+      "id": "n4_384",
+      "kanji": "出席する",
+      "hiragana": "しゅっせきする",
+      "korean": "참석하다",
+      "english": "to attend"
+    },
+    {
+      "id": "n4_385",
+      "kanji": "出発する",
+      "hiragana": "しゅっぱつする",
+      "korean": "출발하다",
+      "english": "to depart"
+    },
+    {
+      "id": "n4_387",
+      "kanji": "準備する",
+      "hiragana": "じゅんびする",
+      "korean": "준비하다",
+      "english": "to prepare"
+    },
+    {
+      "id": "n4_391",
+      "kanji": "招待する",
+      "hiragana": "しょうたいする",
+      "korean": "초대하다",
+      "english": "to invite"
+    },
+    {
+      "id": "n4_392",
+      "kanji": "承知する",
+      "hiragana": "しょうちする",
+      "korean": "승낙하다",
+      "english": "to consent"
+    },
+    {
+      "id": "n4_394",
+      "kanji": "食事する",
+      "hiragana": "しょくじする",
+      "korean": "식사하다",
+      "english": "to have a meal"
+    },
+    {
+      "id": "n4_397",
+      "kanji": "知らせる",
+      "hiragana": "しらせる",
+      "korean": "알리다",
+      "english": "to notify"
+    },
+    {
+      "id": "n4_398",
+      "kanji": "調べる",
+      "hiragana": "しらべる",
+      "korean": "조사하다",
+      "english": "to investigate"
+    },
+    {
+      "id": "n4_402",
+      "kanji": "心配する",
+      "hiragana": "しんぱいする",
+      "korean": "걱정하다",
+      "english": "to worry"
+    },
+    {
+      "id": "n4_410",
+      "kanji": "過ぎる",
+      "hiragana": "すぎる",
+      "korean": "지나다",
+      "english": "to exceed"
+    },
+    {
+      "id": "n4_411",
+      "kanji": "",
+      "hiragana": "すく",
+      "korean": "속이 비다",
+      "english": "to become empty"
+    },
+    {
+      "id": "n4_414",
+      "kanji": "進む",
+      "hiragana": "すすむ",
+      "korean": "진행하다",
+      "english": "to make progress"
+    },
+    {
+      "id": "n4_418",
+      "kanji": "捨てる",
+      "hiragana": "すてる",
+      "korean": "버리다",
+      "english": "to throw away"
+    },
+    {
+      "id": "n4_422",
+      "kanji": "滑る",
+      "hiragana": "すべる",
+      "korean": "미끄러지다",
+      "english": "to slide,to slip"
+    },
+    {
+      "id": "n4_424",
+      "kanji": "済む",
+      "hiragana": "すむ",
+      "korean": "끝나다",
+      "english": "to finish"
+    },
+    {
+      "id": "n4_427",
+      "kanji": "生活する",
+      "hiragana": "せいかつする",
+      "korean": "생활하다",
+      "english": "to live"
+    },
+    {
+      "id": "n4_428",
+      "kanji": "生産する",
+      "hiragana": "せいさんする",
+      "korean": "생산하다",
+      "english": "to produce"
+    },
+    {
+      "id": "n4_436",
+      "kanji": "世話する",
+      "hiragana": "せわする",
+      "korean": "돌보다",
+      "english": "to look after"
+    },
+    {
+      "id": "n4_442",
+      "kanji": "相談する",
+      "hiragana": "そうだんする",
+      "korean": "상담하다",
+      "english": "to discuss"
+    },
+    {
+      "id": "n4_443",
+      "kanji": "育てる",
+      "hiragana": "そだてる",
+      "korean": "육성하다",
+      "english": "to rear,to bring up"
+    },
+    {
+      "id": "n4_450",
+      "kanji": "",
+      "hiragana": "それほど",
+      "korean": "그 정도로",
+      "english": "to that extent"
+    },
+    {
+      "id": "n4_454",
+      "kanji": "退院する",
+      "hiragana": "たいいんする",
+      "korean": "퇴원하다",
+      "english": "to leave hospital"
+    },
+    {
+      "id": "n4_462",
+      "kanji": "倒れる",
+      "hiragana": "たおれる",
+      "korean": "쓰러지다",
+      "english": "to break down"
+    },
+    {
+      "id": "n4_465",
+      "kanji": "足す",
+      "hiragana": "たす",
+      "korean": "더하다",
+      "english": "to add a number"
+    },
+    {
+      "id": "n4_466",
+      "kanji": "訪ねる",
+      "hiragana": "たずねる",
+      "korean": "방문하다",
+      "english": "to visit"
+    },
+    {
+      "id": "n4_467",
+      "kanji": "尋ねる",
+      "hiragana": "たずねる",
+      "korean": "묻다",
+      "english": "to ask"
+    },
+    {
+      "id": "n4_470",
+      "kanji": "立てる",
+      "hiragana": "たてる",
+      "korean": "세우다",
+      "english": "to stand something up"
+    },
+    {
+      "id": "n4_471",
+      "kanji": "建てる",
+      "hiragana": "たてる",
+      "korean": "짓다",
+      "english": "to build"
+    },
+    {
+      "id": "n4_475",
+      "kanji": "楽しむ",
+      "hiragana": "たのしむ",
+      "korean": "즐기다",
+      "english": "to enjoy oneself"
+    },
+    {
+      "id": "n4_479",
+      "kanji": "足りる",
+      "hiragana": "たりる",
+      "korean": "충분하다",
+      "english": "to be enough"
+    },
+    {
+      "id": "n4_483",
+      "kanji": "",
+      "hiragana": "チェックする",
+      "korean": "확인하다",
+      "english": "to check"
+    },
+    {
+      "id": "n4_492",
+      "kanji": "捕まえる",
+      "hiragana": "つかまえる",
+      "korean": "붙잡다",
+      "english": "to seize"
+    },
+    {
+      "id": "n4_494",
+      "kanji": "付く",
+      "hiragana": "つく",
+      "korean": "달라붙다",
+      "english": "to be attached"
+    },
+    {
+      "id": "n4_495",
+      "kanji": "漬ける",
+      "hiragana": "つける",
+      "korean": "담그다",
+      "english": "to soak,to pickle"
+    },
+    {
+      "id": "n4_497",
+      "kanji": "伝える",
+      "hiragana": "つたえる",
+      "korean": "전하다",
+      "english": "to report"
+    },
+    {
+      "id": "n4_498",
+      "kanji": "続く",
+      "hiragana": "つづく",
+      "korean": "계속되다",
+      "english": "to be continued"
+    },
+    {
+      "id": "n4_499",
+      "kanji": "続ける",
+      "hiragana": "つづける",
+      "korean": "계속하다",
+      "english": "to continue"
+    },
+    {
+      "id": "n4_500",
+      "kanji": "包む",
+      "hiragana": "つつむ",
+      "korean": "싸다",
+      "english": "to wrap"
+    },
+    {
+      "id": "n4_503",
+      "kanji": "釣る",
+      "hiragana": "つる",
+      "korean": "낚다",
+      "english": "to fish"
+    },
+    {
+      "id": "n4_504",
+      "kanji": "連れる",
+      "hiragana": "つれる",
+      "korean": "동행하다",
+      "english": "to lead"
+    },
+    {
+      "id": "n4_509",
+      "kanji": "手伝う",
+      "hiragana": "てつだう",
+      "korean": "돕다",
+      "english": "to assist"
+    },
+    {
+      "id": "n4_524",
+      "kanji": "通る",
+      "hiragana": "とうる",
+      "korean": "지나다",
+      "english": "to go through"
+    },
+    {
+      "id": "n4_530",
+      "kanji": "届ける",
+      "hiragana": "とどける",
+      "korean": "닿다",
+      "english": "to reach"
+    },
+    {
+      "id": "n4_531",
+      "kanji": "泊まる",
+      "hiragana": "とまる",
+      "korean": "머물다",
+      "english": "to lodge at"
+    },
+    {
+      "id": "n4_532",
+      "kanji": "止める",
+      "hiragana": "やめる",
+      "korean": "중지하다",
+      "english": "to stop something"
+    },
+    {
+      "id": "n4_533",
+      "kanji": "取り替える",
+      "hiragana": "とりかえる",
+      "korean": "바꾸다",
+      "english": "to exchange"
+    },
+    {
+      "id": "n4_536",
+      "kanji": "直す",
+      "hiragana": "なおす",
+      "korean": "고치다",
+      "english": "to fix,to repair"
+    },
+    {
+      "id": "n4_537",
+      "kanji": "直る",
+      "hiragana": "なおる",
+      "korean": "고쳐지다",
+      "english": "to be fixed,to be repaired"
+    },
+    {
+      "id": "n4_538",
+      "kanji": "治る",
+      "hiragana": "なおる",
+      "korean": "낫다",
+      "english": "to be cured,to heal"
+    },
+    {
+      "id": "n4_540",
+      "kanji": "泣く",
+      "hiragana": "なく",
+      "korean": "울다",
+      "english": "to weep"
+    },
+    {
+      "id": "n4_541",
+      "kanji": "無くなる",
+      "hiragana": "なくなる",
+      "korean": "없어지다",
+      "english": "to disappear,to get lost"
+    },
+    {
+      "id": "n4_542",
+      "kanji": "亡くなる",
+      "hiragana": "なくなる",
+      "korean": "죽다",
+      "english": "to die"
+    },
+    {
+      "id": "n4_543",
+      "kanji": "投げる",
+      "hiragana": "なげる",
+      "korean": "던지다",
+      "english": "to throw or cast away"
+    },
+    {
+      "id": "n4_544",
+      "kanji": "",
+      "hiragana": "なさる",
+      "korean": "하시다",
+      "english": "to do"
+    },
+    {
+      "id": "n4_545",
+      "kanji": "鳴る",
+      "hiragana": "なる",
+      "korean": "울리다",
+      "english": "to sound"
+    },
+    {
+      "id": "n4_548",
+      "kanji": "慣れる",
+      "hiragana": "なれる",
+      "korean": "익숙해지다",
+      "english": "to grow accustomed to"
+    },
+    {
+      "id": "n4_552",
+      "kanji": "逃げる",
+      "hiragana": "にげる",
+      "korean": "도망치다",
+      "english": "to escape"
+    },
+    {
+      "id": "n4_554",
+      "kanji": "入院する",
+      "hiragana": "にゅういんする",
+      "korean": "입원하다",
+      "english": "to hospitalise"
+    },
+    {
+      "id": "n4_555",
+      "kanji": "入学する",
+      "hiragana": "にゅうがくする",
+      "korean": "입학하다",
+      "english": "to enter school or university"
+    },
+    {
+      "id": "n4_556",
+      "kanji": "似る",
+      "hiragana": "にる",
+      "korean": "비슷하다",
+      "english": "to be similar"
+    },
+    {
+      "id": "n4_558",
+      "kanji": "盗む",
+      "hiragana": "ぬすむ",
+      "korean": "훔치다",
+      "english": "to steal"
+    },
+    {
+      "id": "n4_559",
+      "kanji": "塗る",
+      "hiragana": "ぬる",
+      "korean": "바르다",
+      "english": "to paint,to plaster"
+    },
+    {
+      "id": "n4_560",
+      "kanji": "",
+      "hiragana": "ぬれる",
+      "korean": "젖다",
+      "english": "to get wet"
+    },
+    {
+      "id": "n4_566",
+      "kanji": "眠る",
+      "hiragana": "ねむる",
+      "korean": "자다",
+      "english": "to sleep"
+    },
+    {
+      "id": "n4_567",
+      "kanji": "残る",
+      "hiragana": "のこる",
+      "korean": "남다",
+      "english": "to remain"
+    },
+    {
+      "id": "n4_569",
+      "kanji": "乗り換える",
+      "hiragana": "のりかえる",
+      "korean": "환승하다",
+      "english": "to change between buses or trains"
+    },
+    {
+      "id": "n4_575",
+      "kanji": "拝見する",
+      "hiragana": "はいけんする",
+      "korean": "보다",
+      "english": "to look at"
+    },
+    {
+      "id": "n4_577",
+      "kanji": "運ぶ",
+      "hiragana": "はこぶ",
+      "korean": "운반하다",
+      "english": "to transport"
+    },
+    {
+      "id": "n4_578",
+      "kanji": "始める",
+      "hiragana": "はじめる",
+      "korean": "시작하다",
+      "english": "to begin"
+    },
+    {
+      "id": "n4_587",
+      "kanji": "払う",
+      "hiragana": "はらう",
+      "korean": "지불하다",
+      "english": "to pay"
+    },
+    {
+      "id": "n4_594",
+      "kanji": "冷える",
+      "hiragana": "ひえる",
+      "korean": "추워지다",
+      "english": "to grow cold"
+    },
+    {
+      "id": "n4_596",
+      "kanji": "光る",
+      "hiragana": "ひかる",
+      "korean": "빛나다",
+      "english": "to shine,to glitter"
+    },
+    {
+      "id": "n4_598",
+      "kanji": "引き出す",
+      "hiragana": "ひきだす",
+      "korean": "인출하다",
+      "english": "to withdraw"
+    },
+    {
+      "id": "n4_604",
+      "kanji": "",
+      "hiragana": "びっくりする",
+      "korean": "깜짝 놀라다",
+      "english": "to be surprised"
+    },
+    {
+      "id": "n4_605",
+      "kanji": "引っ越す",
+      "hiragana": "ひっこす",
+      "korean": "이사하다",
+      "english": "to move house"
+    },
+    {
+      "id": "n4_608",
+      "kanji": "開く",
+      "hiragana": "ひらく",
+      "korean": "열다",
+      "english": "to open an event"
+    },
+    {
+      "id": "n4_612",
+      "kanji": "拾う",
+      "hiragana": "ひろう",
+      "korean": "골라내다",
+      "english": "to pick up,to gather"
+    },
+    {
+      "id": "n4_614",
+      "kanji": "増える",
+      "hiragana": "ふえる",
+      "korean": "증가하다",
+      "english": "to increase"
+    },
+    {
+      "id": "n4_621",
+      "kanji": "太る",
+      "hiragana": "ふとる",
+      "korean": "살찌다",
+      "english": "to become fat"
+    },
+    {
+      "id": "n4_625",
+      "kanji": "踏む",
+      "hiragana": "ふむ",
+      "korean": "밟다",
+      "english": "to step on"
+    },
+    {
+      "id": "n4_626",
+      "kanji": "降り出す",
+      "hiragana": "おりだす",
+      "korean": "비가 오기 시작하다",
+      "english": "to start to rain"
+    },
+    {
+      "id": "n4_636",
+      "kanji": "放送する",
+      "hiragana": "ほうそうする",
+      "korean": "방송하다",
+      "english": "to broadcast"
+    },
+    {
+      "id": "n4_642",
+      "kanji": "",
+      "hiragana": "ほめる",
+      "korean": "칭찬하다",
+      "english": "to praise"
+    },
+    {
+      "id": "n4_644",
+      "kanji": "参る",
+      "hiragana": "まいる",
+      "korean": "가다,오다",
+      "english": "to go,to come"
+    },
+    {
+      "id": "n4_645",
+      "kanji": "負ける",
+      "hiragana": "まける",
+      "korean": "지다",
+      "english": "to lose"
+    },
+    {
+      "id": "n4_649",
+      "kanji": "間違える",
+      "hiragana": "まちがえる",
+      "korean": "실수하다",
+      "english": "to make a mistake"
+    },
+    {
+      "id": "n4_651",
+      "kanji": "回る",
+      "hiragana": "まわる",
+      "korean": "돌아가다",
+      "english": "to go around"
+    },
+    {
+      "id": "n4_654",
+      "kanji": "見える",
+      "hiragana": "みえる",
+      "korean": "보이다",
+      "english": "to be in sight"
+    },
+    {
+      "id": "n4_657",
+      "kanji": "見つかる",
+      "hiragana": "みつかる",
+      "korean": "발견되다",
+      "english": "to be discovered"
+    },
+    {
+      "id": "n4_658",
+      "kanji": "見つける",
+      "hiragana": "みつける",
+      "korean": "발견하다",
+      "english": "to discover"
+    },
+    {
+      "id": "n4_661",
+      "kanji": "向かう",
+      "hiragana": "むかう",
+      "korean": "향하다",
+      "english": "to face"
+    },
+    {
+      "id": "n4_662",
+      "kanji": "迎える",
+      "hiragana": "むかえる",
+      "korean": "맞이하다",
+      "english": "to go out to meet"
+    },
+    {
+      "id": "n4_668",
+      "kanji": "召し上がる",
+      "hiragana": "めしあがる",
+      "korean": "드시다",
+      "english": "to eat"
+    },
+    {
+      "id": "n4_670",
+      "kanji": "申し上げる",
+      "hiragana": "もうしあげる",
+      "korean": "말씀드리다",
+      "english": "to say,to tell"
+    },
+    {
+      "id": "n4_671",
+      "kanji": "申す",
+      "hiragana": "もうす",
+      "korean": "말하다",
+      "english": "to be called,to say"
+    },
+    {
+      "id": "n4_676",
+      "kanji": "戻る",
+      "hiragana": "もどる",
+      "korean": "돌아 가다",
+      "english": "to turn back"
+    },
+    {
+      "id": "n4_678",
+      "kanji": "",
+      "hiragana": "もらう",
+      "korean": "받다",
+      "english": "to receive"
+    },
+    {
+      "id": "n4_680",
+      "kanji": "焼く",
+      "hiragana": "やく",
+      "korean": "굽다",
+      "english": "to bake,to grill"
+    },
+    {
+      "id": "n4_681",
+      "kanji": "役に立つ",
+      "hiragana": "やくにたつ",
+      "korean": "도움이 되다",
+      "english": "to be helpful"
+    },
+    {
+      "id": "n4_682",
+      "kanji": "焼ける",
+      "hiragana": "やける",
+      "korean": "구워지다",
+      "english": "to burn,to be roasted"
+    },
+    {
+      "id": "n4_684",
+      "kanji": "痩せる",
+      "hiragana": "やせる",
+      "korean": "여위다",
+      "english": "to become thin"
+    },
+    {
+      "id": "n4_687",
+      "kanji": "止む",
+      "hiragana": "とむ",
+      "korean": "멈추다",
+      "english": "to stop"
+    },
+    {
+      "id": "n4_688",
+      "kanji": "止める",
+      "hiragana": "やめる",
+      "korean": "멈추다",
+      "english": "to stop"
+    },
+    {
+      "id": "n4_691",
+      "kanji": "輸出する",
+      "hiragana": "ゆしゅつする",
+      "korean": "수출하다",
+      "english": "to export"
+    },
+    {
+      "id": "n4_692",
+      "kanji": "輸入する",
+      "hiragana": "ゆにゅうする",
+      "korean": "수입하다",
+      "english": "to import"
+    },
+    {
+      "id": "n4_696",
+      "kanji": "揺れる",
+      "hiragana": "ゆれる",
+      "korean": "흔들리다",
+      "english": "to shake,to sway"
+    },
+    {
+      "id": "n4_700",
+      "kanji": "汚れる",
+      "hiragana": "よごれる",
+      "korean": "더러워지다",
+      "english": "to get dirty"
+    },
+    {
+      "id": "n4_703",
+      "kanji": "寄る",
+      "hiragana": "よる",
+      "korean": "들리다",
+      "english": "to visit"
+    },
+    {
+      "id": "n4_704",
+      "kanji": "喜ぶ",
+      "hiragana": "よろこぶ",
+      "korean": "기뻐하다",
+      "english": "to be delighted"
+    },
+    {
+      "id": "n4_717",
+      "kanji": "沸かす",
+      "hiragana": "わかす",
+      "korean": "끓이다",
+      "english": "to boil,to heat"
+    },
+    {
+      "id": "n4_718",
+      "kanji": "別れる",
+      "hiragana": "わかれる",
+      "korean": "헤어지다",
+      "english": "to separate"
+    },
+    {
+      "id": "n4_719",
+      "kanji": "沸く",
+      "hiragana": "わく",
+      "korean": "끓다",
+      "english": "to boil, to grow hot,to get excited"
+    },
+    {
+      "id": "n4_722",
+      "kanji": "笑う",
+      "hiragana": "わらう",
+      "korean": "웃다",
+      "english": "to laugh,to smile"
+    },
+    {
+      "id": "n4_724",
+      "kanji": "割れる",
+      "hiragana": "われる",
+      "korean": "부수다",
+      "english": "to break"
+    }
+  ],
+  "adjectives_states": [
+    {
+      "id": "n4_109",
+      "kanji": "浅い",
+      "hiragana": "あさい",
+      "korean": "얕은",
+      "english": "shallow,superficial"
+    },
+    {
+      "id": "n4_152",
+      "kanji": "美しい",
+      "hiragana": "うつくしい",
+      "korean": "아름다운",
+      "english": "beautiful"
+    },
+    {
+      "id": "n4_221",
+      "kanji": "堅い",
+      "hiragana": "かたい",
+      "korean": "단단한",
+      "english": "hard"
+    },
+    {
+      "id": "n4_257",
+      "kanji": "厳しい",
+      "hiragana": "いかめしい",
+      "korean": "엄격한",
+      "english": "strict"
+    },
+    {
+      "id": "n4_295",
+      "kanji": "原因",
+      "hiragana": "げんいん",
+      "korean": "원인",
+      "english": "cause,source"
+    },
+    {
+      "id": "n4_324",
+      "kanji": "細かい",
+      "hiragana": "こまかい",
+      "korean": "미세한",
+      "english": "small, fine"
+    },
+    {
+      "id": "n4_330",
+      "kanji": "怖い",
+      "hiragana": "こわい",
+      "korean": "무서운",
+      "english": "frightening"
+    },
+    {
+      "id": "n4_347",
+      "kanji": "寂しい",
+      "hiragana": "さびしい",
+      "korean": "외로운",
+      "english": "lonely"
+    },
+    {
+      "id": "n4_413",
+      "kanji": "凄い",
+      "hiragana": "すごい",
+      "korean": "굉장한",
+      "english": "terrific"
+    },
+    {
+      "id": "n4_421",
+      "kanji": "",
+      "hiragana": "すばらしい",
+      "korean": "훌륭한",
+      "english": "wonderful"
+    },
+    {
+      "id": "n4_546",
+      "kanji": "",
+      "hiragana": "なるべく",
+      "korean": "가급적",
+      "english": "as much as possible"
+    },
+    {
+      "id": "n4_581",
+      "kanji": "恥ずかしい",
+      "hiragana": "はずかしい",
+      "korean": "부끄러운",
+      "english": "embarrassed"
+    },
+    {
+      "id": "n4_607",
+      "kanji": "",
+      "hiragana": "ひどい",
+      "korean": "심한",
+      "english": "awful"
+    },
+    {
+      "id": "n4_615",
+      "kanji": "深い",
+      "hiragana": "ふかい",
+      "korean": "깊은",
+      "english": "deep"
+    },
+    {
+      "id": "n4_683",
+      "kanji": "優しい",
+      "hiragana": "やさしい",
+      "korean": "부드러운",
+      "english": "kind"
+    },
+    {
+      "id": "n4_689",
+      "kanji": "柔らかい",
+      "hiragana": "やわらかい",
+      "korean": "부드러운",
+      "english": "soft"
+    },
+    {
+      "id": "n4_705",
+      "kanji": "",
+      "hiragana": "よろしい",
+      "korean": "좋다",
+      "english": "OK,all right"
+    }
+  ],
+  "adverbs_functional": [
+    {
+      "id": "n4_115",
+      "kanji": "",
+      "hiragana": "アナウンサー",
+      "korean": "아나운서",
+      "english": "announcer"
+    },
+    {
+      "id": "n4_229",
+      "kanji": "必ず",
+      "hiragana": "かならず",
+      "korean": "반드시",
+      "english": "certainly"
+    },
+    {
+      "id": "n4_239",
+      "kanji": "彼ら",
+      "hiragana": "かれら",
+      "korean": "그들",
+      "english": "they"
+    },
+    {
+      "id": "n4_255",
+      "kanji": "",
+      "hiragana": "きっと",
+      "korean": "반드시",
+      "english": "surely"
+    },
+    {
+      "id": "n4_294",
+      "kanji": "",
+      "hiragana": "けれど",
+      "korean": "그렇지만",
+      "english": "however"
+    },
+    {
+      "id": "n4_301",
+      "kanji": "",
+      "hiragana": "こう",
+      "korean": "이렇게",
+      "english": "this way"
+    },
+    {
+      "id": "n4_322",
+      "kanji": "",
+      "hiragana": "このあいだ",
+      "korean": "전날",
+      "english": "the other day,recently"
+    },
+    {
+      "id": "n4_329",
+      "kanji": "",
+      "hiragana": "これから",
+      "korean": "앞으로",
+      "english": "after this"
+    },
+    {
+      "id": "n4_354",
+      "kanji": "",
+      "hiragana": "サンダル",
+      "korean": "샌들",
+      "english": "sandal"
+    },
+    {
+      "id": "n4_367",
+      "kanji": "",
+      "hiragana": "しっかり",
+      "korean": "제대로",
+      "english": "firmly,steadily"
+    },
+    {
+      "id": "n4_382",
+      "kanji": "柔道",
+      "hiragana": "じゅうどう",
+      "korean": "유도",
+      "english": "judo"
+    },
+    {
+      "id": "n4_383",
+      "kanji": "十分",
+      "hiragana": "じゅうぶん",
+      "korean": "충분히",
+      "english": "enough"
+    },
+    {
+      "id": "n4_405",
+      "kanji": "水道",
+      "hiragana": "すいどう",
+      "korean": "수도",
+      "english": "water supply"
+    },
+    {
+      "id": "n4_406",
+      "kanji": "",
+      "hiragana": "ずいぶん",
+      "korean": "대단히",
+      "english": "extremely"
+    },
+    {
+      "id": "n4_415",
+      "kanji": "",
+      "hiragana": "すっかり",
+      "korean": "완전히",
+      "english": "completely"
+    },
+    {
+      "id": "n4_435",
+      "kanji": "",
+      "hiragana": "ぜひ",
+      "korean": "꼭",
+      "english": "without fail"
+    },
+    {
+      "id": "n4_438",
+      "kanji": "",
+      "hiragana": "ぜんぜん",
+      "korean": "전혀",
+      "english": "not entirely"
+    },
+    {
+      "id": "n4_441",
+      "kanji": "",
+      "hiragana": "そう",
+      "korean": "정말",
+      "english": "really"
+    },
+    {
+      "id": "n4_448",
+      "kanji": "",
+      "hiragana": "それで",
+      "korean": "그래서",
+      "english": "because of that"
+    },
+    {
+      "id": "n4_453",
+      "kanji": "",
+      "hiragana": "そんなに",
+      "korean": "그렇게",
+      "english": "so much,like that"
+    },
+    {
+      "id": "n4_457",
+      "kanji": "大体",
+      "hiragana": "だいたい",
+      "korean": "대략",
+      "english": "generally"
+    },
+    {
+      "id": "n4_458",
+      "kanji": "",
+      "hiragana": "たいてい",
+      "korean": "대부분",
+      "english": "usually"
+    },
+    {
+      "id": "n4_460",
+      "kanji": "大分",
+      "hiragana": "だいぶ",
+      "korean": "상당히",
+      "english": "greatly"
+    },
+    {
+      "id": "n4_463",
+      "kanji": "",
+      "hiragana": "だから",
+      "korean": "그래서",
+      "english": "so,therefore"
+    },
+    {
+      "id": "n4_476",
+      "kanji": "",
+      "hiragana": "たまに",
+      "korean": "가끔",
+      "english": "occasionally"
+    },
+    {
+      "id": "n4_485",
+      "kanji": "",
+      "hiragana": "ちっとも",
+      "korean": "조금도",
+      "english": "not at all"
+    },
+    {
+      "id": "n4_502",
+      "kanji": "",
+      "hiragana": "つもり",
+      "korean": "의도",
+      "english": "intention"
+    },
+    {
+      "id": "n4_525",
+      "kanji": "特に",
+      "hiragana": "とくに",
+      "korean": "특히",
+      "english": "particularly,especially"
+    },
+    {
+      "id": "n4_539",
+      "kanji": "中々",
+      "hiragana": "なかなか",
+      "korean": "꽤",
+      "english": "considerably"
+    },
+    {
+      "id": "n4_547",
+      "kanji": "",
+      "hiragana": "なるほど",
+      "korean": "과연",
+      "english": "now I understand"
+    },
+    {
+      "id": "n4_584",
+      "kanji": "",
+      "hiragana": "はっきり",
+      "korean": "분명히",
+      "english": "clearly"
+    },
+    {
+      "id": "n4_601",
+      "kanji": "久しぶり",
+      "hiragana": "ひさしぶり",
+      "korean": "오랜만에",
+      "english": "after a long time"
+    },
+    {
+      "id": "n4_603",
+      "kanji": "非常に",
+      "hiragana": "ひじょうに",
+      "korean": "매우",
+      "english": "extremely"
+    },
+    {
+      "id": "n4_620",
+      "kanji": "",
+      "hiragana": "ぶどう",
+      "korean": "포도",
+      "english": "grapes"
+    },
+    {
+      "id": "n4_634",
+      "kanji": "返事",
+      "hiragana": "へんじ",
+      "korean": "답변",
+      "english": "reply"
+    },
+    {
+      "id": "n4_640",
+      "kanji": "",
+      "hiragana": "ほど",
+      "korean": "정도",
+      "english": "extent"
+    },
+    {
+      "id": "n4_641",
+      "kanji": "",
+      "hiragana": "ほとんど",
+      "korean": "대부분",
+      "english": "mostly"
+    },
+    {
+      "id": "n4_647",
+      "kanji": "",
+      "hiragana": "まず",
+      "korean": "우선",
+      "english": "first of all"
+    },
+    {
+      "id": "n4_665",
+      "kanji": "息子",
+      "hiragana": "むすこ",
+      "korean": "아들",
+      "english": "son"
+    },
+    {
+      "id": "n4_674",
+      "kanji": "",
+      "hiragana": "もちろん",
+      "korean": "물론",
+      "english": "of course"
+    },
+    {
+      "id": "n4_675",
+      "kanji": "",
+      "hiragana": "もっとも",
+      "korean": "가장",
+      "english": "extremely"
+    },
+    {
+      "id": "n4_686",
+      "kanji": "",
+      "hiragana": "やはり",
+      "korean": "역시",
+      "english": "as I thought,absolutely"
+    },
+    {
+      "id": "n4_697",
+      "kanji": "用",
+      "hiragana": "よう",
+      "korean": "용도",
+      "english": "use"
+    },
+    {
+      "id": "n4_714",
+      "kanji": "",
+      "hiragana": "レポート",
+      "korean": "보고서",
+      "english": "report"
+    },
+    {
+      "id": "n4_716",
+      "kanji": "",
+      "hiragana": "ワープロ",
+      "korean": "워드 프로세서",
+      "english": "word processor"
+    }
+  ],
+  "abstract_nouns": [
+    {
+      "id": "n4_101",
+      "kanji": "間",
+      "hiragana": "あいだ",
+      "korean": "사이",
+      "english": "a space"
+    },
+    {
+      "id": "n4_127",
+      "kanji": "医学",
+      "hiragana": "いがく",
+      "korean": "의학",
+      "english": "medical science"
+    },
+    {
+      "id": "n4_129",
+      "kanji": "意見",
+      "hiragana": "いけん",
+      "korean": "의견",
+      "english": "opinion"
+    },
+    {
+      "id": "n4_136",
+      "kanji": "一度",
+      "hiragana": "いちど",
+      "korean": "일단",
+      "english": "once"
+    },
+    {
+      "id": "n4_169",
+      "kanji": "お祝い",
+      "hiragana": "おいわい",
+      "korean": "축하",
+      "english": "congratulation"
+    },
+    {
+      "id": "n4_173",
+      "kanji": "億",
+      "hiragana": "おく",
+      "korean": "일억",
+      "english": "one hundred million"
+    },
+    {
+      "id": "n4_187",
+      "kanji": "",
+      "hiragana": "おつり",
+      "korean": "잔돈",
+      "english": "change from purchase, balance"
+    },
+    {
+      "id": "n4_190",
+      "kanji": "踊り",
+      "hiragana": "おどり",
+      "korean": "춤",
+      "english": "a dance"
+    },
+    {
+      "id": "n4_208",
+      "kanji": "会議室",
+      "hiragana": "かいぎしつ",
+      "korean": "회의실",
+      "english": "meeting room"
+    },
+    {
+      "id": "n4_209",
+      "kanji": "会場",
+      "hiragana": "かいじょう",
+      "korean": "회의장",
+      "english": "meeting place"
+    },
+    {
+      "id": "n4_210",
+      "kanji": "会話",
+      "hiragana": "かいわ",
+      "korean": "대화",
+      "english": "conversation"
+    },
+    {
+      "id": "n4_213",
+      "kanji": "科学",
+      "hiragana": "かがく",
+      "korean": "과학",
+      "english": "science"
+    },
+    {
+      "id": "n4_220",
+      "kanji": "",
+      "hiragana": "ガソリンスタンド",
+      "korean": "주유소",
+      "english": "petrol station"
+    },
+    {
+      "id": "n4_226",
+      "kanji": "",
+      "hiragana": "かっこう",
+      "korean": "모습",
+      "english": "appearance"
+    },
+    {
+      "id": "n4_244",
+      "kanji": "関係",
+      "hiragana": "かんけい",
+      "korean": "관계",
+      "english": "relationship"
+    },
+    {
+      "id": "n4_248",
+      "kanji": "機会",
+      "hiragana": "きかい",
+      "korean": "기회",
+      "english": "opportunity"
+    },
+    {
+      "id": "n4_262",
+      "kanji": "気持ち",
+      "hiragana": "きもち",
+      "korean": "마음",
+      "english": "feeling,mood"
+    },
+    {
+      "id": "n4_267",
+      "kanji": "教育",
+      "hiragana": "きょういく",
+      "korean": "교육",
+      "english": "education"
+    },
+    {
+      "id": "n4_269",
+      "kanji": "競争",
+      "hiragana": "きょうそう",
+      "korean": "경쟁",
+      "english": "competition"
+    },
+    {
+      "id": "n4_287",
+      "kanji": "警察",
+      "hiragana": "けいさつ",
+      "korean": "경찰",
+      "english": "police"
+    },
+    {
+      "id": "n4_303",
+      "kanji": "講義",
+      "hiragana": "こうぎ",
+      "korean": "강의",
+      "english": "lecture"
+    },
+    {
+      "id": "n4_305",
+      "kanji": "高校",
+      "hiragana": "こうこう",
+      "korean": "고등학교",
+      "english": "high school"
+    },
+    {
+      "id": "n4_309",
+      "kanji": "交通",
+      "hiragana": "こうつう",
+      "korean": "교통",
+      "english": "traffic,transportation"
+    },
+    {
+      "id": "n4_311",
+      "kanji": "高等学校",
+      "hiragana": "こうとうがっこう",
+      "korean": "고등학교",
+      "english": "high school"
+    },
+    {
+      "id": "n4_314",
+      "kanji": "心",
+      "hiragana": "こころ",
+      "korean": "마음",
+      "english": "core,heart"
+    },
+    {
+      "id": "n4_317",
+      "kanji": "ご存じ",
+      "hiragana": "ごぞんじ",
+      "korean": "알고 계심",
+      "english": "knowing,acquaintance"
+    },
+    {
+      "id": "n4_327",
+      "kanji": "米",
+      "hiragana": "こめ",
+      "korean": "쌀",
+      "english": "uncooked rice"
+    },
+    {
+      "id": "n4_356",
+      "kanji": "残念",
+      "hiragana": "ざんねん",
+      "korean": "유감",
+      "english": "disappointment"
+    },
+    {
+      "id": "n4_357",
+      "kanji": "市",
+      "hiragana": "し",
+      "korean": "도시",
+      "english": "city"
+    },
+    {
+      "id": "n4_360",
+      "kanji": "仕方",
+      "hiragana": "しかた",
+      "korean": "방법",
+      "english": "method"
+    },
+    {
+      "id": "n4_374",
+      "kanji": "事務所",
+      "hiragana": "じむしょ",
+      "korean": "사무실",
+      "english": "office"
+    },
+    {
+      "id": "n4_375",
+      "kanji": "社会",
+      "hiragana": "しゃかい",
+      "korean": "사회",
+      "english": "society,public"
+    },
+    {
+      "id": "n4_377",
+      "kanji": "",
+      "hiragana": "じゃま",
+      "korean": "방해",
+      "english": "hindrance,intrusion"
+    },
+    {
+      "id": "n4_381",
+      "kanji": "住所",
+      "hiragana": "じゅうしょ",
+      "korean": "주소",
+      "english": "an address,a residence"
+    },
+    {
+      "id": "n4_388",
+      "kanji": "紹介",
+      "hiragana": "しょうかい",
+      "korean": "소개",
+      "english": "introduction"
+    },
+    {
+      "id": "n4_389",
+      "kanji": "小学校",
+      "hiragana": "しょうがっこう",
+      "korean": "초등학교",
+      "english": "elementary school"
+    },
+    {
+      "id": "n4_396",
+      "kanji": "女性",
+      "hiragana": "じょせい",
+      "korean": "여성",
+      "english": "woman"
+    },
+    {
+      "id": "n4_399",
+      "kanji": "人口",
+      "hiragana": "じんこう",
+      "korean": "인구",
+      "english": "population"
+    },
+    {
+      "id": "n4_401",
+      "kanji": "親切",
+      "hiragana": "しんせつ",
+      "korean": "친절",
+      "english": "kindness"
+    },
+    {
+      "id": "n4_407",
+      "kanji": "数学",
+      "hiragana": "すうがく",
+      "korean": "수학",
+      "english": "mathematics,arithmetic"
+    },
+    {
+      "id": "n4_409",
+      "kanji": "",
+      "hiragana": "スーツケース",
+      "korean": "가방",
+      "english": "suitcase"
+    },
+    {
+      "id": "n4_429",
+      "kanji": "政治",
+      "hiragana": "せいじ",
+      "korean": "정치",
+      "english": "politics,government"
+    },
+    {
+      "id": "n4_433",
+      "kanji": "説明",
+      "hiragana": "せつめい",
+      "korean": "설명",
+      "english": "explanation"
+    },
+    {
+      "id": "n4_444",
+      "kanji": "卒業",
+      "hiragana": "そつぎょう",
+      "korean": "졸업",
+      "english": "graduation"
+    },
+    {
+      "id": "n4_455",
+      "kanji": "大学生",
+      "hiragana": "だいがくせい",
+      "korean": "대학생",
+      "english": "university student"
+    },
+    {
+      "id": "n4_480",
+      "kanji": "男性",
+      "hiragana": "だんせい",
+      "korean": "남성",
+      "english": "male"
+    },
+    {
+      "id": "n4_481",
+      "kanji": "暖房",
+      "hiragana": "だんぼう",
+      "korean": "난방",
+      "english": "heating"
+    },
+    {
+      "id": "n4_487",
+      "kanji": "注意",
+      "hiragana": "ちゅうい",
+      "korean": "주의",
+      "english": "caution"
+    },
+    {
+      "id": "n4_488",
+      "kanji": "中学校",
+      "hiragana": "ちゅうがっこう",
+      "korean": "중학교",
+      "english": "junior high school,middle school"
+    },
+    {
+      "id": "n4_489",
+      "kanji": "注射",
+      "hiragana": "ちゅうしゃ",
+      "korean": "주사",
+      "english": "injection"
+    },
+    {
+      "id": "n4_496",
+      "kanji": "都合",
+      "hiragana": "つごう",
+      "korean": "사정",
+      "english": "circumstances,convenience"
+    },
+    {
+      "id": "n4_507",
+      "kanji": "適当",
+      "hiragana": "てきとう",
+      "korean": "적당",
+      "english": "suitability"
+    },
+    {
+      "id": "n4_513",
+      "kanji": "点",
+      "hiragana": "てん",
+      "korean": "점",
+      "english": "point,dot"
+    },
+    {
+      "id": "n4_514",
+      "kanji": "店員",
+      "hiragana": "てんいん",
+      "korean": "점원",
+      "english": "shop assistant"
+    },
+    {
+      "id": "n4_518",
+      "kanji": "展覧会",
+      "hiragana": "てんらんかい",
+      "korean": "전시회",
+      "english": "exhibition"
+    },
+    {
+      "id": "n4_519",
+      "kanji": "都",
+      "hiragana": "みやこ",
+      "korean": "도시",
+      "english": "metropolitan"
+    },
+    {
+      "id": "n4_520",
+      "kanji": "道具",
+      "hiragana": "どうぐ",
+      "korean": "도구",
+      "english": "tool,means"
+    },
+    {
+      "id": "n4_528",
+      "kanji": "途中",
+      "hiragana": "とちゅう",
+      "korean": "도중",
+      "english": "on the way"
+    },
+    {
+      "id": "n4_534",
+      "kanji": "泥棒",
+      "hiragana": "どろぼう",
+      "korean": "도둑",
+      "english": "thief"
+    },
+    {
+      "id": "n4_535",
+      "kanji": "",
+      "hiragana": "どんどん",
+      "korean": "점점",
+      "english": "more and more"
+    },
+    {
+      "id": "n4_561",
+      "kanji": "",
+      "hiragana": "ねだん",
+      "korean": "가격",
+      "english": "price"
+    },
+    {
+      "id": "n4_572",
+      "kanji": "場合",
+      "hiragana": "ばあい",
+      "korean": "경우",
+      "english": "situation"
+    },
+    {
+      "id": "n4_579",
+      "kanji": "場所",
+      "hiragana": "ばしょ",
+      "korean": "장소",
+      "english": "location"
+    },
+    {
+      "id": "n4_583",
+      "kanji": "発音",
+      "hiragana": "はつおん",
+      "korean": "발음",
+      "english": "pronunciation"
+    },
+    {
+      "id": "n4_589",
+      "kanji": "反対",
+      "hiragana": "はんたい",
+      "korean": "반대",
+      "english": "opposition"
+    },
+    {
+      "id": "n4_616",
+      "kanji": "複雑",
+      "hiragana": "ふくざつ",
+      "korean": "복잡",
+      "english": "complexity,complication"
+    },
+    {
+      "id": "n4_617",
+      "kanji": "復習",
+      "hiragana": "ふくしゅう",
+      "korean": "복습",
+      "english": "revision"
+    },
+    {
+      "id": "n4_618",
+      "kanji": "部長",
+      "hiragana": "ぶちょう",
+      "korean": "부장",
+      "english": "head of a section"
+    },
+    {
+      "id": "n4_619",
+      "kanji": "普通",
+      "hiragana": "ふつう",
+      "korean": "보통",
+      "english": "usually, or a train that stops at every station"
+    },
+    {
+      "id": "n4_623",
+      "kanji": "舟",
+      "hiragana": "ふね",
+      "korean": "배",
+      "english": "ship"
+    },
+    {
+      "id": "n4_624",
+      "kanji": "不便",
+      "hiragana": "ふべん",
+      "korean": "불편",
+      "english": "inconvenience"
+    },
+    {
+      "id": "n4_628",
+      "kanji": "文化",
+      "hiragana": "ぶんか",
+      "korean": "문화",
+      "english": "culture"
+    },
+    {
+      "id": "n4_629",
+      "kanji": "文学",
+      "hiragana": "ぶんがく",
+      "korean": "문학",
+      "english": "literature"
+    },
+    {
+      "id": "n4_630",
+      "kanji": "文法",
+      "hiragana": "ぶんぽう",
+      "korean": "문법",
+      "english": "grammar"
+    },
+    {
+      "id": "n4_637",
+      "kanji": "法律",
+      "hiragana": "ほうりつ",
+      "korean": "법률",
+      "english": "law"
+    },
+    {
+      "id": "n4_643",
+      "kanji": "翻訳",
+      "hiragana": "ほんやく",
+      "korean": "번역",
+      "english": "translation"
+    },
+    {
+      "id": "n4_698",
+      "kanji": "用意",
+      "hiragana": "ようい",
+      "korean": "준비",
+      "english": "preparation"
+    },
+    {
+      "id": "n4_702",
+      "kanji": "予約",
+      "hiragana": "よやく",
+      "korean": "예약",
+      "english": "reservation"
+    },
+    {
+      "id": "n4_706",
+      "kanji": "理由",
+      "hiragana": "りゆう",
+      "korean": "이유",
+      "english": "reason"
+    },
+    {
+      "id": "n4_707",
+      "kanji": "利用",
+      "hiragana": "りよう",
+      "korean": "이용",
+      "english": "utilization"
+    },
+    {
+      "id": "n4_710",
+      "kanji": "留守",
+      "hiragana": "るす",
+      "korean": "부재중",
+      "english": "absence"
+    },
+    {
+      "id": "n4_711",
+      "kanji": "冷房",
+      "hiragana": "れいぼう",
+      "korean": "냉방",
+      "english": "air conditioning"
+    },
+    {
+      "id": "n4_712",
+      "kanji": "歴史",
+      "hiragana": "れきし",
+      "korean": "역사",
+      "english": "history"
+    },
+    {
+      "id": "n4_720",
+      "kanji": "訳",
+      "hiragana": "わけ",
+      "korean": "의미",
+      "english": "meaning,reason"
+    }
+  ],
+  "concrete_nouns": [
+    {
+      "id": "n4_103",
+      "kanji": "",
+      "hiragana": "あかちゃん",
+      "korean": "아기",
+      "english": "infant"
+    },
+    {
+      "id": "n4_105",
+      "kanji": "赤ん坊",
+      "hiragana": "あかんぼう",
+      "korean": "아기",
+      "english": "baby"
+    },
+    {
+      "id": "n4_107",
+      "kanji": "",
+      "hiragana": "アクセサリー",
+      "korean": "액세서리",
+      "english": "accessory"
+    },
+    {
+      "id": "n4_110",
+      "kanji": "味",
+      "hiragana": "あじ",
+      "korean": "맛",
+      "english": "flavour"
+    },
+    {
+      "id": "n4_111",
+      "kanji": "",
+      "hiragana": "アジア",
+      "korean": "아시아",
+      "english": "Asia"
+    },
+    {
+      "id": "n4_112",
+      "kanji": "遊び",
+      "hiragana": "あそび",
+      "korean": "놀이",
+      "english": "play"
+    },
+    {
+      "id": "n4_116",
+      "kanji": "",
+      "hiragana": "アフリカ",
+      "korean": "아프리카",
+      "english": "Africa"
+    },
+    {
+      "id": "n4_117",
+      "kanji": "",
+      "hiragana": "アメリカ",
+      "korean": "미국",
+      "english": "America"
+    },
+    {
+      "id": "n4_119",
+      "kanji": "",
+      "hiragana": "アルコール",
+      "korean": "알코올",
+      "english": "alcohol"
+    },
+    {
+      "id": "n4_120",
+      "kanji": "",
+      "hiragana": "アルバイト",
+      "korean": "아르바이트",
+      "english": "part-time job"
+    },
+    {
+      "id": "n4_121",
+      "kanji": "安心",
+      "hiragana": "あんしん",
+      "korean": "안심",
+      "english": "relief"
+    },
+    {
+      "id": "n4_122",
+      "kanji": "安全",
+      "hiragana": "あんぜん",
+      "korean": "안전",
+      "english": "safety"
+    },
+    {
+      "id": "n4_123",
+      "kanji": "",
+      "hiragana": "あんな",
+      "korean": "저런",
+      "english": "such"
+    },
+    {
+      "id": "n4_125",
+      "kanji": "以下",
+      "hiragana": "いか",
+      "korean": "이하",
+      "english": "less than"
+    },
+    {
+      "id": "n4_126",
+      "kanji": "以外",
+      "hiragana": "いがい",
+      "korean": "이외",
+      "english": "with the exception of"
+    },
+    {
+      "id": "n4_130",
+      "kanji": "石",
+      "hiragana": "いし",
+      "korean": "돌",
+      "english": "stone"
+    },
+    {
+      "id": "n4_132",
+      "kanji": "以上",
+      "hiragana": "いじょう",
+      "korean": "이상",
+      "english": "more than,this is all"
+    },
+    {
+      "id": "n4_137",
+      "kanji": "一生懸命",
+      "hiragana": "いっしょうけんめい",
+      "korean": "목숨 걸고 일함",
+      "english": "with utmost effort"
+    },
+    {
+      "id": "n4_138",
+      "kanji": "",
+      "hiragana": "いっぱい",
+      "korean": "가득",
+      "english": "full"
+    },
+    {
+      "id": "n4_139",
+      "kanji": "糸",
+      "hiragana": "いと",
+      "korean": "실",
+      "english": "thread"
+    },
+    {
+      "id": "n4_140",
+      "kanji": "以内",
+      "hiragana": "いない",
+      "korean": "이내",
+      "english": "within"
+    },
+    {
+      "id": "n4_141",
+      "kanji": "田舎",
+      "hiragana": "いなか",
+      "korean": "시골",
+      "english": "countryside"
+    },
+    {
+      "id": "n4_146",
+      "kanji": "受付",
+      "hiragana": "うけつけ",
+      "korean": "접수",
+      "english": "receipt"
+    },
+    {
+      "id": "n4_149",
+      "kanji": "",
+      "hiragana": "うそ",
+      "korean": "거짓말",
+      "english": "a lie"
+    },
+    {
+      "id": "n4_150",
+      "kanji": "",
+      "hiragana": "うち",
+      "korean": "안쪽",
+      "english": "within"
+    },
+    {
+      "id": "n4_155",
+      "kanji": "腕",
+      "hiragana": "うで",
+      "korean": "팔",
+      "english": "arm"
+    },
+    {
+      "id": "n4_156",
+      "kanji": "",
+      "hiragana": "うまい",
+      "korean": "맛있는",
+      "english": "delicious"
+    },
+    {
+      "id": "n4_157",
+      "kanji": "裏",
+      "hiragana": "うら",
+      "korean": "뒷면",
+      "english": "reverse side"
+    },
+    {
+      "id": "n4_158",
+      "kanji": "売り場",
+      "hiragana": "うりば",
+      "korean": "매장",
+      "english": "place where things are sold"
+    },
+    {
+      "id": "n4_159",
+      "kanji": "",
+      "hiragana": "うれしい",
+      "korean": "기쁜",
+      "english": "glad"
+    },
+    {
+      "id": "n4_160",
+      "kanji": "",
+      "hiragana": "うん",
+      "korean": "예",
+      "english": "yes"
+    },
+    {
+      "id": "n4_162",
+      "kanji": "運転手",
+      "hiragana": "うんてんしゅ",
+      "korean": "운전수",
+      "english": "driver"
+    },
+    {
+      "id": "n4_164",
+      "kanji": "",
+      "hiragana": "エスカレーター",
+      "korean": "에스컬레이터",
+      "english": "escalator"
+    },
+    {
+      "id": "n4_165",
+      "kanji": "枝",
+      "hiragana": "えだ",
+      "korean": "나뭇 가지",
+      "english": "branch, twig"
+    },
+    {
+      "id": "n4_170",
+      "kanji": "",
+      "hiragana": "オートバイ",
+      "korean": "오토바이",
+      "english": "motorcycle"
+    },
+    {
+      "id": "n4_171",
+      "kanji": "",
+      "hiragana": "おかげ",
+      "korean": "덕분",
+      "english": "owing to"
+    },
+    {
+      "id": "n4_172",
+      "kanji": "",
+      "hiragana": "おかしい",
+      "korean": "재미있는",
+      "english": "strange or funny"
+    },
+    {
+      "id": "n4_174",
+      "kanji": "屋上",
+      "hiragana": "おくじょう",
+      "korean": "옥상",
+      "english": "rooftop"
+    },
+    {
+      "id": "n4_175",
+      "kanji": "贈り物",
+      "hiragana": "おくりもの",
+      "korean": "선물",
+      "english": "gift"
+    },
+    {
+      "id": "n4_181",
+      "kanji": "押し入れ",
+      "hiragana": "おしいれ",
+      "korean": "옷장",
+      "english": "closet"
+    },
+    {
+      "id": "n4_182",
+      "kanji": "お嬢さん",
+      "hiragana": "おじょうさん",
+      "korean": "아가씨",
+      "english": "young lady"
+    },
+    {
+      "id": "n4_183",
+      "kanji": "お宅",
+      "hiragana": "おたく",
+      "korean": "댁",
+      "english": "your house"
+    },
+    {
+      "id": "n4_186",
+      "kanji": "夫",
+      "hiragana": "おっと",
+      "korean": "남편",
+      "english": "husband"
+    },
+    {
+      "id": "n4_188",
+      "kanji": "音",
+      "hiragana": "おと",
+      "korean": "소리",
+      "english": "sound,note"
+    },
+    {
+      "id": "n4_193",
+      "kanji": "お祭り",
+      "hiragana": "おまつり",
+      "korean": "축제",
+      "english": "festival"
+    },
+    {
+      "id": "n4_194",
+      "kanji": "お見舞い",
+      "hiragana": "おみまい",
+      "korean": "병문안",
+      "english": "calling on someone who is ill,enquiry"
+    },
+    {
+      "id": "n4_195",
+      "kanji": "お土産",
+      "hiragana": "おみやげ",
+      "korean": "기념품",
+      "english": "souvenir"
+    },
+    {
+      "id": "n4_198",
+      "kanji": "",
+      "hiragana": "おもちゃ",
+      "korean": "장난감",
+      "english": "toy"
+    },
+    {
+      "id": "n4_199",
+      "kanji": "表",
+      "hiragana": "おもて",
+      "korean": "표면",
+      "english": "the front"
+    },
+    {
+      "id": "n4_200",
+      "kanji": "親",
+      "hiragana": "おや",
+      "korean": "부모",
+      "english": "parents"
+    },
+    {
+      "id": "n4_203",
+      "kanji": "お礼",
+      "hiragana": "おれい",
+      "korean": "사례",
+      "english": "expression of gratitude"
+    },
+    {
+      "id": "n4_205",
+      "kanji": "終わり",
+      "hiragana": "おわり",
+      "korean": "끝",
+      "english": "the end"
+    },
+    {
+      "id": "n4_206",
+      "kanji": "",
+      "hiragana": "カーテン",
+      "korean": "커튼",
+      "english": "curtain"
+    },
+    {
+      "id": "n4_207",
+      "kanji": "海岸",
+      "hiragana": "かいがん",
+      "korean": "해안",
+      "english": "coast"
+    },
+    {
+      "id": "n4_211",
+      "kanji": "帰り",
+      "hiragana": "かえり",
+      "korean": "귀가",
+      "english": "return"
+    },
+    {
+      "id": "n4_214",
+      "kanji": "鏡",
+      "hiragana": "かがみ",
+      "korean": "거울",
+      "english": "mirror"
+    },
+    {
+      "id": "n4_217",
+      "kanji": "火事",
+      "hiragana": "かじ",
+      "korean": "화재",
+      "english": "fire"
+    },
+    {
+      "id": "n4_218",
+      "kanji": "",
+      "hiragana": "ガス",
+      "korean": "가스",
+      "english": "petrol"
+    },
+    {
+      "id": "n4_219",
+      "kanji": "",
+      "hiragana": "ガソリン",
+      "korean": "가솔린",
+      "english": "petrol"
+    },
+    {
+      "id": "n4_222",
+      "kanji": "形",
+      "hiragana": "かたち",
+      "korean": "형태",
+      "english": "shape"
+    },
+    {
+      "id": "n4_224",
+      "kanji": "課長",
+      "hiragana": "かちょう",
+      "korean": "과장",
+      "english": "section manager"
+    },
+    {
+      "id": "n4_227",
+      "kanji": "家内",
+      "hiragana": "かない",
+      "korean": "아내",
+      "english": "housewife"
+    },
+    {
+      "id": "n4_228",
+      "kanji": "悲しい",
+      "hiragana": "かなしい",
+      "korean": "슬픈",
+      "english": "sad"
+    },
+    {
+      "id": "n4_230",
+      "kanji": "お金持ち",
+      "hiragana": "おかねもち",
+      "korean": "부자",
+      "english": "rich man"
+    },
+    {
+      "id": "n4_231",
+      "kanji": "彼女",
+      "hiragana": "かのじょ",
+      "korean": "그녀",
+      "english": "she"
+    },
+    {
+      "id": "n4_232",
+      "kanji": "壁",
+      "hiragana": "かべ",
+      "korean": "벽",
+      "english": "wall"
+    },
+    {
+      "id": "n4_234",
+      "kanji": "髪",
+      "hiragana": "かみ",
+      "korean": "머리",
+      "english": "hair"
+    },
+    {
+      "id": "n4_237",
+      "kanji": "",
+      "hiragana": "ガラス",
+      "korean": "유리",
+      "english": "a glass pane"
+    },
+    {
+      "id": "n4_238",
+      "kanji": "彼",
+      "hiragana": "かれ",
+      "korean": "그",
+      "english": "he,boyfriend"
+    },
+    {
+      "id": "n4_241",
+      "kanji": "代わり",
+      "hiragana": "かわり",
+      "korean": "대신",
+      "english": "substitute"
+    },
+    {
+      "id": "n4_245",
+      "kanji": "看護婦",
+      "hiragana": "かんごふ",
+      "korean": "간호사",
+      "english": "female nurse"
+    },
+    {
+      "id": "n4_246",
+      "kanji": "簡単",
+      "hiragana": "かんたん",
+      "korean": "간단",
+      "english": "simple"
+    },
+    {
+      "id": "n4_247",
+      "kanji": "気",
+      "hiragana": "き",
+      "korean": "신경",
+      "english": "spirit,mood"
+    },
+    {
+      "id": "n4_249",
+      "kanji": "危険",
+      "hiragana": "きけん",
+      "korean": "위험",
+      "english": "danger"
+    },
+    {
+      "id": "n4_251",
+      "kanji": "汽車",
+      "hiragana": "きしゃ",
+      "korean": "기차",
+      "english": "steam train"
+    },
+    {
+      "id": "n4_252",
+      "kanji": "技術",
+      "hiragana": "ぎじゅつ",
+      "korean": "기술",
+      "english": "art,technology,skill"
+    },
+    {
+      "id": "n4_253",
+      "kanji": "季節",
+      "hiragana": "きせつ",
+      "korean": "계절",
+      "english": "season"
+    },
+    {
+      "id": "n4_254",
+      "kanji": "規則",
+      "hiragana": "きそく",
+      "korean": "규칙",
+      "english": "regulations"
+    },
+    {
+      "id": "n4_256",
+      "kanji": "絹",
+      "hiragana": "きぬ",
+      "korean": "실크",
+      "english": "silk"
+    },
+    {
+      "id": "n4_258",
+      "kanji": "気分",
+      "hiragana": "きぶん",
+      "korean": "기분",
+      "english": "mood"
+    },
+    {
+      "id": "n4_260",
+      "kanji": "君",
+      "hiragana": "くん",
+      "korean": "너",
+      "english": "You"
+    },
+    {
+      "id": "n4_263",
+      "kanji": "着物",
+      "hiragana": "きもの",
+      "korean": "일본 옷",
+      "english": "kimono"
+    },
+    {
+      "id": "n4_264",
+      "kanji": "客",
+      "hiragana": "きゃく",
+      "korean": "고객",
+      "english": "guest,customer"
+    },
+    {
+      "id": "n4_265",
+      "kanji": "急",
+      "hiragana": "きゅう",
+      "korean": "갑자기",
+      "english": "urgent, steep"
+    },
+    {
+      "id": "n4_266",
+      "kanji": "急行",
+      "hiragana": "きゅうこう",
+      "korean": "급행",
+      "english": "speedy, express"
+    },
+    {
+      "id": "n4_268",
+      "kanji": "教会",
+      "hiragana": "きょうかい",
+      "korean": "교회",
+      "english": "church"
+    },
+    {
+      "id": "n4_270",
+      "kanji": "興味",
+      "hiragana": "きょうみ",
+      "korean": "흥미",
+      "english": "an interest"
+    },
+    {
+      "id": "n4_271",
+      "kanji": "近所",
+      "hiragana": "きんじょ",
+      "korean": "인근",
+      "english": "neighbourhood"
+    },
+    {
+      "id": "n4_272",
+      "kanji": "具合",
+      "hiragana": "ぐあい",
+      "korean": "상태",
+      "english": "condition,health"
+    },
+    {
+      "id": "n4_273",
+      "kanji": "空気",
+      "hiragana": "くうき",
+      "korean": "공기",
+      "english": "air,atmosphere"
+    },
+    {
+      "id": "n4_274",
+      "kanji": "空港",
+      "hiragana": "くうこう",
+      "korean": "공항",
+      "english": "airport"
+    },
+    {
+      "id": "n4_275",
+      "kanji": "草",
+      "hiragana": "くさ",
+      "korean": "잔디",
+      "english": "grass"
+    },
+    {
+      "id": "n4_277",
+      "kanji": "首",
+      "hiragana": "くび",
+      "korean": "목",
+      "english": "neck"
+    },
+    {
+      "id": "n4_278",
+      "kanji": "雲",
+      "hiragana": "くも",
+      "korean": "구름",
+      "english": "cloud"
+    },
+    {
+      "id": "n4_282",
+      "kanji": "君",
+      "hiragana": "くん",
+      "korean": "너",
+      "english": "suffix for familiar young male"
+    },
+    {
+      "id": "n4_283",
+      "kanji": "毛",
+      "hiragana": "け",
+      "korean": "머리카락",
+      "english": "hair or fur"
+    },
+    {
+      "id": "n4_286",
+      "kanji": "経済",
+      "hiragana": "けいざい",
+      "korean": "경제",
+      "english": "finance,economy"
+    },
+    {
+      "id": "n4_288",
+      "kanji": "",
+      "hiragana": "ケーキ",
+      "korean": "케이크",
+      "english": "cake"
+    },
+    {
+      "id": "n4_290",
+      "kanji": "景色",
+      "hiragana": "けしき",
+      "korean": "전망",
+      "english": "scene,landscape"
+    },
+    {
+      "id": "n4_291",
+      "kanji": "消しゴム",
+      "hiragana": "けしごむ",
+      "korean": "지우개",
+      "english": "eraser"
+    },
+    {
+      "id": "n4_292",
+      "kanji": "下宿",
+      "hiragana": "げしゅく",
+      "korean": "하숙",
+      "english": "lodging"
+    },
+    {
+      "id": "n4_293",
+      "kanji": "決して",
+      "hiragana": "けっして",
+      "korean": "결코",
+      "english": "never"
+    },
+    {
+      "id": "n4_297",
+      "kanji": "研究",
+      "hiragana": "けんきゅう",
+      "korean": "연구",
+      "english": "research"
+    },
+    {
+      "id": "n4_298",
+      "kanji": "研究室",
+      "hiragana": "けんきゅうしつ",
+      "korean": "연구실",
+      "english": "study room,laboratory"
+    },
+    {
+      "id": "n4_299",
+      "kanji": "見物",
+      "hiragana": "けんぶつ",
+      "korean": "구경",
+      "english": "sightseeing"
+    },
+    {
+      "id": "n4_300",
+      "kanji": "子",
+      "hiragana": "こ",
+      "korean": "아이",
+      "english": "child"
+    },
+    {
+      "id": "n4_302",
+      "kanji": "郊外",
+      "hiragana": "こうがい",
+      "korean": "교외",
+      "english": "outskirts"
+    },
+    {
+      "id": "n4_304",
+      "kanji": "工業",
+      "hiragana": "こうぎょう",
+      "korean": "공업",
+      "english": "the manufacturing industry"
+    },
+    {
+      "id": "n4_306",
+      "kanji": "高校生",
+      "hiragana": "こうこうせい",
+      "korean": "고교생",
+      "english": "high school student"
+    },
+    {
+      "id": "n4_307",
+      "kanji": "工場",
+      "hiragana": "こうじょう",
+      "korean": "공장",
+      "english": "factory"
+    },
+    {
+      "id": "n4_308",
+      "kanji": "校長",
+      "hiragana": "こうちょう",
+      "korean": "교장",
+      "english": "headmaster"
+    },
+    {
+      "id": "n4_310",
+      "kanji": "講堂",
+      "hiragana": "こうどう",
+      "korean": "강당",
+      "english": "auditorium"
+    },
+    {
+      "id": "n4_312",
+      "kanji": "公務員",
+      "hiragana": "こうむいん",
+      "korean": "공무원",
+      "english": "government worker"
+    },
+    {
+      "id": "n4_313",
+      "kanji": "国際",
+      "hiragana": "こくさい",
+      "korean": "국제",
+      "english": "international"
+    },
+    {
+      "id": "n4_315",
+      "kanji": "御主人",
+      "hiragana": "ごしゅじん",
+      "korean": "주인님",
+      "english": "your husband"
+    },
+    {
+      "id": "n4_318",
+      "kanji": "答",
+      "hiragana": "こたえ",
+      "korean": "답",
+      "english": "response"
+    },
+    {
+      "id": "n4_319",
+      "kanji": "",
+      "hiragana": "ごちそう",
+      "korean": "잔치",
+      "english": "a feast"
+    },
+    {
+      "id": "n4_320",
+      "kanji": "",
+      "hiragana": "こと",
+      "korean": "일",
+      "english": "thing,matter"
+    },
+    {
+      "id": "n4_321",
+      "kanji": "小鳥",
+      "hiragana": "ことり",
+      "korean": "작은 새",
+      "english": "small bird"
+    },
+    {
+      "id": "n4_323",
+      "kanji": "",
+      "hiragana": "このごろ",
+      "korean": "요즈음",
+      "english": "these days,nowadays"
+    },
+    {
+      "id": "n4_325",
+      "kanji": "",
+      "hiragana": "ごみ",
+      "korean": "쓰레기",
+      "english": "rubbish"
+    },
+    {
+      "id": "n4_333",
+      "kanji": "",
+      "hiragana": "コンサート",
+      "korean": "콘서트",
+      "english": "concert"
+    },
+    {
+      "id": "n4_334",
+      "kanji": "今度",
+      "hiragana": "こんど",
+      "korean": "이번",
+      "english": "now,next time"
+    },
+    {
+      "id": "n4_335",
+      "kanji": "",
+      "hiragana": "コンピュータ",
+      "korean": "컴퓨터",
+      "english": "computer"
+    },
+    {
+      "id": "n4_336",
+      "kanji": "今夜",
+      "hiragana": "こんや",
+      "korean": "오늘 밤",
+      "english": "tonight"
+    },
+    {
+      "id": "n4_337",
+      "kanji": "最近",
+      "hiragana": "さいきん",
+      "korean": "최근",
+      "english": "latest,nowadays"
+    },
+    {
+      "id": "n4_338",
+      "kanji": "最後",
+      "hiragana": "さいご",
+      "korean": "마지막",
+      "english": "last,end"
+    },
+    {
+      "id": "n4_339",
+      "kanji": "最初",
+      "hiragana": "さいしょ",
+      "korean": "처음",
+      "english": "beginning,first"
+    },
+    {
+      "id": "n4_340",
+      "kanji": "坂",
+      "hiragana": "さか",
+      "korean": "비탈길",
+      "english": "slope,hill"
+    },
+    {
+      "id": "n4_343",
+      "kanji": "盛ん",
+      "hiragana": "さかん",
+      "korean": "활발",
+      "english": "popularity,prosperous"
+    },
+    {
+      "id": "n4_346",
+      "kanji": "",
+      "hiragana": "さっき",
+      "korean": "아까",
+      "english": "some time ago"
+    },
+    {
+      "id": "n4_348",
+      "kanji": "さ来月",
+      "hiragana": "さらいげつ",
+      "korean": "다음 달",
+      "english": "the month after next"
+    },
+    {
+      "id": "n4_349",
+      "kanji": "さ来週",
+      "hiragana": "さらいしゅう",
+      "korean": "다음주",
+      "english": "the week after next"
+    },
+    {
+      "id": "n4_350",
+      "kanji": "",
+      "hiragana": "サラダ",
+      "korean": "샐러드",
+      "english": "salad"
+    },
+    {
+      "id": "n4_353",
+      "kanji": "産業",
+      "hiragana": "さんぎょう",
+      "korean": "산업",
+      "english": "industry"
+    },
+    {
+      "id": "n4_355",
+      "kanji": "",
+      "hiragana": "サンドイッチ",
+      "korean": "샌드위치",
+      "english": "sandwich"
+    },
+    {
+      "id": "n4_358",
+      "kanji": "字",
+      "hiragana": "じ",
+      "korean": "글자",
+      "english": "character"
+    },
+    {
+      "id": "n4_359",
+      "kanji": "試合",
+      "hiragana": "しあい",
+      "korean": "시합",
+      "english": "match,game"
+    },
+    {
+      "id": "n4_362",
+      "kanji": "事故",
+      "hiragana": "じこ",
+      "korean": "사고",
+      "english": "accident"
+    },
+    {
+      "id": "n4_363",
+      "kanji": "地震",
+      "hiragana": "じしん",
+      "korean": "지진",
+      "english": "earthquake"
+    },
+    {
+      "id": "n4_364",
+      "kanji": "時代",
+      "hiragana": "じだい",
+      "korean": "시대",
+      "english": "era"
+    },
+    {
+      "id": "n4_365",
+      "kanji": "下着",
+      "hiragana": "したぎ",
+      "korean": "속옷",
+      "english": "underwear"
+    },
+    {
+      "id": "n4_368",
+      "kanji": "失敗",
+      "hiragana": "しっぱい",
+      "korean": "실패",
+      "english": "failure,mistake"
+    },
+    {
+      "id": "n4_369",
+      "kanji": "辞典",
+      "hiragana": "じてん",
+      "korean": "사전",
+      "english": "dictionary"
+    },
+    {
+      "id": "n4_370",
+      "kanji": "品物",
+      "hiragana": "しなもの",
+      "korean": "물건",
+      "english": "goods"
+    },
+    {
+      "id": "n4_371",
+      "kanji": "",
+      "hiragana": "しばらく",
+      "korean": "잠깐",
+      "english": "little while"
+    },
+    {
+      "id": "n4_372",
+      "kanji": "島",
+      "hiragana": "しま",
+      "korean": "섬",
+      "english": "island"
+    },
+    {
+      "id": "n4_373",
+      "kanji": "市民",
+      "hiragana": "しみん",
+      "korean": "시민",
+      "english": "citizen"
+    },
+    {
+      "id": "n4_376",
+      "kanji": "社長",
+      "hiragana": "しゃちょう",
+      "korean": "사장",
+      "english": "company president"
+    },
+    {
+      "id": "n4_378",
+      "kanji": "",
+      "hiragana": "ジャム",
+      "korean": "잼",
+      "english": "jam"
+    },
+    {
+      "id": "n4_379",
+      "kanji": "自由",
+      "hiragana": "じゆう",
+      "korean": "자유",
+      "english": "freedom"
+    },
+    {
+      "id": "n4_380",
+      "kanji": "習慣",
+      "hiragana": "しゅうかん",
+      "korean": "습관",
+      "english": "custom,manners"
+    },
+    {
+      "id": "n4_386",
+      "kanji": "趣味",
+      "hiragana": "しゅみ",
+      "korean": "취미",
+      "english": "hobby"
+    },
+    {
+      "id": "n4_390",
+      "kanji": "小説",
+      "hiragana": "しょうせつ",
+      "korean": "소설",
+      "english": "novel"
+    },
+    {
+      "id": "n4_393",
+      "kanji": "将来",
+      "hiragana": "しょうらい",
+      "korean": "장래",
+      "english": "future,prospects"
+    },
+    {
+      "id": "n4_395",
+      "kanji": "食料品",
+      "hiragana": "しょくりょうひん",
+      "korean": "식료품",
+      "english": "groceries"
+    },
+    {
+      "id": "n4_400",
+      "kanji": "神社",
+      "hiragana": "じんじゃ",
+      "korean": "신사",
+      "english": "Shinto shrine"
+    },
+    {
+      "id": "n4_403",
+      "kanji": "新聞社",
+      "hiragana": "しんぶんしゃ",
+      "korean": "신문사",
+      "english": "newspaper company"
+    },
+    {
+      "id": "n4_404",
+      "kanji": "水泳",
+      "hiragana": "すいえい",
+      "korean": "수영",
+      "english": "swimming"
+    },
+    {
+      "id": "n4_408",
+      "kanji": "",
+      "hiragana": "スーツ",
+      "korean": "정장",
+      "english": "suit"
+    },
+    {
+      "id": "n4_412",
+      "kanji": "",
+      "hiragana": "スクリーン",
+      "korean": "스크린",
+      "english": "screen"
+    },
+    {
+      "id": "n4_416",
+      "kanji": "",
+      "hiragana": "すっと",
+      "korean": "갑자기",
+      "english": "all of a sudden"
+    },
+    {
+      "id": "n4_417",
+      "kanji": "",
+      "hiragana": "ステーキ",
+      "korean": "스테이크",
+      "english": "steak"
+    },
+    {
+      "id": "n4_419",
+      "kanji": "",
+      "hiragana": "ステレオ",
+      "korean": "스테레오",
+      "english": "stereo"
+    },
+    {
+      "id": "n4_420",
+      "kanji": "砂",
+      "hiragana": "すな",
+      "korean": "모래",
+      "english": "sand"
+    },
+    {
+      "id": "n4_423",
+      "kanji": "隅",
+      "hiragana": "すみ",
+      "korean": "모서리",
+      "english": "corner,nook"
+    },
+    {
+      "id": "n4_425",
+      "kanji": "",
+      "hiragana": "すり",
+      "korean": "소매치기",
+      "english": "pickpocket"
+    },
+    {
+      "id": "n4_426",
+      "kanji": "",
+      "hiragana": "すると",
+      "korean": "그러자",
+      "english": "then"
+    },
+    {
+      "id": "n4_430",
+      "kanji": "西洋",
+      "hiragana": "せいよう",
+      "korean": "서양",
+      "english": "western countries"
+    },
+    {
+      "id": "n4_431",
+      "kanji": "世界",
+      "hiragana": "せかい",
+      "korean": "세계",
+      "english": "the world"
+    },
+    {
+      "id": "n4_432",
+      "kanji": "席",
+      "hiragana": "せき",
+      "korean": "좌석",
+      "english": "seat"
+    },
+    {
+      "id": "n4_434",
+      "kanji": "背中",
+      "hiragana": "せなか",
+      "korean": "등",
+      "english": "back of the body"
+    },
+    {
+      "id": "n4_437",
+      "kanji": "線",
+      "hiragana": "せん",
+      "korean": "선",
+      "english": "line"
+    },
+    {
+      "id": "n4_439",
+      "kanji": "戦争",
+      "hiragana": "せんそう",
+      "korean": "전쟁",
+      "english": "war"
+    },
+    {
+      "id": "n4_440",
+      "kanji": "先輩",
+      "hiragana": "せんぱい",
+      "korean": "선배",
+      "english": "senior"
+    },
+    {
+      "id": "n4_445",
+      "kanji": "祖父",
+      "hiragana": "そふ",
+      "korean": "할아버지",
+      "english": "grandfather"
+    },
+    {
+      "id": "n4_446",
+      "kanji": "",
+      "hiragana": "ソフト",
+      "korean": "소프트",
+      "english": "soft"
+    },
+    {
+      "id": "n4_447",
+      "kanji": "祖母",
+      "hiragana": "そぼ",
+      "korean": "할머니",
+      "english": "grandmother"
+    },
+    {
+      "id": "n4_449",
+      "kanji": "",
+      "hiragana": "それに",
+      "korean": "게다가",
+      "english": "moreover"
+    },
+    {
+      "id": "n4_451",
+      "kanji": "",
+      "hiragana": "そろそろ",
+      "korean": "슬슬",
+      "english": "gradually,soon"
+    },
+    {
+      "id": "n4_452",
+      "kanji": "",
+      "hiragana": "そんな",
+      "korean": "그런",
+      "english": "that sort of"
+    },
+    {
+      "id": "n4_456",
+      "kanji": "大事",
+      "hiragana": "だいじ",
+      "korean": "중요",
+      "english": "important,valuable,serious matter"
+    },
+    {
+      "id": "n4_459",
+      "kanji": "",
+      "hiragana": "タイプ",
+      "korean": "유형",
+      "english": "type,style"
+    },
+    {
+      "id": "n4_461",
+      "kanji": "台風",
+      "hiragana": "たいふう",
+      "korean": "태풍",
+      "english": "typhoon"
+    },
+    {
+      "id": "n4_464",
+      "kanji": "確か",
+      "hiragana": "たしか",
+      "korean": "확실함",
+      "english": "definite"
+    },
+    {
+      "id": "n4_468",
+      "kanji": "正しい",
+      "hiragana": "ただしい",
+      "korean": "올바른",
+      "english": "correct"
+    },
+    {
+      "id": "n4_469",
+      "kanji": "畳",
+      "hiragana": "たたみ",
+      "korean": "다다미",
+      "english": "Japanese straw mat"
+    },
+    {
+      "id": "n4_472",
+      "kanji": "例えば",
+      "hiragana": "たとえば",
+      "korean": "예를 들어",
+      "english": "for example"
+    },
+    {
+      "id": "n4_473",
+      "kanji": "棚",
+      "hiragana": "たな",
+      "korean": "선반",
+      "english": "shelves"
+    },
+    {
+      "id": "n4_474",
+      "kanji": "楽しみ",
+      "hiragana": "たのしみ",
+      "korean": "즐거움",
+      "english": "joy"
+    },
+    {
+      "id": "n4_477",
+      "kanji": "為",
+      "hiragana": "ため",
+      "korean": "위해",
+      "english": "in order to"
+    },
+    {
+      "id": "n4_478",
+      "kanji": "",
+      "hiragana": "だめ",
+      "korean": "안돼",
+      "english": "no good"
+    },
+    {
+      "id": "n4_482",
+      "kanji": "血",
+      "hiragana": "ち",
+      "korean": "피",
+      "english": "blood"
+    },
+    {
+      "id": "n4_484",
+      "kanji": "力",
+      "hiragana": "ちから",
+      "korean": "힘",
+      "english": "strength,power"
+    },
+    {
+      "id": "n4_486",
+      "kanji": "",
+      "hiragana": "ちゃん",
+      "korean": "여성 호칭",
+      "english": "suffix for female"
+    },
+    {
+      "id": "n4_490",
+      "kanji": "駐車場",
+      "hiragana": "ちゅうしゃじょう",
+      "korean": "주차장",
+      "english": "parking lot"
+    },
+    {
+      "id": "n4_491",
+      "kanji": "地理",
+      "hiragana": "ちり",
+      "korean": "지리",
+      "english": "geography"
+    },
+    {
+      "id": "n4_493",
+      "kanji": "",
+      "hiragana": "つき",
+      "korean": "달",
+      "english": "moon"
+    },
+    {
+      "id": "n4_501",
+      "kanji": "妻",
+      "hiragana": "つま",
+      "korean": "아내",
+      "english": "wife"
+    },
+    {
+      "id": "n4_505",
+      "kanji": "丁寧",
+      "hiragana": "ていねい",
+      "korean": "친절",
+      "english": "polite"
+    },
+    {
+      "id": "n4_506",
+      "kanji": "",
+      "hiragana": "テキスト",
+      "korean": "텍스트",
+      "english": "text,text book"
+    },
+    {
+      "id": "n4_508",
+      "kanji": "",
+      "hiragana": "できるだけ",
+      "korean": "가능한 한 많이",
+      "english": "as much as possible"
+    },
+    {
+      "id": "n4_510",
+      "kanji": "",
+      "hiragana": "テニス",
+      "korean": "테니스",
+      "english": "tennis"
+    },
+    {
+      "id": "n4_511",
+      "kanji": "手袋",
+      "hiragana": "てぶくろ",
+      "korean": "장갑",
+      "english": "glove"
+    },
+    {
+      "id": "n4_512",
+      "kanji": "寺",
+      "hiragana": "てら",
+      "korean": "사원",
+      "english": "temple"
+    },
+    {
+      "id": "n4_515",
+      "kanji": "天気予報",
+      "hiragana": "てんきよほう",
+      "korean": "날씨 예보",
+      "english": "weather forecast"
+    },
+    {
+      "id": "n4_516",
+      "kanji": "電灯",
+      "hiragana": "でんとう",
+      "korean": "전등",
+      "english": "electric light"
+    },
+    {
+      "id": "n4_517",
+      "kanji": "電報",
+      "hiragana": "でんぽう",
+      "korean": "전보",
+      "english": "telegram"
+    },
+    {
+      "id": "n4_521",
+      "kanji": "",
+      "hiragana": "とうとう",
+      "korean": "드디어",
+      "english": "finally, after all"
+    },
+    {
+      "id": "n4_522",
+      "kanji": "動物園",
+      "hiragana": "どうぶつえん",
+      "korean": "동물원",
+      "english": "zoo"
+    },
+    {
+      "id": "n4_523",
+      "kanji": "遠く",
+      "hiragana": "とおく",
+      "korean": "먼",
+      "english": "distant"
+    },
+    {
+      "id": "n4_526",
+      "kanji": "特別",
+      "hiragana": "とくべつ",
+      "korean": "특별",
+      "english": "special"
+    },
+    {
+      "id": "n4_527",
+      "kanji": "",
+      "hiragana": "とこや",
+      "korean": "이발사",
+      "english": "barber"
+    },
+    {
+      "id": "n4_529",
+      "kanji": "特急",
+      "hiragana": "とっきゅう",
+      "korean": "특급",
+      "english": "limited express train"
+    },
+    {
+      "id": "n4_549",
+      "kanji": "",
+      "hiragana": "におい",
+      "korean": "냄새",
+      "english": "a smell"
+    },
+    {
+      "id": "n4_550",
+      "kanji": "苦い",
+      "hiragana": "にがい",
+      "korean": "쓴",
+      "english": "bitter"
+    },
+    {
+      "id": "n4_551",
+      "kanji": "二階建て",
+      "hiragana": "にかいだてて",
+      "korean": "이층",
+      "english": "two storied"
+    },
+    {
+      "id": "n4_553",
+      "kanji": "日記",
+      "hiragana": "にっき",
+      "korean": "일기",
+      "english": "journal"
+    },
+    {
+      "id": "n4_557",
+      "kanji": "人形",
+      "hiragana": "にんぎょう",
+      "korean": "인형",
+      "english": "doll, figure"
+    },
+    {
+      "id": "n4_562",
+      "kanji": "熱",
+      "hiragana": "ねつ",
+      "korean": "열",
+      "english": "fever"
+    },
+    {
+      "id": "n4_563",
+      "kanji": "",
+      "hiragana": "ねっしん",
+      "korean": "열심",
+      "english": "enthusiasm"
+    },
+    {
+      "id": "n4_564",
+      "kanji": "寝坊",
+      "hiragana": "ねぼう",
+      "korean": "늦잠",
+      "english": "sleeping in late"
+    },
+    {
+      "id": "n4_565",
+      "kanji": "眠い",
+      "hiragana": "ねむい",
+      "korean": "졸린",
+      "english": "sleepy"
+    },
+    {
+      "id": "n4_568",
+      "kanji": "",
+      "hiragana": "のど",
+      "korean": "목",
+      "english": "throat"
+    },
+    {
+      "id": "n4_570",
+      "kanji": "乗り物",
+      "hiragana": "のりもの",
+      "korean": "놀이기구",
+      "english": "vehicle"
+    },
+    {
+      "id": "n4_571",
+      "kanji": "葉",
+      "hiragana": "は",
+      "korean": "잎",
+      "english": "leaf"
+    },
+    {
+      "id": "n4_573",
+      "kanji": "",
+      "hiragana": "パート",
+      "korean": "아르바이트",
+      "english": "part time"
+    },
+    {
+      "id": "n4_574",
+      "kanji": "倍",
+      "hiragana": "ばい",
+      "korean": "배",
+      "english": "double"
+    },
+    {
+      "id": "n4_576",
+      "kanji": "歯医者",
+      "hiragana": "はいしゃ",
+      "korean": "치과",
+      "english": "dentist"
+    },
+    {
+      "id": "n4_580",
+      "kanji": "",
+      "hiragana": "はず",
+      "korean": "할 것",
+      "english": "it should be so"
+    },
+    {
+      "id": "n4_582",
+      "kanji": "",
+      "hiragana": "パソコン",
+      "korean": "컴퓨터",
+      "english": "personal computer"
+    },
+    {
+      "id": "n4_585",
+      "kanji": "花見",
+      "hiragana": "はなみ",
+      "korean": "꽃놀이",
+      "english": "cherry-blossom viewing"
+    },
+    {
+      "id": "n4_586",
+      "kanji": "林",
+      "hiragana": "はやし",
+      "korean": "숲",
+      "english": "woods,forester"
+    },
+    {
+      "id": "n4_588",
+      "kanji": "番組",
+      "hiragana": "ばんぐみ",
+      "korean": "프로그램",
+      "english": "television or radio program"
+    },
+    {
+      "id": "n4_590",
+      "kanji": "",
+      "hiragana": "ハンドバッグ",
+      "korean": "핸드백",
+      "english": "handbag"
+    },
+    {
+      "id": "n4_591",
+      "kanji": "日",
+      "hiragana": "ひ",
+      "korean": "일",
+      "english": "day, sun"
+    },
+    {
+      "id": "n4_592",
+      "kanji": "火",
+      "hiragana": "ひ",
+      "korean": "불",
+      "english": "fire"
+    },
+    {
+      "id": "n4_593",
+      "kanji": "",
+      "hiragana": "ピアノ",
+      "korean": "피아노",
+      "english": "piano"
+    },
+    {
+      "id": "n4_595",
+      "kanji": "光",
+      "hiragana": "ひかり",
+      "korean": "빛",
+      "english": "light"
+    },
+    {
+      "id": "n4_597",
+      "kanji": "引き出し",
+      "hiragana": "ひきだし",
+      "korean": "서랍",
+      "english": "drawer,drawing out"
+    },
+    {
+      "id": "n4_599",
+      "kanji": "",
+      "hiragana": "ひげ",
+      "korean": "수염",
+      "english": "beard"
+    },
+    {
+      "id": "n4_600",
+      "kanji": "飛行場",
+      "hiragana": "ひこうじょう",
+      "korean": "비행장",
+      "english": "airport"
+    },
+    {
+      "id": "n4_602",
+      "kanji": "美術館",
+      "hiragana": "びじゅつかん",
+      "korean": "미술관",
+      "english": "art gallery"
+    },
+    {
+      "id": "n4_606",
+      "kanji": "必要",
+      "hiragana": "ひつよう",
+      "korean": "필요",
+      "english": "necessary"
+    },
+    {
+      "id": "n4_609",
+      "kanji": "",
+      "hiragana": "ビル",
+      "korean": "빌딩",
+      "english": "building or bill"
+    },
+    {
+      "id": "n4_610",
+      "kanji": "昼間",
+      "hiragana": "ひるま",
+      "korean": "주간",
+      "english": "daytime,during the day"
+    },
+    {
+      "id": "n4_611",
+      "kanji": "昼休み",
+      "hiragana": "ひるやすみ",
+      "korean": "점심 시간",
+      "english": "noon break"
+    },
+    {
+      "id": "n4_613",
+      "kanji": "",
+      "hiragana": "ファックス",
+      "korean": "팩스",
+      "english": "fax"
+    },
+    {
+      "id": "n4_622",
+      "kanji": "布団",
+      "hiragana": "ふとん",
+      "korean": "이불",
+      "english": "Japanese bedding, futon"
+    },
+    {
+      "id": "n4_627",
+      "kanji": "",
+      "hiragana": "プレゼント",
+      "korean": "선물",
+      "english": "present"
+    },
+    {
+      "id": "n4_631",
+      "kanji": "別",
+      "hiragana": "べつ",
+      "korean": "차이",
+      "english": "different"
+    },
+    {
+      "id": "n4_632",
+      "kanji": "",
+      "hiragana": "ベル",
+      "korean": "벨",
+      "english": "bell"
+    },
+    {
+      "id": "n4_633",
+      "kanji": "変",
+      "hiragana": "へん",
+      "korean": "이상함",
+      "english": "strange"
+    },
+    {
+      "id": "n4_635",
+      "kanji": "貿易",
+      "hiragana": "ぼうえき",
+      "korean": "무역",
+      "english": "trade"
+    },
+    {
+      "id": "n4_638",
+      "kanji": "僕",
+      "hiragana": "ぼく",
+      "korean": "나",
+      "english": "I"
+    },
+    {
+      "id": "n4_639",
+      "kanji": "星",
+      "hiragana": "ほし",
+      "korean": "별",
+      "english": "star"
+    },
+    {
+      "id": "n4_646",
+      "kanji": "",
+      "hiragana": "まじめ",
+      "korean": "진심",
+      "english": "serious"
+    },
+    {
+      "id": "n4_648",
+      "kanji": "",
+      "hiragana": "または",
+      "korean": "또는",
+      "english": "or,otherwise"
+    },
+    {
+      "id": "n4_650",
+      "kanji": "周り",
+      "hiragana": "まわり",
+      "korean": "주위",
+      "english": "surroundings"
+    },
+    {
+      "id": "n4_652",
+      "kanji": "漫画",
+      "hiragana": "まんが",
+      "korean": "만화",
+      "english": "comic"
+    },
+    {
+      "id": "n4_653",
+      "kanji": "真中",
+      "hiragana": "まんなか",
+      "korean": "한가운데",
+      "english": "middle"
+    },
+    {
+      "id": "n4_655",
+      "kanji": "湖",
+      "hiragana": "みずうみ",
+      "korean": "호수",
+      "english": "lake"
+    },
+    {
+      "id": "n4_656",
+      "kanji": "味噌",
+      "hiragana": "みそ",
+      "korean": "된장",
+      "english": "bean paste"
+    },
+    {
+      "id": "n4_659",
+      "kanji": "皆",
+      "hiragana": "みな",
+      "korean": "모두",
+      "english": "everybody"
+    },
+    {
+      "id": "n4_660",
+      "kanji": "港",
+      "hiragana": "みなと",
+      "korean": "항구",
+      "english": "harbour"
+    },
+    {
+      "id": "n4_663",
+      "kanji": "昔",
+      "hiragana": "むかし",
+      "korean": "옛날",
+      "english": "olden days, former"
+    },
+    {
+      "id": "n4_664",
+      "kanji": "虫",
+      "hiragana": "むし",
+      "korean": "벌레",
+      "english": "insect"
+    },
+    {
+      "id": "n4_666",
+      "kanji": "娘",
+      "hiragana": "むすめ",
+      "korean": "딸",
+      "english": "daughter"
+    },
+    {
+      "id": "n4_667",
+      "kanji": "無理",
+      "hiragana": "むり",
+      "korean": "무리",
+      "english": "impossible"
+    },
+    {
+      "id": "n4_669",
+      "kanji": "珍しい",
+      "hiragana": "めずらしい",
+      "korean": "드문",
+      "english": "rare"
+    },
+    {
+      "id": "n4_672",
+      "kanji": "",
+      "hiragana": "もうすぐ",
+      "korean": "곧",
+      "english": "soon"
+    },
+    {
+      "id": "n4_673",
+      "kanji": "",
+      "hiragana": "もし",
+      "korean": "만약",
+      "english": "if"
+    },
+    {
+      "id": "n4_677",
+      "kanji": "木綿",
+      "hiragana": "もめん",
+      "korean": "면직물",
+      "english": "cotton"
+    },
+    {
+      "id": "n4_679",
+      "kanji": "森",
+      "hiragana": "もり",
+      "korean": "숲",
+      "english": "forest"
+    },
+    {
+      "id": "n4_685",
+      "kanji": "",
+      "hiragana": "やっと",
+      "korean": "겨우",
+      "english": "at last"
+    },
+    {
+      "id": "n4_690",
+      "kanji": "湯",
+      "hiragana": "ゆ",
+      "korean": "뜨거운 물",
+      "english": "hot water"
+    },
+    {
+      "id": "n4_693",
+      "kanji": "指",
+      "hiragana": "ゆび",
+      "korean": "손가락",
+      "english": "finger"
+    },
+    {
+      "id": "n4_694",
+      "kanji": "指輪",
+      "hiragana": "ゆびわ",
+      "korean": "반지",
+      "english": "finger ring"
+    },
+    {
+      "id": "n4_695",
+      "kanji": "夢",
+      "hiragana": "ゆめ",
+      "korean": "꿈",
+      "english": "dream"
+    },
+    {
+      "id": "n4_699",
+      "kanji": "用事",
+      "hiragana": "ようじ",
+      "korean": "용무",
+      "english": "things to do"
+    },
+    {
+      "id": "n4_701",
+      "kanji": "予習",
+      "hiragana": "よしゅう",
+      "korean": "예습",
+      "english": "preparation for a lesson"
+    },
+    {
+      "id": "n4_708",
+      "kanji": "両方",
+      "hiragana": "りょうほう",
+      "korean": "모두",
+      "english": "both sides"
+    },
+    {
+      "id": "n4_709",
+      "kanji": "旅館",
+      "hiragana": "りょかん",
+      "korean": "여관",
+      "english": "Japanese hotel"
+    },
+    {
+      "id": "n4_713",
+      "kanji": "",
+      "hiragana": "レジ",
+      "korean": "레지스터",
+      "english": "register"
+    },
+    {
+      "id": "n4_715",
+      "kanji": "連絡",
+      "hiragana": "れんらく",
+      "korean": "연락",
+      "english": "contact"
+    },
+    {
+      "id": "n4_721",
+      "kanji": "忘れ物",
+      "hiragana": "わすれもの",
+      "korean": "분실물",
+      "english": "lost article"
+    },
+    {
+      "id": "n4_723",
+      "kanji": "割合",
+      "hiragana": "わりあい",
+      "korean": "비율",
+      "english": "rate,ratio,percentage"
+    },
+    {
+      "id": "n4_725",
+      "kanji": "泳ぎ方",
+      "hiragana": "およぎかた",
+      "korean": "수영하는 방법",
+      "english": "way of swimming"
+    }
+  ]
+}

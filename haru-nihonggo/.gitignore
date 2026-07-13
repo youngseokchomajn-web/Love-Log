@@ -52,3 +52,6 @@ data/*.bak-*
 
 # scratch/intermediate data dumps
 scratch_*.json
+
+# editor/script backups
+*.bak
