@@ -4,10 +4,18 @@ import argparse
 import gc
 import time
 import torch
+import numpy as np
 from diffusers import StableDiffusionXLPipeline
 from diffusers import EulerAncestralDiscreteScheduler
 from google import genai
 from dotenv import load_dotenv
+
+
+def is_degenerate_frame(pil_image):
+    """SDXL+fp16+MPS에서 드물게 VAE 디코딩이 NaN을 내 완전 검은(또는 단색) 프레임이
+    나온다. 픽셀 표준편차가 거의 0이면(=사실상 단색) 깨진 프레임으로 간주한다."""
+    arr = np.asarray(pil_image.convert('RGB'), dtype=np.float32)
+    return arr.std() < 1.0
 
 categories_path = "utils/image_pipeline_v2/word_categories.json"
 output_dir = "assets/images/words_v2"
@@ -200,11 +208,11 @@ def build_work_list(categories, args):
 
 
 def output_path_for(cat_name, w):
-    # 파일명: 레벨_일본어_한글뜻.png (레벨+한자/히라가나+한국어 조합이면 8,424단어 전체에서 유니크함을 확인함)
+    # 파일명: 레벨_일본어_한글뜻.jpg (레벨+한자/히라가나+한국어 조합이면 8,424단어 전체에서 유니크함을 확인함)
     level = w.get('level') or 'n4'
     japanese = (w.get('kanji') or w.get('hiragana', '')).replace(' ', '')
     safe_kor = w['korean'].replace(' ', '').replace('/', '').replace(',', '')
-    filename = f"{level}_{japanese}_{safe_kor}.png"
+    filename = f"{level}_{japanese}_{safe_kor}.jpg"
     return filename, os.path.join(output_dir, filename)
 
 
@@ -221,7 +229,11 @@ def main():
 
     # Skip already-generated images unless --overwrite
     if not args.overwrite:
-        work = [(c, w) for (c, w) in work if not os.path.exists(output_path_for(c, w)[1])]
+        def already_exists(c, w):
+            _, jpg_path = output_path_for(c, w)
+            png_path = jpg_path.replace('.jpg', '.png')
+            return os.path.exists(jpg_path) or os.path.exists(png_path)
+        work = [(c, w) for (c, w) in work if not already_exists(c, w)]
         if not work:
             print("대상 이미지가 이미 모두 존재합니다. (--overwrite 로 재생성)")
             return
@@ -243,11 +255,15 @@ def main():
     )
     pipe.scheduler = EulerAncestralDiscreteScheduler.from_config(pipe.scheduler.config)
     pipe = pipe.to("mps")
-    # M4 베이스(16GB 통합메모리)에서 attention slicing 없이 832x1216을 돌리면
-    # 메모리가 부족해 macOS가 스왑을 유발, step당 8초 -> 40초로 5배 이상 느려짐을 실측 확인.
-    # 슬라이싱은 step당 약간의 오버헤드가 있지만, 스왑 지옥보다는 훨씬 빠르다.
-    pipe.enable_attention_slicing()
-    pipe.vae.enable_slicing()
+    # 메모리 최적화 이력(실측 근거):
+    # 1) 832x1216 + 슬라이싱 없음 -> M4 16GB에서 스왑 발생, step당 8~40초로 불안정.
+    # 2) attention/vae slicing을 켜서 스왑은 해결했지만(9초대로 안정),
+    #    그 상태에서 검은/단색 프레임(NaN)이 재현되기 시작함 — 슬라이싱이 MPS+fp16의
+    #    수치 불안정을 악화시키는 것으로 보임(같은 프롬프트가 슬라이싱 이전엔 정상이었음).
+    # 3) pipe.vae.to(torch.float32) 업캐스트도 시도했으나 오히려 정상이던 것까지 깨짐.
+    # -> 결론: 해상도를 768x768로 낮춘 것만으로 메모리 부담이 이미 42% 줄어들므로,
+    #    슬라이싱 없이 768x768로 돌려 스왑도 피하고 NaN 유발 요인도 제거한다.
+    # 그래도 드물게 나올 수 있는 검은 프레임은 아래에서 감지해 자동 재시도한다.
 
     for i, (cat_name, w) in enumerate(work, 1):
         eng = w['english']
@@ -273,19 +289,36 @@ def main():
             continue
 
         try:
-            with torch.inference_mode():
-                print("  Generating image...")
-                image = pipe(
-                    prompt=expanded_tags + ", " + template["suffix"],
-                    negative_prompt=template["negative"],
-                    num_inference_steps=25,
-                    guidance_scale=7.0,
-                    width=832,
-                    height=1216
-                ).images[0]
+            image = None
+            for attempt in range(3):
+                with torch.inference_mode():
+                    if attempt == 0:
+                        print("  Generating image...")
+                    else:
+                        print(f"  ⚠️ 검은/단색 프레임 감지, 재시도 {attempt+1}/3...")
+                    candidate = pipe(
+                        prompt=expanded_tags + ", " + template["suffix"],
+                        negative_prompt=template["negative"],
+                        num_inference_steps=25,
+                        guidance_scale=7.0,
+                        # 앱에서의 실제 표시 크기는 최대 ~350x192(SRS 카드) / 64x64(단어장 썸네일)라
+                        # 832x1216은 과한 해상도였다. 768x768(정사각)로 낮춰 두 컨텍스트 모두에서
+                        # resizeMode="cover" 크롭 시 손실을 줄이고, SDXL이 안정적으로 다루는
+                        # 해상도 범위(1024 근방)도 벗어나지 않는다.
+                        width=768,
+                        height=768
+                    ).images[0]
+                if not is_degenerate_frame(candidate):
+                    image = candidate
+                    break
+            if image is None:
+                print(f"  ❌ 3회 시도 모두 검은/단색 프레임 — 건너뜀 (id={w['id']})")
+                continue
 
             filename, output_path = output_path_for(cat_name, w)
-            image.save(output_path)
+            # PNG는 이 화풍(수채화/디테일)에서 평균 900KB/장 — 8,424장이면 앱 번들이 7GB+로
+            # 불어난다. JPEG로 저장하면 육안 품질 차이 거의 없이 용량이 크게 줄어든다.
+            image.convert('RGB').save(output_path, format='JPEG', quality=88, optimize=True)
             print(f"  ✅ Saved {filename}")
 
             del image

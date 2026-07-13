@@ -1,3 +1,5 @@
+import { wordImagesV2 } from './wordImagesV2';
+
 export const wordImages: Record<string, any> = {
   '10_本_책': require('../assets/images/words/10_本_책.png'),
   '11_今日_오늘': require('../assets/images/words/11_今日_오늘.png'),
@@ -669,9 +671,27 @@ for (const key in wordImages) {
 }
 
 /**
- * 단어(word.id 기준)에 해당하는 이미지 모듈을 반환한다. 없으면 undefined.
- * word는 { id, imageKey? } 형태면 충분하다.
+ * 단어(word.id 또는 level/kanji/hiragana/korean 기준)에 해당하는 이미지 모듈을 반환한다. 없으면 undefined.
+ * word는 { id, level?, kanji?, hiragana?, korean: string, imageKey? } 형태이다.
  */
-export function getWordImage(word: { id: string; imageKey?: string }): any {
+export function getWordImage(word: { 
+  id: string; 
+  level?: string; 
+  kanji?: string; 
+  hiragana?: string; 
+  korean: string; 
+  imageKey?: string; 
+}): any {
+  // 1. words_v2 매칭 시도 (level_일본어_한국어.jpg)
+  const level = word.level || 'n4';
+  const japanese = (word.kanji || word.hiragana || '').replace(/\s+/g, '');
+  const safeKor = word.korean.replace(/\s+/g, '').replace(/\//g, '').replace(/,/g, '');
+  const v2Key = `${level}_${japanese}_${safeKor}`;
+
+  if (wordImagesV2[v2Key]) {
+    return wordImagesV2[v2Key];
+  }
+
+  // 2. 기존 ID 기반 매칭 (words/*.png) Fallback
   return imagesById[word.id];
 }
