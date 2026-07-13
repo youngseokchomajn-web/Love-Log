@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
 import { useWordStore, calculateWordLevel } from '../../store/useWordStore';
-import { wordImages } from '../../data/wordImages';
+import { getWordImage } from '../../data/wordImages';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { playJapaneseTTS } from '../../utils/tts';
@@ -73,6 +73,7 @@ export default function SRSScreen() {
   }
 
   const currentWord = queue[currentIndex];
+  const cardImage = getWordImage(currentWord);
   const progress = ((currentIndex + 1) / queue.length) * 100;
   
   let level = calculateWordLevel(currentWord);
@@ -103,14 +104,14 @@ export default function SRSScreen() {
       >
         <View className="w-full h-48 bg-[#F0F4F1] rounded-2xl mb-6 items-center justify-center overflow-hidden">
           {shouldShowImage ? (
-            currentWord.imageKey && wordImages[currentWord.imageKey] ? (
-              <Image 
-                source={wordImages[currentWord.imageKey]} 
+            cardImage ? (
+              <Image
+                source={cardImage}
                 className="w-full h-full"
                 resizeMode="cover"
               />
             ) : (
-              <Ionicons name="train-outline" size={64} color="#8EAAA3" />
+              <Ionicons name="image-outline" size={64} color="#8EAAA3" />
             )
           ) : (
             level === 1 ? (

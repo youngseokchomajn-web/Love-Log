@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, FlatList, TouchableOpacity, ScrollView, Image } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
-import { wordImages } from '../../data/wordImages';
+import { getWordImage } from '../../data/wordImages';
 import { Ionicons } from '@expo/vector-icons';
 import { playJapaneseTTS } from '../../utils/tts';
 
@@ -29,11 +29,12 @@ export default function VocabularyScreen() {
   };
 
   const renderWord = ({ item }: { item: any }) => {
+    const itemImage = getWordImage(item);
     return (
       <View className="bg-white rounded-2xl p-4 mb-3 shadow-sm border border-gray-100 flex-row justify-between items-center">
         <View className="w-16 h-16 bg-[#F0F4F1] rounded-xl mr-4 overflow-hidden items-center justify-center">
-          {item.imageKey && wordImages[item.imageKey] ? (
-            <Image source={wordImages[item.imageKey]} className="w-full h-full" resizeMode="cover" />
+          {itemImage ? (
+            <Image source={itemImage} className="w-full h-full" resizeMode="cover" />
           ) : (
             <Text className="text-2xl text-[#8EAAA3] font-bold">{item.kanji ? item.kanji[0] : item.hiragana[0]}</Text>
           )}
