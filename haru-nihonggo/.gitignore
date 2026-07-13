@@ -55,3 +55,7 @@ scratch_*.json
 
 # editor/script backups
 *.bak
+
+# JLPT 예문 생성 중간 산출물 (재생성 가능)
+data/jlpt_batches/
+data/jlpt_enriched/

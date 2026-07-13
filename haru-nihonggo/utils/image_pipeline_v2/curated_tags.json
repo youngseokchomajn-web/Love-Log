@@ -1,0 +1,13 @@
+{
+  "_comment": "손으로 작성한 Danbooru 태그 오버라이드 (id -> tags). generator_v2.py는 여기에 id가 있으면 Gemini 대신 이 태그를 사용한다. 각 항목은 비슷한 단어와 헷갈리지 않도록 disambiguation 단서를 앞쪽에 배치.",
+  "n4_118": "1boy, deep bow, bowing deeply, head down low, eyes closed, remorseful, sorry, sweatdrop, hands at sides, indoors, simple background",
+  "n4_124": "1girl, tour guide, uniform, pointing forward, arm extended, presenting direction, looking at viewer, polite smile, indoors lobby, simple background",
+  "n4_113": "group of people, crowd, gathering together, standing in a circle, seen from behind, plaza, daytime, community, many people",
+  "n4_330": "1girl, scared, frightened expression, wide eyes, hands covering mouth, trembling, cold sweat, dark background, looming shadow, fear",
+  "n4_347": "1boy, sitting alone, empty park bench, downcast eyes, melancholy, evening light, long shadow, falling leaves, solitary, wistful",
+  "n4_190": "1girl, dancing, dynamic dance pose, twirling, flowing dress, arms raised, stage, spotlight, joyful, motion",
+  "n4_169": "1girl, celebrating, party, confetti falling, party popper, balloons, birthday cake, happy smile, festive, indoors",
+  "n4_112": "1boy, child, playing, playground, having fun, laughing, holding ball, park, sunny day, cheerful",
+  "n4_120": "1girl, part-time worker, cafe apron, name tag, holding tray, working, counter, convenience store, polite smile, service",
+  "n4_107": "jewelry, accessories, necklace, earrings, rings, displayed on stand, jewelry box, sparkling, centered, simple background, no humans"
+}
