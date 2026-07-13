@@ -40,3 +40,15 @@ yarn-error.*
 /ios
 /android
 venv/
+
+# seedWords 백업 (파이프라인 재실행 시 자동 생성)
+data/*.bak-*
+
+# npm cache (local)
+.npmcache/
+
+# large source archives (keep extracted files, not the zip)
+*.zip
+
+# scratch/intermediate data dumps
+scratch_*.json

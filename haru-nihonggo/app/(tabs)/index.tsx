@@ -25,7 +25,7 @@ export default function HomeScreen() {
       <View className="flex-row justify-between items-center mb-4">
         <Text className="text-lg font-bold text-gray-800">오늘의 학습</Text>
         <TouchableOpacity>
-          <Text className="text-gray-500 text-sm">전체 보기 ></Text>
+          <Text className="text-gray-500 text-sm">전체 보기 &gt;</Text>
         </TouchableOpacity>
       </View>
 

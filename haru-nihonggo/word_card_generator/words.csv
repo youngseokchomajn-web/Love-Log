@@ -1,6 +1,6 @@
-id,kanji,hiragana,korean,english,visual_prompt
-1,時間,じかん,시간,time,a beautiful wall clock and an hourglass on a wooden desk
-2,電車,でんしゃ,전철,train,a retro green train running on tracks
-3,駅,えき,역,station,a local train station platform with a sign
-4,会社,かいしゃ,회사,company,a modern office building with large windows
-5,학교,がっこう,학교,school,a cute japanese school building with a clock tower and cherry blossoms
+﻿id,kanji,hiragana,korean,english,visual_prompt
+1,時間,じかん,시간,time,vintage pocket watch
+2,電車,でんしゃ,전철,train,long metal locomotive with many carriages
+3,駅,えき,역,station,grand train station with a large clock tower
+4,会社,かいしゃ,회사,company,modern tall glass skyscraper
+5,학교,がっこう,학교,school,classic school building with a clock tower

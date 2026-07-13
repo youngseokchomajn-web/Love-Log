@@ -128,9 +128,10 @@ export default function QuizScreen() {
         className={`rounded-full py-4 items-center mb-6 ${selectedOption !== null ? 'bg-[#8EAAA3]' : 'bg-gray-300'}`}
         disabled={selectedOption === null}
         onPress={() => {
+          if (selectedOption === null) return;
           const isCorrect = currentQuiz.options[selectedOption] === currentQuiz.question.korean;
-          // 퀴즈 결과도 학습 스탯(SRS)에 반영
-          useWordStore.getState().reviewWord(currentQuiz.question.id, isCorrect);
+          // 퀴즈 결과도 학습 스탯(SRS)에 반영하되, 오답노트에 추가되도록 isQuiz=true 전달
+          useWordStore.getState().reviewWord(currentQuiz.question.id, isCorrect, true);
 
           if (isCorrect) {
             setShowResult(true);

@@ -50,7 +50,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="quiz"
         options={{
-          title: '모의고사',
+          title: '퀴즈',
           tabBarIcon: ({ color }) => <Ionicons name="create-outline" size={24} color={color} />,
         }}
       />

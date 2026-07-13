@@ -167,15 +167,44 @@ export const useWordStore = create<WordState>()(
     {
       name: 'word-storage',
       storage: createJSONStorage(() => AsyncStorage),
+      version: 3,
+      migrate: (persistedState: any, version: number) => {
+        if (version < 3) {
+          // Clean up the corrupted n4_ words from previous versions (최초 1회 마이그레이션)
+          const words = (persistedState.words || []).filter((w: any) => !w.id.startsWith('n4_'));
+          return { ...persistedState, words };
+        }
+        return persistedState;
+      },
       merge: (persistedState: any, currentState: WordState) => {
         const persistedWords = persistedState.words || [];
-        const existingIds = new Set(persistedWords.map((w: Word) => w.id));
+        
+        // 1. 이미 진도가 쌓인 단어의 최신 정적 데이터(뜻, 발음, 한자, 이미지키 등) 동기화 (진도 보존)
+        const mergedWords = persistedWords.map((pw: Word) => {
+          const cw = INITIAL_WORDS.find(w => w.id === pw.id);
+          if (cw) {
+            return {
+              ...pw,
+              kanji: cw.kanji,
+              hiragana: cw.hiragana,
+              pronunciation: cw.pronunciation,
+              korean: cw.korean,
+              english: cw.english,
+              imageKey: cw.imageKey || pw.imageKey,
+            };
+          }
+          return pw;
+        });
+        
+        const existingIds = new Set(mergedWords.map((w: Word) => w.id));
+        
+        // 2. 새로 추가된 N4 정제 단어 병합
         const newWords = INITIAL_WORDS.filter(w => !existingIds.has(w.id));
         
         return {
           ...currentState,
           ...persistedState,
-          words: [...persistedWords, ...newWords]
+          words: [...mergedWords, ...newWords]
         };
       }
     }

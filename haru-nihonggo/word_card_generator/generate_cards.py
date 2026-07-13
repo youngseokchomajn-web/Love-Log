@@ -37,14 +37,14 @@ def main():
     # 4. Generate Images
     print("Starting image generation...")
     for index, row in df.iterrows():
-        visual_prompt = row['visual_prompt']
         korean_word = row['korean']
         english_word = row['english']
+        visual_prompt = row.get('visual_prompt', english_word)
         
-        # 프롬프트: 스튜디오 지브리 스타일, 수채화, 부드러운 조명, 고품질 애니메이션 배경
-        prompt = f"Studio Ghibli style, beautiful watercolor anime background, {visual_prompt}, soft lighting, nostalgic, masterpiece, best quality, highly detailed, no people"
-        # 네거티브 프롬프트: 사람 등장 방지, 저품질 텍스트 등 배제
-        negative_prompt = "person, people, character, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry"
+        # 하이브리드 태그 기반 프롬프트 (Llama가 추출한 구체적 명사를 중심 피사체로 배치)
+        prompt = f"({visual_prompt}:1.5), simple background, white background, solo object, modern clean design, game prop, UI asset, beautiful watercolor, studio ghibli color palette, high quality, masterpiece"
+        # 배경, 텍스트, 저품질 요소 차단 네거티브 프롬프트
+        negative_prompt = "complex background, scenery, landscape, messy, text, watermark, lowres, worst quality, low quality, blurry"
         
         print(f"[{index+1}/{len(df)}] Generating image for: {korean_word} ({english_word})...")
         
