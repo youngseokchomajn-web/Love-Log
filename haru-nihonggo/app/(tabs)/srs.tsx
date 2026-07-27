@@ -1,10 +1,13 @@
 import React, { useState, useCallback } from 'react';
-import { View, Text, TouchableOpacity, Image } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
+import { Image } from 'expo-image';
 import { useWordStore, calculateWordLevel } from '../../store/useWordStore';
 import { getWordImage } from '../../data/wordImages';
 import { useRouter, useLocalSearchParams, useFocusEffect } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { playJapaneseTTS } from '../../utils/tts';
+import { FeedbackModal } from '../../components/FeedbackModal';
+import { QuickFeedbackButton } from '../../components/QuickFeedbackButton';
 
 export default function SRSScreen() {
   const router = useRouter();
@@ -16,15 +19,19 @@ export default function SRSScreen() {
   const getTodayNewWords = useWordStore(state => state.getTodayNewWords);
   const getIncorrectWords = useWordStore(state => state.getIncorrectWords);
   const reviewWord = useWordStore(state => state.reviewWord);
+  const toggleBookmark = useWordStore(state => state.toggleBookmark);
+  const toggleFurigana = useWordStore(state => state.toggleFurigana);
+  const recordDailyStudy = useWordStore(state => state.recordDailyStudy);
 
   const settings = useWordStore(state => state.settings);
+  const words = useWordStore(state => state.words);
   const [queue, setQueue] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [showHint, setShowHint] = useState(false);
+  const [feedbackVisible, setFeedbackVisible] = useState(false);
 
   // 탭 화면은 언마운트되지 않으므로, 포커스될 때마다 모드에 맞춰 큐를 재구성한다.
-  // (모드 전환·다음 날 재진입 시 이전 큐가 남아있는 stale 버그 방지)
   useFocusEffect(
     useCallback(() => {
       setCurrentIndex(0);
@@ -32,7 +39,6 @@ export default function SRSScreen() {
       setShowHint(false);
 
       if (isIncorrectReview) {
-        // 오답 재복습: 틀린 단어(오답 많은 순)만 큐로 구성
         setQueue([...getIncorrectWords()]);
         return;
       }
@@ -41,7 +47,6 @@ export default function SRSScreen() {
       const news = getTodayNewWords();
 
       if (isWarmup) {
-        // 웜업 모드: 복습 단어만 무작위 20개로 제한하여 부담을 줄임
         setQueue([...reviews].sort(() => 0.5 - Math.random()).slice(0, 20));
       } else {
         setQueue([...reviews, ...news]);
@@ -53,8 +58,8 @@ export default function SRSScreen() {
     if (queue.length === 0) return;
     
     const currentWord = queue[currentIndex];
-    // "몰라요"(오답)도 오답노트에 집계되도록 countIncorrect 전달
     reviewWord(currentWord.id, isCorrect, !isCorrect);
+    recordDailyStudy(); // 🔥 스트릭 기록
 
     if (currentIndex < queue.length - 1) {
       setFlipped(false);
@@ -89,7 +94,9 @@ export default function SRSScreen() {
     );
   }
 
-  const currentWord = queue[currentIndex];
+  const rawWord = queue[currentIndex];
+  // 최신 북마크 상태를 스토어에서 직접 조회
+  const currentWord = words.find(w => w.id === rawWord.id) || rawWord;
   const cardImage = getWordImage(currentWord);
   const progress = ((currentIndex + 1) / queue.length) * 100;
   
@@ -97,6 +104,7 @@ export default function SRSScreen() {
   if (isWarmup) level = 0; // 웜업 모드에서는 무조건 힌트 제공
   
   const shouldShowImage = level === 0 || (level === 1 && showHint) || flipped;
+  const showFuriganaText = settings.showFurigana || flipped;
 
   return (
     <View className="flex-1 bg-[#FAF9F6] p-5 pt-10">
@@ -105,7 +113,32 @@ export default function SRSScreen() {
         <TouchableOpacity onPress={() => router.back()}>
           <Ionicons name="close" size={28} color="#333" />
         </TouchableOpacity>
-        <Text className="text-gray-500 font-medium text-sm">{isWarmup ? '웜업 모드 🚀 ' : ''}{currentIndex + 1} / {queue.length}</Text>
+
+        <View className="flex-row items-center">
+          {/* 👁️ 후리가나 ON/OFF 토글 */}
+          <TouchableOpacity 
+            className="px-3 py-1.5 rounded-full bg-white border border-gray-200 mr-2 flex-row items-center"
+            onPress={toggleFurigana}
+          >
+            <Ionicons name={settings.showFurigana ? "eye-outline" : "eye-off-outline"} size={16} color={settings.showFurigana ? "#4A725D" : "#999"} />
+            <Text className={`text-xs ml-1 font-bold ${settings.showFurigana ? 'text-[#4A725D]' : 'text-gray-400'}`}>
+              {settings.showFurigana ? '가나 켜짐' : '가나 숨김'}
+            </Text>
+          </TouchableOpacity>
+
+          {/* ⭐ 즐겨찾기 북마크 */}
+          <TouchableOpacity 
+            className="p-1.5 rounded-full bg-white border border-gray-200 mr-2"
+            onPress={() => toggleBookmark(currentWord.id)}
+          >
+            <Ionicons name={currentWord.isBookmarked ? "star" : "star-outline"} size={20} color={currentWord.isBookmarked ? "#F2C94C" : "#999"} />
+          </TouchableOpacity>
+
+          {/* 🚩 1-Tap 즉시 오류/불만족 제보 버튼 */}
+          <QuickFeedbackButton word={currentWord} />
+        </View>
+
+        <Text className="text-gray-500 font-medium text-sm">{isWarmup ? '웜업 🚀 ' : ''}{currentIndex + 1} / {queue.length}</Text>
       </View>
 
       {/* Progress Bar */}
@@ -119,13 +152,13 @@ export default function SRSScreen() {
         activeOpacity={0.9}
         onPress={handleFlip}
       >
-        <View className={`w-full ${flipped ? 'h-28' : 'h-48'} bg-[#F0F4F1] rounded-2xl mb-4 items-center justify-center overflow-hidden`}>
+        <View className={`w-full ${flipped ? 'h-36' : 'aspect-square max-h-72'} bg-[#F0F4F1] rounded-2xl mb-4 items-center justify-center overflow-hidden border border-gray-100 p-2`}>
           {shouldShowImage ? (
             cardImage ? (
               <Image
                 source={cardImage}
-                className="w-full h-full"
-                resizeMode="cover"
+                style={{ width: '100%', height: '100%' }}
+                contentFit="contain"
               />
             ) : (
               <Ionicons name="image-outline" size={64} color="#8EAAA3" />
@@ -149,7 +182,9 @@ export default function SRSScreen() {
         </View>
 
         {currentWord.kanji && currentWord.kanji !== currentWord.hiragana && (
-          <Text className="text-lg text-gray-500 mb-1">{currentWord.hiragana}</Text>
+          <Text className={`text-lg mb-1 ${showFuriganaText ? 'text-gray-500' : 'text-transparent'}`}>
+            {currentWord.hiragana}
+          </Text>
         )}
         <Text className={`font-medium text-gray-800 ${flipped ? 'text-4xl mb-3' : 'text-5xl mb-6'}`}>{currentWord.kanji || currentWord.hiragana}</Text>
 
@@ -160,15 +195,25 @@ export default function SRSScreen() {
               <Text className="text-lg text-gray-500 mb-2">[{currentWord.pronunciation}]</Text>
             )}
             {currentWord.exampleJp && (
-              <View className="mt-2 w-full bg-[#F7F9F7] rounded-2xl p-4 border border-[#E5EDE7]">
-                <Text className="text-base text-gray-800 mb-1">{currentWord.exampleJp}</Text>
+              <TouchableOpacity 
+                className="mt-2 w-full bg-[#F7F9F7] rounded-2xl p-4 border border-[#E5EDE7] relative"
+                activeOpacity={0.7}
+                onPress={(e) => {
+                  e.stopPropagation();
+                  playJapaneseTTS(currentWord.exampleJp);
+                }}
+              >
+                <View className="flex-row justify-between items-center mb-1">
+                  <Text className="text-base text-gray-800 font-medium flex-1 mr-2">{currentWord.exampleJp}</Text>
+                  <Ionicons name="volume-high" size={20} color="#8EAAA3" />
+                </View>
                 {currentWord.exampleReading && (
                   <Text className="text-sm text-[#8EAAA3] mb-1">{currentWord.exampleReading}</Text>
                 )}
                 {currentWord.exampleKo && (
                   <Text className="text-sm text-gray-500">{currentWord.exampleKo}</Text>
                 )}
-              </View>
+              </TouchableOpacity>
             )}
           </View>
         ) : (
@@ -205,6 +250,12 @@ export default function SRSScreen() {
           </>
         )}
       </View>
+
+      <FeedbackModal
+        visible={feedbackVisible}
+        onClose={() => setFeedbackVisible(false)}
+        word={currentWord}
+      />
     </View>
   );
 }

@@ -23,6 +23,7 @@ export interface Word {
   interval: number; // in days
   easeFactor: number;
   incorrectCount: number;
+  isBookmarked?: boolean;   // ⭐ 즐겨찾기 필드
 }
 
 export interface Settings {
@@ -30,6 +31,9 @@ export interface Settings {
   autoPlayAudio: boolean;
   startDate: number; // 학습 시작일(ms) — "함께한 날짜" 계산용
   studyLevel: JlptLevel | 'all'; // 오늘의 학습에 사용할 레벨 필터
+  showFurigana: boolean; // 👁️ 후리가나(읽기) 표시 여부 (기본값: true)
+  lastStudyDate?: string; // 마지막 학습 날짜 (YYYY-MM-DD)
+  streakCount: number; // 🔥 연속 학습 일수 (스트릭)
 }
 
 export const calculateWordLevel = (word: Word): number => {
@@ -54,9 +58,13 @@ interface WordState {
   addWords: (newWords: Word[]) => void;
   updateSettings: (newSettings: Partial<Settings>) => void;
   reviewWord: (id: string, isCorrect: boolean, countIncorrect?: boolean) => void;
+  toggleBookmark: (id: string) => void;
+  toggleFurigana: () => void;
+  recordDailyStudy: () => void;
   getTodayReviewWords: () => Word[];
   getTodayNewWords: () => Word[];
   getIncorrectWords: () => Word[];
+  getBookmarkedWords: () => Word[];
   generateQuiz: (count: number) => { question: Word, options: string[] }[];
   resetData: () => void;
 }
@@ -72,12 +80,50 @@ export const useWordStore = create<WordState>()(
         dailyGoal: 10,
         autoPlayAudio: true,
         startDate: Date.now(),
-        studyLevel: 'all',
+        studyLevel: 'n5',
+        showFurigana: true,
+        lastStudyDate: '',
+        streakCount: 0,
       },
       
       addWords: (newWords) => set((state) => ({ words: [...state.words, ...newWords] })),
       updateSettings: (newSettings) => set((state) => ({ settings: { ...state.settings, ...newSettings } })),
       
+      toggleBookmark: (id) => set((state) => ({
+        words: state.words.map(w => w.id === id ? { ...w, isBookmarked: !w.isBookmarked } : w)
+      })),
+
+      toggleFurigana: () => set((state) => ({
+        settings: { ...state.settings, showFurigana: !state.settings.showFurigana }
+      })),
+
+      recordDailyStudy: () => set((state) => {
+        const today = new Date().toISOString().split('T')[0];
+        const lastDate = state.settings.lastStudyDate;
+        
+        if (lastDate === today) {
+          // 이미 오늘 기록됨
+          return state;
+        }
+
+        const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+        let newStreak = state.settings.streakCount || 0;
+
+        if (lastDate === yesterday) {
+          newStreak += 1;
+        } else {
+          newStreak = 1; // 하루 이상 걸렀으면 1일부터 다시 시작
+        }
+
+        return {
+          settings: {
+            ...state.settings,
+            lastStudyDate: today,
+            streakCount: newStreak,
+          }
+        };
+      }),
+
       reviewWord: (id, isCorrect, countIncorrect = false) => set((state) => {
         const words = state.words.map(word => {
           if (word.id !== id) return word;
@@ -150,6 +196,11 @@ export const useWordStore = create<WordState>()(
         const { words } = get();
         return words.filter(w => w.incorrectCount > 0).sort((a, b) => b.incorrectCount - a.incorrectCount);
       },
+
+      getBookmarkedWords: () => {
+        const { words } = get();
+        return words.filter(w => w.isBookmarked);
+      },
       
       generateQuiz: (count) => {
         const { words } = get();
@@ -190,10 +241,10 @@ export const useWordStore = create<WordState>()(
     {
       name: 'word-storage',
       storage: createJSONStorage(() => AsyncStorage),
-      version: 5,
+      version: 6,
       // 8,424단어 × 정적/예문 필드를 통째로 저장하면 payload가 수 MB에 달해
       // Android(AsyncStorage=SQLite)의 CursorWindow(~2MB) 한계로 hydration이 실패한다.
-      // 진도(SRS 상태)만 저장하고, 정적 데이터(한자/뜻/예문/이미지키)는 merge에서 시드로 복원한다.
+      // 진도(SRS 상태) 및 북마크만 저장하고, 정적 데이터(한자/뜻/예문/이미지키)는 merge에서 시드로 복원한다.
       partialize: (state: any) => ({
         settings: state.settings,
         words: state.words.map((w: Word) => ({
@@ -203,6 +254,7 @@ export const useWordStore = create<WordState>()(
           interval: w.interval,
           easeFactor: w.easeFactor,
           incorrectCount: w.incorrectCount,
+          isBookmarked: w.isBookmarked,
         })),
       }),
       migrate: (persistedState: any, version: number) => {
@@ -231,6 +283,18 @@ export const useWordStore = create<WordState>()(
             },
           };
         }
+        if (version < 6) {
+          // v6: 후리가나 토글 및 스트릭 기본값
+          persistedState = {
+            ...persistedState,
+            settings: {
+              ...(persistedState.settings || {}),
+              showFurigana: persistedState.settings?.showFurigana ?? true,
+              streakCount: persistedState.settings?.streakCount ?? 0,
+              lastStudyDate: persistedState.settings?.lastStudyDate ?? '',
+            },
+          };
+        }
         return persistedState;
       },
       merge: (persistedState: any, currentState: WordState) => {
@@ -250,6 +314,7 @@ export const useWordStore = create<WordState>()(
             interval: pw.interval ?? cw.interval,
             easeFactor: pw.easeFactor ?? cw.easeFactor,
             incorrectCount: pw.incorrectCount ?? cw.incorrectCount,
+            isBookmarked: pw.isBookmarked ?? false,
           };
         });
 
@@ -259,7 +324,7 @@ export const useWordStore = create<WordState>()(
         return {
           ...currentState,
           ...persistedState,
-          // settings는 얕은 병합으로 새 필드(studyLevel 등) 기본값 보존
+          // settings는 얕은 병합으로 새 필드(studyLevel, showFurigana 등) 기본값 보존
           settings: { ...currentState.settings, ...(persistedState.settings || {}) },
           words: [...mergedWords, ...newWords],
         };

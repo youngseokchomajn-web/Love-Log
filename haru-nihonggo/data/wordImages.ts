@@ -1,4 +1,6 @@
+import { wordImagesV3 } from './wordImagesV3';
 import { wordImagesV2 } from './wordImagesV2';
+import { CDN_CONFIG } from '../config/cdn';
 
 export const wordImages: Record<string, any> = {
   '10_本_책': require('../assets/images/words/10_本_책.png'),
@@ -671,8 +673,59 @@ for (const key in wordImages) {
 }
 
 /**
- * 단어(word.id 또는 level/kanji/hiragana/korean 기준)에 해당하는 이미지 모듈을 반환한다. 없으면 undefined.
- * word는 { id, level?, kanji?, hiragana?, korean: string, imageKey? } 형태이다.
+ * 단어의 v3 키 이름을 추출한다.
+ */
+export function getWordImageKey(word: { 
+  id: string; 
+  level?: string; 
+  kanji?: string; 
+  hiragana?: string; 
+  korean: string; 
+  imageKey?: string; 
+}): string {
+  if (word.imageKey && wordImagesV3[word.imageKey]) {
+    return word.imageKey;
+  }
+
+  const level = word.level || 'n4';
+  const rawJp = (word.kanji || word.hiragana || '');
+  const hiraJp = (word.hiragana || '');
+  const jpVariants = [
+    rawJp.replace(/\s+/g, ''),
+    hiraJp.replace(/\s+/g, ''),
+    rawJp.replace(/[\s\/()「」\'\"]/g, ''),
+    hiraJp.replace(/[\s\/()「」\'\"]/g, ''),
+    rawJp.replace(/[\s\/()=「」\'\"]/g, ''),
+    hiraJp.replace(/[\s\/()=「」\'\"]/g, '')
+  ];
+
+  const kor = word.korean;
+  const korVariants = [
+    kor.replace(/[\s\/,;~()!?\'-]/g, '').replace(/·/g, ''),
+    kor.replace(/[\s\/,;()!?\'-]/g, '').replace(/·/g, ''),
+    kor.replace(/[\s\/,;()]/g, ''),
+    kor.replace(/[\s\/,;()\'-]/g, ''),
+    kor.replace(/[\s\/,;()!?]/g, '').replace(/\./g, ''),
+    kor.replace(/[\s\/,;()!?]/g, '')
+  ];
+
+  for (const jp of jpVariants) {
+    if (!jp) continue;
+    for (const k of korVariants) {
+      if (!k) continue;
+      const v3Key = `${level}_${jp}_${k}`;
+      if (wordImagesV3[v3Key]) return v3Key;
+      const legacyKey = `legacy_${jp}_${k}`;
+      if (wordImagesV3[legacyKey]) return legacyKey;
+    }
+  }
+
+  const safeKor = kor.replace(/\s+/g, '').replace(/\//g, '').replace(/,/g, '');
+  return `${level}_${jpVariants[0]}_${safeKor}`;
+}
+
+/**
+ * 단어에 해당하는 이미지 모듈(로컬 번들 에셋 또는 CDN URI 오프젝트)을 반환한다.
  */
 export function getWordImage(word: { 
   id: string; 
@@ -682,16 +735,28 @@ export function getWordImage(word: {
   korean: string; 
   imageKey?: string; 
 }): any {
-  // 1. words_v2 매칭 시도 (level_일본어_한국어.jpg)
-  const level = word.level || 'n4';
-  const japanese = (word.kanji || word.hiragana || '').replace(/\s+/g, '');
-  const safeKor = word.korean.replace(/\s+/g, '').replace(/\//g, '').replace(/,/g, '');
-  const v2Key = `${level}_${japanese}_${safeKor}`;
+  const key = getWordImageKey(word);
 
+  // 1. 로컬 번들 모듈이 선순위로 존재할 경우 우선 반환
+  if (wordImagesV3[key]) {
+    return wordImagesV3[key];
+  }
+
+  // 2. CDN 모드일 경우 원격 URI 및 디스크 캐싱 옵션 객체 반환 (expo-image 지원)
+  if (CDN_CONFIG.useCdn && key) {
+    return {
+      uri: CDN_CONFIG.getR2Url(key),
+      cachePolicy: 'disk'
+    };
+  }
+
+  const level = word.level || 'n4';
+  const rawJp = (word.kanji || word.hiragana || '').replace(/\s+/g, '');
+  const safeKor = word.korean.replace(/\s+/g, '').replace(/\//g, '').replace(/,/g, '');
+  const v2Key = `${level}_${rawJp}_${safeKor}`;
   if (wordImagesV2[v2Key]) {
     return wordImagesV2[v2Key];
   }
 
-  // 2. 기존 ID 기반 매칭 (words/*.png) Fallback
   return imagesById[word.id];
 }
