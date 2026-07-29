@@ -6,7 +6,15 @@
       "kanji": "パトカー",
       "korean": "순찰차; 경찰차",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (순찰차; 경찰차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '순찰차; 경찰차' (パトカー), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0763",
+      "level": "N1",
+      "kanji": "苗",
+      "korean": "모종; 묘목",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (모종; 묘목), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_0858",
@@ -14,7 +22,7 @@
       "kanji": "チャイム",
       "korean": "차임벨",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (차임벨), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차임벨' (チャイム), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_0874",
@@ -22,7 +30,7 @@
       "kanji": "始発",
       "korean": "첫차, 시발",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (첫차, 시발), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '첫차, 시발' (始発), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_1146",
@@ -30,7 +38,47 @@
       "kanji": "ガレージ",
       "korean": "차고, 개러지",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (차고, 개러지), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차고, 개러지' (ガレージ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1475",
+      "level": "N1",
+      "kanji": "焦げ茶",
+      "korean": "짙은 갈색(고동색)",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (짙은 갈색(고동색)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1500",
+      "level": "N1",
+      "kanji": "歯磨",
+      "korean": "치약; 양치질",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (치약; 양치질), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1782",
+      "level": "N1",
+      "kanji": "裾",
+      "korean": "옷단, 밑단; 산기슭",
+      "category": "concrete_nouns",
+      "prompt": "iconic visual illustration representing '옷단, 밑단; 산기슭' (裾), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1867",
+      "level": "N1",
+      "kanji": "揃い",
+      "korean": "한 벌, 갖춤",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (한 벌, 갖춤), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2872",
+      "level": "N1",
+      "kanji": "天井",
+      "korean": "천장",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (천장), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_2983",
@@ -38,7 +86,7 @@
       "kanji": "十字路",
       "korean": "사거리, 교차로",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (사거리, 교차로), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '사거리, 교차로' (十字路), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_3153",
@@ -46,7 +94,7 @@
       "kanji": "ドライブイン",
       "korean": "드라이브인 (자동차 이용객을 위한 휴게소·식당)",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (드라이브인 (자동차 이용객을 위한 휴게소·식당)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '드라이브인 (자동차 이용객을 위한 휴게소·식당)' (ドライブイン), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_3328",
@@ -54,7 +102,7 @@
       "kanji": "準急",
       "korean": "준급행 (열차)",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (준급행 (열차)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '준급행 (열차)' (準急), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0034",
@@ -73,6 +121,14 @@
       "prompt": "iconic visual illustration representing '여자, 여성' (女の人), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n2_0244",
+      "level": "N2",
+      "kanji": "ぼろ",
+      "korean": "누더기, 넝마",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (누더기, 넝마), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n2_0255",
       "level": "N2",
       "kanji": "振り仮名",
@@ -89,12 +145,28 @@
       "prompt": "iconic visual illustration representing '학부' (学部), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n2_0267",
+      "level": "N2",
+      "kanji": "住居",
+      "korean": "주거, 거처",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (주거, 거처), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n2_0268",
       "level": "N2",
       "kanji": "回数券",
       "korean": "회수권(정액 승차권)",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (회수권(정액 승차권)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '회수권(정액 승차권)' (回数券), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0461",
+      "level": "N2",
+      "kanji": "歯磨き",
+      "korean": "양치질, 치약",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (양치질, 치약), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0635",
@@ -102,7 +174,15 @@
       "kanji": "目次",
       "korean": "목차",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (목차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '목차' (目次), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0664",
+      "level": "N2",
+      "kanji": "包帯",
+      "korean": "붕대",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (붕대), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0667",
@@ -110,7 +190,7 @@
       "kanji": "車輪",
       "korean": "차바퀴",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (차바퀴), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차바퀴' (車輪), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0686",
@@ -145,6 +225,22 @@
       "prompt": "iconic visual illustration representing '수첩' (手帳), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n2_1122",
+      "level": "N2",
+      "kanji": "住まい",
+      "korean": "거처, 주거",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (거처, 주거), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_1250",
+      "level": "N2",
+      "kanji": "風呂敷",
+      "korean": "보자기",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (보자기), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n2_1277",
       "level": "N2",
       "kanji": "じゅうたん",
@@ -166,7 +262,7 @@
       "kanji": "車庫",
       "korean": "차고",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (차고), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차고' (車庫), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_1566",
@@ -198,7 +294,7 @@
       "kanji": "車掌",
       "korean": "차장(열차 승무원)",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (차장(열차 승무원)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차장(열차 승무원)' (車掌), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0044",
@@ -206,7 +302,23 @@
       "kanji": "カー",
       "korean": "카, 차(주로 복합어에 사용)",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (카, 차(주로 복합어에 사용)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '카, 차(주로 복합어에 사용)' (カー), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0095",
+      "level": "N3",
+      "kanji": "生地",
+      "korean": "원단, 옷감",
+      "category": "concrete_nouns",
+      "prompt": "iconic visual illustration representing '원단, 옷감' (生地), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0182",
+      "level": "N3",
+      "kanji": "教授",
+      "korean": "교수",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (교수), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0187",
@@ -222,7 +334,15 @@
       "kanji": "教師",
       "korean": "교사",
       "category": "concrete_nouns",
-      "prompt": "iconic visual illustration representing '교사' (教師), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "delicious fresh food dish (교사), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0532",
+      "level": "N3",
+      "kanji": "束",
+      "korean": "다발, 묶음",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (다발, 묶음), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0535",
@@ -230,7 +350,15 @@
       "kanji": "バン",
       "korean": "밴, 승합차",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (밴, 승합차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '밴, 승합차' (バン), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0540",
+      "level": "N3",
+      "kanji": "皮",
+      "korean": "가죽, 껍질",
+      "category": "concrete_nouns",
+      "prompt": "iconic visual illustration representing '가죽, 껍질' (皮), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0579",
@@ -249,12 +377,68 @@
       "prompt": "iconic visual illustration representing '자매' (しまい), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n3_0751",
+      "level": "N3",
+      "kanji": "切れ",
+      "korean": "조각, 자른 것",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (조각, 자른 것), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0792",
+      "level": "N3",
+      "kanji": "船",
+      "korean": "배, 선박",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (배, 선박), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0801",
+      "level": "N3",
+      "kanji": "品",
+      "korean": "물건, 상품",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (물건, 상품), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0848",
+      "level": "N3",
+      "kanji": "ベルト",
+      "korean": "벨트, 허리띠",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (벨트, 허리띠), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0978",
+      "level": "N3",
+      "kanji": "生物",
+      "korean": "생물",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (생물), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1029",
+      "level": "N3",
+      "kanji": "コピー",
+      "korean": "복사",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (복사), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n3_1236",
       "level": "N3",
       "kanji": "詩",
       "korean": "시(詩)",
       "category": "concrete_nouns",
       "prompt": "iconic visual illustration representing '시(詩)' (詩), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1744",
+      "level": "N3",
+      "kanji": "選手",
+      "korean": "선수",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (선수), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n5_0119",
@@ -265,12 +449,36 @@
       "prompt": "iconic visual illustration representing '대학교' (大学), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n5_0279",
+      "level": "N5",
+      "kanji": "お酒",
+      "korean": "술",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (술), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n5_0433",
       "level": "N5",
       "kanji": "自動車",
       "korean": "자동차",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (자동차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '자동차' (自動車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n5_0460",
+      "level": "N5",
+      "kanji": "ズボン",
+      "korean": "바지",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (바지), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n5_0518",
+      "level": "N5",
+      "kanji": "飲み物",
+      "korean": "음료, 마실 것",
+      "category": "concrete_nouns",
+      "prompt": "delicious fresh food dish (음료, 마실 것), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n5_0521",
@@ -278,7 +486,7 @@
       "kanji": "交差点",
       "korean": "교차로",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (교차로), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '교차로' (交差点), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n5_0524",
@@ -302,7 +510,7 @@
       "kanji": "車",
       "korean": "자동차, 차",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (자동차, 차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '자동차, 차' (車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n5_0641",
@@ -318,7 +526,7 @@
       "kanji": "車",
       "korean": "자동차",
       "category": "concrete_nouns",
-      "prompt": "delicious fresh food dish (자동차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '자동차' (車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n4_157",
@@ -327,6 +535,14 @@
       "korean": "뒷면",
       "category": "concrete_nouns",
       "prompt": "iconic visual illustration representing '뒷면' (裏), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n4_181",
+      "level": "N4",
+      "kanji": "押し入れ",
+      "korean": "옷장",
+      "category": "concrete_nouns",
+      "prompt": "iconic visual illustration representing '옷장' (押し入れ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n4_199",
@@ -353,6 +569,14 @@
       "prompt": "iconic visual illustration representing '텍스트' (テキスト), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n4_511",
+      "level": "N4",
+      "kanji": "手袋",
+      "korean": "장갑",
+      "category": "concrete_nouns",
+      "prompt": "neatly arranged clothing item (장갑), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n4_597",
       "level": "N4",
       "kanji": "引き出し",
@@ -374,7 +598,15 @@
       "kanji": "落ち着き",
       "korean": "차분함, 침착함",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (차분함, 침착함), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차분함, 침착함' (落ち着き), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0243",
+      "level": "N1",
+      "kanji": "奨励",
+      "korean": "장려",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (장려), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_0262",
@@ -382,7 +614,79 @@
       "kanji": "時差",
       "korean": "시차",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (시차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '시차' (時差), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0291",
+      "level": "N1",
+      "kanji": "向き",
+      "korean": "방향, ~향, 적합함",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (방향, ~향, 적합함), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0323",
+      "level": "N1",
+      "kanji": "配給",
+      "korean": "배급",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (배급), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0417",
+      "level": "N1",
+      "kanji": "チームワーク",
+      "korean": "팀워크",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (팀워크), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0433",
+      "level": "N1",
+      "kanji": "善し悪し",
+      "korean": "좋고 나쁨; 시비(是非)",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (좋고 나쁨; 시비(是非)), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0470",
+      "level": "N1",
+      "kanji": "供",
+      "korean": "제공, 바침",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (제공, 바침), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0498",
+      "level": "N1",
+      "kanji": "憎しみ",
+      "korean": "증오, 미움",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (증오, 미움), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0538",
+      "level": "N1",
+      "kanji": "訴え",
+      "korean": "호소, 소송, 제소",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (호소, 소송, 제소), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0585",
+      "level": "N1",
+      "kanji": "盗み",
+      "korean": "도둑질, 절도",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (도둑질, 절도), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1188",
+      "level": "N1",
+      "kanji": "怒り",
+      "korean": "분노",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (분노), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_1252",
@@ -390,7 +694,23 @@
       "kanji": "ずれ",
       "korean": "어긋남, 차이",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (어긋남, 차이), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '어긋남, 차이' (ずれ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1340",
+      "level": "N1",
+      "kanji": "悪戯",
+      "korean": "장난",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (장난), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1362",
+      "level": "N1",
+      "kanji": "身なり",
+      "korean": "옷차림",
+      "category": "abstract_nouns",
+      "prompt": "iconic visual illustration representing '옷차림' (身なり), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_1436",
@@ -401,12 +721,28 @@
       "prompt": "iconic visual illustration representing '정의' (定義), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n1_1580",
+      "level": "N1",
+      "kanji": "重宝",
+      "korean": "유용함, 편리하게 씀",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (유용함, 편리하게 씀), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n1_1581",
       "level": "N1",
       "kanji": "差額",
       "korean": "차액",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (차액), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차액' (差額), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1858",
+      "level": "N1",
+      "kanji": "値打ち",
+      "korean": "가치",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (가치), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_1958",
@@ -414,7 +750,15 @@
       "kanji": "回送",
       "korean": "(버스·열차의) 회송",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish ((버스·열차의) 회송), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '(버스·열차의) 회송' (回送), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1975",
+      "level": "N1",
+      "kanji": "値",
+      "korean": "값, 가치",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (값, 가치), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_2070",
@@ -422,7 +766,7 @@
       "kanji": "誤差",
       "korean": "오차",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (오차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '오차' (誤差), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_2102",
@@ -430,7 +774,79 @@
       "kanji": "盛装",
       "korean": "성장; 화려하게 차려입음",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (성장; 화려하게 차려입음), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "neatly arranged clothing item (성장; 화려하게 차려입음), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2135",
+      "level": "N1",
+      "kanji": "修行",
+      "korean": "수행; 수련",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (수행; 수련), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2177",
+      "level": "N1",
+      "kanji": "代",
+      "korean": "대가; 대금",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (대가; 대금), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2254",
+      "level": "N1",
+      "kanji": "実費",
+      "korean": "실비, 실제 비용",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (실비, 실제 비용), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2341",
+      "level": "N1",
+      "kanji": "訴訟",
+      "korean": "소송",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (소송), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2369",
+      "level": "N1",
+      "kanji": "値引き",
+      "korean": "가격 할인, 에누리",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (가격 할인, 에누리), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2403",
+      "level": "N1",
+      "kanji": "相応",
+      "korean": "걸맞음, 상응",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (걸맞음, 상응), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2640",
+      "level": "N1",
+      "kanji": "お喋り",
+      "korean": "수다, 잡담",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (수다, 잡담), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2926",
+      "level": "N1",
+      "kanji": "追跡",
+      "korean": "추적",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (추적), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3088",
+      "level": "N1",
+      "kanji": "相場",
+      "korean": "시세, 시장가격",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (시세, 시장가격), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_3094",
@@ -438,7 +854,7 @@
       "kanji": "手順",
       "korean": "순서, 절차",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (순서, 절차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '순서, 절차' (手順), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0166",
@@ -454,7 +870,7 @@
       "kanji": "交差",
       "korean": "교차",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (교차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '교차' (交差), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0230",
@@ -478,7 +894,7 @@
       "kanji": "差し引き",
       "korean": "차감, 차액",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (차감, 차액), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차감, 차액' (差し引き), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0402",
@@ -526,7 +942,7 @@
       "kanji": "相違",
       "korean": "차이, 다름",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (차이, 다름), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차이, 다름' (相違), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0933",
@@ -553,12 +969,28 @@
       "prompt": "iconic visual illustration representing '기초' (基礎), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n2_0997",
+      "level": "N2",
+      "kanji": "宛名",
+      "korean": "받는 사람 이름, 수신인",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (받는 사람 이름, 수신인), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n2_1051",
       "level": "N2",
       "kanji": "学科",
       "korean": "학과",
       "category": "abstract_nouns",
       "prompt": "iconic visual illustration representing '학과' (学科), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_1064",
+      "level": "N2",
+      "kanji": "番地",
+      "korean": "번지, 주소",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (번지, 주소), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_1069",
@@ -654,7 +1086,7 @@
       "kanji": "乗車",
       "korean": "승차, 탑승",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (승차, 탑승), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '승차, 탑승' (乗車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_1576",
@@ -670,7 +1102,7 @@
       "kanji": "手続き",
       "korean": "절차, 수속",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (절차, 수속), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '절차, 수속' (手続き), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_1699",
@@ -694,7 +1126,7 @@
       "kanji": "違い",
       "korean": "차이, 다름",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (차이, 다름), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차이, 다름' (違い), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0102",
@@ -702,7 +1134,7 @@
       "kanji": "値",
       "korean": "값, 가격",
       "category": "abstract_nouns",
-      "prompt": "iconic visual illustration representing '값, 가격' (ね), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "delicious fresh food dish (값, 가격), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0207",
@@ -713,12 +1145,52 @@
       "prompt": "iconic visual illustration representing '어학' (語学), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n3_0223",
+      "level": "N3",
+      "kanji": "演説",
+      "korean": "연설",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (연설), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n3_0349",
       "level": "N3",
       "kanji": "学習",
       "korean": "학습",
       "category": "abstract_nouns",
       "prompt": "iconic visual illustration representing '학습' (学習), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0435",
+      "level": "N3",
+      "kanji": "幅",
+      "korean": "폭, 너비",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (폭, 너비), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0527",
+      "level": "N3",
+      "kanji": "全体",
+      "korean": "전체",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (전체), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0643",
+      "level": "N3",
+      "kanji": "量",
+      "korean": "양, 분량",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (양, 분량), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0704",
+      "level": "N3",
+      "kanji": "代金",
+      "korean": "대금, 값",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (대금, 값), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0707",
@@ -734,7 +1206,7 @@
       "kanji": "差",
       "korean": "차이",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (차이), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차이' (差), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0853",
@@ -766,7 +1238,7 @@
       "kanji": "順番",
       "korean": "순서, 차례",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (순서, 차례), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '순서, 차례' (順番), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_1122",
@@ -774,7 +1246,7 @@
       "kanji": "駐車",
       "korean": "주차",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (주차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '주차' (駐車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_1246",
@@ -838,7 +1310,7 @@
       "kanji": "発車",
       "korean": "발차, 출발",
       "category": "abstract_nouns",
-      "prompt": "delicious fresh food dish (발차, 출발), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '발차, 출발' (発車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n5_0022",
@@ -921,6 +1393,22 @@
       "prompt": "iconic visual illustration representing '과학' (科学), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n4_381",
+      "level": "N4",
+      "kanji": "住所",
+      "korean": "주소",
+      "category": "abstract_nouns",
+      "prompt": "neatly arranged clothing item (주소), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n4_561",
+      "level": "N4",
+      "kanji": "ねだん",
+      "korean": "가격",
+      "category": "abstract_nouns",
+      "prompt": "delicious fresh food dish (가격), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n4_617",
       "level": "N4",
       "kanji": "復習",
@@ -937,12 +1425,68 @@
       "prompt": "iconic visual illustration representing '번역' (翻訳), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n1_0336",
+      "level": "N1",
+      "kanji": "填まる",
+      "korean": "꼭 맞다, 빠지다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (꼭 맞다, 빠지다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0836",
+      "level": "N1",
+      "kanji": "包む",
+      "korean": "감싸다, 싸다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (감싸다, 싸다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0902",
+      "level": "N1",
+      "kanji": "強請る",
+      "korean": "조르다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (조르다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1177",
+      "level": "N1",
+      "kanji": "剥がす",
+      "korean": "벗기다, 떼어내다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (벗기다, 떼어내다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1437",
+      "level": "N1",
+      "kanji": "剥ぐ",
+      "korean": "벗기다, 벗겨내다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (벗기다, 벗겨내다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n1_1461",
       "level": "N1",
       "kanji": "遮る",
       "korean": "가로막다, 차단하다",
       "category": "action_verbs",
-      "prompt": "delicious fresh food dish (가로막다, 차단하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '가로막다, 차단하다' (遮る), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1578",
+      "level": "N1",
+      "kanji": "汚す",
+      "korean": "더럽히다, 욕되게 하다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (더럽히다, 욕되게 하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1794",
+      "level": "N1",
+      "kanji": "裂ける",
+      "korean": "찢어지다, 갈라지다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (찢어지다, 갈라지다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_2101",
@@ -950,7 +1494,15 @@
       "kanji": "蹴飛ばす",
       "korean": "걷어차다; 발로 차버리다",
       "category": "action_verbs",
-      "prompt": "delicious fresh food dish (걷어차다; 발로 차버리다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '걷어차다; 발로 차버리다' (蹴飛ばす), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2708",
+      "level": "N1",
+      "kanji": "研ぐ",
+      "korean": "(칼을) 갈다; (쌀을) 씻다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish ((칼을) 갈다; (쌀을) 씻다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_2773",
@@ -958,7 +1510,39 @@
       "kanji": "着飾る",
       "korean": "치장하다, 화려하게 차려입다",
       "category": "action_verbs",
-      "prompt": "delicious fresh food dish (치장하다, 화려하게 차려입다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "neatly arranged clothing item (치장하다, 화려하게 차려입다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2974",
+      "level": "N1",
+      "kanji": "引っ掛ける",
+      "korean": "걸다, 걸치다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (걸다, 걸치다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3090",
+      "level": "N1",
+      "kanji": "洒落る",
+      "korean": "멋을 부리다, 재치 있게 굴다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (멋을 부리다, 재치 있게 굴다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3109",
+      "level": "N1",
+      "kanji": "授ける",
+      "korean": "하사하다, 전수하다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (하사하다, 전수하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3259",
+      "level": "N1",
+      "kanji": "宛てる",
+      "korean": "(우편 등을) 보내다, 겨냥하다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item ((우편 등을) 보내다, 겨냥하다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_3272",
@@ -966,7 +1550,39 @@
       "kanji": "交わる",
       "korean": "교차하다, 사귀다",
       "category": "action_verbs",
-      "prompt": "delicious fresh food dish (교차하다, 사귀다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '교차하다, 사귀다' (交わる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0025",
+      "level": "N2",
+      "kanji": "呼び掛ける",
+      "korean": "호소하다, 부르다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (호소하다, 부르다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0124",
+      "level": "N2",
+      "kanji": "汚す",
+      "korean": "더럽히다, 오염시키다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (더럽히다, 오염시키다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0247",
+      "level": "N2",
+      "kanji": "憎む",
+      "korean": "미워하다, 증오하다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (미워하다, 증오하다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0394",
+      "level": "N2",
+      "kanji": "嫌がる",
+      "korean": "싫어하다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (싫어하다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0706",
@@ -990,7 +1606,15 @@
       "kanji": "冷やす",
       "korean": "식히다, 차게 하다",
       "category": "action_verbs",
-      "prompt": "delicious fresh food dish (식히다, 차게 하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '식히다, 차게 하다' (冷やす), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_1129",
+      "level": "N2",
+      "kanji": "もたれる",
+      "korean": "기대다, (음식이) 체하다",
+      "category": "action_verbs",
+      "prompt": "iconic visual illustration representing '기대다, (음식이) 체하다' (もたれる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_1484",
@@ -1001,12 +1625,28 @@
       "prompt": "iconic visual illustration representing '노력하다, 힘쓰다' (努める), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n2_1514",
+      "level": "N2",
+      "kanji": "剥す",
+      "korean": "떼다, 벗기다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (떼다, 벗기다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_1684",
+      "level": "N2",
+      "kanji": "思い込む",
+      "korean": "굳게 믿다, 지레짐작하다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (굳게 믿다, 지레짐작하다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n3_0127",
       "level": "N3",
       "kanji": "占める",
       "korean": "차지하다",
       "category": "action_verbs",
-      "prompt": "delicious fresh food dish (차지하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차지하다' (占める), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0309",
@@ -1015,6 +1655,22 @@
       "korean": "끝내다, 마치다",
       "category": "action_verbs",
       "prompt": "iconic visual illustration representing '끝내다, 마치다' (済ませる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0490",
+      "level": "N3",
+      "kanji": "適する",
+      "korean": "적합하다, 알맞다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (적합하다, 알맞다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0508",
+      "level": "N3",
+      "kanji": "就く",
+      "korean": "취임하다, 자리에 앉다, 종사하다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (취임하다, 자리에 앉다, 종사하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0684",
@@ -1054,7 +1710,7 @@
       "kanji": "轢く",
       "korean": "(차로) 치다",
       "category": "action_verbs",
-      "prompt": "delicious fresh food dish ((차로) 치다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '(차로) 치다' (轢く), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_1299",
@@ -1078,7 +1734,31 @@
       "kanji": "満ちる",
       "korean": "가득 차다",
       "category": "action_verbs",
-      "prompt": "delicious fresh food dish (가득 차다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '가득 차다' (満ちる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1631",
+      "level": "N3",
+      "kanji": "気に入る",
+      "korean": "마음에 들다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (마음에 들다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1695",
+      "level": "N3",
+      "kanji": "殺す",
+      "korean": "죽이다",
+      "category": "action_verbs",
+      "prompt": "iconic visual illustration representing '죽이다' (殺す), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1753",
+      "level": "N3",
+      "kanji": "嫌う",
+      "korean": "싫어하다",
+      "category": "action_verbs",
+      "prompt": "neatly arranged clothing item (싫어하다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_1759",
@@ -1121,6 +1801,14 @@
       "prompt": "iconic visual illustration representing '넣다' (入れる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n5_0395",
+      "level": "N5",
+      "kanji": "死ぬ",
+      "korean": "죽다",
+      "category": "action_verbs",
+      "prompt": "iconic visual illustration representing '죽다' (死ぬ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n5_0432",
       "level": "N5",
       "kanji": "やる",
@@ -1135,6 +1823,14 @@
       "korean": "배우다",
       "category": "action_verbs",
       "prompt": "iconic visual illustration representing '배우다' (習う), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n4_131",
+      "level": "N4",
+      "kanji": "いじめる",
+      "korean": "애타게하다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (애타게하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n4_153",
@@ -1161,12 +1857,28 @@
       "prompt": "iconic visual illustration representing '계속하다' (続ける), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n4_542",
+      "level": "N4",
+      "kanji": "亡くなる",
+      "korean": "죽다",
+      "category": "action_verbs",
+      "prompt": "iconic visual illustration representing '죽다' (亡くなる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n4_555",
       "level": "N4",
       "kanji": "入学する",
       "korean": "입학하다",
       "category": "action_verbs",
       "prompt": "iconic visual illustration representing '입학하다' (入学する), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n4_558",
+      "level": "N4",
+      "kanji": "盗む",
+      "korean": "훔치다",
+      "category": "action_verbs",
+      "prompt": "delicious fresh food dish (훔치다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n4_578",
@@ -1185,12 +1897,116 @@
       "prompt": "iconic visual illustration representing '도움이 되다' (役に立つ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n1_1011",
+      "level": "N1",
+      "kanji": "心細い",
+      "korean": "불안하다, 허전하다",
+      "category": "adjectives_states",
+      "prompt": "delicious fresh food dish (불안하다, 허전하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1463",
+      "level": "N1",
+      "kanji": "渋い",
+      "korean": "떫다; (사람이) 수수하면서 멋있다",
+      "category": "adjectives_states",
+      "prompt": "neatly arranged clothing item (떫다; (사람이) 수수하면서 멋있다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1501",
+      "level": "N1",
+      "kanji": "悪い",
+      "korean": "밉다; 얄밉다",
+      "category": "adjectives_states",
+      "prompt": "neatly arranged clothing item (밉다; 얄밉다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2039",
+      "level": "N1",
+      "kanji": "尊い",
+      "korean": "소중하다",
+      "category": "adjectives_states",
+      "prompt": "delicious fresh food dish (소중하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2074",
+      "level": "N1",
+      "kanji": "貴い",
+      "korean": "소중한; 고귀한",
+      "category": "adjectives_states",
+      "prompt": "delicious fresh food dish (소중한; 고귀한), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2363",
+      "level": "N1",
+      "kanji": "几帳面",
+      "korean": "꼼꼼함, 빈틈없음",
+      "category": "adjectives_states",
+      "prompt": "delicious fresh food dish (꼼꼼함, 빈틈없음), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3304",
+      "level": "N1",
+      "kanji": "気まぐれ",
+      "korean": "변덕",
+      "category": "adjectives_states",
+      "prompt": "delicious fresh food dish (변덕), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3312",
+      "level": "N1",
+      "kanji": "軽快",
+      "korean": "경쾌한",
+      "category": "adjectives_states",
+      "prompt": "neatly arranged clothing item (경쾌한), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0115",
+      "level": "N2",
+      "kanji": "憎らしい",
+      "korean": "얄밉다, 밉살스럽다",
+      "category": "adjectives_states",
+      "prompt": "neatly arranged clothing item (얄밉다, 밉살스럽다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0708",
+      "level": "N2",
+      "kanji": "欲張り",
+      "korean": "욕심쟁이, 욕심 많음",
+      "category": "adjectives_states",
+      "prompt": "delicious fresh food dish (욕심쟁이, 욕심 많음), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0934",
+      "level": "N2",
+      "kanji": "物凄い",
+      "korean": "굉장한, 엄청난",
+      "category": "adjectives_states",
+      "prompt": "neatly arranged clothing item (굉장한, 엄청난), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n2_1084",
       "level": "N2",
       "kanji": "力強い",
       "korean": "힘차다, 든든하다",
       "category": "adjectives_states",
-      "prompt": "delicious fresh food dish (힘차다, 든든하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '힘차다, 든든하다' (力強い), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_1312",
+      "level": "N2",
+      "kanji": "憎い",
+      "korean": "밉다, 얄밉다",
+      "category": "adjectives_states",
+      "prompt": "neatly arranged clothing item (밉다, 얄밉다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0268",
+      "level": "N3",
+      "kanji": "相当",
+      "korean": "상당(히)",
+      "category": "adjectives_states",
+      "prompt": "neatly arranged clothing item (상당(히)), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0351",
@@ -1209,12 +2025,28 @@
       "prompt": "iconic visual illustration representing '가능한' (可能), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n3_0780",
+      "level": "N3",
+      "kanji": "高価",
+      "korean": "고가, 비쌈",
+      "category": "adjectives_states",
+      "prompt": "delicious fresh food dish (고가, 비쌈), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n3_1106",
       "level": "N3",
       "kanji": "穏やか",
       "korean": "온화하다, 차분하다",
       "category": "adjectives_states",
-      "prompt": "delicious fresh food dish (온화하다, 차분하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '온화하다, 차분하다' (穏やか), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1460",
+      "level": "N3",
+      "kanji": "幼い",
+      "korean": "어리다",
+      "category": "adjectives_states",
+      "prompt": "delicious fresh food dish (어리다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_1524",
@@ -1225,12 +2057,28 @@
       "prompt": "iconic visual illustration representing '성실한, 진지한' (真面目), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n3_1787",
+      "level": "N3",
+      "kanji": "とんでもない",
+      "korean": "터무니없다, 당치도 않다",
+      "category": "adjectives_states",
+      "prompt": "neatly arranged clothing item (터무니없다, 당치도 않다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n5_0360",
       "level": "N5",
       "kanji": "冷たい",
       "korean": "차갑다",
       "category": "adjectives_states",
-      "prompt": "delicious fresh food dish (차갑다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차갑다' (冷たい), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n5_0539",
+      "level": "N5",
+      "kanji": "嫌い",
+      "korean": "싫어함",
+      "category": "adjectives_states",
+      "prompt": "neatly arranged clothing item (싫어함), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n4_606",
@@ -1246,7 +2094,7 @@
       "kanji": "別",
       "korean": "차이",
       "category": "adjectives_states",
-      "prompt": "delicious fresh food dish (차이), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차이' (別), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n4_646",
@@ -1257,12 +2105,252 @@
       "prompt": "iconic visual illustration representing '진심' (まじめ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n4_507",
+      "level": "N4",
+      "kanji": "適当",
+      "korean": "적당",
+      "category": "adjectives_states",
+      "prompt": "neatly arranged clothing item (적당), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0012",
+      "level": "N1",
+      "kanji": "彼の",
+      "korean": "저(그) ~",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (저(그) ~), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0149",
+      "level": "N1",
+      "kanji": "何処",
+      "korean": "어디",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (어디), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0202",
+      "level": "N1",
+      "kanji": "何々",
+      "korean": "어디 보자, 이런",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (어디 보자, 이런), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0217",
+      "level": "N1",
+      "kanji": "伊井",
+      "korean": "이이(성씨)",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (이이(성씨)), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0338",
+      "level": "N1",
+      "kanji": "だらけ",
+      "korean": "투성이",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (투성이), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0692",
+      "level": "N1",
+      "kanji": "一寸",
+      "korean": "잠깐, 조금",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (잠깐, 조금), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0768",
+      "level": "N1",
+      "kanji": "彼此",
+      "korean": "이것저것",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (이것저것), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0811",
+      "level": "N1",
+      "kanji": "如何に",
+      "korean": "어떻게; 아무리 ~해도",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (어떻게; 아무리 ~해도), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0850",
+      "level": "N1",
+      "kanji": "宛",
+      "korean": "~앞으로, 수신",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (~앞으로, 수신), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0918",
+      "level": "N1",
+      "kanji": "如何して",
+      "korean": "왜, 어째서",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (왜, 어째서), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_0929",
+      "level": "N1",
+      "kanji": "其処ら",
+      "korean": "그 근처, 그쯤",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그 근처, 그쯤), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1033",
+      "level": "N1",
+      "kanji": "何だか",
+      "korean": "왠지, 뭔가",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (왠지, 뭔가), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1250",
+      "level": "N1",
+      "kanji": "何の",
+      "korean": "어느, 어떤",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (어느, 어떤), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1303",
+      "level": "N1",
+      "kanji": "彼方",
+      "korean": "저쪽, 저 너머",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (저쪽, 저 너머), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n1_1344",
       "level": "N1",
       "kanji": "いっそ",
       "korean": "차라리",
       "category": "adverbs_functional",
-      "prompt": "delicious fresh food dish (차라리), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차라리' (いっそ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1352",
+      "level": "N1",
+      "kanji": "なんか",
+      "korean": "~같은 것, ~따위",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (~같은 것, ~따위), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1622",
+      "level": "N1",
+      "kanji": "その為",
+      "korean": "그 때문에; 그러므로",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그 때문에; 그러므로), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1634",
+      "level": "N1",
+      "kanji": "適宜",
+      "korean": "적절히; 적당히",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (적절히; 적당히), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1713",
+      "level": "N1",
+      "kanji": "如何しても",
+      "korean": "아무리 해도, 어떻게든, 반드시",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (아무리 해도, 어떻게든, 반드시), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1817",
+      "level": "N1",
+      "kanji": "其れで",
+      "korean": "그래서",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그래서), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1823",
+      "level": "N1",
+      "kanji": "其れ程",
+      "korean": "그 정도로; 그렇게까지",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그 정도로; 그렇게까지), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1904",
+      "level": "N1",
+      "kanji": "彼処",
+      "korean": "저기",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (저기), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1909",
+      "level": "N1",
+      "kanji": "稍",
+      "korean": "약간, 다소",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (약간, 다소), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_1918",
+      "level": "N1",
+      "kanji": "其れから",
+      "korean": "그다음, 그러고 나서",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그다음, 그러고 나서), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2089",
+      "level": "N1",
+      "kanji": "其れでは",
+      "korean": "그러면; 그렇다면",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그러면; 그렇다면), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2156",
+      "level": "N1",
+      "kanji": "如何",
+      "korean": "어떻게; 어떠한지",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (어떻게; 어떠한지), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2157",
+      "level": "N1",
+      "kanji": "徐々",
+      "korean": "슬슬; 이제 곧",
+      "category": "adverbs_functional",
+      "prompt": "delicious fresh food dish (슬슬; 이제 곧), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2329",
+      "level": "N1",
+      "kanji": "然うして",
+      "korean": "그렇게 하고, 그리고(나서)",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그렇게 하고, 그리고(나서)), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2555",
+      "level": "N1",
+      "kanji": "詰まり",
+      "korean": "즉; 결국",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (즉; 결국), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2587",
+      "level": "N1",
+      "kanji": "何て",
+      "korean": "정말, ~라니(감탄)",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (정말, ~라니(감탄)), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_2739",
@@ -1270,7 +2358,15 @@
       "kanji": "じっくり",
       "korean": "차분히, 곰곰이",
       "category": "adverbs_functional",
-      "prompt": "delicious fresh food dish (차분히, 곰곰이), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차분히, 곰곰이' (じっくり), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2760",
+      "level": "N1",
+      "kanji": "其れ故",
+      "korean": "그러므로, 그런 까닭에",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그러므로, 그런 까닭에), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_2769",
@@ -1278,7 +2374,15 @@
       "kanji": "しまった",
       "korean": "아차!, 아뿔싸!",
       "category": "adverbs_functional",
-      "prompt": "delicious fresh food dish (아차!, 아뿔싸!), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '아차!, 아뿔싸!' (しまった), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_2827",
+      "level": "N1",
+      "kanji": "何なり",
+      "korean": "무엇이든지",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (무엇이든지), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n1_2890",
@@ -1286,7 +2390,79 @@
       "kanji": "段々",
       "korean": "점점, 차츰",
       "category": "adverbs_functional",
-      "prompt": "delicious fresh food dish (점점, 차츰), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '점점, 차츰' (段々), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3005",
+      "level": "N1",
+      "kanji": "宜しく",
+      "korean": "잘 부탁합니다",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (잘 부탁합니다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3160",
+      "level": "N1",
+      "kanji": "匹",
+      "korean": "마리 (작은 동물을 세는 단위)",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (마리 (작은 동물을 세는 단위)), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3326",
+      "level": "N1",
+      "kanji": "即ち",
+      "korean": "즉; 다시 말해",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (즉; 다시 말해), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3339",
+      "level": "N1",
+      "kanji": "何と",
+      "korean": "참으로; 이 무슨",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (참으로; 이 무슨), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3387",
+      "level": "N1",
+      "kanji": "其れ",
+      "korean": "그것(문어체)",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그것(문어체)), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n1_3454",
+      "level": "N1",
+      "kanji": "其処",
+      "korean": "거기",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (거기), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0046",
+      "level": "N2",
+      "kanji": "着々",
+      "korean": "착착, 순조롭게",
+      "category": "adverbs_functional",
+      "prompt": "delicious fresh food dish (착착, 순조롭게), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0143",
+      "level": "N2",
+      "kanji": "そうして",
+      "korean": "그리고, 그렇게 해서",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그리고, 그렇게 해서), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0212",
+      "level": "N2",
+      "kanji": "あれこれ",
+      "korean": "이것저것",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (이것저것), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0256",
@@ -1294,7 +2470,7 @@
       "kanji": "順々",
       "korean": "차례차례, 순서대로",
       "category": "adverbs_functional",
-      "prompt": "delicious fresh food dish (차례차례, 순서대로), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '차례차례, 순서대로' (順々), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0301",
@@ -1302,7 +2478,7 @@
       "kanji": "生き生き",
       "korean": "생기 있게, 활기차게",
       "category": "adverbs_functional",
-      "prompt": "delicious fresh food dish (생기 있게, 활기차게), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '생기 있게, 활기차게' (生き生き), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0431",
@@ -1313,12 +2489,28 @@
       "prompt": "iconic visual illustration representing '밀리(미터)' (ミリ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n2_0448",
+      "level": "N2",
+      "kanji": "そのため",
+      "korean": "그 때문에, 그래서",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그 때문에, 그래서), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n2_0457",
       "level": "N2",
       "kanji": "どうせ",
       "korean": "어차피",
       "category": "adverbs_functional",
-      "prompt": "delicious fresh food dish (어차피), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '어차피' (どうせ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0465",
+      "level": "N2",
+      "kanji": "幾分",
+      "korean": "다소, 얼마간",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (다소, 얼마간), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0738",
@@ -1329,12 +2521,28 @@
       "prompt": "iconic visual illustration representing '첫째로, 무엇보다' (だいいち), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n2_0811",
+      "level": "N2",
+      "kanji": "何分",
+      "korean": "아무쪼록, 어쨌든",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (아무쪼록, 어쨌든), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n2_0848",
       "level": "N2",
       "kanji": "さっさと",
       "korean": "재빨리, 서둘러",
       "category": "adverbs_functional",
       "prompt": "iconic visual illustration representing '재빨리, 서둘러' (さっさと), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_0899",
+      "level": "N2",
+      "kanji": "但し",
+      "korean": "단, 다만",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (단, 다만), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n2_0958",
@@ -1345,12 +2553,60 @@
       "prompt": "iconic visual illustration representing '지지난 달' (先々月), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n2_1597",
+      "level": "N2",
+      "kanji": "何々",
+      "korean": "이것저것, 무엇무엇",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (이것저것, 무엇무엇), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n2_1650",
+      "level": "N2",
+      "kanji": "こっそり",
+      "korean": "몰래, 살짝",
+      "category": "adverbs_functional",
+      "prompt": "delicious fresh food dish (몰래, 살짝), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0087",
+      "level": "N3",
+      "kanji": "やや",
+      "korean": "약간, 다소",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (약간, 다소), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n3_0226",
       "level": "N3",
       "kanji": "再び",
       "korean": "다시, 재차",
       "category": "adverbs_functional",
-      "prompt": "delicious fresh food dish (다시, 재차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '다시, 재차' (再び), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0315",
+      "level": "N3",
+      "kanji": "どうしても",
+      "korean": "반드시, 아무래도",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (반드시, 아무래도), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0359",
+      "level": "N3",
+      "kanji": "当時",
+      "korean": "당시",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (당시), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0408",
+      "level": "N3",
+      "kanji": "ところで",
+      "korean": "그런데, 그건 그렇고",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그런데, 그건 그렇고), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0542",
@@ -1361,12 +2617,36 @@
       "prompt": "iconic visual illustration representing '노, 아니오(거절)' (ノー), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n3_0676",
+      "level": "N3",
+      "kanji": "何",
+      "korean": "무엇",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (무엇), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0705",
+      "level": "N3",
+      "kanji": "何で",
+      "korean": "왜, 어째서",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (왜, 어째서), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n3_0717",
       "level": "N3",
       "kanji": "課",
       "korean": "과, 단원",
       "category": "adverbs_functional",
       "prompt": "iconic visual illustration representing '과, 단원' (課), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_0975",
+      "level": "N3",
+      "kanji": "多少",
+      "korean": "다소, 약간",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (다소, 약간), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_0997",
@@ -1382,7 +2662,7 @@
       "kanji": "よろしく",
       "korean": "잘 부탁합니다",
       "category": "adverbs_functional",
-      "prompt": "iconic visual illustration representing '잘 부탁합니다' (よろしく), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "neatly arranged clothing item (잘 부탁합니다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_1079",
@@ -1391,6 +2671,14 @@
       "korean": "톤",
       "category": "adverbs_functional",
       "prompt": "iconic visual illustration representing '톤' (とん), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1129",
+      "level": "N3",
+      "kanji": "方々",
+      "korean": "여러분, 각처",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (여러분, 각처), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_1136",
@@ -1406,7 +2694,7 @@
       "kanji": "それ",
       "korean": "그것",
       "category": "adverbs_functional",
-      "prompt": "iconic visual illustration representing '그것' (それ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "neatly arranged clothing item (그것), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_1305",
@@ -1438,7 +2726,23 @@
       "kanji": "番",
       "korean": "번, 차례",
       "category": "adverbs_functional",
-      "prompt": "delicious fresh food dish (번, 차례), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+      "prompt": "iconic visual illustration representing '번, 차례' (番), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1400",
+      "level": "N3",
+      "kanji": "その",
+      "korean": "그",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1469",
+      "level": "N3",
+      "kanji": "すなわち",
+      "korean": "즉, 다시 말해",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (즉, 다시 말해), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_1537",
@@ -1457,12 +2761,36 @@
       "prompt": "iconic visual illustration representing '대부분' (大部分), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n3_1615",
+      "level": "N3",
+      "kanji": "どんな",
+      "korean": "어떤",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (어떤), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n3_1691",
       "level": "N3",
       "kanji": "すみません",
       "korean": "죄송합니다, 실례합니다",
       "category": "adverbs_functional",
       "prompt": "iconic visual illustration representing '죄송합니다, 실례합니다' (すみません), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1698",
+      "level": "N3",
+      "kanji": "あんなに",
+      "korean": "그렇게나, 저렇게",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그렇게나, 저렇게), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n3_1702",
+      "level": "N3",
+      "kanji": "一体",
+      "korean": "도대체, 대체",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (도대체, 대체), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n3_1756",
@@ -1481,6 +2809,38 @@
       "prompt": "iconic visual illustration representing '한 사람 한 사람, 각자' (一人一人), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n5_0059",
+      "level": "N5",
+      "kanji": "何",
+      "korean": "무엇",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (무엇), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n5_0085",
+      "level": "N5",
+      "kanji": "どう",
+      "korean": "어떻게",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (어떻게), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n5_0094",
+      "level": "N5",
+      "kanji": "どうして",
+      "korean": "왜",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (왜), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n5_0257",
+      "level": "N5",
+      "kanji": "そこ",
+      "korean": "거기",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (거기), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n5_0309",
       "level": "N5",
       "kanji": "上",
@@ -1497,12 +2857,28 @@
       "prompt": "iconic visual illustration representing '전부, 모두' (全部), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n5_0449",
+      "level": "N5",
+      "kanji": "あれ",
+      "korean": "저것",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (저것), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n5_0458",
       "level": "N5",
       "kanji": "八日",
       "korean": "팔 일, 8일",
       "category": "adverbs_functional",
       "prompt": "iconic visual illustration representing '팔 일, 8일' (八日), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n5_0465",
+      "level": "N5",
+      "kanji": "あの",
+      "korean": "저(관형사)",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (저(관형사)), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n5_0470",
@@ -1513,6 +2889,38 @@
       "prompt": "iconic visual illustration representing '매일' (毎日), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n5_0532",
+      "level": "N5",
+      "kanji": "その",
+      "korean": "그 (지시관형사)",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그 (지시관형사)), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n5_0534",
+      "level": "N5",
+      "kanji": "ちょっと",
+      "korean": "조금, 잠깐",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (조금, 잠깐), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n5_0574",
+      "level": "N5",
+      "kanji": "では",
+      "korean": "그러면, 그럼",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그러면, 그럼), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n5_0610",
+      "level": "N5",
+      "kanji": "それから",
+      "korean": "그다음에, 그러고 나서",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그다음에, 그러고 나서), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n5_0628",
       "level": "N5",
       "kanji": "まだ",
@@ -1521,12 +2929,68 @@
       "prompt": "iconic visual illustration representing '아직' (まだ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
+      "id": "n5_0632",
+      "level": "N5",
+      "kanji": "それ",
+      "korean": "그것",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그것), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n4_452",
+      "level": "N4",
+      "kanji": "そんな",
+      "korean": "그런",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그런), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
       "id": "n4_535",
       "level": "N4",
       "kanji": "どんどん",
       "korean": "점점",
       "category": "adverbs_functional",
       "prompt": "iconic visual illustration representing '점점' (どんどん), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n4_619",
+      "level": "N4",
+      "kanji": "普通",
+      "korean": "보통",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (보통), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n4_450",
+      "level": "N4",
+      "kanji": "それほど",
+      "korean": "그 정도로",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그 정도로), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n4_367",
+      "level": "N4",
+      "kanji": "しっかり",
+      "korean": "제대로",
+      "category": "adverbs_functional",
+      "prompt": "delicious fresh food dish (제대로), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n4_448",
+      "level": "N4",
+      "kanji": "それで",
+      "korean": "그래서",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그래서), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+    },
+    {
+      "id": "n4_453",
+      "level": "N4",
+      "kanji": "そんなに",
+      "korean": "그렇게",
+      "category": "adverbs_functional",
+      "prompt": "neatly arranged clothing item (그렇게), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
     },
     {
       "id": "n4_460",
@@ -1657,14 +3121,6 @@
       "korean": "연기하다, 연출하다",
       "category": "action_verbs",
       "prompt": "Ghibli stage, a character performing in a local theater play under warm spotlights, wooden stage, audience silhouettes, nostalgic community art, cozy vintage costumes, soft painterly style"
-    },
-    {
-      "id": "n1_0336",
-      "level": "N1",
-      "kanji": "填まる",
-      "korean": "꼭 맞다, 빠지다",
-      "category": "action_verbs",
-      "prompt": "Ghibli puzzle, inserting the final piece into a large wooden jigsaw puzzle on the floor, satisfying fit, cozy room, warm evening light, nostalgic home activities, soft watercolor textures"
     },
     {
       "id": "n1_0394",
@@ -1993,14 +3449,6 @@
       "korean": "알리다, 고하다",
       "category": "action_verbs",
       "prompt": "ghibli style, kind countryside doctor office, vintage medical jars, warm window light, stethoscope, gentle conversation, comforting mood"
-    },
-    {
-      "id": "n1_1437",
-      "level": "N1",
-      "kanji": "剥ぐ",
-      "korean": "벗기다, 벗겨내다",
-      "category": "action_verbs",
-      "prompt": "ghibli style, herbalist peeling tree bark, wicker basket, potion ingredients, cozy forest cabin, stone fireplace, soft natural light"
     },
     {
       "id": "n1_1446",
@@ -2785,14 +4233,6 @@
       "korean": "붓다, 부어오르다",
       "category": "action_verbs",
       "prompt": "stung arm with ice pack, cozy kitchen table, yellow honey jar, vintage medical box, caring grandmother, studio ghibli style, nostalgic comforting warmth"
-    },
-    {
-      "id": "n1_2974",
-      "level": "N1",
-      "kanji": "引っ掛ける",
-      "korean": "걸다, 걸치다",
-      "category": "action_verbs",
-      "prompt": "cozy brown coat, vintage wooden chair, warm fireplace room, book pile on floor, soft window light, home sweet home, studio ghibli style"
     },
     {
       "id": "n1_2984",
@@ -4475,14 +5915,6 @@
       "prompt": "ghibli style, magical campfire in woods, sparks flying into starry sky, glowing orange embers, forest night, cozy camping, fantasy fire spirits, warm illumination, watercolor painting"
     },
     {
-      "id": "n3_0490",
-      "level": "N3",
-      "kanji": "適する",
-      "korean": "적합하다, 알맞다",
-      "category": "action_verbs",
-      "prompt": "ghibli style, lush green farmland, terraced rice fields, blooming sunflowers, rolling hills, bright blue sky, vintage tractor, sunny day, peaceful countryside, watercolor landscape"
-    },
-    {
       "id": "n3_0526",
       "level": "N3",
       "kanji": "積もる",
@@ -5515,14 +6947,6 @@
       "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, vintage school bell hanging on brick wall, sound waves, retro school hallway"
     },
     {
-      "id": "n4_558",
-      "level": "N4",
-      "kanji": "盗む",
-      "korean": "훔치다",
-      "category": "action_verbs",
-      "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, thief sneakily taking bicycle, shadow alleyway, mysterious mood"
-    },
-    {
       "id": "n4_567",
       "level": "N4",
       "kanji": "残る",
@@ -5967,5 +7391,5 @@
       "prompt": "students sitting at desks, sunlight streaming through large classroom windows, wooden floor, studio ghibli style, warm color palette, soft volumetric lighting, watercolor background"
     }
   ],
-  "total_unique": 745
+  "total_unique": 923
 }

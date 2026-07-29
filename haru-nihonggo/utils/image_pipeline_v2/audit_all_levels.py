@@ -4,8 +4,25 @@ import re
 
 ROOT_DIR = "/Users/youngseok/Desktop/love-log/haru-nihonggo"
 
+FOOD_EXACT_KR = {"죽", "음식", "요리", "밥", "과자", "녹차", "홍차", "커피", "음료", "식사", "반찬", "찌개", "국", "스프", "빵", "케이크", "라면", "국수", "초밥", "사탕"}
+CLOTHING_EXACT_KR = {"옷", "의복", "정장", "군복", "모자", "양말", "신발", "바지", "셔츠", "코트", "자켓", "드레스", "치마", "넥타이", "장갑"}
+
+def is_exact_food(korean, english):
+    tokens = set(re.split(r'[\s,/\(\)\.\:]+', korean))
+    if tokens & FOOD_EXACT_KR:
+        return True
+    eng_lower = english.lower()
+    return any(e in eng_lower for e in ["food", "dish", "meal", "soup", "rice", "snack", "tea", "coffee", "cake", "bread", "noodle"])
+
+def is_exact_clothing(korean, english):
+    tokens = set(re.split(r'[\s,/\(\)\.\:]+', korean))
+    if tokens & CLOTHING_EXACT_KR:
+        return True
+    eng_lower = english.lower()
+    return any(ce in eng_lower for ce in ["suit", "cloth", "garment", "outfit", "dress", "shirt", "pants", "shoes", "socks", "hat", "jacket", "coat", "glove"])
+
 def audit_all_levels():
-    print("=== N2 ~ N5 전체 단어 데이터 및 이미지 프롬프트 전수 검수 시작 ===")
+    print("=== N2 ~ N5 전체 단어 데이터 및 이미지 프롬프트 전수 검수 시작 (토큰 매칭 버그 수정판) ===")
     
     cat_path = f"{ROOT_DIR}/utils/image_pipeline_v2/word_categories_all.json"
     with open(cat_path, "r", encoding="utf-8") as f:
@@ -39,6 +56,7 @@ def audit_all_levels():
             kanji = w.get("kanji", "")
             hiragana = w.get("hiragana", "")
             korean = w.get("korean", "")
+            english = w.get("english", "")
             
             issues = []
             
@@ -52,11 +70,11 @@ def audit_all_levels():
                     issues.append(f"Generic fallback prompt contains '{gp}'")
                     break
                     
-            # Check 3: Semantic mismatches
-            if any(food in korean for food in ["죽", "음식", "요리", "밥", "과자", "차"]) and not any(k in prompt_lower for k in ["food", "bowl", "dish", "meal", "plate", "soup", "rice", "snack", "eat", "tea"]):
+            # Check 3: Semantic mismatches using exact token matching
+            if is_exact_food(korean, english) and not any(k in prompt_lower for k in ["food", "bowl", "dish", "meal", "plate", "soup", "rice", "snack", "eat", "tea", "coffee"]):
                 issues.append("Food/Meal word but prompt lacks food visuals")
                 
-            if any(cloth in korean for cloth in ["옷", "의복", "정장", "군복", "모자", "양말", "신발"]) and not any(k in prompt_lower for k in ["wear", "cloth", "suit", "jacket", "shirt", "uniform", "hat", "garment", "outfit", "shoe", "sock"]):
+            if is_exact_clothing(korean, english) and not any(k in prompt_lower for k in ["wear", "cloth", "suit", "jacket", "shirt", "uniform", "hat", "garment", "outfit", "shoe", "sock"]):
                 issues.append("Clothing word but prompt lacks clothing visuals")
                 
             # Check 4: POS parens in hiragana
@@ -69,6 +87,7 @@ def audit_all_levels():
                     "kanji": kanji,
                     "hiragana": hiragana,
                     "korean": korean,
+                    "english": english,
                     "prompt": prompt,
                     "reasons": issues
                 })
