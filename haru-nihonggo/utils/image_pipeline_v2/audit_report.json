@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "total_words": 8424,
+    "prompts_found": 17208,
+    "missing_prompts": 0,
+    "suspicious_fallbacks": 3,
+    "polysemy_warnings": 1
+  },
+  "suspicious_fallbacks": [
+    {
+      "id": "n1_0140",
+      "kanji": "ドリル",
+      "korean": "드릴; 연습 문제집",
+      "prompt": "studying kanji notebook, hand holding pencil, study desk, morning sunlight, writing japanese characters, close-up, studio ghibli style, warm color palette, soft volumetric lighting",
+      "reason": "Generic fallback prompt 'studying kanji notebook' used for concrete_nouns"
+    },
+    {
+      "id": "n5_0537",
+      "kanji": "字引",
+      "korean": "사전",
+      "prompt": "open thick Japanese dictionary on wooden desk, reading light, cozy evening room, studio ghibli style, warm color palette, soft volumetric lighting, watercolor background",
+      "reason": "Generic fallback prompt 'dictionary on wooden desk' used for concrete_nouns"
+    },
+    {
+      "id": "n5_0055",
+      "kanji": "分かる",
+      "korean": "알다, 이해하다",
+      "prompt": "ghibli style, bright smile of understanding, holding a Japanese textbook, sunny window, cozy library, flying papers, warm light, whimsical",
+      "reason": "Generic fallback prompt 'japanese textbook' used for action_verbs"
+    }
+  ],
+  "polysemy_warnings": [
+    {
+      "id": "n3_0102",
+      "kanji": "ね",
+      "korean": "값, 가격",
+      "prompt": "Ghibli style, antique dealer examining ceramic vase with magnifying glass, cozy antique shop cluttered with collectibles and clocks, warm oil lamp light",
+      "reason": "Meaning 'price/value' but prompt lacks money/price keywords"
+    }
+  ]
+}

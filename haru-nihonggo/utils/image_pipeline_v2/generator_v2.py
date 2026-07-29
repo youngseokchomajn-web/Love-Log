@@ -5,6 +5,8 @@ import gc
 import time
 import torch
 import numpy as np
+import re
+import unicodedata
 from diffusers import StableDiffusionXLPipeline
 from diffusers import EulerAncestralDiscreteScheduler
 from google import genai
@@ -13,14 +15,16 @@ from dotenv import load_dotenv
 
 def is_degenerate_frame(pil_image):
     """SDXL+fp16+MPS에서 드물게 VAE 디코딩이 NaN을 내 완전 검은(또는 단색) 프레임이
-    나온다. 픽셀 표준편차가 거의 0이면(=사실상 단색) 깨진 프레임으로 간주한다."""
+    나온다. 픽셀 표준편차가 1.0 미만이거나 최대/최소 격차가 거의 없으면 깨진 프레임으로 판정한다."""
     arr = np.asarray(pil_image.convert('RGB'), dtype=np.float32)
-    return arr.std() < 1.0
+    if arr.std() < 1.0:
+        return True
+    if (arr.max() - arr.min()) < 3.0:
+        return True
+    return False
 
-categories_path = "utils/image_pipeline_v2/word_categories.json"
-output_dir = "assets/images/words_v2"
 
-os.makedirs(output_dir, exist_ok=True)
+categories_path = "utils/image_pipeline_v2/word_categories_all.json" if os.path.exists("utils/image_pipeline_v2/word_categories_all.json") else "utils/image_pipeline_v2/word_categories.json"
 
 # Load env for Gemini
 env_path = os.path.join("word_card_generator", ".env")
@@ -51,141 +55,40 @@ PROMPT_TEMPLATES = {
     }
 }
 
-# 카테고리별로 "어떤 그림이어야 하는지" 일반 지침 (단어별 하드코딩 대신 전 단어에 적용)
-# concrete_nouns는 단어 자체를 깔끔하게 보여주는 게 최선이라 예문에 얽매이지 않는다.
-# 반대로 abstract/adverbs/adjectives는 단어 하나만으론 그릴 수 없는 경우가 많아
-# 예문이 제공하는 구체적 장면을 근거로 삼도록 강제한다(USE_EXAMPLE=True).
-CATEGORY_GUIDANCE = {
-    "concrete_nouns": {
-        "text": "This is a physical object. Show ONE clear, iconic instance of it, centered and large, on a simple background. Usually NO people. Make the object instantly recognizable and not confusable with similar objects.",
-        "use_example": False,
-    },
-    "abstract_nouns": {
-        "text": "This is an abstract concept — often impossible to draw in isolation. Do NOT try to depict the word directly; instead depict the concrete SCENE from the example sentence below, since that scene is what makes the abstract meaning visible.",
-        "use_example": True,
-    },
-    "action_verbs": {
-        "text": "This is an action. Show exactly ONE person mid-action. The pose, hands, gaze, facial expression and surrounding context together must make THIS specific action obvious and clearly different from similar verbs. Use the example sentence to pick the right context if the action alone is ambiguous.",
-        "use_example": True,
-    },
-    "adjectives_states": {
-        "text": "This is a quality or emotional state. Convey it through the character's facial expression, body language and the mood of the environment, grounded in the situation from the example sentence. The state must be unmistakable.",
-        "use_example": True,
-    },
-    "adverbs_functional": {
-        "text": "This is a functional/grammatical word (adverb, conjunction, particle, counter, pronoun) — it has no picture of its own. You MUST depict the concrete scene from the example sentence below as a mini cause-and-effect or situational illustration; do not attempt to symbolize the word itself.",
-        "use_example": True,
-    },
-}
-
-
-def get_danbooru_tags(category, eng, kor, hiragana="", example_jp="", example_ko=""):
-    if not client:
-        return eng
-
-    sub_rule = ""
-    if hiragana == 'あげる':
-        sub_rule = "\\nSPECIAL RULE for 'あげる' (to give): The character must be extending a gift forward, palms facing out (e.g. '1boy, looking at viewer, holding gift, extending arm forward, offering')."
-    elif hiragana == 'くれる':
-        sub_rule = "\\nSPECIAL RULE for 'くれる' (to give to me): You MUST use the exact tag 'POV hands' or 'hands out of frame' offering a gift to the main character. Example: '1girl, looking at viewer, happy, receiving gift, POV hands offering gift'."
-    elif hiragana == 'もらう':
-        sub_rule = "\\nSPECIAL RULE for 'もらう' (to receive): The character must be holding a gift closely to their chest with both hands (e.g. '1girl, looking at viewer, holding gift to chest, both hands, happy smile')."
-    elif hiragana == 'あやまる':
-        sub_rule = "\\nSPECIAL RULE for '謝る' (to apologize): A simple bow is TOO AMBIGUOUS (looks like a greeting or thanks). Show a SINGLE character with UNMISTAKABLE remorse: a very deep 90-degree bow with the head lowered and eyes closed, OR clasped hands pressed together while pleading. Always add remorse cues. Example: '1boy, deep bow, bowing deeply, head down, eyes closed, apologizing, remorseful, sorry, sweatdrop, hands together, indoors'. Do NOT use a casual polite bow, waving, or smiling."
-    elif hiragana == 'それで':
-        sub_rule = "\\nSPECIAL RULE for 'それで' (because of that, so): Create an expressive scene showing a consequence or realization (e.g. '1boy, looking at viewer, pointing up, realization, lightbulb icon, explaining')."
-
-    guidance = CATEGORY_GUIDANCE.get(category, {"text": "", "use_example": False})
-    example_block = ""
-    if guidance.get("use_example") and example_jp:
-        example_block = f"""
-Example sentence using this word (this is your primary visual source — depict THIS scene):
-  Japanese: {example_jp}
-  Korean: {example_ko}
-"""
-
-    prompt = f"""
-You are an expert prompt engineer for a Stable Diffusion Anime model (Danbooru tags).
-Generate tags for an educational Japanese vocabulary flashcard.
-Word meaning: '{eng}' (Korean: '{kor}')
-Category: {category}
-Category guidance: {guidance.get("text", "")}
-{example_block}
-The illustration MUST be a peaceful, everyday-life scene. NEVER use fighting, extreme action, or surreal/violent concepts.
-
-MOST IMPORTANT — DISAMBIGUATION:
-The picture must be identifiable as THIS EXACT word and nothing else. Many words look alike as pictures
-(e.g. apologize vs. greet vs. thank; run vs. walk; happy vs. surprised; give vs. receive; hot vs. spicy).
-Whenever the meaning could be confused with a related word, you MUST add explicit disambiguating cues — a
-distinctive facial expression, a specific hand/body posture, or a context prop — that positively rule out the
-similar meanings. A generic pose (e.g. just "bowing", "standing", "holding") is NOT acceptable when a more
-specific, meaning-revealing pose exists.
-
-Output rules:
-1. Output ONLY a comma-separated list of Danbooru tags. NO sentences, NO explanations.
-2. For actions and emotional states, include exactly ONE human subject and VARY it (1boy, 1girl, businessman,
-   student, child, old man, ...). Do NOT default to '1girl'.
-3. For interactions (greeting, giving, talking), use a SINGLE character interacting with the viewer
-   ('looking at viewer', 'POV hands', ...). Do NOT use 2+ characters — the model struggles with interactions.
-4. Provide 6-10 highly descriptive tags, front-loading the ones that carry the specific meaning.
-5. If an example sentence is given above, it is your PRIMARY source for the scene — build the tags around what is
-   literally happening in that sentence, not a generic/textbook depiction of the word.
-{sub_rule}
-
-Few-shot Examples (note how each adds cues that rule out look-alike words):
-Word: 'to run' (달리다) [action_verbs]
-Tags: 1boy, school uniform, running, mid-stride, arms pumping, outdoors, park, motion blur, energetic
-
-Word: 'to apologize' (사과하다) [action_verbs]
-Tags: 1boy, deep bow, bowing deeply, head down, eyes closed, remorseful, sorry, sweatdrop, indoors
-
-Word: 'umbrella' (우산) [concrete_nouns]
-Tags: umbrella, open umbrella, single object, centered, raindrops, simple background, soft colors, no humans
-
-Word: 'dream' (꿈) [abstract_nouns]
-Tags: 1girl, sleeping, thought bubble, floating stars, soft glow, night, peaceful, dreamy atmosphere
-
-Word: 'lonely' (외로운) [adjectives_states]
-Tags: 1boy, sitting alone, empty bench, downcast eyes, melancholy, dim evening light, long shadow
-
-Word: 'so, because of that' (그래서) [adverbs_functional], example: "雨が降っていました。それで、傘を持って行きました。" (비가 내려서 우산을 가지고 갔다)
-Tags: 1girl, looking out window, rain outside, holding umbrella by the door, about to leave, cause and effect, everyday morning
-
-Word: 'nerve, mind, feeling' (신경) [concrete_nouns], example: "気にしないでください。" (신경 쓰지 마세요)
-Tags: 1boy, reassuring gesture, hand up, gentle smile, comforting another person off-frame, relieved atmosphere
-
-Word: '{eng}' ({kor}) [{category}]
-Tags:"""
-    import time
-    for attempt in range(3):
-        try:
-            response = client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=prompt,
-                config=genai.types.GenerateContentConfig(
-                    temperature=0.5,
-                )
-            )
-            tags = response.text.strip()
-            if tags: return tags
-        except Exception as e:
-            print(f"  [Gemini API error (Attempt {attempt+1}/3)]: {e}")
-            time.sleep(3)
-    return eng
 
 def parse_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--sample', action='store_true', help='Generate 1 sample from each category')
+    parser = argparse.ArgumentParser(description='Generate SDXL vocabulary images')
+    parser.add_argument('--level', type=str, default='all', help='Target JLPT level (n1, n2, n3, n4, n5, or all)')
+    parser.add_argument('--sample', action='store_true', help='Generate 1 sample image per category for testing')
     parser.add_argument('--ids', type=str, default='', help='Comma-separated word ids to generate (e.g. n4_118,n4_190)')
+    parser.add_argument('--regenerate-list', type=str, default='', help='Path to image_regeneration_list.json')
     parser.add_argument('--count', type=int, default=0, help='Generate the first N words across all categories')
     parser.add_argument('--overwrite', action='store_true', help='Regenerate even if the image already exists')
     parser.add_argument('--categories', type=str, default=categories_path,
-                        help='Path to a {category: [words]} JSON (default: N4 word_categories.json)')
+                        help='Path to a {category: [words]} JSON')
+    parser.add_argument('--output_dir', type=str, default="assets/images/words_v3",
+                        help='Directory to save generated images')
     return parser.parse_args()
 
 
 def build_work_list(categories, args):
     """Return an ordered list of (category_name, word) pairs to generate."""
+    if args.regenerate_list and os.path.exists(args.regenerate_list):
+        with open(args.regenerate_list, 'r', encoding='utf-8') as f:
+            items = json.load(f)
+        ids = [x['id'] for x in items]
+        index = {}
+        for cat, words in categories.items():
+            for w in words:
+                index[w['id']] = (cat, w)
+        work = []
+        for wid in ids:
+            if wid in index:
+                work.append(index[wid])
+            else:
+                print(f"  ⚠️ id not found in categories: {wid}")
+        return work
+
     ids = [x.strip() for x in args.ids.split(',') if x.strip()]
     if ids:
         index = {}
@@ -193,7 +96,7 @@ def build_work_list(categories, args):
             for w in words:
                 index[w['id']] = (cat, w)
         work = []
-        for wid in ids:  # preserve the requested order
+        for wid in ids:
             if wid in index:
                 work.append(index[wid])
             else:
@@ -207,30 +110,65 @@ def build_work_list(categories, args):
     return []
 
 
-def output_path_for(cat_name, w):
-    # 파일명: 레벨_일본어_한글뜻.jpg (레벨+한자/히라가나+한국어 조합이면 8,424단어 전체에서 유니크함을 확인함)
+def clean_filename_korean(korean):
+    cleaned = re.sub(r'[\s/,;\?:\*\"<>\|\\\.\(\)\[\]\{\}]', '', korean)
+    return unicodedata.normalize('NFC', cleaned)
+
+
+def clean_filename_japanese(jp):
+    cleaned = jp.replace(' ', '')
+    cleaned = re.sub(r'[\s/,;\?:\*\"<>\|\\\.\(\)\[\]\{\}〜~]', '', cleaned)
+    return unicodedata.normalize('NFC', cleaned)
+
+
+def output_path_for(cat_name, w, output_dir):
     level = w.get('level') or 'n4'
-    japanese = (w.get('kanji') or w.get('hiragana', '')).replace(' ', '')
-    safe_kor = w['korean'].replace(' ', '').replace('/', '').replace(',', '')
+    japanese = clean_filename_japanese(w.get('kanji') or w.get('hiragana', ''))
+    safe_kor = clean_filename_korean(w['korean'])
     filename = f"{level}_{japanese}_{safe_kor}.jpg"
     return filename, os.path.join(output_dir, filename)
 
 
+def save_failed_word(w_id, w, reason, output_dir):
+    failed_path = os.path.join(output_dir, "failed_generation.json")
+    failed_data = {}
+    if os.path.exists(failed_path):
+        try:
+            with open(failed_path, 'r', encoding='utf-8') as f:
+                failed_data = json.load(f)
+        except Exception:
+            pass
+    failed_data[w_id] = {
+        "japanese": w.get('kanji') or w.get('hiragana', ''),
+        "korean": w.get('korean', ''),
+        "reason": str(reason)
+    }
+    temp_path = failed_path + ".tmp"
+    try:
+        with open(temp_path, 'w', encoding='utf-8') as f:
+            json.dump(failed_data, f, ensure_ascii=False, indent=2)
+        os.replace(temp_path, failed_path)
+    except Exception:
+        with open(failed_path, 'w', encoding='utf-8') as f:
+            json.dump(failed_data, f, ensure_ascii=False, indent=2)
+
+
 def main():
     args = parse_args()
+    os.makedirs(args.output_dir, exist_ok=True)
 
     with open(args.categories, 'r', encoding='utf-8') as f:
         categories = json.load(f)
 
     work = build_work_list(categories, args)
     if not work:
-        print("아무 것도 생성하지 않습니다. --ids, --count, 또는 --sample 중 하나를 지정하세요.")
+        print("아무 것도 생성하지 않습니다. --ids, --regenerate-list, --count, 또는 --sample 중 하나를 지정하세요.")
         return
 
     # Skip already-generated images unless --overwrite
     if not args.overwrite:
         def already_exists(c, w):
-            _, jpg_path = output_path_for(c, w)
+            _, jpg_path = output_path_for(c, w, args.output_dir)
             png_path = jpg_path.replace('.jpg', '.png')
             return os.path.exists(jpg_path) or os.path.exists(png_path)
         work = [(c, w) for (c, w) in work if not already_exists(c, w)]
@@ -238,13 +176,20 @@ def main():
             print("대상 이미지가 이미 모두 존재합니다. (--overwrite 로 재생성)")
             return
 
-    # 손으로 작성한 큐레이션 태그 로드 (id가 있으면 Gemini보다 우선 사용)
+    # 큐레이션 태그 로드
     curated = {}
     curated_path = "utils/image_pipeline_v2/curated_tags.json"
     if os.path.exists(curated_path):
         with open(curated_path, 'r', encoding='utf-8') as f:
             curated = {k: v for k, v in json.load(f).items() if not k.startswith('_')}
-        print(f"큐레이션 태그 {len(curated)}개 로드됨.")
+
+    # 캐시된 태그 로드
+    cache = {}
+    cache_path = "utils/image_pipeline_v2/expanded_tags_cache.json"
+    if os.path.exists(cache_path):
+        with open(cache_path, 'r', encoding='utf-8') as f:
+            cache = json.load(f)
+        print(f"캐시 태그 {len(cache)}개 로드됨.")
 
     print(f"총 {len(work)}개 이미지를 생성합니다.")
     print("Loading Animagine XL 3.1 model...")
@@ -254,19 +199,17 @@ def main():
         use_safetensors=True,
     )
     pipe.scheduler = EulerAncestralDiscreteScheduler.from_config(pipe.scheduler.config)
+    
+    # Load Hyper-SD 4-steps LoRA for ultra-fast generation
+    print("Loading Hyper-SD 4-steps LoRA...")
+    pipe.load_lora_weights("ByteDance/Hyper-SD", weight_name="Hyper-SDXL-4steps-lora.safetensors")
+    pipe.fuse_lora()
+    
     pipe = pipe.to("mps")
-    # 메모리 최적화 이력(실측 근거):
-    # 1) 832x1216 + 슬라이싱 없음 -> M4 16GB에서 스왑 발생, step당 8~40초로 불안정.
-    # 2) attention/vae slicing을 켜서 스왑은 해결했지만(9초대로 안정),
-    #    그 상태에서 검은/단색 프레임(NaN)이 재현되기 시작함 — 슬라이싱이 MPS+fp16의
-    #    수치 불안정을 악화시키는 것으로 보임(같은 프롬프트가 슬라이싱 이전엔 정상이었음).
-    # 3) pipe.vae.to(torch.float32) 업캐스트도 시도했으나 오히려 정상이던 것까지 깨짐.
-    # -> 결론: 해상도를 768x768로 낮춘 것만으로 메모리 부담이 이미 42% 줄어들므로,
-    #    슬라이싱 없이 768x768로 돌려 스왑도 피하고 NaN 유발 요인도 제거한다.
-    # 그래도 드물게 나올 수 있는 검은 프레임은 아래에서 감지해 자동 재시도한다.
 
     for i, (cat_name, w) in enumerate(work, 1):
-        eng = w['english']
+        w_id = w['id']
+        eng = w.get('english', '')
         kor = w['korean']
         hiragana = w.get('hiragana', '')
         example_jp = w.get('exampleJp', '')
@@ -274,19 +217,19 @@ def main():
 
         print(f"\n[{i}/{len(work)}] Generating for: {eng} ({kor}) - {hiragana} [{cat_name}]")
 
-        # 큐레이션 태그가 있으면 우선 사용, 없으면 Gemini로 확장(추상/기능어는 예문 장면을 근거로)
-        curated_tags = curated.get(w['id'])
+        curated_tags = curated.get(w_id)
+        cached_tags = cache.get(w_id)
         if curated_tags:
             expanded_tags = curated_tags
             print(f"  [Curated Tags]: {expanded_tags}")
+        elif cached_tags:
+            expanded_tags = cached_tags
+            print(f"  [Cached Tags]: {expanded_tags}")
         else:
-            expanded_tags = get_danbooru_tags(cat_name, eng, kor, hiragana, example_jp, example_ko)
-            print(f"  [Gemini Tags]: {expanded_tags}")
-
-        template = PROMPT_TEMPLATES.get(cat_name)
-        if template is None:
-            print(f"  ⚠️ 알 수 없는 카테고리 '{cat_name}', 건너뜀")
+            print(f"  ⚠️ 태그가 존재하지 않습니다 (id={w_id}), 스킵합니다.")
             continue
+
+        template = PROMPT_TEMPLATES.get(cat_name, PROMPT_TEMPLATES["concrete_nouns"])
 
         try:
             image = None
@@ -299,25 +242,22 @@ def main():
                     candidate = pipe(
                         prompt=expanded_tags + ", " + template["suffix"],
                         negative_prompt=template["negative"],
-                        num_inference_steps=25,
-                        guidance_scale=7.0,
-                        # 앱에서의 실제 표시 크기는 최대 ~350x192(SRS 카드) / 64x64(단어장 썸네일)라
-                        # 832x1216은 과한 해상도였다. 768x768(정사각)로 낮춰 두 컨텍스트 모두에서
-                        # resizeMode="cover" 크롭 시 손실을 줄이고, SDXL이 안정적으로 다루는
-                        # 해상도 범위(1024 근방)도 벗어나지 않는다.
+                        num_inference_steps=4,
+                        guidance_scale=1.2,
                         width=768,
                         height=768
                     ).images[0]
                 if not is_degenerate_frame(candidate):
                     image = candidate
                     break
+            
             if image is None:
-                print(f"  ❌ 3회 시도 모두 검은/단색 프레임 — 건너뜀 (id={w['id']})")
+                err_msg = "All 3 generation attempts returned degenerate (NaN) frame"
+                print(f"  ❌ {err_msg} — 건너뜀 (id={w_id})")
+                save_failed_word(w_id, w, err_msg, args.output_dir)
                 continue
 
-            filename, output_path = output_path_for(cat_name, w)
-            # PNG는 이 화풍(수채화/디테일)에서 평균 900KB/장 — 8,424장이면 앱 번들이 7GB+로
-            # 불어난다. JPEG로 저장하면 육안 품질 차이 거의 없이 용량이 크게 줄어든다.
+            filename, output_path = output_path_for(cat_name, w, args.output_dir)
             image.convert('RGB').save(output_path, format='JPEG', quality=88, optimize=True)
             print(f"  ✅ Saved {filename}")
 
@@ -326,11 +266,11 @@ def main():
             if torch.backends.mps.is_available():
                 torch.mps.empty_cache()
 
-            # Sleep to avoid Gemini API rate limits
-            time.sleep(2)
+            time.sleep(0.5)
 
         except Exception as e:
             print(f"  ❌ Generation failed: {e}")
+            save_failed_word(w_id, w, f"Exception: {e}", args.output_dir)
 
 
 if __name__ == "__main__":

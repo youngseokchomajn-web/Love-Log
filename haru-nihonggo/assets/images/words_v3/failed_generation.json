@@ -1,0 +1,4612 @@
+{
+  "n1_0017": {
+    "japanese": "首脳",
+    "korean": "수뇌, 정상",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0077": {
+    "japanese": "側",
+    "korean": "케이스, 곁, 측면",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0155": {
+    "japanese": "膳",
+    "korean": "밥상; 상차림",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0160": {
+    "japanese": "梅干",
+    "korean": "매실장아찌",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0165": {
+    "japanese": "膜",
+    "korean": "막",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0169": {
+    "japanese": "手本",
+    "korean": "본보기; 모범",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0174": {
+    "japanese": "移民",
+    "korean": "이민",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0175": {
+    "japanese": "バー",
+    "korean": "바; 술집; 막대",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0177": {
+    "japanese": "タイマー",
+    "korean": "타이머",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0178": {
+    "japanese": "本体",
+    "korean": "본체",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0192": {
+    "japanese": "お菜",
+    "korean": "반찬",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0197": {
+    "japanese": "年生",
+    "korean": "학년",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0201": {
+    "japanese": "鉱山",
+    "korean": "광산",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0206": {
+    "japanese": "箇所",
+    "korean": "곳, 부분",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0209": {
+    "japanese": "大衆",
+    "korean": "대중",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0219": {
+    "japanese": "溜まり",
+    "korean": "고임, 모이는 곳",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0226": {
+    "japanese": "宝器",
+    "korean": "보물, 귀중한 기물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0228": {
+    "japanese": "城下",
+    "korean": "성 아래 마을, 성시",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0233": {
+    "japanese": "継ぎ目",
+    "korean": "이음매, 접합부",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0235": {
+    "japanese": "産婦人科",
+    "korean": "산부인과",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0244": {
+    "japanese": "部下",
+    "korean": "부하",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0256": {
+    "japanese": "作物",
+    "korean": "작품, 저작물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0263": {
+    "japanese": "管",
+    "korean": "관, 파이프",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0275": {
+    "japanese": "跡継ぎ",
+    "korean": "후계자, 대를 이을 사람",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0281": {
+    "japanese": "蝶",
+    "korean": "나비",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0297": {
+    "japanese": "獲物",
+    "korean": "사냥감, 노획물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0298": {
+    "japanese": "主人公",
+    "korean": "주인공",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0299": {
+    "japanese": "浴室",
+    "korean": "욕실",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0300": {
+    "japanese": "施設",
+    "korean": "시설",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0307": {
+    "japanese": "壷",
+    "korean": "항아리, 단지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0309": {
+    "japanese": "磁器",
+    "korean": "자기, 도자기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0314": {
+    "japanese": "控室",
+    "korean": "대기실",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0318": {
+    "japanese": "児",
+    "korean": "아이, 어린이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0325": {
+    "japanese": "細胞",
+    "korean": "세포",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0328": {
+    "japanese": "実業家",
+    "korean": "실업가, 사업가",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0329": {
+    "japanese": "軍艦",
+    "korean": "군함",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0334": {
+    "japanese": "灰皿",
+    "korean": "재떨이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0337": {
+    "japanese": "加留多",
+    "korean": "가루타 (일본식 카드놀이)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0341": {
+    "japanese": "下吏",
+    "korean": "하급 관리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0344": {
+    "japanese": "ボルト",
+    "korean": "볼트",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0349": {
+    "japanese": "員",
+    "korean": "인원, 일원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0351": {
+    "japanese": "長",
+    "korean": "우두머리, 장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0353": {
+    "japanese": "あられ",
+    "korean": "아라레 (쌀과자)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0354": {
+    "japanese": "庶民",
+    "korean": "서민, 일반 대중",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0356": {
+    "japanese": "天才",
+    "korean": "천재",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0363": {
+    "japanese": "鉛",
+    "korean": "납(금속)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0382": {
+    "japanese": "クレーン",
+    "korean": "크레인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0384": {
+    "japanese": "カーペット",
+    "korean": "카펫",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0401": {
+    "japanese": "原書",
+    "korean": "원서(원문 서적)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0410": {
+    "japanese": "梯子",
+    "korean": "사다리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0413": {
+    "japanese": "織",
+    "korean": "짜임; 직물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0415": {
+    "japanese": "斑",
+    "korean": "얼룩; 반점",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0416": {
+    "japanese": "行員",
+    "korean": "은행원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0422": {
+    "japanese": "面皰",
+    "korean": "여드름",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0423": {
+    "japanese": "ソックス",
+    "korean": "양말",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0432": {
+    "japanese": "炭素",
+    "korean": "탄소",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0434": {
+    "japanese": "蕾",
+    "korean": "꽃봉오리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0440": {
+    "japanese": "嬢",
+    "korean": "양(孃); ~양(여성 호칭)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0441": {
+    "japanese": "ホール",
+    "korean": "홀; 강당",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0445": {
+    "japanese": "インテリ",
+    "korean": "인텔리; 지식인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0448": {
+    "japanese": "素材",
+    "korean": "소재; 재료",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0462": {
+    "japanese": "饂飩",
+    "korean": "우동",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0463": {
+    "japanese": "インターチェンジ",
+    "korean": "인터체인지, 나들목",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0465": {
+    "japanese": "脚本",
+    "korean": "각본, 대본",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0468": {
+    "japanese": "女史",
+    "korean": "여사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0469": {
+    "japanese": "幕",
+    "korean": "장막, 휘장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0475": {
+    "japanese": "教材",
+    "korean": "교재",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0477": {
+    "japanese": "付録",
+    "korean": "부록",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0479": {
+    "japanese": "故人",
+    "korean": "고인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0482": {
+    "japanese": "カルテ",
+    "korean": "진료 기록, 카르테",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0487": {
+    "japanese": "山腹",
+    "korean": "산허리, 산중턱",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0491": {
+    "japanese": "アルカリ",
+    "korean": "알칼리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0493": {
+    "japanese": "肉親",
+    "korean": "혈육",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0495": {
+    "japanese": "皺",
+    "korean": "주름",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0499": {
+    "japanese": "油絵",
+    "korean": "유화",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0506": {
+    "japanese": "像",
+    "korean": "상, 조각상, 이미지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0510": {
+    "japanese": "丘陵",
+    "korean": "구릉, 언덕",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0515": {
+    "japanese": "花壇",
+    "korean": "화단",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0518": {
+    "japanese": "楽譜",
+    "korean": "악보",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0519": {
+    "japanese": "赤ちゃん",
+    "korean": "아기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0527": {
+    "japanese": "高原",
+    "korean": "고원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0531": {
+    "japanese": "観衆",
+    "korean": "관중",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0540": {
+    "japanese": "文書",
+    "korean": "문서",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0542": {
+    "japanese": "尿",
+    "korean": "소변",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0553": {
+    "japanese": "梢",
+    "korean": "나뭇가지 끝, 우듬지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0558": {
+    "japanese": "長官",
+    "korean": "장관, 청장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0564": {
+    "japanese": "区",
+    "korean": "구(区), 지역",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0567": {
+    "japanese": "立方",
+    "korean": "다치가타(춤을 추는 게이샤)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0573": {
+    "japanese": "連中",
+    "korean": "패거리, 무리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0574": {
+    "japanese": "熱湯",
+    "korean": "끓는 물, 열탕",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0576": {
+    "japanese": "竿",
+    "korean": "장대, 막대",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0580": {
+    "japanese": "葦",
+    "korean": "갈대",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0581": {
+    "japanese": "見晴らし",
+    "korean": "전망",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0587": {
+    "japanese": "原典",
+    "korean": "원전; 원본 텍스트",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0597": {
+    "japanese": "社",
+    "korean": "신사(神社); 사당",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0598": {
+    "japanese": "稲光",
+    "korean": "번개; 번갯불",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0603": {
+    "japanese": "領土",
+    "korean": "영토",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0606": {
+    "japanese": "渦",
+    "korean": "소용돌이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0613": {
+    "japanese": "問屋",
+    "korean": "도매상",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0614": {
+    "japanese": "骨董品",
+    "korean": "골동품",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0617": {
+    "japanese": "照明",
+    "korean": "조명",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0625": {
+    "japanese": "ウェートレス",
+    "korean": "웨이트리스",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0634": {
+    "japanese": "蜂蜜",
+    "korean": "꿀",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0638": {
+    "japanese": "肉体",
+    "korean": "육체",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0639": {
+    "japanese": "捕吏",
+    "korean": "포리(옛 순사, 포졸)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0645": {
+    "japanese": "ストロー",
+    "korean": "빨대",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0648": {
+    "japanese": "家主",
+    "korean": "집주인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0657": {
+    "japanese": "英雄",
+    "korean": "영웅",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0658": {
+    "japanese": "汽船",
+    "korean": "기선(증기선)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0664": {
+    "japanese": "生身",
+    "korean": "살아있는 몸",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0669": {
+    "japanese": "テレックス",
+    "korean": "텔렉스",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0673": {
+    "japanese": "未",
+    "korean": "양(십이지 여덟 번째)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0674": {
+    "japanese": "弓",
+    "korean": "활",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0678": {
+    "japanese": "歩",
+    "korean": "보(장기 말)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0683": {
+    "japanese": "紳士",
+    "korean": "신사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0684": {
+    "japanese": "尻尾",
+    "korean": "꼬리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0691": {
+    "japanese": "仲人",
+    "korean": "중매인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0696": {
+    "japanese": "君主",
+    "korean": "군주",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0700": {
+    "japanese": "乳",
+    "korean": "젖, 우유",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0701": {
+    "japanese": "元素",
+    "korean": "원소",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0704": {
+    "japanese": "コマーシャル",
+    "korean": "광고",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0716": {
+    "japanese": "眼鏡",
+    "korean": "안경",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0720": {
+    "japanese": "肥料",
+    "korean": "비료",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0721": {
+    "japanese": "アルミ",
+    "korean": "알루미늄",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0723": {
+    "japanese": "富豪",
+    "korean": "부호; 백만장자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0742": {
+    "japanese": "内部",
+    "korean": "내부",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0750": {
+    "japanese": "人材",
+    "korean": "인재",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0751": {
+    "japanese": "麻",
+    "korean": "삼; 마(麻); 리넨",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0754": {
+    "japanese": "パトカー",
+    "korean": "순찰차; 경찰차",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0756": {
+    "japanese": "デザート",
+    "korean": "디저트",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0763": {
+    "japanese": "苗",
+    "korean": "모종; 묘목",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0766": {
+    "japanese": "元首",
+    "korean": "원수, 국가 원수",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0773": {
+    "japanese": "貨幣",
+    "korean": "화폐",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0775": {
+    "japanese": "幽霊",
+    "korean": "유령",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0780": {
+    "japanese": "砂利",
+    "korean": "자갈",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0781": {
+    "japanese": "ブーツ",
+    "korean": "부츠",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0783": {
+    "japanese": "父母",
+    "korean": "부모",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0785": {
+    "japanese": "頂",
+    "korean": "정상, 꼭대기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0787": {
+    "japanese": "字",
+    "korean": "(행정구역) 자, 마을 소구역",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0788": {
+    "japanese": "家畜",
+    "korean": "가축",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0791": {
+    "japanese": "ガイド",
+    "korean": "가이드, 안내인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0795": {
+    "japanese": "雑貨",
+    "korean": "잡화",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0797": {
+    "japanese": "国産",
+    "korean": "국산",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0798": {
+    "japanese": "サンタクロース",
+    "korean": "산타클로스",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0802": {
+    "japanese": "ファイル",
+    "korean": "파일",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0810": {
+    "japanese": "腸",
+    "korean": "장, 창자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0814": {
+    "japanese": "ビールス",
+    "korean": "바이러스",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0815": {
+    "japanese": "鳥居",
+    "korean": "도리이(신사 입구의 문)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0822": {
+    "japanese": "幹部",
+    "korean": "간부",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0838": {
+    "japanese": "お祖母さん",
+    "korean": "할머니",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0839": {
+    "japanese": "お供",
+    "korean": "수행원, 동행",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0852": {
+    "japanese": "鋸",
+    "korean": "톱",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0856": {
+    "japanese": "銅",
+    "korean": "구리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0858": {
+    "japanese": "チャイム",
+    "korean": "차임벨",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0859": {
+    "japanese": "御負け",
+    "korean": "덤, 사은품",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0865": {
+    "japanese": "沿線",
+    "korean": "연선(철도 연변)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0866": {
+    "japanese": "主任",
+    "korean": "주임",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0869": {
+    "japanese": "受け取り",
+    "korean": "수취, 받음",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0874": {
+    "japanese": "始発",
+    "korean": "첫차, 시발",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0883": {
+    "japanese": "ナプキン",
+    "korean": "냅킨",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0897": {
+    "japanese": "茶の間",
+    "korean": "(일본식) 거실",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0899": {
+    "japanese": "万人",
+    "korean": "만인, 모든 사람",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0900": {
+    "japanese": "鉄棒",
+    "korean": "쇠막대기, 쇠지레",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0903": {
+    "japanese": "褒美",
+    "korean": "상, 포상",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0910": {
+    "japanese": "目盛",
+    "korean": "눈금",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0911": {
+    "japanese": "スプリング",
+    "korean": "스프링, 용수철",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0914": {
+    "japanese": "水田",
+    "korean": "논",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0926": {
+    "japanese": "樹木",
+    "korean": "수목, 나무",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0928": {
+    "japanese": "ハンガー",
+    "korean": "옷걸이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0932": {
+    "japanese": "胴",
+    "korean": "몸통",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0945": {
+    "japanese": "デッサン",
+    "korean": "데생, 소묘",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0946": {
+    "japanese": "区間",
+    "korean": "구간",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0961": {
+    "japanese": "レントゲン",
+    "korean": "엑스레이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0965": {
+    "japanese": "原文",
+    "korean": "원문",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0971": {
+    "japanese": "嘴",
+    "korean": "부리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0982": {
+    "japanese": "お祖父さん",
+    "korean": "할아버지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0988": {
+    "japanese": "コンタクト",
+    "korean": "콘택트렌즈, 연락",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_0989": {
+    "japanese": "デコレーション",
+    "korean": "장식, 데코레이션",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1006": {
+    "japanese": "主食",
+    "korean": "주식(主食)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1008": {
+    "japanese": "雪崩",
+    "korean": "눈사태",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1014": {
+    "japanese": "園",
+    "korean": "정원, 동산",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1024": {
+    "japanese": "嘘つき",
+    "korean": "거짓말쟁이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1031": {
+    "japanese": "神殿",
+    "korean": "신전",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1037": {
+    "japanese": "上司",
+    "korean": "상사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1038": {
+    "japanese": "聖書",
+    "korean": "성경",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1047": {
+    "japanese": "百科事典",
+    "korean": "백과사전",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1051": {
+    "japanese": "地元",
+    "korean": "현지, 지역",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1057": {
+    "japanese": "臍",
+    "korean": "배꼽",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1059": {
+    "japanese": "ローマ字",
+    "korean": "로마자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1060": {
+    "japanese": "火傷",
+    "korean": "화상",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1074": {
+    "japanese": "物資",
+    "korean": "물자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1076": {
+    "japanese": "インターフォン",
+    "korean": "인터폰",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1085": {
+    "japanese": "旅客",
+    "korean": "여객",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1090": {
+    "japanese": "僕",
+    "korean": "종; 하인(특히 신을 섬기는 종)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1091": {
+    "japanese": "時刻表",
+    "korean": "시각표; 시간표",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1096": {
+    "japanese": "落ち葉",
+    "korean": "낙엽",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1103": {
+    "japanese": "幹",
+    "korean": "(나무) 줄기; 몸통",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1105": {
+    "japanese": "モニター",
+    "korean": "모니터",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1116": {
+    "japanese": "踵",
+    "korean": "발뒤꿈치; (신발) 뒤축",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1122": {
+    "japanese": "漁村",
+    "korean": "어촌",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1123": {
+    "japanese": "瓶",
+    "korean": "항아리; 독",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1127": {
+    "japanese": "坊ちゃん",
+    "korean": "도련님, 아드님(남의 아들을 높여 부르는 말)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1128": {
+    "japanese": "液",
+    "korean": "액체",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1131": {
+    "japanese": "面",
+    "korean": "얼굴, 낯(문어체)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1146": {
+    "japanese": "ガレージ",
+    "korean": "차고, 개러지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1150": {
+    "japanese": "雫",
+    "korean": "물방울",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1152": {
+    "japanese": "秘書",
+    "korean": "비서",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1164": {
+    "japanese": "在庫",
+    "korean": "재고",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1168": {
+    "japanese": "灰",
+    "korean": "떫은맛; (국물에 뜨는) 거품·불순물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1171": {
+    "japanese": "外相",
+    "korean": "외무장관, 외상",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1178": {
+    "japanese": "化繊",
+    "korean": "화학섬유",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1184": {
+    "japanese": "職員",
+    "korean": "직원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1189": {
+    "japanese": "末",
+    "korean": "끝, 우듬지 (가지 끝)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1199": {
+    "japanese": "鞠",
+    "korean": "공",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1202": {
+    "japanese": "トランジスター",
+    "korean": "트랜지스터",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1217": {
+    "japanese": "団扇",
+    "korean": "부채",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1218": {
+    "japanese": "印",
+    "korean": "도장, 인장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1227": {
+    "japanese": "尾",
+    "korean": "꼬리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1233": {
+    "japanese": "雷",
+    "korean": "천둥, 벼락",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1234": {
+    "japanese": "岩石",
+    "korean": "암석",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1236": {
+    "japanese": "獣",
+    "korean": "짐승",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1239": {
+    "japanese": "東",
+    "korean": "동쪽, 아즈마(일본 동부를 가리키는 옛 이름)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1240": {
+    "japanese": "檻",
+    "korean": "우리, 감옥",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1243": {
+    "japanese": "軸",
+    "korean": "축",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1244": {
+    "japanese": "目録",
+    "korean": "목록",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1247": {
+    "japanese": "クラブ",
+    "korean": "클럽, 동아리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1249": {
+    "japanese": "駄作",
+    "korean": "졸작, 형편없는 작품",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1251": {
+    "japanese": "巻",
+    "korean": "권(이야기·책의 한 편)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1267": {
+    "japanese": "焚火",
+    "korean": "모닥불",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1272": {
+    "japanese": "二人",
+    "korean": "두 사람",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1275": {
+    "japanese": "名簿",
+    "korean": "명부",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1282": {
+    "japanese": "弟",
+    "korean": "남동생",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1292": {
+    "japanese": "夜行",
+    "korean": "야간 운행, 심야 이동",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1297": {
+    "japanese": "覆面",
+    "korean": "복면",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1299": {
+    "japanese": "回路",
+    "korean": "회로",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1300": {
+    "japanese": "フェリー",
+    "korean": "페리, 여객선",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1301": {
+    "japanese": "帳",
+    "korean": "장막, 휘장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1302": {
+    "japanese": "版画",
+    "korean": "판화",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1304": {
+    "japanese": "傷",
+    "korean": "상처, 부상",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1306": {
+    "japanese": "ガイドブック",
+    "korean": "가이드북",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1326": {
+    "japanese": "カクテル",
+    "korean": "칵테일",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1332": {
+    "japanese": "アラブ",
+    "korean": "아랍",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1336": {
+    "japanese": "土手",
+    "korean": "둑; 제방",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1357": {
+    "japanese": "著書",
+    "korean": "저서",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1358": {
+    "japanese": "原作",
+    "korean": "원작",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1365": {
+    "japanese": "脂肪",
+    "korean": "지방",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1367": {
+    "japanese": "仏像",
+    "korean": "불상",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1368": {
+    "japanese": "文化財",
+    "korean": "문화재",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1373": {
+    "japanese": "化石",
+    "korean": "화석",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1376": {
+    "japanese": "読者",
+    "korean": "독자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1377": {
+    "japanese": "血管",
+    "korean": "혈관",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1381": {
+    "japanese": "核",
+    "korean": "핵",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1387": {
+    "japanese": "織物",
+    "korean": "직물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1390": {
+    "japanese": "出来物",
+    "korean": "부스럼, 종기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1391": {
+    "japanese": "出入り口",
+    "korean": "출입구",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1393": {
+    "japanese": "一帯",
+    "korean": "일대",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1399": {
+    "japanese": "杯",
+    "korean": "술잔",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1401": {
+    "japanese": "手錠",
+    "korean": "수갑",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1402": {
+    "japanese": "雨具",
+    "korean": "우비, 비옷 등 우천용 도구",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1404": {
+    "japanese": "河川",
+    "korean": "하천",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1408": {
+    "japanese": "刃",
+    "korean": "칼날",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1424": {
+    "japanese": "ゲスト",
+    "korean": "게스트, 손님",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1428": {
+    "japanese": "官僚",
+    "korean": "관료",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1433": {
+    "japanese": "室",
+    "korean": "실, 방",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1447": {
+    "japanese": "タワー",
+    "korean": "타워, 탑",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1450": {
+    "japanese": "西日",
+    "korean": "석양, 서쪽으로 비치는 저녁 햇빛",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1455": {
+    "japanese": "灯",
+    "korean": "등불",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1458": {
+    "japanese": "皇居",
+    "korean": "황거(일왕 거처)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1460": {
+    "japanese": "街",
+    "korean": "~거리, ~가",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1472": {
+    "japanese": "花びら",
+    "korean": "꽃잎",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1475": {
+    "japanese": "焦げ茶",
+    "korean": "짙은 갈색(고동색)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1476": {
+    "japanese": "香辛料",
+    "korean": "향신료",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1485": {
+    "japanese": "勤め先",
+    "korean": "근무처, 직장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1491": {
+    "japanese": "戯曲",
+    "korean": "희곡",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1496": {
+    "japanese": "墓地",
+    "korean": "묘지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1500": {
+    "japanese": "歯磨",
+    "korean": "치약; 양치질",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1506": {
+    "japanese": "器",
+    "korean": "그릇; 용기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1514": {
+    "japanese": "植民地",
+    "korean": "식민지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1518": {
+    "japanese": "写し",
+    "korean": "사본",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1535": {
+    "japanese": "年鑑",
+    "korean": "연감",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1537": {
+    "japanese": "タイル",
+    "korean": "타일",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1538": {
+    "japanese": "山脈",
+    "korean": "산맥",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1542": {
+    "japanese": "新入生",
+    "korean": "신입생",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1545": {
+    "japanese": "シート",
+    "korean": "시트 (좌석; 판)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1548": {
+    "japanese": "津波",
+    "korean": "쓰나미; 해일",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1550": {
+    "japanese": "目蓋",
+    "korean": "눈꺼풀",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1555": {
+    "japanese": "塵取り",
+    "korean": "쓰레받기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1557": {
+    "japanese": "顔付き",
+    "korean": "얼굴 생김새; 표정",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1563": {
+    "japanese": "ホース",
+    "korean": "호스",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1564": {
+    "japanese": "電源",
+    "korean": "전원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1565": {
+    "japanese": "年輪",
+    "korean": "나이테",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1566": {
+    "japanese": "外貨",
+    "korean": "외화",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1568": {
+    "japanese": "日向",
+    "korean": "양지; 볕이 드는 곳",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1571": {
+    "japanese": "少女",
+    "korean": "소녀; 아가씨",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1572": {
+    "japanese": "微塵",
+    "korean": "티끌만큼; 아주 조금도",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1577": {
+    "japanese": "保母",
+    "korean": "보모(보육교사)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1587": {
+    "japanese": "農場",
+    "korean": "농장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1588": {
+    "japanese": "流し",
+    "korean": "싱크대",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1595": {
+    "japanese": "アマチュア",
+    "korean": "아마추어",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1598": {
+    "japanese": "花粉",
+    "korean": "꽃가루",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1607": {
+    "japanese": "原子",
+    "korean": "원자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1609": {
+    "japanese": "他人",
+    "korean": "타인, 남",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1617": {
+    "japanese": "棟",
+    "korean": "동(건물을 세는 단위)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1620": {
+    "japanese": "館",
+    "korean": "관, 건물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1638": {
+    "japanese": "ユニフォーム",
+    "korean": "유니폼",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1646": {
+    "japanese": "塩",
+    "korean": "염(화학 반응으로 생기는 화합물, 소금류)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1655": {
+    "japanese": "式場",
+    "korean": "예식장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1662": {
+    "japanese": "崖",
+    "korean": "절벽",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1663": {
+    "japanese": "教員",
+    "korean": "교원; 교사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1664": {
+    "japanese": "眉",
+    "korean": "눈썹",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1675": {
+    "japanese": "夜具",
+    "korean": "침구",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1682": {
+    "japanese": "幹線",
+    "korean": "간선",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1688": {
+    "japanese": "雛",
+    "korean": "병아리; 새끼 새",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1690": {
+    "japanese": "金庫",
+    "korean": "돈줄; 재원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1691": {
+    "japanese": "断面",
+    "korean": "단면",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1701": {
+    "japanese": "大便",
+    "korean": "대변",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1704": {
+    "japanese": "文",
+    "korean": "편지; 글(문어체)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1721": {
+    "japanese": "衆",
+    "korean": "대중, 무리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1726": {
+    "japanese": "首飾り",
+    "korean": "목걸이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1735": {
+    "japanese": "英字",
+    "korean": "영문자, 알파벳",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1738": {
+    "japanese": "ベース",
+    "korean": "베이스, 기반",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1742": {
+    "japanese": "傾斜",
+    "korean": "경사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1744": {
+    "japanese": "盾",
+    "korean": "방패",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1745": {
+    "japanese": "結晶",
+    "korean": "결정(체)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1746": {
+    "japanese": "山岳",
+    "korean": "산악",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1755": {
+    "japanese": "スポーツカー",
+    "korean": "스포츠카",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1761": {
+    "japanese": "鉄鋼",
+    "korean": "철강",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1763": {
+    "japanese": "柵",
+    "korean": "울타리, 담",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1771": {
+    "japanese": "物体",
+    "korean": "물체",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1772": {
+    "japanese": "道場",
+    "korean": "도장(무술 수련장)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1779": {
+    "japanese": "外来",
+    "korean": "외래, 외래 진료",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1782": {
+    "japanese": "裾",
+    "korean": "옷단, 밑단; 산기슭",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1783": {
+    "japanese": "桟橋",
+    "korean": "부두, 잔교",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1784": {
+    "japanese": "渡り鳥",
+    "korean": "철새",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1788": {
+    "japanese": "ストロボ",
+    "korean": "스트로보, 플래시",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1790": {
+    "japanese": "台本",
+    "korean": "대본",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1792": {
+    "japanese": "信者",
+    "korean": "신자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1800": {
+    "japanese": "贋物",
+    "korean": "가짜, 위조품",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1807": {
+    "japanese": "モーテル",
+    "korean": "모텔",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1808": {
+    "japanese": "配偶者",
+    "korean": "배우자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1809": {
+    "japanese": "子息",
+    "korean": "아들(자제분)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1811": {
+    "japanese": "昼飯",
+    "korean": "점심(밥)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1815": {
+    "japanese": "鉄片",
+    "korean": "쇳조각; 철편",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1827": {
+    "japanese": "金槌",
+    "korean": "쇠망치",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1836": {
+    "japanese": "球根",
+    "korean": "구근(알뿌리)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1839": {
+    "japanese": "じゃん拳",
+    "korean": "가위바위보",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1843": {
+    "japanese": "エアメール",
+    "korean": "항공우편",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1845": {
+    "japanese": "マーク",
+    "korean": "마크; 표시",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1849": {
+    "japanese": "地形",
+    "korean": "지형",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1861": {
+    "japanese": "肺",
+    "korean": "폐",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1862": {
+    "japanese": "潮",
+    "korean": "조수, 바닷물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1864": {
+    "japanese": "レンジ",
+    "korean": "레인지, 범위",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1865": {
+    "japanese": "夕焼け",
+    "korean": "노을, 저녁놀",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1867": {
+    "japanese": "揃い",
+    "korean": "한 벌, 갖춤",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1877": {
+    "japanese": "土台",
+    "korean": "토대, 기초",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1878": {
+    "japanese": "旦那",
+    "korean": "남편, 주인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1882": {
+    "japanese": "体格",
+    "korean": "체격",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1885": {
+    "japanese": "重役",
+    "korean": "중역, 임원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1897": {
+    "japanese": "筒",
+    "korean": "관, 통",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1908": {
+    "japanese": "メーカー",
+    "korean": "제조사, 메이커",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1913": {
+    "japanese": "ロープ",
+    "korean": "로프, 밧줄",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1917": {
+    "japanese": "パジャマ",
+    "korean": "잠옷, 파자마",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1920": {
+    "japanese": "ラベル",
+    "korean": "라벨, 상표",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1928": {
+    "japanese": "陶器",
+    "korean": "도자기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1931": {
+    "japanese": "側面",
+    "korean": "측면",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1933": {
+    "japanese": "ブザー",
+    "korean": "부저, 버저",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1936": {
+    "japanese": "短大",
+    "korean": "전문대학(단기대학)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1939": {
+    "japanese": "火星",
+    "korean": "화성",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1941": {
+    "japanese": "ドライバー",
+    "korean": "드라이버(운전자/나사돌리개)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1947": {
+    "japanese": "警部",
+    "korean": "경부(경찰 계급)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1950": {
+    "japanese": "爆弾",
+    "korean": "폭탄",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1959": {
+    "japanese": "私物",
+    "korean": "개인 소지품, 사물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1965": {
+    "japanese": "侍",
+    "korean": "사무라이, 무사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1970": {
+    "japanese": "衣類",
+    "korean": "의류",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1974": {
+    "japanese": "オレンジ",
+    "korean": "오렌지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1977": {
+    "japanese": "遠方",
+    "korean": "먼 곳, 원방",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1979": {
+    "japanese": "斜面",
+    "korean": "경사면, 비탈",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1982": {
+    "japanese": "お八",
+    "korean": "간식",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1983": {
+    "japanese": "お宮",
+    "korean": "신사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1987": {
+    "japanese": "木綿",
+    "korean": "목화(나무솜)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_1992": {
+    "japanese": "女子",
+    "korean": "여자, 계집",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2000": {
+    "japanese": "粉末",
+    "korean": "분말, 가루",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2003": {
+    "japanese": "御手洗い",
+    "korean": "화장실",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2009": {
+    "japanese": "網",
+    "korean": "그물, 망",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2011": {
+    "japanese": "掌",
+    "korean": "손바닥",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2023": {
+    "japanese": "不動産",
+    "korean": "부동산",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2026": {
+    "japanese": "矢",
+    "korean": "화살",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2027": {
+    "japanese": "土俵",
+    "korean": "씨름판",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2035": {
+    "japanese": "地主",
+    "korean": "지주",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2037": {
+    "japanese": "立体",
+    "korean": "입체",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2038": {
+    "japanese": "ライス",
+    "korean": "라이스(밥)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2043": {
+    "japanese": "星座",
+    "korean": "별자리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2053": {
+    "japanese": "茎",
+    "korean": "줄기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2061": {
+    "japanese": "お襁褓",
+    "korean": "기저귀",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2062": {
+    "japanese": "漁船",
+    "korean": "어선",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2067": {
+    "japanese": "スラックス",
+    "korean": "슬랙스(바지)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2078": {
+    "japanese": "沼",
+    "korean": "늪; 소택지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2080": {
+    "japanese": "捻子",
+    "korean": "나사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2109": {
+    "japanese": "姉妹",
+    "korean": "자매",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2118": {
+    "japanese": "地方",
+    "korean": "물가; 뭍(해안)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2125": {
+    "japanese": "藍褸",
+    "korean": "누더기; 넝마",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2128": {
+    "japanese": "給食",
+    "korean": "급식",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2136": {
+    "japanese": "ランプ",
+    "korean": "램프; 등",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2141": {
+    "japanese": "フィルター",
+    "korean": "필터",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2143": {
+    "japanese": "従業員",
+    "korean": "종업원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2148": {
+    "japanese": "バッジ",
+    "korean": "배지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2151": {
+    "japanese": "野外",
+    "korean": "야외",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2159": {
+    "japanese": "物置き",
+    "korean": "창고; 헛간",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2167": {
+    "japanese": "計器",
+    "korean": "계기; 계량기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2171": {
+    "japanese": "法廷",
+    "korean": "법정",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2178": {
+    "japanese": "天皇",
+    "korean": "천황",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2184": {
+    "japanese": "鼠",
+    "korean": "쥐; 쥐색(회색)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2193": {
+    "japanese": "日の丸",
+    "korean": "일장기(일본 국기)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2197": {
+    "japanese": "民宿",
+    "korean": "민박",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2210": {
+    "japanese": "ジーパン",
+    "korean": "청바지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2211": {
+    "japanese": "身体",
+    "korean": "몸, 신체",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2212": {
+    "japanese": "暴風",
+    "korean": "폭풍",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2227": {
+    "japanese": "大空",
+    "korean": "창공, 하늘",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2228": {
+    "japanese": "フロント",
+    "korean": "프런트(접수처)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2231": {
+    "japanese": "海峡",
+    "korean": "해협",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2233": {
+    "japanese": "蓋",
+    "korean": "뚜껑",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2235": {
+    "japanese": "股",
+    "korean": "가랑이, 사타구니",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2236": {
+    "japanese": "願書",
+    "korean": "원서, 지원서",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2246": {
+    "japanese": "腿",
+    "korean": "허벅지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2248": {
+    "japanese": "枠",
+    "korean": "틀, 테두리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2256": {
+    "japanese": "アクセル",
+    "korean": "액셀, 가속 페달",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2268": {
+    "japanese": "新築",
+    "korean": "신축",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2271": {
+    "japanese": "碁盤",
+    "korean": "바둑판",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2275": {
+    "japanese": "ポンプ",
+    "korean": "펌프",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2288": {
+    "japanese": "百科辞典",
+    "korean": "백과사전",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2292": {
+    "japanese": "捕虜",
+    "korean": "포로",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2293": {
+    "japanese": "吊り革",
+    "korean": "(전철·버스의) 손잡이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2301": {
+    "japanese": "蓮",
+    "korean": "연꽃",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2306": {
+    "japanese": "峰",
+    "korean": "봉우리, 산등성이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2328": {
+    "japanese": "中指",
+    "korean": "가운뎃손가락",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2331": {
+    "japanese": "三味線",
+    "korean": "샤미센(일본 전통 현악기)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2333": {
+    "japanese": "雑木",
+    "korean": "잡목",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2337": {
+    "japanese": "先代",
+    "korean": "선대(이전 세대·전임자)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2340": {
+    "japanese": "本館",
+    "korean": "본관",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2345": {
+    "japanese": "封",
+    "korean": "봉인, 봉함",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2349": {
+    "japanese": "真珠",
+    "korean": "진주",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2352": {
+    "japanese": "係り",
+    "korean": "담당, 담당자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2353": {
+    "japanese": "仏",
+    "korean": "프랑스(불)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2355": {
+    "japanese": "芝",
+    "korean": "잔디",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2358": {
+    "japanese": "人体",
+    "korean": "인체",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2359": {
+    "japanese": "桐",
+    "korean": "오동나무",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2387": {
+    "japanese": "税務署",
+    "korean": "세무서",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2391": {
+    "japanese": "兵器",
+    "korean": "무기, 병기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2400": {
+    "japanese": "遺跡",
+    "korean": "유적",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2405": {
+    "japanese": "ねじ回し",
+    "korean": "드라이버(나사돌리개)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2408": {
+    "japanese": "上空",
+    "korean": "상공",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2410": {
+    "japanese": "原油",
+    "korean": "원유",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2413": {
+    "japanese": "近郊",
+    "korean": "근교",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2416": {
+    "japanese": "街道",
+    "korean": "가도, 큰길",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2420": {
+    "japanese": "眼科",
+    "korean": "안과",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2424": {
+    "japanese": "門",
+    "korean": "문, 대문",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2433": {
+    "japanese": "貴族",
+    "korean": "귀족",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2442": {
+    "japanese": "仕掛け",
+    "korean": "장치, 트릭",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2453": {
+    "japanese": "議事堂",
+    "korean": "국회의사당",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2461": {
+    "japanese": "知り合い",
+    "korean": "지인, 아는 사람",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2466": {
+    "japanese": "名札",
+    "korean": "명찰",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2469": {
+    "japanese": "使用人",
+    "korean": "고용인, 하인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2476": {
+    "japanese": "敵",
+    "korean": "원수; 적수",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2486": {
+    "japanese": "タイヤ",
+    "korean": "타이어",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2490": {
+    "japanese": "雌",
+    "korean": "암컷",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2493": {
+    "japanese": "郷里",
+    "korean": "고향",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2498": {
+    "japanese": "濠",
+    "korean": "해자; 도랑",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2502": {
+    "japanese": "畜生",
+    "korean": "짐승; 제기랄(욕설)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2504": {
+    "japanese": "悪者",
+    "korean": "악당; 나쁜 사람",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2508": {
+    "japanese": "ゼリー",
+    "korean": "젤리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2514": {
+    "japanese": "孤児",
+    "korean": "고아",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2516": {
+    "japanese": "社宅",
+    "korean": "사택(회사 소유 주택)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2517": {
+    "japanese": "母校",
+    "korean": "모교",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2530": {
+    "japanese": "電線",
+    "korean": "전선",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2536": {
+    "japanese": "えい",
+    "korean": "가오리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2544": {
+    "japanese": "吃逆",
+    "korean": "딸꾹질",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2558": {
+    "japanese": "世帯",
+    "korean": "세대; 가구",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2561": {
+    "japanese": "奴",
+    "korean": "종; 하인(신분이 낮은 사람)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2566": {
+    "japanese": "甥",
+    "korean": "조카",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2571": {
+    "japanese": "首輪",
+    "korean": "목걸이, 목줄",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2578": {
+    "japanese": "レンタカー",
+    "korean": "렌터카",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2580": {
+    "japanese": "家来",
+    "korean": "가신, 하인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2599": {
+    "japanese": "身振り",
+    "korean": "몸짓",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2602": {
+    "japanese": "殿様",
+    "korean": "영주, 나리(봉건 영주)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2614": {
+    "japanese": "顎",
+    "korean": "턱",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2620": {
+    "japanese": "原爆",
+    "korean": "원자폭탄",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2622": {
+    "japanese": "グラフ",
+    "korean": "그래프",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2626": {
+    "japanese": "現地",
+    "korean": "현지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2629": {
+    "japanese": "燃料",
+    "korean": "연료",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2632": {
+    "japanese": "票",
+    "korean": "표",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2634": {
+    "japanese": "産物",
+    "korean": "산물, 결과물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2639": {
+    "japanese": "襟",
+    "korean": "옷깃",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2646": {
+    "japanese": "機",
+    "korean": "베틀",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2648": {
+    "japanese": "尉",
+    "korean": "위(관직), 노인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2658": {
+    "japanese": "牧師",
+    "korean": "목사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2664": {
+    "japanese": "極楽",
+    "korean": "극락",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2666": {
+    "japanese": "パチンコ",
+    "korean": "파친코",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2669": {
+    "japanese": "溶液",
+    "korean": "용액",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2677": {
+    "japanese": "屎尿",
+    "korean": "분뇨",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2678": {
+    "japanese": "繊維",
+    "korean": "섬유",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2679": {
+    "japanese": "露",
+    "korean": "이슬",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2693": {
+    "japanese": "耳鼻科",
+    "korean": "이비인후과",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2705": {
+    "japanese": "浜辺",
+    "korean": "해변",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2707": {
+    "japanese": "群集",
+    "korean": "군중",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2719": {
+    "japanese": "定食",
+    "korean": "정식(세트 메뉴)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2721": {
+    "japanese": "蔵",
+    "korean": "창고, 곳간",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2722": {
+    "japanese": "バット",
+    "korean": "배트(야구 방망이)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2725": {
+    "japanese": "玩具",
+    "korean": "장난감",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2728": {
+    "japanese": "検事",
+    "korean": "검사(檢事)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2729": {
+    "japanese": "アンケート",
+    "korean": "설문조사, 앙케트",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2744": {
+    "japanese": "伜",
+    "korean": "(자신의) 아들",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2749": {
+    "japanese": "街頭",
+    "korean": "거리, 길거리(가두)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2754": {
+    "japanese": "エンジニア",
+    "korean": "엔지니어, 기술자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2762": {
+    "japanese": "役場",
+    "korean": "관공서, 면(구청)사무소",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2774": {
+    "japanese": "火花",
+    "korean": "불꽃, 스파크",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2777": {
+    "japanese": "天国",
+    "korean": "천국",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2782": {
+    "japanese": "玄人",
+    "korean": "전문가, 숙련자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2810": {
+    "japanese": "ファン",
+    "korean": "팬",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2822": {
+    "japanese": "制服",
+    "korean": "제복, 교복",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2829": {
+    "japanese": "仙",
+    "korean": "신선, 선인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2831": {
+    "japanese": "土産",
+    "korean": "토산품, 그 지방의 특산물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2834": {
+    "japanese": "市街",
+    "korean": "시가지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2840": {
+    "japanese": "ダンプ",
+    "korean": "덤프(트럭)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2846": {
+    "japanese": "田園",
+    "korean": "전원, 시골",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2858": {
+    "japanese": "婿",
+    "korean": "사위",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2872": {
+    "japanese": "天井",
+    "korean": "천장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2875": {
+    "japanese": "用品",
+    "korean": "용품",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2877": {
+    "japanese": "乗客",
+    "korean": "승객",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2879": {
+    "japanese": "給仕",
+    "korean": "급사, 시중드는 사람",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2882": {
+    "japanese": "黄金",
+    "korean": "황금",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2887": {
+    "japanese": "作り",
+    "korean": "만듦새, 구조, 생김새",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2905": {
+    "japanese": "農地",
+    "korean": "농지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2911": {
+    "japanese": "干し物",
+    "korean": "널어 말리는 빨래",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2913": {
+    "japanese": "扉",
+    "korean": "문, 문짝",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2914": {
+    "japanese": "僧",
+    "korean": "승려",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2918": {
+    "japanese": "天体",
+    "korean": "천체",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2923": {
+    "japanese": "劇団",
+    "korean": "극단",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2924": {
+    "japanese": "錆び",
+    "korean": "녹(색)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2927": {
+    "japanese": "当人",
+    "korean": "당사자, 본인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2932": {
+    "japanese": "堤防",
+    "korean": "제방, 둑",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2941": {
+    "japanese": "浜",
+    "korean": "해변, 바닷가",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2944": {
+    "japanese": "お巡りさん",
+    "korean": "순경 아저씨, 경찰관 (친근한 호칭)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2954": {
+    "japanese": "証人",
+    "korean": "증인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2955": {
+    "japanese": "聴診器",
+    "korean": "청진기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2957": {
+    "japanese": "スタジオ",
+    "korean": "스튜디오",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2965": {
+    "japanese": "ネガ",
+    "korean": "(사진) 네거티브 필름",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2970": {
+    "japanese": "眼球",
+    "korean": "안구",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2971": {
+    "japanese": "ベストセラー",
+    "korean": "베스트셀러",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2977": {
+    "japanese": "衣装",
+    "korean": "의상",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2983": {
+    "japanese": "十字路",
+    "korean": "사거리, 교차로",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_2999": {
+    "japanese": "張り紙",
+    "korean": "벽보, 게시물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3000": {
+    "japanese": "惑星",
+    "korean": "행성",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3008": {
+    "japanese": "柱",
+    "korean": "기둥",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3009": {
+    "japanese": "人民",
+    "korean": "인민",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3011": {
+    "japanese": "海流",
+    "korean": "해류",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3014": {
+    "japanese": "脳",
+    "korean": "뇌",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3015": {
+    "japanese": "玉",
+    "korean": "옥장(장기의 왕 말)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3018": {
+    "japanese": "唾",
+    "korean": "침",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3022": {
+    "japanese": "ジャンパー",
+    "korean": "점퍼",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3024": {
+    "japanese": "酸",
+    "korean": "산(화학)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3037": {
+    "japanese": "蔵相",
+    "korean": "재무장관",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3042": {
+    "japanese": "昆虫",
+    "korean": "곤충",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3044": {
+    "japanese": "庁",
+    "korean": "청(관공서)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3050": {
+    "japanese": "壇",
+    "korean": "단; 연단",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3058": {
+    "japanese": "原っぱ",
+    "korean": "공터; 들판",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3061": {
+    "japanese": "藁",
+    "korean": "짚",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3062": {
+    "japanese": "細菌",
+    "korean": "세균",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3087": {
+    "japanese": "邸宅",
+    "korean": "저택",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3089": {
+    "japanese": "怪獣",
+    "korean": "괴수",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3092": {
+    "japanese": "火燵",
+    "korean": "고타쓰(일본식 온열 테이블)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3096": {
+    "japanese": "頬っぺた",
+    "korean": "볼, 뺨",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3097": {
+    "japanese": "新人",
+    "korean": "신입, 신인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3098": {
+    "japanese": "レディー",
+    "korean": "레이디, 숙녀",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3100": {
+    "japanese": "守衛",
+    "korean": "수위, 경비원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3101": {
+    "japanese": "国境",
+    "korean": "국경",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3106": {
+    "japanese": "模型",
+    "korean": "모형, 모델",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3110": {
+    "japanese": "沿岸",
+    "korean": "연안",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3115": {
+    "japanese": "本場",
+    "korean": "본고장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3118": {
+    "japanese": "塾",
+    "korean": "학원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3123": {
+    "japanese": "固体",
+    "korean": "고체",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3124": {
+    "japanese": "体付き",
+    "korean": "체격, 몸매",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3125": {
+    "japanese": "荷",
+    "korean": "짐",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3133": {
+    "japanese": "器官",
+    "korean": "기관(장기)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3141": {
+    "japanese": "内臓",
+    "korean": "내장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3144": {
+    "japanese": "衣料",
+    "korean": "의류",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3149": {
+    "japanese": "コンパス",
+    "korean": "컴퍼스, 나침반",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3153": {
+    "japanese": "ドライブイン",
+    "korean": "드라이브인 (자동차 이용객을 위한 휴게소·식당)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3156": {
+    "japanese": "名産",
+    "korean": "명산품, 특산물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3161": {
+    "japanese": "国土",
+    "korean": "국토",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3163": {
+    "japanese": "タレント",
+    "korean": "탤런트, 방송인, 재능 있는 사람",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3171": {
+    "japanese": "レバー",
+    "korean": "레버(지렛대); (식용) 간",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3175": {
+    "japanese": "分子",
+    "korean": "분자 (수학의 분자; 화학의 분자)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3187": {
+    "japanese": "取っ手",
+    "korean": "손잡이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3191": {
+    "japanese": "刺",
+    "korean": "가시",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3192": {
+    "japanese": "雄",
+    "korean": "수컷",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3204": {
+    "japanese": "蜜",
+    "korean": "꿀, 과즙",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3210": {
+    "japanese": "小銭",
+    "korean": "잔돈",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3227": {
+    "japanese": "特産",
+    "korean": "특산",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3228": {
+    "japanese": "鋏",
+    "korean": "가위",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3238": {
+    "japanese": "通",
+    "korean": "정통한 사람, (편지를 세는 단위) ~통",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3242": {
+    "japanese": "現場",
+    "korean": "현장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3245": {
+    "japanese": "ベスト",
+    "korean": "베스트, 최선",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3246": {
+    "japanese": "装備",
+    "korean": "장비",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3253": {
+    "japanese": "用紙",
+    "korean": "용지, 서식",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3257": {
+    "japanese": "判",
+    "korean": "도장, 인감",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3264": {
+    "japanese": "屋敷",
+    "korean": "저택",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3266": {
+    "japanese": "縁側",
+    "korean": "툇마루",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3273": {
+    "japanese": "点線",
+    "korean": "점선",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3282": {
+    "japanese": "商人",
+    "korean": "상인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3284": {
+    "japanese": "領海",
+    "korean": "영해",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3288": {
+    "japanese": "空間",
+    "korean": "빈 방; 셋방",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3292": {
+    "japanese": "宮殿",
+    "korean": "궁전",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3295": {
+    "japanese": "発条",
+    "korean": "스프링; 용수철",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3299": {
+    "japanese": "杖",
+    "korean": "지팡이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3301": {
+    "japanese": "同志",
+    "korean": "동지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3309": {
+    "japanese": "ミセス",
+    "korean": "부인 (기혼 여성 호칭)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3320": {
+    "japanese": "銃",
+    "korean": "총",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3322": {
+    "japanese": "軒並み",
+    "korean": "집집마다; 일제히",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3327": {
+    "japanese": "内陸",
+    "korean": "내륙",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3328": {
+    "japanese": "準急",
+    "korean": "준급행 (열차)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3335": {
+    "japanese": "年寄り",
+    "korean": "노인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3345": {
+    "japanese": "碑",
+    "korean": "비석",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3358": {
+    "japanese": "煙草",
+    "korean": "담배",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3359": {
+    "japanese": "小切手",
+    "korean": "수표",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3360": {
+    "japanese": "暦",
+    "korean": "달력; 책력",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3363": {
+    "japanese": "市",
+    "korean": "시장; 장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3378": {
+    "japanese": "南",
+    "korean": "남, 남쪽",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3382": {
+    "japanese": "学士",
+    "korean": "학사(대학 졸업자)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3393": {
+    "japanese": "入口",
+    "korean": "입구",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3405": {
+    "japanese": "領地",
+    "korean": "영지, 영토",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3416": {
+    "japanese": "水源",
+    "korean": "수원, 원천",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3418": {
+    "japanese": "釣鐘",
+    "korean": "(사찰의) 종, 매달린 종",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3425": {
+    "japanese": "舗装",
+    "korean": "포장(도로)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3429": {
+    "japanese": "ティッシュペーパー",
+    "korean": "티슈, 휴지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3435": {
+    "japanese": "船舶",
+    "korean": "선박",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3441": {
+    "japanese": "兵士",
+    "korean": "병사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3453": {
+    "japanese": "貝殻",
+    "korean": "조개껍데기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3455": {
+    "japanese": "担架",
+    "korean": "들것",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3456": {
+    "japanese": "床",
+    "korean": "잠자리, 병상",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3460": {
+    "japanese": "旅券",
+    "korean": "여권",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n1_3463": {
+    "japanese": "タイピスト",
+    "korean": "타이피스트",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0003": {
+    "japanese": "目上",
+    "korean": "윗사람 (연장자·상사)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0004": {
+    "japanese": "成分",
+    "korean": "성분",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0005": {
+    "japanese": "サイレン",
+    "korean": "사이렌",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0006": {
+    "japanese": "毛糸",
+    "korean": "털실",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0009": {
+    "japanese": "雨戸",
+    "korean": "덧문 (비바람막이 미닫이문)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0010": {
+    "japanese": "矢印",
+    "korean": "화살표",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0020": {
+    "japanese": "小学生",
+    "korean": "초등학생",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0022": {
+    "japanese": "文献",
+    "korean": "문헌",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0030": {
+    "japanese": "先端",
+    "korean": "끝, 첨단",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0033": {
+    "japanese": "書籍",
+    "korean": "서적, 책",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0034": {
+    "japanese": "芯",
+    "korean": "심 (core)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0035": {
+    "japanese": "琴",
+    "korean": "고토 (일본 전통 현악기)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0036": {
+    "japanese": "お代わり",
+    "korean": "(음식) 한 그릇 더",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0038": {
+    "japanese": "ブラシ",
+    "korean": "브러시, 솔",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0047": {
+    "japanese": "記号",
+    "korean": "기호",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0054": {
+    "japanese": "おかず",
+    "korean": "반찬",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0055": {
+    "japanese": "鉱物",
+    "korean": "광물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0056": {
+    "japanese": "山林",
+    "korean": "산림",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0057": {
+    "japanese": "粒",
+    "korean": "알, 낟알",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0060": {
+    "japanese": "必需品",
+    "korean": "필수품",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0061": {
+    "japanese": "農薬",
+    "korean": "농약",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0063": {
+    "japanese": "女の人",
+    "korean": "여자, 여성",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0065": {
+    "japanese": "大通り",
+    "korean": "대로, 큰길",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0068": {
+    "japanese": "ウール",
+    "korean": "울, 양모",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0071": {
+    "japanese": "曲線",
+    "korean": "곡선",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0072": {
+    "japanese": "ロッカー",
+    "korean": "로커, 사물함",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0075": {
+    "japanese": "蕎麦",
+    "korean": "소바, 메밀국수",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0076": {
+    "japanese": "機関車",
+    "korean": "기관차",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0081": {
+    "japanese": "木材",
+    "korean": "목재",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0082": {
+    "japanese": "従姉妹",
+    "korean": "사촌(여자)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0088": {
+    "japanese": "校庭",
+    "korean": "교정, 운동장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0089": {
+    "japanese": "殻",
+    "korean": "껍질, 껍데기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0090": {
+    "japanese": "碁",
+    "korean": "바둑",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0095": {
+    "japanese": "ポスター",
+    "korean": "포스터",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0098": {
+    "japanese": "三日月",
+    "korean": "초승달",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0099": {
+    "japanese": "飾り",
+    "korean": "장식",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0100": {
+    "japanese": "塊",
+    "korean": "덩어리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0101": {
+    "japanese": "紙幣",
+    "korean": "지폐",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0105": {
+    "japanese": "講師",
+    "korean": "강사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0110": {
+    "japanese": "アンテナ",
+    "korean": "안테나",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0116": {
+    "japanese": "太鼓",
+    "korean": "북",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0117": {
+    "japanese": "調味料",
+    "korean": "조미료",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0118": {
+    "japanese": "並木",
+    "korean": "가로수",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0120": {
+    "japanese": "海洋",
+    "korean": "해양",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0125": {
+    "japanese": "水滴",
+    "korean": "물방울",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0126": {
+    "japanese": "鉄砲",
+    "korean": "총",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0127": {
+    "japanese": "寮",
+    "korean": "기숙사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0129": {
+    "japanese": "花嫁",
+    "korean": "신부",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0130": {
+    "japanese": "錆",
+    "korean": "녹",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0132": {
+    "japanese": "新幹線",
+    "korean": "신칸센(고속철도)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0136": {
+    "japanese": "モノレール",
+    "korean": "모노레일",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0138": {
+    "japanese": "乾電池",
+    "korean": "건전지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0147": {
+    "japanese": "ペンチ",
+    "korean": "펜치, 집게",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0152": {
+    "japanese": "小指",
+    "korean": "새끼손가락",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0157": {
+    "japanese": "電柱",
+    "korean": "전봇대",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0158": {
+    "japanese": "叔母さん",
+    "korean": "아주머니, 이모/고모",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0159": {
+    "japanese": "梯子",
+    "korean": "사다리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0162": {
+    "japanese": "私鉄",
+    "korean": "사철(민영 철도)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0171": {
+    "japanese": "知合い",
+    "korean": "지인, 아는 사이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0173": {
+    "japanese": "綱",
+    "korean": "밧줄",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0175": {
+    "japanese": "コーラス",
+    "korean": "코러스, 합창",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0180": {
+    "japanese": "たんす",
+    "korean": "옷장, 장롱",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0189": {
+    "japanese": "産地",
+    "korean": "산지, 생산지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0190": {
+    "japanese": "セメント",
+    "korean": "시멘트",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0192": {
+    "japanese": "ロビー",
+    "korean": "로비",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0197": {
+    "japanese": "公衆",
+    "korean": "공중, 대중",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0199": {
+    "japanese": "定期券",
+    "korean": "정기권",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0201": {
+    "japanese": "欄",
+    "korean": "난, 칸(신문 등의)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0203": {
+    "japanese": "地盤",
+    "korean": "지반",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0207": {
+    "japanese": "ミシン",
+    "korean": "재봉틀",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0208": {
+    "japanese": "吹雪",
+    "korean": "눈보라",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0209": {
+    "japanese": "人差指",
+    "korean": "검지, 집게손가락",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0210": {
+    "japanese": "障子",
+    "korean": "장지문, 미닫이 창호",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0213": {
+    "japanese": "括弧",
+    "korean": "괄호",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0216": {
+    "japanese": "肘",
+    "korean": "팔꿈치",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0220": {
+    "japanese": "ワンピース",
+    "korean": "원피스",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0221": {
+    "japanese": "傑作",
+    "korean": "걸작, 명작",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0225": {
+    "japanese": "テニスコート",
+    "korean": "테니스 코트",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0239": {
+    "japanese": "東洋",
+    "korean": "동양",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0244": {
+    "japanese": "ぼろ",
+    "korean": "누더기, 넝마",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0246": {
+    "japanese": "彫刻",
+    "korean": "조각",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0248": {
+    "japanese": "線路",
+    "korean": "선로",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0255": {
+    "japanese": "振り仮名",
+    "korean": "후리가나(한자 읽는 법 표기)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0257": {
+    "japanese": "夕日",
+    "korean": "석양, 저녁 해",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0260": {
+    "japanese": "絵の具",
+    "korean": "그림물감",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0262": {
+    "japanese": "学部",
+    "korean": "학부",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0266": {
+    "japanese": "墨",
+    "korean": "먹(먹물)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0267": {
+    "japanese": "住居",
+    "korean": "주거, 거처",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0268": {
+    "japanese": "回数券",
+    "korean": "회수권(정액 승차권)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0269": {
+    "japanese": "仲良し",
+    "korean": "친한 친구, 사이가 좋음",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0273": {
+    "japanese": "通路",
+    "korean": "통로",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0277": {
+    "japanese": "受話器",
+    "korean": "수화기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0280": {
+    "japanese": "敷地",
+    "korean": "부지, 대지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0285": {
+    "japanese": "平仮名",
+    "korean": "히라가나",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0291": {
+    "japanese": "南米",
+    "korean": "남미",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0304": {
+    "japanese": "メーター",
+    "korean": "계량기, 미터",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0305": {
+    "japanese": "植木",
+    "korean": "정원수, 화초",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0312": {
+    "japanese": "看板",
+    "korean": "간판",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0313": {
+    "japanese": "灯台",
+    "korean": "등대",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0318": {
+    "japanese": "秤",
+    "korean": "저울",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0321": {
+    "japanese": "郡",
+    "korean": "군(郡), 지역",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0323": {
+    "japanese": "王女",
+    "korean": "공주",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0324": {
+    "japanese": "マスク",
+    "korean": "마스크",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0330": {
+    "japanese": "都心",
+    "korean": "도심",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0337": {
+    "japanese": "針金",
+    "korean": "철사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0344": {
+    "japanese": "終点",
+    "korean": "종점",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0348": {
+    "japanese": "賞金",
+    "korean": "상금",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0350": {
+    "japanese": "ひゃっかじてん",
+    "korean": "백과사전",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0352": {
+    "japanese": "子孫",
+    "korean": "자손",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0355": {
+    "japanese": "夜行",
+    "korean": "야간(운행), 야행",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0357": {
+    "japanese": "親指",
+    "korean": "엄지손가락",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0358": {
+    "japanese": "幼稚園",
+    "korean": "유치원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0365": {
+    "japanese": "垣根",
+    "korean": "울타리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0370": {
+    "japanese": "ウエートレス",
+    "korean": "웨이트리스",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0374": {
+    "japanese": "レンズ",
+    "korean": "렌즈",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0375": {
+    "japanese": "税関",
+    "korean": "세관",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0376": {
+    "japanese": "踏切",
+    "korean": "건널목",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0378": {
+    "japanese": "地点",
+    "korean": "지점",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0379": {
+    "japanese": "主役",
+    "korean": "주역, 주인공",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0381": {
+    "japanese": "手首",
+    "korean": "손목",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0384": {
+    "japanese": "鉄橋",
+    "korean": "철교",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0387": {
+    "japanese": "蛇口",
+    "korean": "수도꼭지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0393": {
+    "japanese": "政党",
+    "korean": "정당",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0396": {
+    "japanese": "ビルディング",
+    "korean": "빌딩",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0397": {
+    "japanese": "塵芥",
+    "korean": "쓰레기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0398": {
+    "japanese": "へそ",
+    "korean": "배꼽",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0404": {
+    "japanese": "磁石",
+    "korean": "자석",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0405": {
+    "japanese": "周辺",
+    "korean": "주변",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0409": {
+    "japanese": "しっぽ",
+    "korean": "꼬리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0410": {
+    "japanese": "バック",
+    "korean": "후진, 뒤",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0414": {
+    "japanese": "冠",
+    "korean": "왕관",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0415": {
+    "japanese": "碗",
+    "korean": "그릇, 사발",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0430": {
+    "japanese": "箸",
+    "korean": "젓가락",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0432": {
+    "japanese": "水素",
+    "korean": "수소",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0433": {
+    "japanese": "髭",
+    "korean": "수염",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0434": {
+    "japanese": "チップ",
+    "korean": "팁, 칩",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0436": {
+    "japanese": "香水",
+    "korean": "향수",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0444": {
+    "japanese": "うどん",
+    "korean": "우동",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0461": {
+    "japanese": "歯磨き",
+    "korean": "양치질, 치약",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0464": {
+    "japanese": "醤油",
+    "korean": "간장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0479": {
+    "japanese": "丼",
+    "korean": "사발, 덮밥용 큰 그릇",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0487": {
+    "japanese": "親類",
+    "korean": "친척",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0488": {
+    "japanese": "瞳",
+    "korean": "눈동자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0489": {
+    "japanese": "田ぼ",
+    "korean": "논",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0498": {
+    "japanese": "漁師",
+    "korean": "어부",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0499": {
+    "japanese": "欧米",
+    "korean": "구미, 서구(유럽과 미국)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0500": {
+    "japanese": "大学院",
+    "korean": "대학원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0501": {
+    "japanese": "知人",
+    "korean": "지인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0505": {
+    "japanese": "耕地",
+    "korean": "경작지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0506": {
+    "japanese": "養分",
+    "korean": "양분, 영양분",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0510": {
+    "japanese": "会館",
+    "korean": "회관",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0512": {
+    "japanese": "温室",
+    "korean": "온실",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0516": {
+    "japanese": "名物",
+    "korean": "명물, 특산품",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0519": {
+    "japanese": "かるた",
+    "korean": "카루타(일본 전통 카드놀이)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0521": {
+    "japanese": "ランチ",
+    "korean": "점심(식사)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0522": {
+    "japanese": "作者",
+    "korean": "작가",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0524": {
+    "japanese": "落し物",
+    "korean": "분실물",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0529": {
+    "japanese": "モーター",
+    "korean": "모터",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0537": {
+    "japanese": "女房",
+    "korean": "아내, 마누라",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0538": {
+    "japanese": "死体",
+    "korean": "시체",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0547": {
+    "japanese": "国王",
+    "korean": "국왕",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0551": {
+    "japanese": "滝",
+    "korean": "폭포",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0552": {
+    "japanese": "箒",
+    "korean": "빗자루",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0554": {
+    "japanese": "判子",
+    "korean": "도장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0562": {
+    "japanese": "湯飲み",
+    "korean": "찻잔",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0563": {
+    "japanese": "盆地",
+    "korean": "분지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0565": {
+    "japanese": "器械",
+    "korean": "기구, 기계",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0571": {
+    "japanese": "楽器",
+    "korean": "악기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0583": {
+    "japanese": "杉",
+    "korean": "삼나무",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0585": {
+    "japanese": "全集",
+    "korean": "전집",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0586": {
+    "japanese": "瓶詰",
+    "korean": "병조림, 병에 담긴",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0587": {
+    "japanese": "蝋燭",
+    "korean": "양초",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0596": {
+    "japanese": "内科",
+    "korean": "내과",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0598": {
+    "japanese": "便所",
+    "korean": "화장실",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0601": {
+    "japanese": "四つ角",
+    "korean": "사거리, 네거리",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0602": {
+    "japanese": "櫛",
+    "korean": "빗",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0603": {
+    "japanese": "スカーフ",
+    "korean": "스카프",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0604": {
+    "japanese": "サンプル",
+    "korean": "샘플, 견본",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0608": {
+    "japanese": "カーブ",
+    "korean": "커브, 곡선",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0620": {
+    "japanese": "あかんぼう",
+    "korean": "아기, 갓난아기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0623": {
+    "japanese": "戸棚",
+    "korean": "찬장, 벽장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0626": {
+    "japanese": "物置",
+    "korean": "창고, 헛간",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0628": {
+    "japanese": "灯油",
+    "korean": "등유",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0631": {
+    "japanese": "水筒",
+    "korean": "물통, 수통",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0635": {
+    "japanese": "目次",
+    "korean": "목차",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0647": {
+    "japanese": "列島",
+    "korean": "열도",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0650": {
+    "japanese": "ダイヤル",
+    "korean": "다이얼",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0651": {
+    "japanese": "役所",
+    "korean": "관공서, 관청",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0654": {
+    "japanese": "石鹸",
+    "korean": "비누",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0657": {
+    "japanese": "汁",
+    "korean": "국물, 즙",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0664": {
+    "japanese": "包帯",
+    "korean": "붕대",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0667": {
+    "japanese": "車輪",
+    "korean": "차바퀴",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0669": {
+    "japanese": "唇",
+    "korean": "입술",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0675": {
+    "japanese": "ジャーナリスト",
+    "korean": "저널리스트, 기자",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0678": {
+    "japanese": "煙突",
+    "korean": "굴뚝",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0683": {
+    "japanese": "名作",
+    "korean": "명작",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0684": {
+    "japanese": "栓",
+    "korean": "마개, 뚜껑",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0686": {
+    "japanese": "随筆",
+    "korean": "수필",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0689": {
+    "japanese": "ギャング",
+    "korean": "갱, 폭력배",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0692": {
+    "japanese": "清書",
+    "korean": "정서, 깨끗하게 옮겨 씀",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0697": {
+    "japanese": "水蒸気",
+    "korean": "수증기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0698": {
+    "japanese": "投書",
+    "korean": "투고, 독자 편지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0704": {
+    "japanese": "ベテラン",
+    "korean": "베테랑",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0707": {
+    "japanese": "雑巾",
+    "korean": "걸레",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0715": {
+    "japanese": "坊や",
+    "korean": "얘야, 꼬마(남자아이를 부르는 말)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0717": {
+    "japanese": "ゴム",
+    "korean": "고무",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0720": {
+    "japanese": "貝",
+    "korean": "조개",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0721": {
+    "japanese": "釜",
+    "korean": "가마솥, 솥",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0724": {
+    "japanese": "便箋",
+    "korean": "편지지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0728": {
+    "japanese": "口紅",
+    "korean": "립스틱",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0729": {
+    "japanese": "コンクリート",
+    "korean": "콘크리트",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0731": {
+    "japanese": "タイア",
+    "korean": "타이어",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0735": {
+    "japanese": "カバー",
+    "korean": "커버, 덮개",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0736": {
+    "japanese": "餅",
+    "korean": "떡(찹쌀떡)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0741": {
+    "japanese": "両側",
+    "korean": "양쪽, 양측",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0746": {
+    "japanese": "頂点",
+    "korean": "정점, 꼭대기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0748": {
+    "japanese": "火口",
+    "korean": "화구, 분화구",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0749": {
+    "japanese": "庖丁",
+    "korean": "식칼, 부엌칼",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0753": {
+    "japanese": "家主",
+    "korean": "집주인",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0754": {
+    "japanese": "校舎",
+    "korean": "교사(학교 건물)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0756": {
+    "japanese": "下町",
+    "korean": "서민 동네, 구시가지",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0761": {
+    "japanese": "×",
+    "korean": "가위표, 엑스 표시(틀림 표시)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0763": {
+    "japanese": "広場",
+    "korean": "광장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0771": {
+    "japanese": "毛皮",
+    "korean": "모피",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0773": {
+    "japanese": "団地",
+    "korean": "단지(주택단지)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0775": {
+    "japanese": "蚊",
+    "korean": "모기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0780": {
+    "japanese": "大工",
+    "korean": "목수",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0781": {
+    "japanese": "関西",
+    "korean": "간사이(지방명)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0785": {
+    "japanese": "ストッキング",
+    "korean": "스타킹",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0793": {
+    "japanese": "バケツ",
+    "korean": "양동이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0794": {
+    "japanese": "縞",
+    "korean": "줄무늬",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0798": {
+    "japanese": "コック",
+    "korean": "요리사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0801": {
+    "japanese": "オーバーコート",
+    "korean": "오버코트",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0803": {
+    "japanese": "助教授",
+    "korean": "조교수",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0804": {
+    "japanese": "襖",
+    "korean": "후스마(일본식 미닫이문)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0807": {
+    "japanese": "通帳",
+    "korean": "통장",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0810": {
+    "japanese": "マンション",
+    "korean": "맨션(아파트)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0819": {
+    "japanese": "のこぎり",
+    "korean": "톱",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0821": {
+    "japanese": "煉瓦",
+    "korean": "벽돌",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0828": {
+    "japanese": "足袋",
+    "korean": "다비(일본식 버선)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0829": {
+    "japanese": "消防署",
+    "korean": "소방서",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0830": {
+    "japanese": "後輩",
+    "korean": "후배",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0831": {
+    "japanese": "材木",
+    "korean": "목재",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0839": {
+    "japanese": "見本",
+    "korean": "견본, 샘플",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0843": {
+    "japanese": "紅葉",
+    "korean": "단풍",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0847": {
+    "japanese": "坊っちゃん",
+    "korean": "도련님, 아드님",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0856": {
+    "japanese": "リポート",
+    "korean": "리포트, 보고서",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0858": {
+    "japanese": "お手伝いさん",
+    "korean": "가정부, 도우미",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0865": {
+    "japanese": "名刺",
+    "korean": "명함",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0867": {
+    "japanese": "屑",
+    "korean": "쓰레기, 찌꺼기",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0870": {
+    "japanese": "坊さん",
+    "korean": "스님, 승려",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0871": {
+    "japanese": "官庁",
+    "korean": "관청",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0873": {
+    "japanese": "スチュワーデス",
+    "korean": "스튜어디스",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0878": {
+    "japanese": "家屋",
+    "korean": "가옥, 집",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0889": {
+    "japanese": "インキ",
+    "korean": "잉크",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0891": {
+    "japanese": "銅",
+    "korean": "구리, 동",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0894": {
+    "japanese": "地帯",
+    "korean": "지대",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0897": {
+    "japanese": "ガム",
+    "korean": "껌",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0900": {
+    "japanese": "おやつ",
+    "korean": "간식",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0902": {
+    "japanese": "遊園地",
+    "korean": "놀이공원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0903": {
+    "japanese": "キャンパス",
+    "korean": "캠퍼스, 대학 교정",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0904": {
+    "japanese": "裏口",
+    "korean": "뒷문, 뒤쪽 입구",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0907": {
+    "japanese": "幼児",
+    "korean": "유아, 어린아이",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0908": {
+    "japanese": "目覚し",
+    "korean": "자명종, 알람 시계",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0911": {
+    "japanese": "小便",
+    "korean": "소변, 오줌",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0917": {
+    "japanese": "盆",
+    "korean": "쟁반, 백중(맹란분)",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0921": {
+    "japanese": "麓",
+    "korean": "산기슭, 산 아래",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0922": {
+    "japanese": "原料",
+    "korean": "원료",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0929": {
+    "japanese": "モデル",
+    "korean": "모델",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0931": {
+    "japanese": "皮膚",
+    "korean": "피부",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0935": {
+    "japanese": "スクール",
+    "korean": "스쿨, 학원",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0941": {
+    "japanese": "顕微鏡",
+    "korean": "현미경",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0942": {
+    "japanese": "手洗い",
+    "korean": "화장실, 손 씻는 곳",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0943": {
+    "japanese": "爪",
+    "korean": "손톱, 발톱",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0945": {
+    "japanese": "薬指",
+    "korean": "약지, 넷째 손가락",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0954": {
+    "japanese": "正方形",
+    "korean": "정사각형",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0961": {
+    "japanese": "ねじ",
+    "korean": "나사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0967": {
+    "japanese": "長方形",
+    "korean": "직사각형",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0973": {
+    "japanese": "下線",
+    "korean": "밑줄",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0974": {
+    "japanese": "領事",
+    "korean": "영사",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  },
+  "n2_0976": {
+    "japanese": "中指",
+    "korean": "중지, 가운뎃손가락",
+    "reason": "Failed to fetch tags from Gemini API (Quota exhausted or network error)"
+  }
+}

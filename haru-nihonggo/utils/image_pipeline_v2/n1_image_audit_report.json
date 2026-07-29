@@ -1,0 +1,61 @@
+{
+  "total_n1_words": 3462,
+  "suspicious_count": 5,
+  "items": [
+    {
+      "id": "n1_0157",
+      "kanji": "練る",
+      "hiragana": "ねる",
+      "korean": "반죽하다; 계획 등을 다듬다",
+      "english": "to knead; to work over; to polish up",
+      "prompt": "Ghibli bakery, a chef kneading bread dough on a wooden counter, flour dusting the air, warm stone oven glowing, cozy bakery kitchen, nostalgic delicious cooking, hand-drawn watercolor style",
+      "reasons": [
+        "Food/Meal word but prompt lacks food visuals"
+      ]
+    },
+    {
+      "id": "n1_1436",
+      "kanji": "定義",
+      "hiragana": "ていぎ",
+      "korean": "정의",
+      "english": "definition",
+      "prompt": "illuminated dictionary definition icon, open book with glowing key term, studio ghibli style, warm color palette, soft volumetric lighting",
+      "reasons": [
+        "Generic fallback prompt contains 'dictionary'"
+      ]
+    },
+    {
+      "id": "n1_1782",
+      "kanji": "裾",
+      "hiragana": "すそ",
+      "korean": "옷단, 밑단; 산기슭",
+      "english": "(trouser) cuff; (skirt) hem; cut edge of a hairdo; foot of mountain",
+      "prompt": "hem of long skirt floating in gentle meadow wind, walking along mountain foot trail, studio ghibli style, warm color palette, soft volumetric lighting",
+      "reasons": [
+        "Clothing word but prompt lacks clothing visuals"
+      ]
+    },
+    {
+      "id": "n1_2600",
+      "kanji": "死",
+      "hiragana": "し",
+      "korean": "죽음, 사망",
+      "english": "death; decease",
+      "prompt": "single pure white lily flower resting on wooden table by quiet window, soft morning sunlight, peaceful memory, studio ghibli style, warm color palette, soft volumetric lighting",
+      "reasons": [
+        "Food/Meal word but prompt lacks food visuals"
+      ]
+    },
+    {
+      "id": "n1_2621",
+      "kanji": "しいんと",
+      "hiragana": "しいんと",
+      "korean": "쥐 죽은 듯이 조용함",
+      "english": "silent (as the grave); (deathly) quiet",
+      "prompt": "tranquil bamboo forest in morning mist, sunbeams filtering through leaves, perfectly quiet and silent nature, studio ghibli style, warm color palette, soft volumetric lighting",
+      "reasons": [
+        "Food/Meal word but prompt lacks food visuals"
+      ]
+    }
+  ]
+}

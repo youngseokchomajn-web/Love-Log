@@ -1,0 +1,502 @@
+[
+  {
+    "id": "n2_0324",
+    "kanji": "マスク",
+    "hiragana": "マスク",
+    "english": "mask",
+    "korean": "마스크",
+    "level": "n2",
+    "exampleJp": "外に出るときはマスクをつけます。",
+    "exampleKo": "밖에 나갈 때는 마스크를 씁니다."
+  },
+  {
+    "id": "n2_0330",
+    "kanji": "都心",
+    "hiragana": "としん",
+    "english": "heart (of city)",
+    "korean": "도심",
+    "level": "n2",
+    "exampleJp": "彼は都心に住んでいます。",
+    "exampleKo": "그는 도심에 살고 있습니다."
+  },
+  {
+    "id": "n2_0337",
+    "kanji": "針金",
+    "hiragana": "はりがね",
+    "english": "wire",
+    "korean": "철사",
+    "level": "n2",
+    "exampleJp": "針金で花を作りました。",
+    "exampleKo": "철사로 꽃을 만들었습니다."
+  },
+  {
+    "id": "n2_0344",
+    "kanji": "終点",
+    "hiragana": "しゅうてん",
+    "english": "terminus, last stop (e.g train)",
+    "korean": "종점",
+    "level": "n2",
+    "exampleJp": "このバスの終点はどこですか。",
+    "exampleKo": "이 버스의 종점은 어디입니까?"
+  },
+  {
+    "id": "n2_0348",
+    "kanji": "賞金",
+    "hiragana": "しょうきん",
+    "english": "prize, monetary award",
+    "korean": "상금",
+    "level": "n2",
+    "exampleJp": "大会で優勝して賞金をもらいました。",
+    "exampleKo": "대회에서 우승해서 상금을 받았습니다."
+  },
+  {
+    "id": "n2_0350",
+    "kanji": "ひゃっかじてん",
+    "hiragana": "ひゃっかじてん",
+    "english": "encyclopedia",
+    "korean": "백과사전",
+    "level": "n2",
+    "exampleJp": "図書館で百科事典を調べました。",
+    "exampleKo": "도서관에서 백과사전을 찾아봤습니다."
+  },
+  {
+    "id": "n2_0352",
+    "kanji": "子孫",
+    "hiragana": "しそん",
+    "english": "descendants, posterity, offspring",
+    "korean": "자손",
+    "level": "n2",
+    "exampleJp": "彼らは私たちの子孫です。",
+    "exampleKo": "그들은 우리의 자손입니다."
+  },
+  {
+    "id": "n2_0355",
+    "kanji": "夜行",
+    "hiragana": "やこう",
+    "english": "walking around at night, night train, night travel",
+    "korean": "야간(운행), 야행",
+    "level": "n2",
+    "exampleJp": "夜行バスで大阪に行きました。",
+    "exampleKo": "야간버스로 오사카에 갔습니다."
+  },
+  {
+    "id": "n2_0357",
+    "kanji": "親指",
+    "hiragana": "おやゆび",
+    "english": "thumb",
+    "korean": "엄지손가락",
+    "level": "n2",
+    "exampleJp": "親指をけがしてしまいました。",
+    "exampleKo": "엄지손가락을 다쳤습니다."
+  },
+  {
+    "id": "n2_0358",
+    "kanji": "幼稚園",
+    "hiragana": "ようちえん",
+    "english": "kindergarten",
+    "korean": "유치원",
+    "level": "n2",
+    "exampleJp": "息子は幼稚園に通っています。",
+    "exampleKo": "아들은 유치원에 다니고 있습니다."
+  },
+  {
+    "id": "n2_0365",
+    "kanji": "垣根",
+    "hiragana": "かきね",
+    "english": "hedge",
+    "korean": "울타리",
+    "level": "n2",
+    "exampleJp": "庭に垣根を作りました。",
+    "exampleKo": "정원에 울타리를 만들었습니다."
+  },
+  {
+    "id": "n2_0370",
+    "kanji": "ウエートレス",
+    "hiragana": "ウエートレス",
+    "english": "waitress",
+    "korean": "웨이트리스",
+    "level": "n2",
+    "exampleJp": "彼女はレストランでウエートレスをしている。",
+    "exampleKo": "그녀는 레스토랑에서 웨이트리스를 하고 있다."
+  },
+  {
+    "id": "n2_0374",
+    "kanji": "レンズ",
+    "hiragana": "レンズ",
+    "english": "lens",
+    "korean": "렌즈",
+    "level": "n2",
+    "exampleJp": "カメラのレンズを拭いた。",
+    "exampleKo": "카메라 렌즈를 닦았다."
+  },
+  {
+    "id": "n2_0375",
+    "kanji": "税関",
+    "hiragana": "ぜいかん",
+    "english": "customs house",
+    "korean": "세관",
+    "level": "n2",
+    "exampleJp": "空港の税関で荷物を調べられた。",
+    "exampleKo": "공항 세관에서 짐을 검사받았다."
+  },
+  {
+    "id": "n2_0376",
+    "kanji": "踏切",
+    "hiragana": "ふみきり",
+    "english": "railway crossing, level crossing, starting line, scratch, crossover",
+    "korean": "건널목",
+    "level": "n2",
+    "exampleJp": "踏切で電車を待った。",
+    "exampleKo": "건널목에서 전철을 기다렸다."
+  },
+  {
+    "id": "n2_0378",
+    "kanji": "地点",
+    "hiragana": "ちてん",
+    "english": "site, point on a map",
+    "korean": "지점",
+    "level": "n2",
+    "exampleJp": "待ち合わせの地点を決めましょう。",
+    "exampleKo": "만날 지점을 정합시다."
+  },
+  {
+    "id": "n2_0379",
+    "kanji": "主役",
+    "hiragana": "しゅやく",
+    "english": "leading part, leading actor (actress)",
+    "korean": "주역, 주인공",
+    "level": "n2",
+    "exampleJp": "彼が今回の映画の主役です。",
+    "exampleKo": "그가 이번 영화의 주인공입니다."
+  },
+  {
+    "id": "n2_0381",
+    "kanji": "手首",
+    "hiragana": "てくび",
+    "english": "wrist",
+    "korean": "손목",
+    "level": "n2",
+    "exampleJp": "転んで手首を痛めた。",
+    "exampleKo": "넘어져서 손목을 다쳤다."
+  },
+  {
+    "id": "n2_0384",
+    "kanji": "鉄橋",
+    "hiragana": "てっきょう",
+    "english": "railway bridge, iron bridge",
+    "korean": "철교",
+    "level": "n2",
+    "exampleJp": "電車は鉄橋を渡った。",
+    "exampleKo": "전철은 철교를 건넜다."
+  },
+  {
+    "id": "n2_0387",
+    "kanji": "蛇口",
+    "hiragana": "じゃぐち",
+    "english": "faucet, tap",
+    "korean": "수도꼭지",
+    "level": "n2",
+    "exampleJp": "蛇口をひねって水を出した。",
+    "exampleKo": "수도꼭지를 틀어서 물을 나오게 했다."
+  },
+  {
+    "id": "n2_0393",
+    "kanji": "政党",
+    "hiragana": "せいとう",
+    "english": "(member of) political party",
+    "korean": "정당",
+    "level": "n2",
+    "exampleJp": "新しい政党が誕生した。",
+    "exampleKo": "새로운 정당이 탄생했다."
+  },
+  {
+    "id": "n2_0396",
+    "kanji": "ビルディング",
+    "hiragana": "ビルディング",
+    "english": "building",
+    "korean": "빌딩",
+    "level": "n2",
+    "exampleJp": "駅前に高いビルディングが建った。",
+    "exampleKo": "역 앞에 높은 빌딩이 지어졌다."
+  },
+  {
+    "id": "n2_0397",
+    "kanji": "塵芥",
+    "hiragana": "ごみ",
+    "english": "trash, rubbish",
+    "korean": "쓰레기",
+    "level": "n2",
+    "exampleJp": "道にごみを捨ててはいけません。",
+    "exampleKo": "길에 쓰레기를 버리면 안 됩니다."
+  },
+  {
+    "id": "n2_0398",
+    "kanji": "へそ",
+    "hiragana": "へそ",
+    "english": "navel, belly-button",
+    "korean": "배꼽",
+    "level": "n2",
+    "exampleJp": "赤ちゃんのへそを見せてもらった。",
+    "exampleKo": "아기의 배꼽을 보여줬다."
+  },
+  {
+    "id": "n2_0404",
+    "kanji": "磁石",
+    "hiragana": "じしゃく",
+    "english": "magnet",
+    "korean": "자석",
+    "level": "n2",
+    "exampleJp": "磁石で鉄を引き寄せた。",
+    "exampleKo": "자석으로 철을 끌어당겼다."
+  },
+  {
+    "id": "n2_0405",
+    "kanji": "周辺",
+    "hiragana": "しゅうへん",
+    "english": "circumference, outskirts, environs, (computer) peripheral",
+    "korean": "주변",
+    "level": "n2",
+    "exampleJp": "駅の周辺にお店がたくさんある。",
+    "exampleKo": "역 주변에 가게가 많이 있다."
+  },
+  {
+    "id": "n2_0409",
+    "kanji": "しっぽ",
+    "hiragana": "しっぽ",
+    "english": "tail (animal)",
+    "korean": "꼬리",
+    "level": "n2",
+    "exampleJp": "犬がしっぽを振っています。",
+    "exampleKo": "개가 꼬리를 흔들고 있습니다."
+  },
+  {
+    "id": "n2_0410",
+    "kanji": "バック",
+    "hiragana": "バック",
+    "english": "back",
+    "korean": "후진, 뒤",
+    "level": "n2",
+    "exampleJp": "車を少しバックしてください。",
+    "exampleKo": "차를 조금 후진해 주세요."
+  },
+  {
+    "id": "n2_0414",
+    "kanji": "冠",
+    "hiragana": "かんむり",
+    "english": "crown, diadem, first, best",
+    "korean": "왕관",
+    "level": "n2",
+    "exampleJp": "王様が冠をかぶっている。",
+    "exampleKo": "왕이 왕관을 쓰고 있다."
+  },
+  {
+    "id": "n2_0415",
+    "kanji": "碗",
+    "hiragana": "わん",
+    "english": "bowl",
+    "korean": "그릇, 사발",
+    "level": "n2",
+    "exampleJp": "碗にご飯をよそう。",
+    "exampleKo": "그릇에 밥을 담다."
+  },
+  {
+    "id": "n2_0430",
+    "kanji": "箸",
+    "hiragana": "はし",
+    "english": "chopsticks",
+    "korean": "젓가락",
+    "level": "n2",
+    "exampleJp": "箸でご飯を食べる。",
+    "exampleKo": "젓가락으로 밥을 먹다."
+  },
+  {
+    "id": "n2_0432",
+    "kanji": "水素",
+    "hiragana": "すいそ",
+    "english": "hydrogen",
+    "korean": "수소",
+    "level": "n2",
+    "exampleJp": "水素は燃料電池に使われる。",
+    "exampleKo": "수소는 연료전지에 사용된다."
+  },
+  {
+    "id": "n2_0433",
+    "kanji": "髭",
+    "hiragana": "ひげ",
+    "english": "moustache, beard, whiskers",
+    "korean": "수염",
+    "level": "n2",
+    "exampleJp": "父は髭を伸ばしている。",
+    "exampleKo": "아버지는 수염을 기르고 있다."
+  },
+  {
+    "id": "n2_0434",
+    "kanji": "チップ",
+    "hiragana": "チップ",
+    "english": "(1) gratuity, tip, (2) chip",
+    "korean": "팁, 칩",
+    "level": "n2",
+    "exampleJp": "ウェイターにチップを渡す。",
+    "exampleKo": "웨이터에게 팁을 주다."
+  },
+  {
+    "id": "n2_0436",
+    "kanji": "香水",
+    "hiragana": "こうすい",
+    "english": "perfume",
+    "korean": "향수",
+    "level": "n2",
+    "exampleJp": "彼女は香水をつけている。",
+    "exampleKo": "그녀는 향수를 뿌리고 있다."
+  },
+  {
+    "id": "n2_0444",
+    "kanji": "うどん",
+    "hiragana": "うどん",
+    "english": "noodles (Japanese)",
+    "korean": "우동",
+    "level": "n2",
+    "exampleJp": "昼ごはんにうどんを食べた。",
+    "exampleKo": "점심으로 우동을 먹었다."
+  },
+  {
+    "id": "n2_0461",
+    "kanji": "歯磨き",
+    "hiragana": "はみがき",
+    "english": "dentifrice, toothpaste",
+    "korean": "양치질, 치약",
+    "level": "n2",
+    "exampleJp": "毎朝歯磨きをします。",
+    "exampleKo": "매일 아침 양치질을 합니다."
+  },
+  {
+    "id": "n2_0464",
+    "kanji": "醤油",
+    "hiragana": "しょうゆ",
+    "english": "soy sauce",
+    "korean": "간장",
+    "level": "n2",
+    "exampleJp": "刺身に醤油をつけて食べる。",
+    "exampleKo": "회에 간장을 찍어 먹는다."
+  },
+  {
+    "id": "n2_0479",
+    "kanji": "丼",
+    "hiragana": "どんぶり",
+    "english": "porcelain bowl, bowl of rice with food on top",
+    "korean": "사발, 덮밥용 큰 그릇",
+    "level": "n2",
+    "exampleJp": "母は丼にご飯をたくさん盛ってくれた。",
+    "exampleKo": "어머니는 사발에 밥을 많이 담아 주셨다."
+  },
+  {
+    "id": "n2_0487",
+    "kanji": "親類",
+    "hiragana": "しんるい",
+    "english": "relation, kin",
+    "korean": "친척",
+    "level": "n2",
+    "exampleJp": "夏休みに親類の家を訪ねた。",
+    "exampleKo": "여름방학에 친척집을 방문했다."
+  },
+  {
+    "id": "n2_0488",
+    "kanji": "瞳",
+    "hiragana": "ひとみ",
+    "english": "pupil (of eye)",
+    "korean": "눈동자",
+    "level": "n2",
+    "exampleJp": "彼女の瞳はとても綺麗だ。",
+    "exampleKo": "그녀의 눈동자는 매우 아름답다."
+  },
+  {
+    "id": "n2_0489",
+    "kanji": "田ぼ",
+    "hiragana": "たんぼ",
+    "english": "paddy field, farm",
+    "korean": "논",
+    "level": "n2",
+    "exampleJp": "田んぼで稲が育っている。",
+    "exampleKo": "논에서 벼가 자라고 있다."
+  },
+  {
+    "id": "n2_0498",
+    "kanji": "漁師",
+    "hiragana": "りょうし",
+    "english": "fisherman",
+    "korean": "어부",
+    "level": "n2",
+    "exampleJp": "彼は漁師として働いている。",
+    "exampleKo": "그는 어부로 일하고 있다."
+  },
+  {
+    "id": "n2_0499",
+    "kanji": "欧米",
+    "hiragana": "おうべい",
+    "english": "Europe and America, the West",
+    "korean": "구미, 서구(유럽과 미국)",
+    "level": "n2",
+    "exampleJp": "欧米では働き方が異なる。",
+    "exampleKo": "서구에서는 일하는 방식이 다르다."
+  },
+  {
+    "id": "n2_0500",
+    "kanji": "大学院",
+    "hiragana": "だいがくいん",
+    "english": "graduate school",
+    "korean": "대학원",
+    "level": "n2",
+    "exampleJp": "彼女は大学院で経済学を学んでいる。",
+    "exampleKo": "그녀는 대학원에서 경제학을 공부하고 있다."
+  },
+  {
+    "id": "n2_0501",
+    "kanji": "知人",
+    "hiragana": "ちじん",
+    "english": "friend, acquaintance",
+    "korean": "지인",
+    "level": "n2",
+    "exampleJp": "駅で知人に会った。",
+    "exampleKo": "역에서 지인을 만났다."
+  },
+  {
+    "id": "n2_0505",
+    "kanji": "耕地",
+    "hiragana": "こうち",
+    "english": "arable land",
+    "korean": "경작지",
+    "level": "n2",
+    "exampleJp": "この地域には広い耕地が広がっている。",
+    "exampleKo": "이 지역에는 넓은 경작지가 펼쳐져 있다."
+  },
+  {
+    "id": "n2_0506",
+    "kanji": "養分",
+    "hiragana": "ようぶん",
+    "english": "nourishment, nutrient",
+    "korean": "양분, 영양분",
+    "level": "n2",
+    "exampleJp": "植物は土から養分を吸収する。",
+    "exampleKo": "식물은 흙에서 양분을 흡수한다."
+  },
+  {
+    "id": "n2_0510",
+    "kanji": "会館",
+    "hiragana": "かいかん",
+    "english": "meeting hall, assembly hall",
+    "korean": "회관",
+    "level": "n2",
+    "exampleJp": "結婚式は市民会館で行われた。",
+    "exampleKo": "결혼식은 시민 회관에서 열렸다."
+  },
+  {
+    "id": "n2_0512",
+    "kanji": "温室",
+    "hiragana": "おんしつ",
+    "english": "greenhouse",
+    "korean": "온실",
+    "level": "n2",
+    "exampleJp": "温室で野菜を育てている。",
+    "exampleKo": "온실에서 채소를 기르고 있다."
+  }
+]

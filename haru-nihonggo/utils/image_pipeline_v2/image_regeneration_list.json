@@ -1,0 +1,1964 @@
+[
+  {
+    "id": "n5_0002",
+    "level": "N5",
+    "kanji": "問題",
+    "hiragana": "もんだい",
+    "korean": "문제",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '문제' (問題), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0022",
+    "level": "N5",
+    "kanji": "英語",
+    "hiragana": "えいご",
+    "korean": "영어",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '영어' (英語), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0055",
+    "level": "N5",
+    "kanji": "分かる",
+    "hiragana": "わかる",
+    "korean": "알다, 이해하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '알다, 이해하다' (分かる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0098",
+    "level": "N5",
+    "kanji": "番号",
+    "hiragana": "ばんごう",
+    "korean": "번호",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '번호' (番号), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0119",
+    "level": "N5",
+    "kanji": "大学",
+    "hiragana": "だいがく",
+    "korean": "대학교",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '대학교' (大学), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0145",
+    "level": "N5",
+    "kanji": "覚える",
+    "hiragana": "おぼえる",
+    "korean": "외우다, 기억하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '외우다, 기억하다' (覚える), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0162",
+    "level": "N5",
+    "kanji": "言葉",
+    "hiragana": "ことば",
+    "korean": "말, 단어",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '말, 단어' (言葉), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0247",
+    "level": "N5",
+    "kanji": "忘れる",
+    "hiragana": "わすれる",
+    "korean": "잊다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '잊다' (忘れる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0309",
+    "level": "N5",
+    "kanji": "上",
+    "hiragana": "うえ",
+    "korean": "위",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '위' (上), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0353",
+    "level": "N5",
+    "kanji": "入れる",
+    "hiragana": "いれる",
+    "korean": "넣다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '넣다' (入れる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0360",
+    "level": "N5",
+    "kanji": "冷たい",
+    "hiragana": "つめたい",
+    "korean": "차갑다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차갑다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0394",
+    "level": "N5",
+    "kanji": "宿題",
+    "hiragana": "しゅくだい",
+    "korean": "숙제",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '숙제' (宿題), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0395",
+    "level": "N5",
+    "kanji": "死ぬ",
+    "hiragana": "しぬ",
+    "korean": "죽다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (죽다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0424",
+    "level": "N5",
+    "kanji": "全部",
+    "hiragana": "ぜんぶ",
+    "korean": "전부, 모두",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '전부, 모두' (全部), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0432",
+    "level": "N5",
+    "kanji": "やる",
+    "hiragana": "やる",
+    "korean": "하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '하다' (やる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0433",
+    "level": "N5",
+    "kanji": "自動車",
+    "hiragana": "じどうしゃ",
+    "korean": "자동차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (자동차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0451",
+    "level": "N5",
+    "kanji": "習う",
+    "hiragana": "ならう",
+    "korean": "배우다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '배우다' (習う), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0458",
+    "level": "N5",
+    "kanji": "八日",
+    "hiragana": "ようか",
+    "korean": "팔 일, 8일",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '팔 일, 8일' (八日), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0470",
+    "level": "N5",
+    "kanji": "毎日",
+    "hiragana": "まいにち",
+    "korean": "매일",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '매일' (毎日), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0521",
+    "level": "N5",
+    "kanji": "交差点",
+    "hiragana": "こうさてん",
+    "korean": "교차로",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (교차로), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0524",
+    "level": "N5",
+    "kanji": "ボールペン",
+    "hiragana": "ボールペン",
+    "korean": "볼펜",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '볼펜' (ボールペン), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0530",
+    "level": "N5",
+    "kanji": "漢字",
+    "hiragana": "かんじ",
+    "korean": "한자",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '한자' (漢字), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0555",
+    "level": "N5",
+    "kanji": "車",
+    "hiragana": "くるま",
+    "korean": "자동차, 차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (자동차, 차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0567",
+    "level": "N5",
+    "kanji": "伯父 / 叔父",
+    "hiragana": "おじいさん",
+    "korean": "삼촌, 숙부",
+    "reason": "읽기 정정 (おじいさん → おじ)",
+    "prompt": "middle-aged uncle standing in sunlit school classroom near blackboard, wooden desk, smiling, studio ghibli style, warm color palette, soft volumetric lighting, watercolor background"
+  },
+  {
+    "id": "n5_0628",
+    "level": "N5",
+    "kanji": "まだ",
+    "hiragana": "まだ",
+    "korean": "아직",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '아직' (まだ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0641",
+    "level": "N5",
+    "kanji": "留学生",
+    "hiragana": "りゅうがくせい",
+    "korean": "유학생",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '유학생' (留学生), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_153",
+    "level": "N4",
+    "kanji": "写す",
+    "hiragana": "うつす",
+    "korean": "찍다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '찍다' (写す), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_157",
+    "level": "N4",
+    "kanji": "裏",
+    "hiragana": "うら",
+    "korean": "뒷면",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '뒷면' (裏), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_181",
+    "level": "N4",
+    "kanji": "押し入れ",
+    "hiragana": "おしいれ",
+    "korean": "옷장",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "neatly arranged clothing item (옷장), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_199",
+    "level": "N4",
+    "kanji": "表",
+    "hiragana": "おもて",
+    "korean": "표면",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '표면' (表), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_213",
+    "level": "N4",
+    "kanji": "科学",
+    "hiragana": "かがく",
+    "korean": "과학",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '과학' (科学), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_254",
+    "level": "N4",
+    "kanji": "規則",
+    "hiragana": "きそく",
+    "korean": "규칙",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '규칙' (規則), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_263",
+    "level": "N4",
+    "kanji": "着物",
+    "hiragana": "きもの",
+    "korean": "일본 옷",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "neatly arranged clothing item (일본 옷), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_286",
+    "level": "N4",
+    "kanji": "経済",
+    "hiragana": "けいざい",
+    "korean": "경제",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '경제' (経済), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_291",
+    "level": "N4",
+    "kanji": "消しゴム",
+    "hiragana": "けしごむ",
+    "korean": "지우개",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '지우개' (消しゴム), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_349",
+    "level": "N4",
+    "kanji": "さ来週",
+    "hiragana": "さらいしゅう",
+    "korean": "다음주",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '다음주' (さ来週), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_424",
+    "level": "N4",
+    "kanji": "済む",
+    "hiragana": "すむ",
+    "korean": "끝나다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '끝나다' (済む), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_460",
+    "level": "N4",
+    "kanji": "大分",
+    "hiragana": "だいぶ",
+    "korean": "상당히",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '상당히' (大分), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_499",
+    "level": "N4",
+    "kanji": "続ける",
+    "hiragana": "つづける",
+    "korean": "계속하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '계속하다' (続ける), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_506",
+    "level": "N4",
+    "kanji": "テキスト",
+    "hiragana": "テキスト",
+    "korean": "텍스트",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '텍스트' (テキスト), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_535",
+    "level": "N4",
+    "kanji": "どんどん",
+    "hiragana": "どんどん",
+    "korean": "점점",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '점점' (どんどん), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_542",
+    "level": "N4",
+    "kanji": "亡くなる",
+    "hiragana": "なくなる",
+    "korean": "죽다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (죽다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_555",
+    "level": "N4",
+    "kanji": "入学する",
+    "hiragana": "にゅうがくする",
+    "korean": "입학하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '입학하다' (入学する), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_578",
+    "level": "N4",
+    "kanji": "始める",
+    "hiragana": "はじめる",
+    "korean": "시작하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '시작하다' (始める), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_597",
+    "level": "N4",
+    "kanji": "引き出し",
+    "hiragana": "ひきだし",
+    "korean": "서랍",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '서랍' (引き出し), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_606",
+    "level": "N4",
+    "kanji": "必要",
+    "hiragana": "ひつよう",
+    "korean": "필요",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '필요' (必要), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_617",
+    "level": "N4",
+    "kanji": "復習",
+    "hiragana": "ふくしゅう",
+    "korean": "복습",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '복습' (復習), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_631",
+    "level": "N4",
+    "kanji": "別",
+    "hiragana": "べつ",
+    "korean": "차이",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차이), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_643",
+    "level": "N4",
+    "kanji": "翻訳",
+    "hiragana": "ほんやく",
+    "korean": "번역",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '번역' (翻訳), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_646",
+    "level": "N4",
+    "kanji": "まじめ",
+    "hiragana": "まじめ",
+    "korean": "진심",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '진심' (まじめ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_681",
+    "level": "N4",
+    "kanji": "役に立つ",
+    "hiragana": "やくにたつ",
+    "korean": "도움이 되다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '도움이 되다' (役に立つ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_701",
+    "level": "N4",
+    "kanji": "予習",
+    "hiragana": "よしゅう",
+    "korean": "예습",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '예습' (予習), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_714",
+    "level": "N4",
+    "kanji": "レポート",
+    "hiragana": "レポート",
+    "korean": "보고서",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '보고서' (レポート), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0031",
+    "level": "N3",
+    "kanji": "違い",
+    "hiragana": "ちがい",
+    "korean": "차이, 다름",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차이, 다름), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0044",
+    "level": "N3",
+    "kanji": "カー",
+    "hiragana": "カー",
+    "korean": "카, 차(주로 복합어에 사용)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (카, 차(주로 복합어에 사용)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0095",
+    "level": "N3",
+    "kanji": "生地",
+    "hiragana": "きじ",
+    "korean": "원단, 옷감",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "neatly arranged clothing item (원단, 옷감), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0102",
+    "level": "N3",
+    "kanji": "値",
+    "hiragana": "ね",
+    "korean": "값, 가격",
+    "reason": "한자/뜻 정정 (ね → 値)",
+    "prompt": "iconic visual illustration representing '값, 가격' (ね), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0127",
+    "level": "N3",
+    "kanji": "占める",
+    "hiragana": "しめる",
+    "korean": "차지하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차지하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0187",
+    "level": "N3",
+    "kanji": "カード",
+    "hiragana": "カード",
+    "korean": "카드",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '카드' (カード), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0207",
+    "level": "N3",
+    "kanji": "語学",
+    "hiragana": "ごがく",
+    "korean": "어학",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '어학' (語学), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0212",
+    "level": "N3",
+    "kanji": "教師",
+    "hiragana": "きょうし",
+    "korean": "교사",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '교사' (教師), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0226",
+    "level": "N3",
+    "kanji": "再び",
+    "hiragana": "ふたたび",
+    "korean": "다시, 재차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (다시, 재차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0309",
+    "level": "N3",
+    "kanji": "済ませる",
+    "hiragana": "すませる",
+    "korean": "끝내다, 마치다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '끝내다, 마치다' (済ませる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0349",
+    "level": "N3",
+    "kanji": "学習",
+    "hiragana": "がくしゅう",
+    "korean": "학습",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '학습' (学習), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0351",
+    "level": "N3",
+    "kanji": "暖かい",
+    "hiragana": "あたたか",
+    "korean": "따뜻하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '따뜻하다' (暖かい), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0510",
+    "level": "N3",
+    "kanji": "可能",
+    "hiragana": "かのう",
+    "korean": "가능한",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '가능한' (可能), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0535",
+    "level": "N3",
+    "kanji": "バン",
+    "hiragana": "バン",
+    "korean": "밴, 승합차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (밴, 승합차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0540",
+    "level": "N3",
+    "kanji": "皮",
+    "hiragana": "かわ",
+    "korean": "가죽, 껍질",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (가죽, 껍질), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0542",
+    "level": "N3",
+    "kanji": "ノー",
+    "hiragana": "のー",
+    "korean": "노, 아니오(거절)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '노, 아니오(거절)' (ノー), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0579",
+    "level": "N3",
+    "kanji": "詩人",
+    "hiragana": "しじん",
+    "korean": "시인",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '시인' (詩人), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0684",
+    "level": "N3",
+    "kanji": "できる",
+    "hiragana": "できる",
+    "korean": "할 수 있다, 생기다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '할 수 있다, 생기다' (できる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0707",
+    "level": "N3",
+    "kanji": "うん",
+    "hiragana": "うん",
+    "korean": "응, 어",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '응, 어' (うん), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0714",
+    "level": "N3",
+    "kanji": "差",
+    "hiragana": "さ",
+    "korean": "차이",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차이), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0717",
+    "level": "N3",
+    "kanji": "課",
+    "hiragana": "か",
+    "korean": "과, 단원",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '과, 단원' (課), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0744",
+    "level": "N3",
+    "kanji": "姉妹",
+    "hiragana": "しまい",
+    "korean": "자매",
+    "reason": "한자/뜻 정정 (しまい → 姉妹)",
+    "prompt": "iconic visual illustration representing '자매' (しまい), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0828",
+    "level": "N3",
+    "kanji": "褒める",
+    "hiragana": "ほめる",
+    "korean": "칭찬하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '칭찬하다' (褒める), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0841",
+    "level": "N3",
+    "kanji": "優れる",
+    "hiragana": "すぐれる",
+    "korean": "뛰어나다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '뛰어나다' (優れる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0853",
+    "level": "N3",
+    "kanji": "支出",
+    "hiragana": "ししゅつ",
+    "korean": "지출",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '지출' (支出), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0933",
+    "level": "N3",
+    "kanji": "参考",
+    "hiragana": "さんこう",
+    "korean": "참고",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '참고' (参考), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0997",
+    "level": "N3",
+    "kanji": "ちゃんと",
+    "hiragana": "ちゃんと",
+    "korean": "제대로, 확실히",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '제대로, 확실히' (ちゃんと), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1004",
+    "level": "N3",
+    "kanji": "よろしく",
+    "hiragana": "よろしく",
+    "korean": "잘 부탁합니다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '잘 부탁합니다' (よろしく), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1037",
+    "level": "N3",
+    "kanji": "読み",
+    "hiragana": "よみ",
+    "korean": "읽기, 읽는 법",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '읽기, 읽는 법' (読み), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1079",
+    "level": "N3",
+    "kanji": "とん",
+    "hiragana": "とん",
+    "korean": "톤",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '톤' (とん), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1104",
+    "level": "N3",
+    "kanji": "順番",
+    "hiragana": "じゅんばん",
+    "korean": "순서, 차례",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (순서, 차례), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1106",
+    "level": "N3",
+    "kanji": "穏やか",
+    "hiragana": "おだやか",
+    "korean": "온화하다, 차분하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (온화하다, 차분하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1122",
+    "level": "N3",
+    "kanji": "駐車",
+    "hiragana": "ちゅうしゃ",
+    "korean": "주차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (주차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1136",
+    "level": "N3",
+    "kanji": "なかなか",
+    "hiragana": "なかなか",
+    "korean": "꽤, 좀처럼",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '꽤, 좀처럼' (なかなか), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1221",
+    "level": "N3",
+    "kanji": "それ",
+    "hiragana": "それ",
+    "korean": "그것",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '그것' (それ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1236",
+    "level": "N3",
+    "kanji": "詩",
+    "hiragana": "し",
+    "korean": "시(詩)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '시(詩)' (詩), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1246",
+    "level": "N3",
+    "kanji": "夕べ",
+    "hiragana": "ゆうべ",
+    "korean": "어젯밤, 어제 저녁",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '어젯밤, 어제 저녁' (夕べ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1272",
+    "level": "N3",
+    "kanji": "しまう",
+    "hiragana": "しまう",
+    "korean": "넣다, 치우다, (~해) 버리다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '넣다, 치우다, (~해) 버리다' (しまう), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1293",
+    "level": "N3",
+    "kanji": "轢く",
+    "hiragana": "ひく",
+    "korean": "(차로) 치다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish ((차로) 치다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1299",
+    "level": "N3",
+    "kanji": "与える",
+    "hiragana": "あたえる",
+    "korean": "주다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '주다' (与える), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1305",
+    "level": "N3",
+    "kanji": "はあ",
+    "hiragana": "はあ",
+    "korean": "하아 (감탄사)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '하아 (감탄사)' (はあ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1316",
+    "level": "N3",
+    "kanji": "水準",
+    "hiragana": "すいじゅん",
+    "korean": "수준",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '수준' (水準), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1330",
+    "level": "N3",
+    "kanji": "寧ろ",
+    "hiragana": "むしろ",
+    "korean": "오히려, 차라리",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (오히려, 차라리), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1340",
+    "level": "N3",
+    "kanji": "科目",
+    "hiragana": "かもく",
+    "korean": "과목",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '과목' (科目), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1363",
+    "level": "N3",
+    "kanji": "飛ばす",
+    "hiragana": "とばす",
+    "korean": "건너뛰다, 날리다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '건너뛰다, 날리다' (飛ばす), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1381",
+    "level": "N3",
+    "kanji": "ふと",
+    "hiragana": "ふと",
+    "korean": "문득, 갑자기",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '문득, 갑자기' (ふと), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1389",
+    "level": "N3",
+    "kanji": "番",
+    "hiragana": "ばん",
+    "korean": "번, 차례",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (번, 차례), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1398",
+    "level": "N3",
+    "kanji": "考慮",
+    "hiragana": "こうりょ",
+    "korean": "고려",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '고려' (考慮), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1417",
+    "level": "N3",
+    "kanji": "単語",
+    "hiragana": "たんご",
+    "korean": "단어",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '단어' (単語), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1497",
+    "level": "N3",
+    "kanji": "提出",
+    "hiragana": "ていしゅつ",
+    "korean": "제출",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '제출' (提出), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1524",
+    "level": "N3",
+    "kanji": "真面目",
+    "hiragana": "まじめ",
+    "korean": "성실한, 진지한",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '성실한, 진지한' (真面目), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1537",
+    "level": "N3",
+    "kanji": "はい",
+    "hiragana": "はい",
+    "korean": "네, 예 (대답할 때 쓰는 말)",
+    "reason": "영문/뜻 정정 (はい / sword → yes)",
+    "prompt": "iconic visual illustration representing '네, 예 (대답할 때 쓰는 말)' (はい), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1590",
+    "level": "N3",
+    "kanji": "大部分",
+    "hiragana": "だいぶぶん",
+    "korean": "대부분",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '대부분' (大部分), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1622",
+    "level": "N3",
+    "kanji": "満ちる",
+    "hiragana": "みちる",
+    "korean": "가득 차다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (가득 차다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1633",
+    "level": "N3",
+    "kanji": "暗記",
+    "hiragana": "あんき",
+    "korean": "암기",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '암기' (暗記), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1691",
+    "level": "N3",
+    "kanji": "すみません",
+    "hiragana": "すみません",
+    "korean": "죄송합니다, 실례합니다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '죄송합니다, 실례합니다' (すみません), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1695",
+    "level": "N3",
+    "kanji": "殺す",
+    "hiragana": "ころす",
+    "korean": "죽이다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (죽이다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1756",
+    "level": "N3",
+    "kanji": "童",
+    "hiragana": "どう",
+    "korean": "아이, 동자(어린아이를 뜻하는 말)",
+    "reason": "한자/뜻 정정 (どう → 童)",
+    "prompt": "iconic visual illustration representing '아이, 동자(어린아이를 뜻하는 말)' (どう), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1759",
+    "level": "N3",
+    "kanji": "省く",
+    "hiragana": "はぶく",
+    "korean": "생략하다, 줄이다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '생략하다, 줄이다' (省く), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1779",
+    "level": "N3",
+    "kanji": "一人一人",
+    "hiragana": "ひとりひとり",
+    "korean": "한 사람 한 사람, 각자",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '한 사람 한 사람, 각자' (一人一人), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1796",
+    "level": "N3",
+    "kanji": "発車",
+    "hiragana": "はっしゃ",
+    "korean": "발차, 출발",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (발차, 출발), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0034",
+    "level": "N2",
+    "kanji": "芯",
+    "hiragana": "しん",
+    "korean": "심 (core)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '심 (core)' (芯), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0063",
+    "level": "N2",
+    "kanji": "女の人",
+    "hiragana": "おんなのひと",
+    "korean": "여자, 여성",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '여자, 여성' (女の人), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0166",
+    "level": "N2",
+    "kanji": "英和",
+    "hiragana": "えいわ",
+    "korean": "영일(영어-일본어)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '영일(영어-일본어)' (英和), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0186",
+    "level": "N2",
+    "kanji": "交差",
+    "hiragana": "こうさ",
+    "korean": "교차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (교차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0230",
+    "level": "N2",
+    "kanji": "文体",
+    "hiragana": "ぶんたい",
+    "korean": "문체",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '문체' (文体), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0233",
+    "level": "N2",
+    "kanji": "和英",
+    "hiragana": "わえい",
+    "korean": "일영(일본어-영어)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '일영(일본어-영어)' (和英), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0255",
+    "level": "N2",
+    "kanji": "振り仮名",
+    "hiragana": "ふりがな",
+    "korean": "후리가나(한자 읽는 법 표기)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '후리가나(한자 읽는 법 표기)' (振り仮名), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0256",
+    "level": "N2",
+    "kanji": "順々",
+    "hiragana": "じゅんじゅん",
+    "korean": "차례차례, 순서대로",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차례차례, 순서대로), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0262",
+    "level": "N2",
+    "kanji": "学部",
+    "hiragana": "がくぶ",
+    "korean": "학부",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '학부' (学部), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0268",
+    "level": "N2",
+    "kanji": "回数券",
+    "hiragana": "かいすうけん",
+    "korean": "회수권(정액 승차권)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (회수권(정액 승차권)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0301",
+    "level": "N2",
+    "kanji": "生き生き",
+    "hiragana": "いきいき",
+    "korean": "생기 있게, 활기차게",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (생기 있게, 활기차게), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0347",
+    "level": "N2",
+    "kanji": "差し引き",
+    "hiragana": "さしひき",
+    "korean": "차감, 차액",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차감, 차액), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0402",
+    "level": "N2",
+    "kanji": "四捨五入",
+    "hiragana": "ししゃごにゅう",
+    "korean": "반올림",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '반올림' (四捨五入), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0431",
+    "level": "N2",
+    "kanji": "ミリ",
+    "hiragana": "みり",
+    "korean": "밀리(미터)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '밀리(미터)' (ミリ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0457",
+    "level": "N2",
+    "kanji": "どうせ",
+    "hiragana": "どうせ",
+    "korean": "어차피",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (어차피), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0532",
+    "level": "N2",
+    "kanji": "自習",
+    "hiragana": "じしゅう",
+    "korean": "자습",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '자습' (自習), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0566",
+    "level": "N2",
+    "kanji": "採点",
+    "hiragana": "さいてん",
+    "korean": "채점",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '채점' (採点), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0574",
+    "level": "N2",
+    "kanji": "代名詞",
+    "hiragana": "だいめいし",
+    "korean": "대명사",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '대명사' (代名詞), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0635",
+    "level": "N2",
+    "kanji": "目次",
+    "hiragana": "もくじ",
+    "korean": "목차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (목차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0667",
+    "level": "N2",
+    "kanji": "車輪",
+    "hiragana": "しゃりん",
+    "korean": "차바퀴",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차바퀴), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0671",
+    "level": "N2",
+    "kanji": "書取",
+    "hiragana": "かきとり",
+    "korean": "받아쓰기",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '받아쓰기' (書取), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0686",
+    "level": "N2",
+    "kanji": "随筆",
+    "hiragana": "ずいひつ",
+    "korean": "수필",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '수필' (随筆), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0692",
+    "level": "N2",
+    "kanji": "清書",
+    "hiragana": "せいしょ",
+    "korean": "정서, 깨끗하게 옮겨 씀",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '정서, 깨끗하게 옮겨 씀' (清書), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0706",
+    "level": "N2",
+    "kanji": "更ける",
+    "hiragana": "ふける",
+    "korean": "(밤이) 깊어지다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '(밤이) 깊어지다' (更ける), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0710",
+    "level": "N2",
+    "kanji": "相違",
+    "hiragana": "そうい",
+    "korean": "차이, 다름",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차이, 다름), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0738",
+    "level": "N2",
+    "kanji": "だいいち",
+    "hiragana": "だいいち",
+    "korean": "첫째로, 무엇보다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '첫째로, 무엇보다' (だいいち), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0779",
+    "level": "N2",
+    "kanji": "率直",
+    "hiragana": "そっちょく",
+    "korean": "솔직",
+    "reason": "한자 오타 정정 (卒直 → 率直)",
+    "prompt": "candid young speaker standing before audience, open posture, warm lighting, sincere earnest smile, Ghibli illustration"
+  },
+  {
+    "id": "n2_0848",
+    "level": "N2",
+    "kanji": "さっさと",
+    "hiragana": "さっさと",
+    "korean": "재빨리, 서둘러",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '재빨리, 서둘러' (さっさと), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0888",
+    "level": "N2",
+    "kanji": "あげる",
+    "hiragana": "あげる",
+    "korean": "(다른 사람에게) 해 주다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '(다른 사람에게) 해 주다' (あげる (=やる)), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0933",
+    "level": "N2",
+    "kanji": "送り仮名",
+    "hiragana": "おくりがな",
+    "korean": "오쿠리가나(한자 뒤에 붙는 가나)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '오쿠리가나(한자 뒤에 붙는 가나)' (送り仮名), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0958",
+    "level": "N2",
+    "kanji": "先々月",
+    "hiragana": "せんせんげつ",
+    "korean": "지지난 달",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '지지난 달' (先々月), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0962",
+    "level": "N2",
+    "kanji": "小数",
+    "hiragana": "しょうすう",
+    "korean": "소수 (소수점)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '소수 (소수점)' (小数), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0973",
+    "level": "N2",
+    "kanji": "下線",
+    "hiragana": "かせん",
+    "korean": "밑줄",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '밑줄' (下線), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0975",
+    "level": "N2",
+    "kanji": "基礎",
+    "hiragana": "きそ",
+    "korean": "기초",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '기초' (基礎), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0992",
+    "level": "N2",
+    "kanji": "冷やす",
+    "hiragana": "ひやす",
+    "korean": "식히다, 차게 하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (식히다, 차게 하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1007",
+    "level": "N2",
+    "kanji": "手帳",
+    "hiragana": "てちょう",
+    "korean": "수첩",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '수첩' (手帳), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1051",
+    "level": "N2",
+    "kanji": "学科",
+    "hiragana": "がっか",
+    "korean": "학과",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '학과' (学科), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1069",
+    "level": "N2",
+    "kanji": "直径",
+    "hiragana": "ちょっけい",
+    "korean": "직경",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '직경' (直径), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1084",
+    "level": "N2",
+    "kanji": "力強い",
+    "hiragana": "ちからづよい",
+    "korean": "힘차다, 든든하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (힘차다, 든든하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1129",
+    "level": "N2",
+    "kanji": "もたれる",
+    "hiragana": "もたれる",
+    "korean": "기대다, (음식이) 체하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (기대다, (음식이) 체하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1153",
+    "level": "N2",
+    "kanji": "寝間着",
+    "hiragana": "ねまき",
+    "korean": "잠옷",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "neatly arranged clothing item (잠옷), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1167",
+    "level": "N2",
+    "kanji": "あくび",
+    "hiragana": "あくび",
+    "korean": "하품",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '하품' (あくび), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1174",
+    "level": "N2",
+    "kanji": "アクセント",
+    "hiragana": "アクセント",
+    "korean": "악센트, 억양",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '악센트, 억양' (アクセント), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1204",
+    "level": "N2",
+    "kanji": "調整",
+    "hiragana": "ちょうせい",
+    "korean": "조정",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '조정' (調整), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1209",
+    "level": "N2",
+    "kanji": "公表",
+    "hiragana": "こうひょう",
+    "korean": "공표",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '공표' (公表), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1245",
+    "level": "N2",
+    "kanji": "初級",
+    "hiragana": "しょきゅう",
+    "korean": "초급",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '초급' (初級), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1249",
+    "level": "N2",
+    "kanji": "対立",
+    "hiragana": "たいりつ",
+    "korean": "대립",
+    "reason": "유니코드 정정 (Ͼ立 → 対立)",
+    "prompt": "two stubborn friends staring at each other with arms crossed, rain outside window, tense but cute childish argument, cozy cabin room, warm lighting, reconciliation soon, Ghibli vibe"
+  },
+  {
+    "id": "n2_1277",
+    "level": "N2",
+    "kanji": "じゅうたん",
+    "hiragana": "じゅうたん",
+    "korean": "카펫, 양탄자",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '카펫, 양탄자' (じゅうたん), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1304",
+    "level": "N2",
+    "kanji": "深夜",
+    "hiragana": "しんや",
+    "korean": "심야, 한밤중",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '심야, 한밤중' (深夜), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1364",
+    "level": "N2",
+    "kanji": "水曜",
+    "hiragana": "すいよう",
+    "korean": "수요일",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '수요일' (水曜), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1402",
+    "level": "N2",
+    "kanji": "重点",
+    "hiragana": "じゅうてん",
+    "korean": "중점",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '중점' (重点), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1481",
+    "level": "N2",
+    "kanji": "用語",
+    "hiragana": "ようご",
+    "korean": "용어",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '용어' (用語), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1484",
+    "level": "N2",
+    "kanji": "努める",
+    "hiragana": "つとめる",
+    "korean": "노력하다, 힘쓰다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '노력하다, 힘쓰다' (努める), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1493",
+    "level": "N2",
+    "kanji": "名詞",
+    "hiragana": "めいし",
+    "korean": "명사",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '명사' (名詞), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1532",
+    "level": "N2",
+    "kanji": "物差し",
+    "hiragana": "ものさし",
+    "korean": "자(측정 도구), 척도",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '자(측정 도구), 척도' (物差し), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1536",
+    "level": "N2",
+    "kanji": "乗車",
+    "hiragana": "じょうしゃ",
+    "korean": "승차, 탑승",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (승차, 탑승), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1541",
+    "level": "N2",
+    "kanji": "車庫",
+    "hiragana": "しゃこ",
+    "korean": "차고",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차고), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1549",
+    "level": "N2",
+    "kanji": "着せる",
+    "hiragana": "きせる",
+    "korean": "옷을 입히다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "neatly arranged clothing item (옷을 입히다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1566",
+    "level": "N2",
+    "kanji": "ぺん",
+    "hiragana": "ぺん",
+    "korean": "펜",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '펜' (ぺん), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1568",
+    "level": "N2",
+    "kanji": "文房具",
+    "hiragana": "ぶんぼうぐ",
+    "korean": "문방구, 문구",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '문방구, 문구' (文房具), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1576",
+    "level": "N2",
+    "kanji": "五十音",
+    "hiragana": "ごじゅうおん",
+    "korean": "오십음(일본어 음절표)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '오십음(일본어 음절표)' (五十音), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1658",
+    "level": "N2",
+    "kanji": "手続き",
+    "hiragana": "てつづき",
+    "korean": "절차, 수속",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (절차, 수속), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1690",
+    "level": "N2",
+    "kanji": "句読点",
+    "hiragana": "くとうてん",
+    "korean": "구두점",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '구두점' (句読点), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1699",
+    "level": "N2",
+    "kanji": "英文",
+    "hiragana": "えいぶん",
+    "korean": "영문, 영어 문장",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '영문, 영어 문장' (英文), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1708",
+    "level": "N2",
+    "kanji": "車掌",
+    "hiragana": "しゃしょう",
+    "korean": "차장(열차 승무원)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차장(열차 승무원)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1740",
+    "level": "N2",
+    "kanji": "和服",
+    "hiragana": "わふく",
+    "korean": "일본옷, 기모노",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "neatly arranged clothing item (일본옷, 기모노), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1766",
+    "level": "N2",
+    "kanji": "洋品店",
+    "hiragana": "ようひんてん",
+    "korean": "양품점(서양식 옷 가게)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "neatly arranged clothing item (양품점(서양식 옷 가게)), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1793",
+    "level": "N2",
+    "kanji": "生長",
+    "hiragana": "せいちょう",
+    "korean": "생장, 성장",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '생장, 성장' (生長), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0019",
+    "level": "N1",
+    "kanji": "落ち着き",
+    "hiragana": "おちつき",
+    "korean": "차분함, 침착함",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차분함, 침착함), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0140",
+    "level": "N1",
+    "kanji": "ドリル",
+    "hiragana": "ドリル",
+    "korean": "드릴; 연습 문제집",
+    "reason": "프롬프트 시각화 정밀 개선 (단어 맞춤 지브리 연출)",
+    "prompt": "handheld electric power drill, metal drill bit, wood workbench with sawdust, hardware repair shop, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0262",
+    "level": "N1",
+    "kanji": "時差",
+    "hiragana": "じさ",
+    "korean": "시차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (시차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0469",
+    "level": "N1",
+    "kanji": "幕",
+    "hiragana": "とばり",
+    "korean": "장막, 휘장",
+    "reason": "한자 표기 정정 (幕 → 帳)",
+    "prompt": "night sky falling, deep blue horizon, silhouettes of trees, cozy streetlights turning on, twilight transition, peaceful evening, no humans, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0621",
+    "level": "N1",
+    "kanji": "反",
+    "hiragana": "たん",
+    "korean": "옷감 등을 세는 단위(반); 토지 면적 단위",
+    "reason": "프롬프트 시각화 정밀 개선 (단어 맞춤 지브리 연출)",
+    "prompt": "roll of fine silk cloth, traditional kimono fabric bolt, vibrant textile dye, wooden weaving loom shop, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0754",
+    "level": "N1",
+    "kanji": "パトカー",
+    "hiragana": "パトカー",
+    "korean": "순찰차; 경찰차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (순찰차; 경찰차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0858",
+    "level": "N1",
+    "kanji": "チャイム",
+    "hiragana": "チャイム",
+    "korean": "차임벨",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차임벨), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0874",
+    "level": "N1",
+    "kanji": "始発",
+    "hiragana": "しはつ",
+    "korean": "첫차, 시발",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (첫차, 시발), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1146",
+    "level": "N1",
+    "kanji": "ガレージ",
+    "hiragana": "ガレージ",
+    "korean": "차고, 개러지",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차고, 개러지), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1252",
+    "level": "N1",
+    "kanji": "ずれ",
+    "hiragana": "ずれ",
+    "korean": "어긋남, 차이",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (어긋남, 차이), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1344",
+    "level": "N1",
+    "kanji": "いっそ",
+    "hiragana": "いっそ",
+    "korean": "차라리",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차라리), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1362",
+    "level": "N1",
+    "kanji": "身なり",
+    "hiragana": "みなり",
+    "korean": "옷차림",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "neatly arranged clothing item (옷차림), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1436",
+    "level": "N1",
+    "kanji": "定義",
+    "hiragana": "ていぎ",
+    "korean": "정의",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '정의' (定義), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1461",
+    "level": "N1",
+    "kanji": "遮る",
+    "hiragana": "さえぎる",
+    "korean": "가로막다, 차단하다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (가로막다, 차단하다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1501",
+    "level": "N1",
+    "kanji": "悪い",
+    "hiragana": "にくい",
+    "korean": "밉다; 얄밉다",
+    "reason": "한자 표기 정정 (悪い → 憎い)",
+    "prompt": "Ghibli style illustration, character with pouting angry face crossing arms in a comical huff while turning away, dramatic expressive anime humor, warm background, playful argument scene"
+  },
+  {
+    "id": "n1_1581",
+    "level": "N1",
+    "kanji": "差額",
+    "hiragana": "さがく",
+    "korean": "차액",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차액), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1696",
+    "level": "N1",
+    "kanji": "単",
+    "hiragana": "ひとえ",
+    "korean": "홑겹; 안감 없는 옷",
+    "reason": "프롬프트 시각화 정밀 개선 (단어 맞춤 지브리 연출)",
+    "prompt": "1girl wearing lightweight single layer unlined summer kimono (hitoe), walking in gentle breeze, sunny day, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1782",
+    "level": "N1",
+    "kanji": "裾",
+    "hiragana": "すそ",
+    "korean": "옷단, 밑단; 산기슭",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "neatly arranged clothing item (옷단, 밑단; 산기슭), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1958",
+    "level": "N1",
+    "kanji": "回送",
+    "hiragana": "かいそう",
+    "korean": "(버스·열차의) 회송",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish ((버스·열차의) 회송), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2070",
+    "level": "N1",
+    "kanji": "誤差",
+    "hiragana": "ごさ",
+    "korean": "오차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (오차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2101",
+    "level": "N1",
+    "kanji": "蹴飛ばす",
+    "hiragana": "けとばす",
+    "korean": "걷어차다; 발로 차버리다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (걷어차다; 발로 차버리다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2102",
+    "level": "N1",
+    "kanji": "盛装",
+    "hiragana": "せいそう",
+    "korean": "성장; 화려하게 차려입음",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (성장; 화려하게 차려입음), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2376",
+    "level": "N1",
+    "kanji": "逆上る",
+    "hiragana": "さかのぼる",
+    "korean": "거슬러 올라가다, 소급하다",
+    "reason": "한자 표기 정정 (逆上る → 遡る)",
+    "prompt": "ghibli style, children hiking up river stream, leaping salmon fish splash, forest shade sunlight beams"
+  },
+  {
+    "id": "n1_2621",
+    "level": "N1",
+    "kanji": "しいんと",
+    "hiragana": "しいんと",
+    "korean": "쥐 죽은 듯이 조용함",
+    "reason": "프롬프트 시각화 정밀 개선 (단어 맞춤 지브리 연출)",
+    "prompt": "tranquil bamboo forest in morning mist, quiet nature, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2739",
+    "level": "N1",
+    "kanji": "じっくり",
+    "hiragana": "じっくり",
+    "korean": "차분히, 곰곰이",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (차분히, 곰곰이), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2769",
+    "level": "N1",
+    "kanji": "しまった",
+    "hiragana": "しまった",
+    "korean": "아차!, 아뿔싸!",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (아차!, 아뿔싸!), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2773",
+    "level": "N1",
+    "kanji": "着飾る",
+    "hiragana": "きかざる",
+    "korean": "치장하다, 화려하게 차려입다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (치장하다, 화려하게 차려입다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2890",
+    "level": "N1",
+    "kanji": "段々",
+    "hiragana": "だんだん",
+    "korean": "점점, 차츰",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (점점, 차츰), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2983",
+    "level": "N1",
+    "kanji": "十字路",
+    "hiragana": "じゅうじろ",
+    "korean": "사거리, 교차로",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (사거리, 교차로), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_3094",
+    "level": "N1",
+    "kanji": "手順",
+    "hiragana": "てじゅん",
+    "korean": "순서, 절차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (순서, 절차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_3153",
+    "level": "N1",
+    "kanji": "ドライブイン",
+    "hiragana": "ドライブイン",
+    "korean": "드라이브인 (자동차 이용객을 위한 휴게소·식당)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (드라이브인 (자동차 이용객을 위한 휴게소·식당)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_3179",
+    "level": "N1",
+    "kanji": "著",
+    "hiragana": "ちゃく",
+    "korean": "착(옷을 세는 단위); ~에 도착",
+    "reason": "한자 표기 정정 (著 → 着)",
+    "prompt": "Ghibli style, young man trying on sharp new suit jacket in front of full-length mirror in tailor shop, warm amber interior lighting, proud happy smile"
+  },
+  {
+    "id": "n1_3272",
+    "level": "N1",
+    "kanji": "交わる",
+    "hiragana": "まじわる",
+    "korean": "교차하다, 사귀다",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (교차하다, 사귀다), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_3328",
+    "level": "N1",
+    "kanji": "準急",
+    "hiragana": "じゅんきゅう",
+    "korean": "준급행 (열차)",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (준급행 (열차)), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "35",
+    "level": "LEGACY",
+    "kanji": "宿題",
+    "hiragana": "しゅくだい",
+    "korean": "숙제",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "iconic visual illustration representing '숙제' (宿題), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "7",
+    "level": "LEGACY",
+    "kanji": "車",
+    "hiragana": "くるま",
+    "korean": "자동차",
+    "reason": "프롬프트 시각화 정밀 개선 (범용 폴백 교체)",
+    "prompt": "delicious fresh food dish (자동차), cozy dining table setting, steam rising, studio ghibli style, warm color palette, soft volumetric lighting"
+  }
+]
