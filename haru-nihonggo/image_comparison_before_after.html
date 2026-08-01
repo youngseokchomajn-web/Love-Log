@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haru-Nihongo | 단어 카드 BEFORE vs AFTER 시각 비교 대시보드</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --accent-before: #ef4444;
+            --accent-after: #10b981;
+            --border-color: #334155;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 24px;
+        }
+        .header-title {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .header-title h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: #38bdf8;
+        }
+        .header-title p {
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+        .comparison-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+        .card-header {
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 12px;
+        }
+        .word-id {
+            font-size: 0.85rem;
+            color: #38bdf8;
+            font-weight: bold;
+        }
+        .word-title {
+            margin: 4px 0 0 0;
+            font-size: 1.6rem;
+        }
+        .kana {
+            color: #cbd5e1;
+            font-size: 1.2rem;
+        }
+        .korean {
+            color: #f43f5e;
+        }
+        .image-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+        @media (max-width: 768px) {
+            .image-comparison {
+                grid-template-columns: 1fr;
+            }
+        }
+        .side {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .tag {
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 8px;
+            display: inline-block;
+            width: fit-content;
+            font-size: 0.9rem;
+        }
+        .before-tag {
+            background-color: rgba(239, 68, 68, 0.2);
+            color: var(--accent-before);
+            border: 1px solid var(--accent-before);
+        }
+        .after-tag {
+            background-color: rgba(16, 185, 129, 0.2);
+            color: var(--accent-after);
+            border: 1px solid var(--accent-after);
+        }
+        .img-wrapper {
+            aspect-ratio: 1;
+            width: 100%;
+            background-color: #020617;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+        .img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .desc {
+            font-size: 0.9rem;
+            color: #94a3b8;
+            line-height: 1.4;
+        }
+        .prompt-box {
+            margin-top: 16px;
+            background-color: #0f172a;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: #e2e8f0;
+            border-left: 4px solid #38bdf8;
+        }
+        .prompt-box code {
+            color: #7dd3fc;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-title">
+        <h1>🎨 Haru-Nihongo | BEFORE vs AFTER 이미지 시각 비교</h1>
+        <p>추상어 오인 문제 해결: 구체적 배경 서사 제거 ➔ 미니멀 배경 + ❓ Visual Hero 적용 비교 (총 55개)</p>
+    </div>
+    <div class="container">
+        
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#1 n1_3265</span>
+            <h2 class="word-title">片言 <span class="kana">(かたこと)</span> = <span class="korean">서투른 말, 몇 마디</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_片言_서투른말몇마디.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#2 n1_0399</span>
+            <h2 class="word-title">何気ない <span class="kana">(なにげない)</span> = <span class="korean">아무렇지 않은, 무심한</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何気ない_아무렇지않은무심한.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#3 n1_0003</span>
+            <h2 class="word-title">何処か <span class="kana">(どこか)</span> = <span class="korean">어딘가</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何処か_어딘가.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#4 n1_0149</span>
+            <h2 class="word-title">何処 <span class="kana">(どこ)</span> = <span class="korean">어디</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何処か_어딘가.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#5 n1_0202</span>
+            <h2 class="word-title">何々 <span class="kana">(どれどれ)</span> = <span class="korean">어디 보자, 이런</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n2_何々_이것저것무엇무엇.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#6 n1_0811</span>
+            <h2 class="word-title">如何に <span class="kana">(いかに)</span> = <span class="korean">어떻게; 아무리 ~해도</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_如何に_어떻게아무리~해도.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#7 n1_0918</span>
+            <h2 class="word-title">如何して <span class="kana">(どうして)</span> = <span class="korean">왜, 어째서</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_如何して_왜어째서.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#8 n1_1033</span>
+            <h2 class="word-title">何だか <span class="kana">(なんだか)</span> = <span class="korean">왠지, 뭔가</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何だか_왠지뭔가.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#9 n1_1138</span>
+            <h2 class="word-title">何方 <span class="kana">(どちら)</span> = <span class="korean">어느 쪽, 어디, 누구(정중한 표현)</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何方_어느쪽어디누구정중한표현.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#10 n1_1145</span>
+            <h2 class="word-title">誰 <span class="kana">(たれ)</span> = <span class="korean">누구(고어체, たれ)</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_誰か_누군가.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#11 n1_1250</span>
+            <h2 class="word-title">何の <span class="kana">(どの)</span> = <span class="korean">어느, 어떤</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何の_어느어떤.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#12 n1_1440</span>
+            <h2 class="word-title">何も <span class="kana">(なにも)</span> = <span class="korean">아무것도</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何も_아무것도.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#13 n1_1710</span>
+            <h2 class="word-title">何れ <span class="kana">(いずれ)</span> = <span class="korean">어느 쪽; 머지않아</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何れ_어느쪽머지않아.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#14 n1_1789</span>
+            <h2 class="word-title">何時も <span class="kana">(いつも)</span> = <span class="korean">항상, 언제나</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何時も_항상언제나.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#15 n1_1799</span>
+            <h2 class="word-title">何しろ <span class="kana">(なにしろ)</span> = <span class="korean">아무튼, 어쨌든</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何しろ_아무튼어쨌든.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#16 n1_1847</span>
+            <h2 class="word-title">何時 <span class="kana">(いつ)</span> = <span class="korean">언제</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何時_언제.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#17 n1_1872</span>
+            <h2 class="word-title">或る <span class="kana">(ある)</span> = <span class="korean">어느, 어떤</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_或る_어느어떤.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#18 n1_1948</span>
+            <h2 class="word-title">何時までも <span class="kana">(いつまでも)</span> = <span class="korean">언제까지나, 영원히</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何時までも_언제까지나영원히.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#19 n1_2123</span>
+            <h2 class="word-title">何となく <span class="kana">(なんとなく)</span> = <span class="korean">왠지; 어쩐지</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何となく_왠지어쩐지.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#20 n1_2156</span>
+            <h2 class="word-title">如何 <span class="kana">(いかが)</span> = <span class="korean">어떻게; 어떠한지</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_如何_어떻게어떠한지.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#21 n1_2257</span>
+            <h2 class="word-title">何時か <span class="kana">(いつか)</span> = <span class="korean">언젠가</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何時か_언젠가.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#22 n1_2286</span>
+            <h2 class="word-title">何とも <span class="kana">(なんとも)</span> = <span class="korean">뭐라고도, 정말로</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何とも_뭐라고도정말로.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#23 n1_2455</span>
+            <h2 class="word-title">何時の間にか <span class="kana">(いつのまにか)</span> = <span class="korean">어느새</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何時の間にか_어느새.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#24 n1_2576</span>
+            <h2 class="word-title">何時でも <span class="kana">(いつでも)</span> = <span class="korean">언제든지</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何時でも_언제든지.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#25 n1_2583</span>
+            <h2 class="word-title">何卒 <span class="kana">(どうぞ)</span> = <span class="korean">부디, 아무쪼록</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何卒_부디아무쪼록.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#26 n1_2587</span>
+            <h2 class="word-title">何て <span class="kana">(なんて)</span> = <span class="korean">정말, ~라니(감탄)</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何て_정말~라니감탄.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#27 n1_2787</span>
+            <h2 class="word-title">何より <span class="kana">(なにより)</span> = <span class="korean">무엇보다도</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何より_무엇보다도.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#28 n1_2827</span>
+            <h2 class="word-title">何なり <span class="kana">(なんなり)</span> = <span class="korean">무엇이든지</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何なり_무엇이든지.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#29 n1_3071</span>
+            <h2 class="word-title">何故 <span class="kana">(なぜ)</span> = <span class="korean">왜, 어째서</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何故_왜어째서.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#30 n1_3339</span>
+            <h2 class="word-title">何と <span class="kana">(なんと)</span> = <span class="korean">참으로; 이 무슨</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何となく_왠지어쩐지.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#31 n1_3428</span>
+            <h2 class="word-title">何故なら <span class="kana">(なぜなら)</span> = <span class="korean">왜냐하면</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n1_何故なら_왜냐하면.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#32 n2_0811</span>
+            <h2 class="word-title">何分 <span class="kana">(なにぶん)</span> = <span class="korean">아무쪼록, 어쨌든</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n2_何分_아무쪼록어쨌든.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#33 n2_1597</span>
+            <h2 class="word-title">何々 <span class="kana">(なになに)</span> = <span class="korean">이것저것, 무엇무엇</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n2_何々_이것저것무엇무엇.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#34 n3_0038</span>
+            <h2 class="word-title">何か <span class="kana">(なにか)</span> = <span class="korean">무언가, 뭔가</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_何か_무언가뭔가.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#35 n3_0301</span>
+            <h2 class="word-title">どれ <span class="kana">(どれ)</span> = <span class="korean">어느 것</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_どれ_어느것.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#36 n3_0480</span>
+            <h2 class="word-title">何とか <span class="kana">(なんとか)</span> = <span class="korean">어떻게든, 그럭저럭</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_何とか_어떻게든그럭저럭.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#37 n3_0676</span>
+            <h2 class="word-title">何 <span class="kana">(なに)</span> = <span class="korean">무엇</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_何か_무언가뭔가.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#38 n3_0705</span>
+            <h2 class="word-title">何で <span class="kana">(なんで)</span> = <span class="korean">왜, 어째서</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_何で_왜어째서.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#39 n3_1005</span>
+            <h2 class="word-title">何でも <span class="kana">(なんでも)</span> = <span class="korean">무엇이든</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_何でも_무엇이든.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#40 n3_1189</span>
+            <h2 class="word-title">幾つ <span class="kana">(いくつ)</span> = <span class="korean">몇 개, 몇 살</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_幾つ_몇개몇살.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#41 n3_1639</span>
+            <h2 class="word-title">或 <span class="kana">(ある)</span> = <span class="korean">어느, 어떤</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_或_어느어떤.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#42 n3_1707</span>
+            <h2 class="word-title">誰か <span class="kana">(だれか)</span> = <span class="korean">누군가</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_誰か_누군가.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#43 n5_0059</span>
+            <h2 class="word-title">何 <span class="kana">(なん / なに)</span> = <span class="korean">무엇</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_何か_무언가뭔가.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#44 n5_0085</span>
+            <h2 class="word-title">どう <span class="kana">(どう)</span> = <span class="korean">어떻게</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n2_どうせ_어차피.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#45 n5_0091</span>
+            <h2 class="word-title">どっち <span class="kana">(どっち)</span> = <span class="korean">어느 쪽</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_どっち_어느쪽.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#46 n5_0094</span>
+            <h2 class="word-title">どうして <span class="kana">(どうして)</span> = <span class="korean">왜</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_どうして_왜.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#47 n5_0173</span>
+            <h2 class="word-title">なぜ <span class="kana">(なぜ)</span> = <span class="korean">왜</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_なぜ_왜.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#48 n5_0221</span>
+            <h2 class="word-title">どれ <span class="kana">(どれ)</span> = <span class="korean">어느 것</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_どれ_어느것.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#49 n5_0259</span>
+            <h2 class="word-title">どの <span class="kana">(どの)</span> = <span class="korean">어느</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_どの_어느.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#50 n5_0308</span>
+            <h2 class="word-title">誰 <span class="kana">(だれ)</span> = <span class="korean">누구</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n3_誰か_누군가.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#51 n5_0312</span>
+            <h2 class="word-title">どちら <span class="kana">(どちら)</span> = <span class="korean">어느 쪽</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_どちら_어느쪽.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#52 n5_0364</span>
+            <h2 class="word-title">どこ <span class="kana">(どこ)</span> = <span class="korean">어디</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_どこ_어디.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#53 n5_0423</span>
+            <h2 class="word-title">いつ <span class="kana">(いつ)</span> = <span class="korean">언제</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_いつ_언제.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#54 n5_0489</span>
+            <h2 class="word-title">いくつ <span class="kana">(いくつ)</span> = <span class="korean">몇 개, 몇 살</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_いくつ_몇개몇살.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    <div class="comparison-card">
+        <div class="card-header">
+            <span class="word-id">#55 n5_0634</span>
+            <h2 class="word-title">どなた <span class="kana">(どなた)</span> = <span class="korean">어느 분, 누구</span></h2>
+        </div>
+        <div class="image-comparison">
+            <div class="side before-side">
+                <div class="tag before-tag">🔴 BEFORE (기존 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="https://via.placeholder.com/300x300?text=No+Before+Image" alt="BEFORE" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>기존 문제점:</strong> 구체적 배경 서사(도서관/책/특정 장소)로 단어 의미 왜곡 위험
+                </div>
+            </div>
+            <div class="side after-side">
+                <div class="tag after-tag">✨ AFTER (개선된 이미지)</div>
+                <div class="img-wrapper">
+                    <img src="assets/images/words_v3/n5_どなた_어느분누구.jpg" alt="AFTER" loading="lazy">
+                </div>
+                <div class="desc">
+                    <strong>개선 사항:</strong> 서사 제거 ➔ 미니멀 배경 + ❓ 물음표/실루엣 Visual Hero 강조
+                </div>
+            </div>
+        </div>
+        <div class="prompt-box">
+            <strong>적용된 새 프롬프트:</strong> <code>glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette</code>
+        </div>
+    </div>
+    
+    </div>
+</body>
+</html>

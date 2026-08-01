@@ -1,0 +1,1155 @@
+{
+  "미분류 추상어": {
+    "total_words": 3144,
+    "high_risk_count": 467,
+    "high_risk_samples": [
+      {
+        "id": "n1_1263",
+        "kanji": "共学",
+        "kana": "きょうがく",
+        "korean": "남녀공학",
+        "prompt": "boys and girls walking together, school uniforms, school gates, cherry blossoms falling, spring morning, group of friends, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 6
+      },
+      {
+        "id": "n1_2098",
+        "kanji": "片思い",
+        "kana": "かたおもい",
+        "korean": "짝사랑",
+        "prompt": "Ghibli style, girl looking at boy from distance, school corridor, cherry blossom petals blowing, heart beating, sweet youth, nostalgic school days",
+        "narrative_density": 5
+      },
+      {
+        "id": "n1_0452",
+        "kanji": "一別",
+        "kana": "いちべつ",
+        "korean": "이별, 헤어짐",
+        "prompt": "train station platform, steam train leaving, 1girl waving goodbye, cherry blossoms falling, nostalgic atmosphere, ghibli style, watercolor style, warm sunset",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_1414",
+        "kanji": "就業",
+        "kana": "しゅうぎょう",
+        "korean": "취업, 근무",
+        "prompt": "vintage railway station office, ticking grandfather clock, old wooden desk, morning light through glass, retro train conductor hat, peaceful beginning of workday, hand-drawn watercolor, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_1910",
+        "kanji": "犠牲",
+        "kana": "ぎせい",
+        "korean": "희생",
+        "prompt": "Ghibli style, tired father cooking dinner, cozy kitchen, sleeping children in next room, warm soft glow, domestic love, nostalgic evening",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_2401",
+        "kanji": "充実",
+        "kana": "じゅうじつ",
+        "korean": "충실함",
+        "prompt": "ghibli style, boy reading a book by the fireplace, bowl of apples, cat sleeping on rug, warm cozy living room, rainy night outside, satisfied peaceful life",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_3446",
+        "kanji": "同い年",
+        "kana": "おないどし",
+        "korean": "동갑",
+        "prompt": "eating blue ice cream, concrete steps, summer afternoon, schoolboys laughing, sunset glow, childhood friends, Ghibli youth, breezy holiday",
+        "narrative_density": 4
+      },
+      {
+        "id": "n3_1186",
+        "kanji": "欠席",
+        "kana": "けっせき",
+        "korean": "결석",
+        "prompt": "child in bed with cold compress on forehead, hot bowl of porridge on tray, looking wistfully out window at school friends walking by, cozy bedroom, recovering health, soft tones, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_1310",
+        "kanji": "態々",
+        "kana": "わざわざ",
+        "korean": "일부러",
+        "prompt": "ghibli style, welcoming friend at train station with a warm hug, steam locomotive, winter coats, light snow falling, glowing station lights, cozy heartwarming scene",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_2641",
+        "kanji": "呉れ呉れも",
+        "kana": "くれぐれも",
+        "korean": "부디, 아무쪼록",
+        "prompt": "Ghibli style, caring grandmother wrapping warm scarf around young boy, porch of cozy countryside home, autumn leaves falling softly, warm golden lighting, heart-warming nostalgic moment",
+        "narrative_density": 4
+      }
+    ]
+  },
+  "수량사/단위": {
+    "total_words": 784,
+    "high_risk_count": 98,
+    "high_risk_samples": [
+      {
+        "id": "n1_2457",
+        "kanji": "番目",
+        "kana": "ばんめ",
+        "korean": "~번째 (순번을 나타내는 접미사)",
+        "prompt": "ghibli style, boy running onto playground, waving to friends already there, green grass, warm evening sun, nostalgic childhood playing after school",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_1485",
+        "kanji": "勤め先",
+        "kana": "つとめさき",
+        "korean": "근무처, 직장",
+        "prompt": "1boy, university graduate, walking towards modern glass office tower, morning sunlight, holding briefcase, hopeful expression, starting work, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 3
+      },
+      {
+        "id": "n2_0500",
+        "kanji": "大学院",
+        "kana": "だいがくいん",
+        "korean": "대학원",
+        "prompt": "graduate school library, university student reading papers at desk, laptop open, bookshelves, quiet study room, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 3
+      },
+      {
+        "id": "n2_1694",
+        "kanji": "長女",
+        "kana": "ちょうじょ",
+        "korean": "장녀",
+        "prompt": "1girl, eldest sister, looking caring, wearing apron, cooking in kitchen, warm domestic scene, smiling, ghibli style",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_1166",
+        "kanji": "再会",
+        "kana": "さいかい",
+        "korean": "재회",
+        "prompt": "running embrace, train platform reunion, tearful happy smile, warm sunshine, steam train, old friend hug, emotional Ghibli",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_1181",
+        "kanji": "利根",
+        "kana": "りこん",
+        "korean": "영리함, 총명함",
+        "prompt": "smart little girl, thick book, library ladder, starry eyes, reading cozy attic, glowing candle, magic academy, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_3458",
+        "kanji": "改定",
+        "kana": "かいてい",
+        "korean": "개정",
+        "prompt": "pasting new sign, train ticket office, retro station platform, worker in cap, morning sun, Ghibli railway, updating prices",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_3459",
+        "kanji": "借り",
+        "kana": "かり",
+        "korean": "빚, 대여",
+        "prompt": "borrowing umbrella, rainy street corner, friendly smile, warm glow of shop, school uniforms, wet asphalt, Ghibli kindness, sweet gratitude",
+        "narrative_density": 3
+      },
+      {
+        "id": "n2_0419",
+        "kanji": "看病",
+        "kana": "かんびょう",
+        "korean": "간병",
+        "prompt": "ghibli style, a mother gently putting a damp cloth on her sleeping child's forehead, cozy bedroom, soft bedside lamp glowing, steam from a bowl of soup, warm loving atmosphere",
+        "narrative_density": 3
+      },
+      {
+        "id": "n2_1527",
+        "kanji": "改札",
+        "kana": "かいさつ",
+        "korean": "개찰(구)",
+        "prompt": "Ghibli style, retro train station ticket gate, wooden signboards, clock showing afternoon, girl waiting with handbag, warm nostalgic lighting, watercolor background",
+        "narrative_density": 3
+      }
+    ]
+  },
+  "의문사": {
+    "total_words": 79,
+    "high_risk_count": 15,
+    "high_risk_samples": [
+      {
+        "id": "n5_0308",
+        "kanji": "誰",
+        "kana": "だれ",
+        "korean": "누구",
+        "prompt": "1girl, whispering curiously to friend while looking across courtyard, mystery person walking in distance, sunlit outdoor schoolyard, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_0399",
+        "kanji": "何気ない",
+        "kana": "なにげない",
+        "korean": "아무렇지 않은, 무심한",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1girl walking away, downcast eyes, windy street, autumn leaves blowing",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_2257",
+        "kanji": "何時か",
+        "kana": "いつか",
+        "korean": "언젠가",
+        "prompt": "ghibli style, friends looking at a vintage train ticket and map together, cozy cafe table, hot chocolate mugs, planning future travels, excited expressions",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_2576",
+        "kanji": "何時でも",
+        "kana": "いつでも",
+        "korean": "언제든지",
+        "prompt": "Ghibli style, warm glowing telephone kiosk at dusk, reassuring friendly girl offering hot tea thermos, cozy wooden porch, rainy evening glow, soft ambient light, nostalgic peaceful scene",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_3428",
+        "kanji": "何故なら",
+        "kana": "なぜなら",
+        "korean": "왜냐하면",
+        "prompt": "Ghibli style, girl comfortably curled up on armchair reading book while heavy rain falls outside window, steaming mug, cozy indoor warmth",
+        "narrative_density": 3
+      },
+      {
+        "id": "n3_0261",
+        "kanji": "だって",
+        "kana": "だって",
+        "korean": "하지만, 왜냐하면",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1girl, pouting playfully at train station platform",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_0003",
+        "kanji": "何処か",
+        "kana": "どこか",
+        "korean": "어딘가",
+        "prompt": "ghibli style, cozy travel, looking for somewhere on map, train passenger window, rolling green fields, daydreaming girl",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_1799",
+        "kanji": "何しろ",
+        "kana": "なにしろ",
+        "korean": "아무튼, 어쨌든",
+        "prompt": "ghibli style, busy kitchen during restaurant lunch rush, steaming pots, chef chopping vegetables, active movements, cozy rustic restaurant, detailed cooking scene",
+        "narrative_density": 2
+      },
+      {
+        "id": "n2_1697",
+        "kanji": "いつのまにか",
+        "kana": "いつのまにか",
+        "korean": "어느새, 어느샌가",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1girl, reading at desk as sky turns dark outside window",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0480",
+        "kanji": "何とか",
+        "kana": "なんとか",
+        "korean": "어떻게든, 그럭저럭",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1boy, sprinting relieved to catch train just in time",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "정도부사": {
+    "total_words": 73,
+    "high_risk_count": 8,
+    "high_risk_samples": [
+      {
+        "id": "n1_0116",
+        "kanji": "辛うじて",
+        "kana": "かろうじて",
+        "korean": "겨우; 간신히",
+        "prompt": "ghibli style, retro train station, barely catching last train, running on platform, waving conductor, warm engine glow",
+        "narrative_density": 3
+      },
+      {
+        "id": "n2_1241",
+        "kanji": "甘やかす",
+        "kana": "あまやかす",
+        "korean": "응석을 받아주다, 오냐오냐하다",
+        "prompt": "Ghibli style, cozy grandmother's cottage, feeding candy to a child, warm fireplace glow, happy smiles, nostalgic childhood, soft blankets, watercolor illustration",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_2850",
+        "kanji": "ぺこぺこ",
+        "kana": "ぺこぺこ",
+        "korean": "배가 몹시 고픈 모양; 굽실거리는 모양",
+        "prompt": "hungry young boy, tummy rumbling, cozy kitchen, warm lighting, wooden table, waiting for food, Ghibli style, soft anime art",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_0066",
+        "kanji": "余程",
+        "kana": "よっぽど",
+        "korean": "상당히, 어지간히",
+        "prompt": "ghibli style, cozy bedroom, extremely exhausted traveler, sleeping deeply on bed, travel bags, night moon, peaceful rest",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_0119",
+        "kanji": "余り",
+        "kana": "あんまり",
+        "korean": "별로; 그다지",
+        "prompt": "ghibli style, sick bed, no appetite at all, bowl of hot porridge, worried grandmother, cozy blanket, warm winter night",
+        "narrative_density": 2
+      },
+      {
+        "id": "n2_0861",
+        "kanji": "うんと",
+        "kana": "うんと",
+        "korean": "아주 많이, 훨씬",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1boy, studying hard with stacks of books, joyful expression, sunny room",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0585",
+        "kanji": "少しも",
+        "kana": "すこしも",
+        "korean": "조금도 (~않다), 전혀",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1girl, walking energetically along sunlit garden trail",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1139",
+        "kanji": "僅か",
+        "kana": "わずか",
+        "korean": "겨우, 조금",
+        "prompt": "hourglass with only a few grains of sand remaining, wooden desk, warm focused sunlight, tension, time running out, vintage aesthetic, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "상태변화 동사": {
+    "total_words": 70,
+    "high_risk_count": 10,
+    "high_risk_samples": [
+      {
+        "id": "n1_3155",
+        "kanji": "拗れる",
+        "kana": "こじれる",
+        "korean": "(일이) 꼬이다, 악화되다",
+        "prompt": "sad girl walking alone in rain, boy standing under streetlamp, wet cobblestone street, autumn night, distant houses glowing, relationship distance, studio ghibli style",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_2114",
+        "kanji": "過疎",
+        "kana": "かそ",
+        "korean": "과소(인구 감소)",
+        "prompt": "Ghibli style, quiet countryside village, single train arriving at station, elderly person sitting on porch, rustling autumn leaves, serene landscape",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_3170",
+        "kanji": "縮まる",
+        "kana": "ちぢまる",
+        "korean": "줄어들다, 좁혀지다, 단축되다",
+        "prompt": "two boys running close race, finish line approaching, dusty school field, sunny blue sky, sweat and competition, youthful energy, studio ghibli style",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_0940",
+        "kanji": "漏れる",
+        "kana": "もれる",
+        "korean": "새다, 누설되다",
+        "prompt": "Ghibli kitchen, steam escaping from a boiling soup pot lid, warm cozy kitchen, delicious cooking smells, rustic cottage home, nostalgic cooking, soft watercolor art, hand-drawn",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_2138",
+        "kanji": "凝る",
+        "kana": "こごる",
+        "korean": "엉기다; 굳다(응고되다)",
+        "prompt": "ghibli style, camping in snow, cooking pot cooling down, thick iron soup bowl, frost patterns, cozy campfire embers",
+        "narrative_density": 2
+      },
+      {
+        "id": "n2_0107",
+        "kanji": "助かる",
+        "kana": "たすかる",
+        "korean": "도움이 되다, 살아나다",
+        "prompt": "carrying firewood together, helpful smiling boy, winter snowy cabin yard, warm jackets, gratitude feeling, cozy rural neighbors, helper joy, studio ghibli style",
+        "narrative_density": 2
+      },
+      {
+        "id": "n2_0231",
+        "kanji": "通ずる",
+        "kana": "つうずる",
+        "korean": "통하다, 통용되다",
+        "prompt": "traveler chatting with local villager, smiling friendly conversation, rustic cafe window sun, tea cups, vintage village street background, warm harmony, studio ghibli style",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0759",
+        "kanji": "通じる",
+        "kana": "つうじる",
+        "korean": "통하다, 통용되다",
+        "prompt": "ghibli style, winding cobblestone pathway, seaside train station, green grassy hills, bright morning sun, panoramic town view, nostalgic pathway, scenic watercolor",
+        "narrative_density": 2
+      },
+      {
+        "id": "n5_0114",
+        "kanji": "なる",
+        "kana": "なる",
+        "korean": "되다",
+        "prompt": "ghibli style, walking with a backpack, entering a grand university gate, cherry blossom petals falling, spring breeze, looking toward the future, nostalgic campus",
+        "narrative_density": 2
+      },
+      {
+        "id": "n5_0148",
+        "kanji": "始まる",
+        "kana": "はじまる",
+        "korean": "시작되다",
+        "prompt": "ghibli style, classic school hallway, morning sunlight streaming, large vintage wall clock, students running to class, wooden floorboards, nostalgic classroom",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "지시어": {
+    "total_words": 66,
+    "high_risk_count": 10,
+    "high_risk_samples": [
+      {
+        "id": "n1_1412",
+        "kanji": "其方",
+        "kana": "そちら",
+        "korean": "그쪽",
+        "prompt": "ghibli style, reading letter next to a rainy window, warm bedroom, desk light, hand-written mail, nostalgic communication, cozy personal sanctuary, watercolor",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_2701",
+        "kanji": "添う",
+        "kana": "そう",
+        "korean": "부응하다; 곁에서 따르다",
+        "prompt": "determination pose, crowded station departure, waving hand, train steam, warm morning sun, hopeful youth, studio ghibli style, promising future",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_0572",
+        "kanji": "個々",
+        "kana": "ここ",
+        "korean": "개개, 각각",
+        "prompt": "ghibli style, discussion circle, group of friends sharing individual ideas, cozy study cafe, warm mugs, creative minds",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_2647",
+        "kanji": "なんだかんだ",
+        "kana": "なんだかんだ",
+        "korean": "이러쿵저러쿵, 이것저것",
+        "prompt": "Ghibli style, two close friends laughing together while walking along riverbank at sunset, carrying groceries, warm golden light, gentle river ripples, heart-warming anime atmosphere",
+        "narrative_density": 2
+      },
+      {
+        "id": "n2_1408",
+        "kanji": "手前",
+        "kana": "てまえ",
+        "korean": "바로 앞, 이쪽; 체면상",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, green public park located in front of retro train station",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0173",
+        "kanji": "それと",
+        "kana": "それと",
+        "korean": "그리고, 그것과",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1girl, carrying paper shopping bag with fresh bread and milk",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0233",
+        "kanji": "この",
+        "kana": "この",
+        "korean": "이 (지시관형사)",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1girl, happily reading storybook in comfortable armchair",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1158",
+        "kanji": "これら",
+        "kana": "これら",
+        "korean": "이것들",
+        "prompt": "stack of antique hardcover books, wooden library table, brass reading lamp, cozy reading nook, dust motes in sunbeam, warm nostalgic feel, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n5_0077",
+        "kanji": "こっち",
+        "kana": "こっち",
+        "korean": "이쪽",
+        "prompt": "1girl, waving arm happily calling over, sunny garden pathway, friendly welcoming smile, vibrant outdoor greenery, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n5_0650",
+        "kanji": "こちら",
+        "kana": "こちら",
+        "korean": "이쪽, 이분",
+        "prompt": "introducing friend, polite gesture, two people meeting, cafe entrance, warm lighting, friendly introduction, studio ghibli style",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "양태/판단 부사": {
+    "total_words": 65,
+    "high_risk_count": 15,
+    "high_risk_samples": [
+      {
+        "id": "n3_0868",
+        "kanji": "勿論",
+        "kana": "もちろん",
+        "korean": "물론",
+        "prompt": "1boy, warm smile, reassuring gesture, helping hands, cozy kitchen, sunny window, friendly expression, studio ghibli style, bright cheerful scene",
+        "narrative_density": 3
+      },
+      {
+        "id": "n2_0387",
+        "kanji": "蛇口",
+        "kana": "じゃぐち",
+        "korean": "수도꼭지",
+        "prompt": "turning metallic faucet, running clean water stream, shiny kitchen sink, soap bubbles, macro shot, no humans, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n2_1317",
+        "kanji": "素人",
+        "kana": "しろうと",
+        "korean": "아마추어, 초보자",
+        "prompt": "ghibli style, amateur cook wearing apron hesitantly reading recipe book in kitchen, scattered flour, warm encouraging atmosphere, wholesome anime scene",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_0008",
+        "kanji": "若しかして",
+        "kana": "もしかして",
+        "korean": "혹시",
+        "prompt": "ghibli style, nostalgic meeting, old childhood friends recognizing each other, street corner, cherry blossom petals, happy shock",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_1000",
+        "kanji": "矢っ張り",
+        "kana": "やっぱり",
+        "korean": "역시",
+        "prompt": "ghibli style, waiting at a train station platform under rain, vintage train tracks, holding an umbrella, quiet lonely mood, mist, retro anime aesthetic, watercolor paint",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_1155",
+        "kanji": "てっきり",
+        "kana": "てっきり",
+        "korean": "틀림없이, 영락없이(예상이 빗나갔을 때)",
+        "prompt": "ghibli style, cozy cafe table set for two, steam rising from cups, looking expectantly at the door, warm lighting, nostalgic romantic vibe, soft rain outside",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_1480",
+        "kanji": "筈",
+        "kana": "はず",
+        "korean": "(당연히) ~할 것; ~할 터",
+        "prompt": "ghibli style, looking out at steam train pulling into country station, platform benches, vintage travel bag, exciting arrival, soft sunset lighting, retro travel",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_2142",
+        "kanji": "一切",
+        "kana": "いっさい",
+        "korean": "일체; 전혀",
+        "prompt": "ghibli style, boy with innocent face shaking head, hands behind back, cozy wooden kitchen, mom questioning, cute family mystery, funny lighthearted vibe",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_2812",
+        "kanji": "若しかしたら",
+        "kana": "もしかしたら",
+        "korean": "어쩌면, 혹시",
+        "prompt": "Ghibli style, girl looking out of cozy window frame holding cup of tea, soft spring rain dripping from roof tiles, gentle thoughtful gaze, warm watercolor painting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_3059",
+        "kanji": "正しく",
+        "kana": "まさしく",
+        "korean": "틀림없이; 바로",
+        "prompt": "Ghibli style, girl recognizing handwritten signature on old postcard with bright smile, glowing desk lamp, cozy wooden bedroom, nostalgic warmth",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "접속사/논리연결어": {
+    "total_words": 63,
+    "high_risk_count": 14,
+    "high_risk_samples": [
+      {
+        "id": "n3_0870",
+        "kanji": "ですから",
+        "kana": "ですから",
+        "korean": "그러므로, 그래서",
+        "prompt": "1girl, cozy bedroom, tucking into futon, moonlight through window, peaceful sleeping pose, warm night ambience, quiet room, night sky, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_0875",
+        "kanji": "而も",
+        "kana": "しかも",
+        "korean": "게다가, 그럼에도",
+        "prompt": "ghibli style, smart student reading a book under a big shade tree, gentle summer breeze, green grass, cozy retro school uniform, soft warm lighting, watercolor background",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_1586",
+        "kanji": "然して",
+        "kana": "そして",
+        "korean": "그리고",
+        "prompt": "ghibli style, holding umbrella against heavy wind and rain, walking on storm-swept bridge, gray splashing sea, dramatic weather, adventurous retro anime art",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_2612",
+        "kanji": "事によると",
+        "kana": "ことによると",
+        "korean": "어쩌면, 사정에 따라서는",
+        "prompt": "Ghibli style, quiet railway platform at twilight, single vintage streetlamp shining, girl looking at pocket watch, soft rain puddle reflections, nostalgic anime scene, tranquil melancholy",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_3305",
+        "kanji": "然し",
+        "kana": "しかし",
+        "korean": "그러나; 하지만",
+        "prompt": "Ghibli style, adventurous boy wearing yellow raincoat striding out into rain with cheerful smile, green umbrellas, sparkling rain drops, inspiring mood",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0107",
+        "kanji": "要するに",
+        "kana": "ようするに",
+        "korean": "요컨대, 한마디로 말하면",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1boy, tilting head thoughtfully in sunlit library corner",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0239",
+        "kanji": "だから",
+        "kana": "だから",
+        "korean": "그래서, 그러니까",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1girl, sleeping early tucked in cozy bed, night lamp",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0772",
+        "kanji": "そこで",
+        "kana": "そこで",
+        "korean": "그래서, 그런데",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1girl, buying umbrella at shop right as rain starts",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1067",
+        "kanji": "だけど",
+        "kana": "だけど",
+        "korean": "그렇지만, 하지만",
+        "prompt": "1girl, wearing raincoat and boots, opening door to rainy day, smiling face, wet garden path, brave adventuring vibe, studio ghibli style",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1192",
+        "kanji": "そして",
+        "kana": "そして",
+        "korean": "그리고",
+        "prompt": "1boy, leaving house with school bag, morning sun shining, cozy breakfast table visible behind open door, fresh start of school day, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "사회/제도 추상명사": {
+    "total_words": 62,
+    "high_risk_count": 8,
+    "high_risk_samples": [
+      {
+        "id": "n3_1494",
+        "kanji": "不自由",
+        "kana": "ふじゆう",
+        "korean": "불편함, 부자유",
+        "prompt": "Ghibli style, boy with wooden crutches walking, friendly classmates helping him carry schoolbag, green grassy path, sunny schoolyard, warm friendship",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_1237",
+        "kanji": "慣習",
+        "kana": "かんしゅう",
+        "korean": "관습",
+        "prompt": "wearing traditional straw boots, walking in winter snow, rustic village street, snow-covered roofs, warm window glow, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n2_0993",
+        "kanji": "身分",
+        "kana": "みぶん",
+        "korean": "신분, 사회적 지위",
+        "prompt": "vintage train station counter, boarding pass, old retro passport with stamps, station master in uniform, steam locomotive in the background, travel adventure, warm nostalgic lighting, Ghibli movie scene",
+        "narrative_density": 2
+      },
+      {
+        "id": "n2_1100",
+        "kanji": "社会科学",
+        "kana": "しゃかいかがく",
+        "korean": "사회과학",
+        "prompt": "classic academic library, floor-to-ceiling bookshelves, studying sociology books, students sharing notes on a round table, warm lamp lighting, academic passion, nostalgic Ghibli classroom",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0974",
+        "kanji": "景気",
+        "kana": "けいき",
+        "korean": "경기(경제 상황)",
+        "prompt": "closed market stalls on a rainy day, quiet cobblestone street, puddles reflecting gray sky, lonely character walking with umbrella, moody melancholic atmosphere, retro city economic downturn, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1227",
+        "kanji": "憲法",
+        "kana": "けんぽう",
+        "korean": "헌법",
+        "prompt": "studying a constitution law book, high wooden library arches, soft light from leaded glass windows, leather-bound heavy volumes, legal research, quiet academia, cozy study, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n4_267",
+        "kanji": "教育",
+        "kana": "きょういく",
+        "korean": "교육",
+        "prompt": "ghibli style, teacher reading picture book to eager young children, sitting on classroom floor, colorful classroom, friendly warm guidance, cozy childhood education",
+        "narrative_density": 2
+      },
+      {
+        "id": "n5_0572",
+        "kanji": "方",
+        "kana": "かた",
+        "korean": "분(사람의 높임말), 방법",
+        "prompt": "respectable teacher walking down sunlit school hallway, warm ambient light, nostalgic academic environment, Ghibli art",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "시간/빈도 부사": {
+    "total_words": 48,
+    "high_risk_count": 17,
+    "high_risk_samples": [
+      {
+        "id": "n1_0748",
+        "kanji": "屡",
+        "kana": "しばしば",
+        "korean": "자주; 종종",
+        "prompt": "ghibli style, street crossing, train warning bells ringing, frequently running route, girl rushing to school, morning sky",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_2574",
+        "kanji": "度々",
+        "kana": "たびたび",
+        "korean": "자주, 여러 번",
+        "prompt": "Ghibli style, anime aesthetic, breathless schoolgirl running along cobblestone lane, toast in mouth, sunlit countryside village, friendly teacher waiting at school gate, morning sunlight, cozy pastel colors",
+        "narrative_density": 4
+      },
+      {
+        "id": "n3_1254",
+        "kanji": "偶",
+        "kana": "たま",
+        "korean": "가끔, 우연히",
+        "prompt": "1boy and 1girl, standing on rural train platform, casual conversation, afternoon golden light, countryside background, quiet friend reunion, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 4
+      },
+      {
+        "id": "n3_0125",
+        "kanji": "たびたび",
+        "kana": "たびたび",
+        "korean": "자주, 여러 번",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, 1boy, running hurriedly down town street with school bag",
+        "narrative_density": 3
+      },
+      {
+        "id": "n3_1479",
+        "kanji": "しばしば",
+        "kana": "しばしば",
+        "korean": "자주, 종종",
+        "prompt": "1boy, running breathlessly down street with toast in mouth, school uniform, morning sun, classic late for school trope, comedic hurry, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_0438",
+        "kanji": "ちょくちょく",
+        "kana": "ちょくちょく",
+        "korean": "자주; 종종",
+        "prompt": "ghibli style, school gate, cute student rushing in late again, funny expression, school uniform, cherry blossom road",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_1625",
+        "kanji": "しょっちゅう",
+        "kana": "しょっちゅう",
+        "korean": "항상; 늘; 자주",
+        "prompt": "ghibli style, running fast with toast in mouth, school bag bouncing, clock tower in background showing late time, hurried character, sunny morning street, cute anime",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_2758",
+        "kanji": "間もなく",
+        "kana": "まもなく",
+        "korean": "곧, 머지않아",
+        "prompt": "Ghibli style, vintage green train approaching countryside station platform, wind blowing flower petals, waiting passengers on wooden bench, bright afternoon sun, scenic anime scenery",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_3216",
+        "kanji": "事前",
+        "kana": "じぜん",
+        "korean": "사전, 미리",
+        "prompt": "Ghibli style, girl carefully writing entry into leather-bound planner with fountain pen, warm desk lamp, cozy bedroom setting, organized preparation",
+        "narrative_density": 2
+      },
+      {
+        "id": "n2_1683",
+        "kanji": "間も無く",
+        "kana": "まもなく",
+        "korean": "곧, 머지않아",
+        "prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, vintage green train approaching rural station platform",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "감정/심리 상태": {
+    "total_words": 44,
+    "high_risk_count": 8,
+    "high_risk_samples": [
+      {
+        "id": "n1_0790",
+        "kanji": "嫉妬",
+        "kana": "しっと",
+        "korean": "질투",
+        "prompt": "1girl looking enviously at her friend receiving award, school stage, clapping crowd, mixed emotions, school uniform, ghibli style, watercolor style",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_0044",
+        "kanji": "不服",
+        "kana": "ふふく",
+        "korean": "불복, 불만",
+        "prompt": "person walking in heavy rain with umbrella, shining lighthouse beam in distance, glistening raindrops on cobblestone, dark cloudy night sky, strong determination mood, Ghibli style dramatic weather, hand-drawn dark watercolor textures, cozy rain atmosphere",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0387",
+        "kanji": "喜び",
+        "kana": "よろこび",
+        "korean": "기쁨",
+        "prompt": "ghibli style, girl throwing hat in air, graduation celebration, cherry blossom storm, bright sky, happiness, warm colors",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1740",
+        "kanji": "勇気",
+        "kana": "ゆうき",
+        "korean": "용기",
+        "prompt": "brave schoolgirl speaking at podium microphone, giant school assembly hall, taking deep breath, courage to speak, bright spotlights, determined warm smile, studio ghibli style",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_1255",
+        "kanji": "案じる",
+        "kana": "あんじる",
+        "korean": "염려하다, 걱정하다",
+        "prompt": "ghibli style, waiting mother, boiling kitchen kettle, warm stove fire, late night cozy home, soft yellow lighting, nostalgic household, care",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0350",
+        "kanji": "不満",
+        "kana": "ふまん",
+        "korean": "불만",
+        "prompt": "Ghibli style, grumpy customer, vintage cafe booth, lukewarm cup of coffee, dim rain outside window, moody atmospheric colors, retro diner",
+        "narrative_density": 2
+      },
+      {
+        "id": "n4_581",
+        "kanji": "恥ずかしい",
+        "kana": "はずかしい",
+        "korean": "부끄러운",
+        "prompt": "ghibli style, warm lighting, shy blushing girl, hiding face behind book, school hallway, cute innocent moment, soft pastel",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1146",
+        "kanji": "ありがとう",
+        "kana": "ありがとう",
+        "korean": "고맙습니다, 감사합니다",
+        "prompt": "1girl, hands folded together, genuine warm smile, glowing eyes of gratitude, sunny kitchen, heartwarming moment, studio ghibli character design",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "논리/학술 추상명사": {
+    "total_words": 41,
+    "high_risk_count": 6,
+    "high_risk_samples": [
+      {
+        "id": "n1_1121",
+        "kanji": "理屈",
+        "kana": "りくつ",
+        "korean": "이치; 핑계(논리)",
+        "prompt": "pouting boy, school classroom, blackboard, desk scribbles, funny expression, school friends, warm childhood vibe, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 3
+      },
+      {
+        "id": "n4_244",
+        "kanji": "関係",
+        "kana": "かんけい",
+        "korean": "관계",
+        "prompt": "ghibli style, two friends sharing umbrella in gentle rain, walking down quiet village path, green hills, cozy warm relationship, nostalgic rainy day peace",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_1053",
+        "kanji": "間柄",
+        "kana": "あいだがら",
+        "korean": "사이, 관계",
+        "prompt": "two kids running on grassy hill, childhood friends, summer sky, fluffy white clouds, wooden fence, nostalgia, carefree summer, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0204",
+        "kanji": "結果",
+        "kana": "けっか",
+        "korean": "결과",
+        "prompt": "Ghibli style, student waiting anxiously on school bench, holding hands, falling autumn leaves, quiet warm courtyard, nostalgic waiting mood",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0650",
+        "kanji": "仲",
+        "kana": "なか",
+        "korean": "사이, 관계",
+        "prompt": "ghibli style, two friends sharing headphone, school bus bench, smiling faces, green fields passing, youth memory",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1721",
+        "kanji": "効果",
+        "kana": "こうか",
+        "korean": "효과",
+        "prompt": "magical herbal tea potion, girl glowing with warm vital energy, tea cup steam, red rosy cheeks, cured healthy look, cozy wizard bedroom, magical cure effect, studio ghibli style",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "정도/양적 개념 명사": {
+    "total_words": 30,
+    "high_risk_count": 4,
+    "high_risk_samples": [
+      {
+        "id": "n3_1257",
+        "kanji": "位",
+        "kana": "くらい",
+        "korean": "정도, 쯤; 지위, 등급",
+        "prompt": "1girl, walking along picturesque country road, sun overhead, lush green fields, peaceful walk towards distant station spire, summer breeze, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_1864",
+        "kanji": "レンジ",
+        "kana": "レンジ",
+        "korean": "레인지, 범위",
+        "prompt": "microwave oven, kitchen counter, glowing interior, hot steam, food bowl inside, cozy kitchen, home cooking, warm light, studio ghibli style",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1113",
+        "kanji": "程度",
+        "kana": "ていど",
+        "korean": "정도",
+        "prompt": "smiling student easily finishing a small math worksheet, simple study desk, cozy bedroom, morning sunlight, casual daily schoolwork, lighthearted relaxed mood, watercolor art, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1686",
+        "kanji": "加減",
+        "kana": "かげん",
+        "korean": "가감, 정도, 상태(몸 상태)",
+        "prompt": "cozy hot spring tub, boy checking water temperature, cute monkey soaking, warm steam rising, outdoor snow mountain view, relaxing bath, comfort, studio ghibli style",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "비교/관계": {
+    "total_words": 27,
+    "high_risk_count": 5,
+    "high_risk_samples": [
+      {
+        "id": "n5_0509",
+        "kanji": "同じ",
+        "kana": "おなじ",
+        "korean": "같다, 똑같은",
+        "prompt": "ghibli style, sunny day, same school uniforms, best friends walking, railway crossing, cherry blossoms, nostalgic school days",
+        "narrative_density": 4
+      },
+      {
+        "id": "n1_3154",
+        "kanji": "案の定",
+        "kana": "あんのじょう",
+        "korean": "아니나 다를까, 예상대로",
+        "prompt": "Ghibli style, boy running frantically down street holding hat, friend standing at clock tower smiling knowingly, sunny town square, comical anime scene",
+        "narrative_density": 3
+      },
+      {
+        "id": "n3_0558",
+        "kanji": "関する",
+        "kana": "かんする",
+        "korean": "~에 관하다, ~와 관련되다",
+        "prompt": "ghibli style, vintage archive library, reading old book, magnifying glass on desk, stack of ancient manuscripts, dusty light beam, cozy reading nook, historical documents, watercolor painting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n5_0053",
+        "kanji": "違う",
+        "kana": "ちがう",
+        "korean": "다르다",
+        "prompt": "ghibli style, thinking girl, correcting homework, wooden desk, vintage brass lamp, chalkboard background, soft shading, nostalgic school",
+        "narrative_density": 2
+      },
+      {
+        "id": "n2_0788",
+        "kanji": "わりあいに",
+        "kana": "わりあいに",
+        "korean": "비교적",
+        "prompt": "Ghibli style, girl lounging under porch shade reading comic book, cool summer breeze rustling wind chime, peaceful afternoon",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "인지/사고 동사": {
+    "total_words": 26,
+    "high_risk_count": 5,
+    "high_risk_samples": [
+      {
+        "id": "n1_3056",
+        "kanji": "覚え",
+        "kana": "おぼえ",
+        "korean": "기억; 자각",
+        "prompt": "recognizing old friend face in crowd, train station platform, warm smile, nostalgic encounter, happy memory trigger, ghibli watercolor art",
+        "narrative_density": 3
+      },
+      {
+        "id": "n3_0843",
+        "kanji": "予期",
+        "kana": "よき",
+        "korean": "예기, 예상",
+        "prompt": "girl looking out the window surprised, unexpected white owl landing on the sill, holding a letter, raindrops on glass, cozy bedroom, magic fantasy beginning, soft warm lighting, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 3
+      },
+      {
+        "id": "n1_1100",
+        "kanji": "推測",
+        "kana": "すいそく",
+        "korean": "추측",
+        "prompt": "girl looking out rainy window, soft raindrops, misty garden, cup of hot tea, thoughtful expression, cozy pastel room, studio ghibli style, warm color palette, soft volumetric lighting",
+        "narrative_density": 2
+      },
+      {
+        "id": "n1_1798",
+        "kanji": "飲み込む",
+        "kana": "のみこむ",
+        "korean": "삼키다, 이해하다",
+        "prompt": "ghibli style, taking medicine water cup, warm cozy bedroom quilt, bedside table candle, mother's shadow, caring touch",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_0273",
+        "kanji": "気付く",
+        "kana": "きづく",
+        "korean": "알아차리다, 깨닫다",
+        "prompt": "Ghibli style, ticket gate, realizing pocket is empty, surprised look, train steam, warm station lights, nostalgic commuter life, watercolor",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "추상 형용사": {
+    "total_words": 21,
+    "high_risk_count": 2,
+    "high_risk_samples": [
+      {
+        "id": "n3_0606",
+        "kanji": "確実",
+        "kana": "かくじつ",
+        "korean": "확실",
+        "prompt": "Ghibli style, waiting at train platform, station clock ticking, looking down the tracks, confident smile, sunny day departure, nostalgic station",
+        "narrative_density": 2
+      },
+      {
+        "id": "n4_456",
+        "kanji": "大事",
+        "kana": "だいじ",
+        "korean": "중요",
+        "prompt": "ghibli style, warm lighting, health checkup, caring mother, hot soup, cozy bedroom, important wellness, soft blanket",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "경어/기능어": {
+    "total_words": 13,
+    "high_risk_count": 2,
+    "high_risk_samples": [
+      {
+        "id": "n5_0267",
+        "kanji": "妹",
+        "kana": "いもうと",
+        "korean": "여동생",
+        "prompt": "1girl younger sister, wearing school uniform, holding school bag, walking down sunny path, smiling, studio ghibli style, warm color palette, soft volumetric lighting, watercolor background",
+        "narrative_density": 3
+      },
+      {
+        "id": "n3_1682",
+        "kanji": "粗末",
+        "kana": "そまつ",
+        "korean": "허름함, 소홀히 함",
+        "prompt": "Ghibli style, simple humble dinner table, warm miso soup bowl, wooden spoon, cozy poor cottage, respect for food, grandmother teaching child",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "의지/의향": {
+    "total_words": 13,
+    "high_risk_count": 2,
+    "high_risk_samples": [
+      {
+        "id": "n1_3275",
+        "kanji": "頼み",
+        "kana": "たのみ",
+        "korean": "부탁, 의지",
+        "prompt": "cozy coffee shop, whispering secrets, hands clasped, warm tea steam, rain outside window, gentle expression, Ghibli style, close friends",
+        "narrative_density": 2
+      },
+      {
+        "id": "n3_1788",
+        "kanji": "頼る",
+        "kana": "たよる",
+        "korean": "의지하다",
+        "prompt": "ghibli style, leaning on shoulder, walking home together, sunset town street, supportive friendship, tired but safe, nostalgic golden light, watercolor",
+        "narrative_density": 2
+      }
+    ]
+  },
+  "조건/가정": {
+    "total_words": 4,
+    "high_risk_count": 0,
+    "high_risk_samples": []
+  }
+}

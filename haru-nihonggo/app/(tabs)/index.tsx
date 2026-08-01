@@ -25,9 +25,24 @@ export default function HomeScreen() {
 
   return (
     <ScrollView className="flex-1 bg-[#FAF9F6] px-5 pt-4">
-      <View className="mb-8">
-        <Text className="text-xl font-medium text-gray-800 tracking-wide">{greeting}</Text>
-        <Text className="text-lg text-gray-600 mt-1">오늘 목표는 {settings.dailyGoal}개, 일본어를 만나봐요</Text>
+      <View className="mb-6 flex-row justify-between items-start">
+        <View className="flex-1">
+          <View className="flex-row items-center mb-1">
+            <Text className="text-xl font-medium text-gray-800 tracking-wide mr-2">{greeting}</Text>
+            {settings.streakCount > 0 && (
+              <View className="bg-[#FFF4E5] px-2.5 py-0.5 rounded-full border border-[#FFE0B2] flex-row items-center">
+                <Text className="text-xs font-bold text-[#E65100]">🔥 {settings.streakCount}일 연속</Text>
+              </View>
+            )}
+          </View>
+          <Text className="text-base text-gray-600 mt-1">목표 {settings.dailyGoal}개 · 레벨: <Text className="font-bold text-[#4A725D]">{settings.studyLevel === 'all' ? '전체 (N1~N5)' : settings.studyLevel.toUpperCase()}</Text></Text>
+        </View>
+        <TouchableOpacity 
+          className="bg-[#E9F3EB] px-3 py-1.5 rounded-full border border-[#D1E5D5]"
+          onPress={() => router.push('/profile')}
+        >
+          <Text className="text-xs font-bold text-[#4A725D]">레벨 변경 ⚙️</Text>
+        </TouchableOpacity>
       </View>
 
       <View className="flex-row justify-between items-center mb-4">
@@ -90,8 +105,10 @@ export default function HomeScreen() {
       <Text className="text-lg font-bold text-gray-800 mb-4">더 보기</Text>
       <View className="bg-transparent mb-10">
         <MenuRow icon="time-outline" label="복습하기" onPress={() => router.push('/srs')} />
+        <MenuRow icon="star-outline" label="⭐ 즐겨찾기 단어장" onPress={() => router.push('/vocabulary')} />
+        <MenuRow icon="volume-high-outline" label="🎧 듣기 전용 퀴즈 모드" onPress={() => router.push('/quiz?mode=audio')} />
         <MenuRow icon="book-outline" label="오답노트" onPress={() => router.push('/incorrect')} />
-        <MenuRow icon="library-outline" label="JLPT N4 단어 목록" onPress={() => router.push('/vocabulary')} />
+        <MenuRow icon="library-outline" label="전체 단어 목록 (N1~N5)" onPress={() => router.push('/vocabulary')} />
       </View>
     </ScrollView>
   );

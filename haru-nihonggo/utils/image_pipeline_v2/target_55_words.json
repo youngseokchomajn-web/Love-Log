@@ -1,0 +1,387 @@
+[
+  {
+    "id": "n1_3265",
+    "kanji": "片言",
+    "kana": "かたこと",
+    "korean": "서투른 말, 몇 마디",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_0399",
+    "kanji": "何気ない",
+    "kana": "なにげない",
+    "korean": "아무렇지 않은, 무심한",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_0003",
+    "kanji": "何処か",
+    "kana": "どこか",
+    "korean": "어딘가",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_0149",
+    "kanji": "何処",
+    "kana": "どこ",
+    "korean": "어디",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_0202",
+    "kanji": "何々",
+    "kana": "どれどれ",
+    "korean": "어디 보자, 이런",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_0811",
+    "kanji": "如何に",
+    "kana": "いかに",
+    "korean": "어떻게; 아무리 ~해도",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_0918",
+    "kanji": "如何して",
+    "kana": "どうして",
+    "korean": "왜, 어째서",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1033",
+    "kanji": "何だか",
+    "kana": "なんだか",
+    "korean": "왠지, 뭔가",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1138",
+    "kanji": "何方",
+    "kana": "どちら",
+    "korean": "어느 쪽, 어디, 누구(정중한 표현)",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1145",
+    "kanji": "誰",
+    "kana": "たれ",
+    "korean": "누구(고어체, たれ)",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1250",
+    "kanji": "何の",
+    "kana": "どの",
+    "korean": "어느, 어떤",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1440",
+    "kanji": "何も",
+    "kana": "なにも",
+    "korean": "아무것도",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1710",
+    "kanji": "何れ",
+    "kana": "いずれ",
+    "korean": "어느 쪽; 머지않아",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1789",
+    "kanji": "何時も",
+    "kana": "いつも",
+    "korean": "항상, 언제나",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1799",
+    "kanji": "何しろ",
+    "kana": "なにしろ",
+    "korean": "아무튼, 어쨌든",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1847",
+    "kanji": "何時",
+    "kana": "いつ",
+    "korean": "언제",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1872",
+    "kanji": "或る",
+    "kana": "ある",
+    "korean": "어느, 어떤",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_1948",
+    "kanji": "何時までも",
+    "kana": "いつまでも",
+    "korean": "언제까지나, 영원히",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_2123",
+    "kanji": "何となく",
+    "kana": "なんとなく",
+    "korean": "왠지; 어쩐지",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_2156",
+    "kanji": "如何",
+    "kana": "いかが",
+    "korean": "어떻게; 어떠한지",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_2257",
+    "kanji": "何時か",
+    "kana": "いつか",
+    "korean": "언젠가",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_2286",
+    "kanji": "何とも",
+    "kana": "なんとも",
+    "korean": "뭐라고도, 정말로",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_2455",
+    "kanji": "何時の間にか",
+    "kana": "いつのまにか",
+    "korean": "어느새",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_2576",
+    "kanji": "何時でも",
+    "kana": "いつでも",
+    "korean": "언제든지",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_2583",
+    "kanji": "何卒",
+    "kana": "どうぞ",
+    "korean": "부디, 아무쪼록",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_2587",
+    "kanji": "何て",
+    "kana": "なんて",
+    "korean": "정말, ~라니(감탄)",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_2787",
+    "kanji": "何より",
+    "kana": "なにより",
+    "korean": "무엇보다도",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_2827",
+    "kanji": "何なり",
+    "kana": "なんなり",
+    "korean": "무엇이든지",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_3071",
+    "kanji": "何故",
+    "kana": "なぜ",
+    "korean": "왜, 어째서",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_3339",
+    "kanji": "何と",
+    "kana": "なんと",
+    "korean": "참으로; 이 무슨",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n1_3428",
+    "kanji": "何故なら",
+    "kana": "なぜなら",
+    "korean": "왜냐하면",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n2_0811",
+    "kanji": "何分",
+    "kana": "なにぶん",
+    "korean": "아무쪼록, 어쨌든",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n2_1597",
+    "kanji": "何々",
+    "kana": "なになに",
+    "korean": "이것저것, 무엇무엇",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n3_0038",
+    "kanji": "何か",
+    "kana": "なにか",
+    "korean": "무언가, 뭔가",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n3_0301",
+    "kanji": "どれ",
+    "kana": "どれ",
+    "korean": "어느 것",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n3_0480",
+    "kanji": "何とか",
+    "kana": "なんとか",
+    "korean": "어떻게든, 그럭저럭",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n3_0676",
+    "kanji": "何",
+    "kana": "なに",
+    "korean": "무엇",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n3_0705",
+    "kanji": "何で",
+    "kana": "なんで",
+    "korean": "왜, 어째서",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n3_1005",
+    "kanji": "何でも",
+    "kana": "なんでも",
+    "korean": "무엇이든",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n3_1189",
+    "kanji": "幾つ",
+    "kana": "いくつ",
+    "korean": "몇 개, 몇 살",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n3_1639",
+    "kanji": "或",
+    "kana": "ある",
+    "korean": "어느, 어떤",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n3_1707",
+    "kanji": "誰か",
+    "kana": "だれか",
+    "korean": "누군가",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0059",
+    "kanji": "何",
+    "kana": "なん / なに",
+    "korean": "무엇",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0085",
+    "kanji": "どう",
+    "kana": "どう",
+    "korean": "어떻게",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0091",
+    "kanji": "どっち",
+    "kana": "どっち",
+    "korean": "어느 쪽",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0094",
+    "kanji": "どうして",
+    "kana": "どうして",
+    "korean": "왜",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0173",
+    "kanji": "なぜ",
+    "kana": "なぜ",
+    "korean": "왜",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0221",
+    "kanji": "どれ",
+    "kana": "どれ",
+    "korean": "어느 것",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0259",
+    "kanji": "どの",
+    "kana": "どの",
+    "korean": "어느",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0308",
+    "kanji": "誰",
+    "kana": "だれ",
+    "korean": "누구",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0312",
+    "kanji": "どちら",
+    "kana": "どちら",
+    "korean": "어느 쪽",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0364",
+    "kanji": "どこ",
+    "kana": "どこ",
+    "korean": "어디",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0423",
+    "kanji": "いつ",
+    "kana": "いつ",
+    "korean": "언제",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0489",
+    "kanji": "いくつ",
+    "kana": "いくつ",
+    "korean": "몇 개, 몇 살",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  },
+  {
+    "id": "n5_0634",
+    "kanji": "どなた",
+    "kana": "どなた",
+    "korean": "어느 분, 누구",
+    "prompt": "glowing big question mark float above, 1boy pointing at mysterious silhouette box, curious expression, simple neutral soft backdrop, studio ghibli style, warm color palette"
+  }
+]

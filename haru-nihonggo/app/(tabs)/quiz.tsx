@@ -2,11 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
 import { Ionicons } from '@expo/vector-icons';
-import { useRouter } from 'expo-router';
+import { useRouter, useLocalSearchParams } from 'expo-router';
 import { playJapaneseTTS } from '../../utils/tts';
 
 export default function QuizScreen() {
   const router = useRouter();
+  const params = useLocalSearchParams();
+  const isAudioMode = params.mode === 'audio';
+
   const generateQuiz = useWordStore(state => state.generateQuiz);
   
   const [quizList, setQuizList] = useState<any[]>([]);
@@ -20,6 +23,13 @@ export default function QuizScreen() {
     const qs = generateQuiz(10);
     setQuizList(qs);
   }, []);
+
+  // 오디오 모드일 경우 각 문제로 넘어갈 때 음성 자동 재생
+  useEffect(() => {
+    if (isAudioMode && quizList.length > 0 && quizList[currentIndex]) {
+      playJapaneseTTS(quizList[currentIndex].question.hiragana);
+    }
+  }, [currentIndex, quizList, isAudioMode]);
 
   if (quizList.length === 0) {
     return (
@@ -65,7 +75,7 @@ export default function QuizScreen() {
             <Text className="text-lg text-gray-600 mb-6">다시 외워볼까요? 💪</Text>
             <View className="bg-white rounded-2xl px-8 py-5 items-center border border-gray-100 mb-12">
               <Text className="text-gray-500 text-base mb-1">
-                {currentQuiz.question.kanji || currentQuiz.question.hiragana}
+                {currentQuiz.question.kanji || currentQuiz.question.hiragana} ({currentQuiz.question.hiragana})
               </Text>
               <Text className="text-2xl font-bold text-[#8EAAA3]">{currentQuiz.question.korean}</Text>
             </View>
@@ -93,19 +103,30 @@ export default function QuizScreen() {
         <TouchableOpacity onPress={() => router.back()}>
           <Ionicons name="close" size={28} color="#333" />
         </TouchableOpacity>
-        <Text className="text-gray-500 font-medium text-sm">{currentIndex + 1} / {quizList.length}</Text>
+        <Text className="text-gray-500 font-medium text-sm">{isAudioMode ? '🎧 듣기 모드 ' : ''}{currentIndex + 1} / {quizList.length}</Text>
       </View>
 
-      <View className="w-full bg-[#E5E5E5] h-2.5 rounded-full mb-10 overflow-hidden">
+      <View className="w-full bg-[#E5E5E5] h-2.5 rounded-full mb-8 overflow-hidden">
         <View className="bg-[#8EAAA3] h-full rounded-full" style={{ width: `${progress}%` }} />
       </View>
 
-      <Text className="text-center text-gray-700 text-lg mb-8">다음 단어의 뜻으로 알맞은 것을 고르세요.</Text>
+      <Text className="text-center text-gray-700 text-lg mb-6">
+        {isAudioMode ? '음성을 듣고 알맞은 한국어 뜻을 고르세요.' : '다음 단어의 뜻으로 알맞은 것을 고르세요.'}
+      </Text>
 
-      <TouchableOpacity className="items-center mb-10" onPress={handleListen}>
-        <Text className="text-xl text-gray-500 mb-1">{currentQuiz.question.hiragana} <Ionicons name="volume-medium" size={16} /></Text>
-        <Text className="text-5xl font-medium text-gray-800">{currentQuiz.question.kanji || currentQuiz.question.hiragana}</Text>
-      </TouchableOpacity>
+      {isAudioMode ? (
+        <TouchableOpacity className="items-center mb-10 bg-white rounded-3xl p-6 border border-gray-100 shadow-sm" onPress={handleListen}>
+          <View className="w-20 h-20 bg-[#E9F3EB] rounded-full items-center justify-center mb-3">
+            <Ionicons name="volume-high" size={40} color="#4A725D" />
+          </View>
+          <Text className="text-[#4A725D] font-bold text-base">터치하여 다시 듣기 🎧</Text>
+        </TouchableOpacity>
+      ) : (
+        <TouchableOpacity className="items-center mb-10" onPress={handleListen}>
+          <Text className="text-xl text-gray-500 mb-1">{currentQuiz.question.hiragana} <Ionicons name="volume-medium" size={16} /></Text>
+          <Text className="text-5xl font-medium text-gray-800">{currentQuiz.question.kanji || currentQuiz.question.hiragana}</Text>
+        </TouchableOpacity>
+      )}
 
       <View className="flex-1">
         {currentQuiz.options.map((opt: string, idx: number) => {

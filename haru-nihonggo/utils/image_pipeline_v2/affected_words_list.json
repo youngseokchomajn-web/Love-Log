@@ -1,0 +1,922 @@
+[
+  {
+    "id": "n5_0282",
+    "level": "N5",
+    "kanji": "切符",
+    "hiragana": "きっぷ",
+    "korean": "표, 승차권",
+    "english": "ticket",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "train ticket on wooden counter, station ticket barrier background, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0360",
+    "level": "N5",
+    "kanji": "冷たい",
+    "hiragana": "つめたい",
+    "korean": "차갑다",
+    "english": "cold to the touch",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차갑다' (冷たい), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0395",
+    "level": "N5",
+    "kanji": "死ぬ",
+    "hiragana": "しぬ",
+    "korean": "죽다",
+    "english": "to die",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '죽다' (死ぬ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0433",
+    "level": "N5",
+    "kanji": "自動車",
+    "hiragana": "じどうしゃ",
+    "korean": "자동차",
+    "english": "automobile",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '자동차' (自動車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0521",
+    "level": "N5",
+    "kanji": "交差点",
+    "hiragana": "こうさてん",
+    "korean": "교차로",
+    "english": "intersection",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '교차로' (交差点), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n5_0555",
+    "level": "N5",
+    "kanji": "車",
+    "hiragana": "くるま",
+    "korean": "자동차, 차",
+    "english": "car, vehicle",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '자동차, 차' (車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_490",
+    "level": "N4",
+    "kanji": "駐車場",
+    "hiragana": "ちゅうしゃじょう",
+    "korean": "주차장",
+    "english": "parking lot",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "quiet open parking lot, cars parked in neat spaces, sunset sky backdrop, peaceful suburban setting, studio ghibli scenery art, warm evening glow"
+  },
+  {
+    "id": "n4_542",
+    "level": "N4",
+    "kanji": "亡くなる",
+    "hiragana": "なくなる",
+    "korean": "죽다",
+    "english": "to die",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '죽다' (亡くなる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n4_631",
+    "level": "N4",
+    "kanji": "別",
+    "hiragana": "べつ",
+    "korean": "차이",
+    "english": "different",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차이' (別), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0014",
+    "level": "N3",
+    "kanji": "革",
+    "hiragana": "かわ",
+    "korean": "가죽",
+    "english": "leather",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "crafted leather satchel, vintage leather texture, brass buckles, sitting on antique desk, warm study room, ghibli style, no humans"
+  },
+  {
+    "id": "n3_0031",
+    "level": "N3",
+    "kanji": "違い",
+    "hiragana": "ちがい",
+    "korean": "차이, 다름",
+    "english": "difference, discrepancy",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차이, 다름' (違い), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0044",
+    "level": "N3",
+    "kanji": "カー",
+    "hiragana": "カー",
+    "korean": "카, 차(주로 복합어에 사용)",
+    "english": "car",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '카, 차(주로 복합어에 사용)' (カー), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0127",
+    "level": "N3",
+    "kanji": "占める",
+    "hiragana": "しめる",
+    "korean": "차지하다",
+    "english": "(1) to comprise, to account for, to make up (of), (2) to hold, to occupy",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차지하다' (占める), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0152",
+    "level": "N3",
+    "kanji": "次々",
+    "hiragana": "つぎつぎ",
+    "korean": "차례차례, 잇달아",
+    "english": "in succession, one by one",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "studio ghibli style, warm color palette, watercolor aesthetic, soft lighting, cozy atmosphere, colorful pastries lined up neatly on wooden bakery counter"
+  },
+  {
+    "id": "n3_0154",
+    "level": "N3",
+    "kanji": "順",
+    "hiragana": "じゅん",
+    "korean": "순서, 차례",
+    "english": "order, turn",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "Ghibli style, neat queue of children in school uniforms, schoolyard gate, morning sun, retro school life, nostalgic organized group, watercolor"
+  },
+  {
+    "id": "n3_0186",
+    "level": "N3",
+    "kanji": "必死",
+    "hiragana": "ひっし",
+    "korean": "필사적, 죽을힘을 다함",
+    "english": "inevitable death, desperation, frantic, inevitable result",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "Ghibli style, late night study, stack of books, glowing study lamp, determined student, steam from tea cup, cozy messy desk, nostalgic struggle"
+  },
+  {
+    "id": "n3_0226",
+    "level": "N3",
+    "kanji": "再び",
+    "hiragana": "ふたたび",
+    "korean": "다시, 재차",
+    "english": "again, once more, a second time",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '다시, 재차' (再び), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0273",
+    "level": "N3",
+    "kanji": "気付く",
+    "hiragana": "きづく",
+    "korean": "알아차리다, 깨닫다",
+    "english": "to notice, to recognize, to become aware of",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "Ghibli style, ticket gate, realizing pocket is empty, surprised look, train steam, warm station lights, nostalgic commuter life, watercolor"
+  },
+  {
+    "id": "n3_0535",
+    "level": "N3",
+    "kanji": "バン",
+    "hiragana": "バン",
+    "korean": "밴, 승합차",
+    "english": "bun, van (caravan), VAN (value-added network)",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '밴, 승합차' (バン), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0540",
+    "level": "N3",
+    "kanji": "皮",
+    "hiragana": "かわ",
+    "korean": "가죽, 껍질",
+    "english": "skin, hide, leather, fur, pelt, bark, shell",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '가죽, 껍질' (皮), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0714",
+    "level": "N3",
+    "kanji": "差",
+    "hiragana": "さ",
+    "korean": "차이",
+    "english": "difference, variation",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차이' (差), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_0748",
+    "level": "N3",
+    "kanji": "しまった",
+    "hiragana": "しまった",
+    "korean": "아차!, 이런!",
+    "english": "Damn it!",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "shocked expression, oops moment, wallet left on table, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1104",
+    "level": "N3",
+    "kanji": "順番",
+    "hiragana": "じゅんばん",
+    "korean": "순서, 차례",
+    "english": "turn (in line), order of things",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '순서, 차례' (順番), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1106",
+    "level": "N3",
+    "kanji": "穏やか",
+    "hiragana": "おだやか",
+    "korean": "온화하다, 차분하다",
+    "english": "calm, gentle, quiet",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '온화하다, 차분하다' (穏やか), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1122",
+    "level": "N3",
+    "kanji": "駐車",
+    "hiragana": "ちゅうしゃ",
+    "korean": "주차",
+    "english": "parking (e.g. car)",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '주차' (駐車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1182",
+    "level": "N3",
+    "kanji": "列車",
+    "hiragana": "れっしゃ",
+    "korean": "열차",
+    "english": "train (ordinary)",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "old train, arriving at station, steam, rural landscape, mountains, sunset, studio ghibli style, nostalgic"
+  },
+  {
+    "id": "n3_1293",
+    "level": "N3",
+    "kanji": "轢く",
+    "hiragana": "ひく",
+    "korean": "(차로) 치다",
+    "english": "to run somebody over (with vehicle), to knock someone down",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '(차로) 치다' (轢く), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1389",
+    "level": "N3",
+    "kanji": "番",
+    "hiragana": "ばん",
+    "korean": "번, 차례",
+    "english": "",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '번, 차례' (番), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1427",
+    "level": "N3",
+    "kanji": "格好",
+    "hiragana": "かっこう",
+    "korean": "모습, 차림, 스타일",
+    "english": "shape, form, posture, suitability",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "kid adventurer outfit, wide-brimmed explorer hat, vintage khaki jacket, pocket compass, leather boots, excited smile, cute expedition gear, studio ghibli style"
+  },
+  {
+    "id": "n3_1622",
+    "level": "N3",
+    "kanji": "満ちる",
+    "hiragana": "みちる",
+    "korean": "가득 차다",
+    "english": "to be full, to rise (tide), to mature, to expire",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '가득 차다' (満ちる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1624",
+    "level": "N3",
+    "kanji": "差別",
+    "hiragana": "さべつ",
+    "korean": "차별",
+    "english": "discrimination, distinction, differentiation",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "black cat and white cat drinking milk together, single wooden bowl, cozy backyard garden, equality and harmony, warm sunbeams, no discrimination, peaceful nature, studio ghibli style"
+  },
+  {
+    "id": "n3_1695",
+    "level": "N3",
+    "kanji": "殺す",
+    "hiragana": "ころす",
+    "korean": "죽이다",
+    "english": "to kill",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '죽이다' (殺す), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n3_1796",
+    "level": "N3",
+    "kanji": "発車",
+    "hiragana": "はっしゃ",
+    "korean": "발차, 출발",
+    "english": "departure of a vehicle",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '발차, 출발' (発車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0059",
+    "level": "N2",
+    "kanji": "ずらり",
+    "hiragana": "ずらり",
+    "korean": "죽 늘어선 모양",
+    "english": "",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "Ghibli style, long wooden shelf lined neatly with row of colorful hand-blown glass jars, antique bakery shop, warm sunbeams filtering through"
+  },
+  {
+    "id": "n2_0076",
+    "level": "N2",
+    "kanji": "機関車",
+    "hiragana": "きかんしゃ",
+    "korean": "기관차",
+    "english": "locomotive, engine",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "vintage steam locomotive, black train engine, old train tracks, historic train station, overgrown ivy, soft golden hour sun, no humans, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0186",
+    "level": "N2",
+    "kanji": "交差",
+    "hiragana": "こうさ",
+    "korean": "교차",
+    "english": "cross",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '교차' (交差), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0191",
+    "level": "N2",
+    "kanji": "しいんと",
+    "hiragana": "しいんと",
+    "korean": "쥐 죽은 듯 조용함",
+    "english": "silent (as the grave), (deathly) quiet",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "quiet silent room, sunbeams through window, serene atmosphere, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0226",
+    "level": "N2",
+    "kanji": "下車",
+    "hiragana": "げしゃ",
+    "korean": "하차",
+    "english": "alighting, getting off",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "stepping off steam train, quaint country station platform, mountain mist village, wooden signpost, morning traveler backpack, fresh adventure morning, studio ghibli style"
+  },
+  {
+    "id": "n2_0256",
+    "level": "N2",
+    "kanji": "順々",
+    "hiragana": "じゅんじゅん",
+    "korean": "차례차례, 순서대로",
+    "english": "in order, in turn",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차례차례, 순서대로' (順々), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0268",
+    "level": "N2",
+    "kanji": "回数券",
+    "hiragana": "かいすうけん",
+    "korean": "회수권(정액 승차권)",
+    "english": "book of tickets",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '회수권(정액 승차권)' (回数券), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0301",
+    "level": "N2",
+    "kanji": "生き生き",
+    "hiragana": "いきいき",
+    "korean": "생기 있게, 활기차게",
+    "english": "vividly, lively",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '생기 있게, 활기차게' (生き生き), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0332",
+    "level": "N2",
+    "kanji": "一通り",
+    "hiragana": "ひととおり",
+    "korean": "대충, 한 차례",
+    "english": "ordinary, usual, in general, briefly",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "Ghibli style, young scholar flipping quickly through stack of paper documents at sunlit desk, cup of tea steaming, relaxed efficiency"
+  },
+  {
+    "id": "n2_0347",
+    "level": "N2",
+    "kanji": "差し引き",
+    "hiragana": "さしひき",
+    "korean": "차감, 차액",
+    "english": "deduction, subtraction, balance, ebb and flow, rise and fall",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차감, 차액' (差し引き), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0457",
+    "level": "N2",
+    "kanji": "どうせ",
+    "hiragana": "どうせ",
+    "korean": "어차피",
+    "english": "anyhow, in any case, at any rate",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '어차피' (どうせ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0635",
+    "level": "N2",
+    "kanji": "目次",
+    "hiragana": "もくじ",
+    "korean": "목차",
+    "english": "table of contents",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '목차' (目次), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0667",
+    "level": "N2",
+    "kanji": "車輪",
+    "hiragana": "しゃりん",
+    "korean": "차바퀴",
+    "english": "(car) wheel",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차바퀴' (車輪), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0710",
+    "level": "N2",
+    "kanji": "相違",
+    "hiragana": "そうい",
+    "korean": "차이, 다름",
+    "english": "difference, discrepancy, variation",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차이, 다름' (相違), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_0992",
+    "level": "N2",
+    "kanji": "冷やす",
+    "hiragana": "ひやす",
+    "korean": "식히다, 차게 하다",
+    "english": "to cool, to refrigerate",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '식히다, 차게 하다' (冷やす), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1084",
+    "level": "N2",
+    "kanji": "力強い",
+    "hiragana": "ちからづよい",
+    "korean": "힘차다, 든든하다",
+    "english": "reassuring, emboldened",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '힘차다, 든든하다' (力強い), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1536",
+    "level": "N2",
+    "kanji": "乗車",
+    "hiragana": "じょうしゃ",
+    "korean": "승차, 탑승",
+    "english": "taking a train, entraining",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '승차, 탑승' (乗車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1541",
+    "level": "N2",
+    "kanji": "車庫",
+    "hiragana": "しゃこ",
+    "korean": "차고",
+    "english": "garage, car shed",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차고' (車庫), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1658",
+    "level": "N2",
+    "kanji": "手続き",
+    "hiragana": "てつづき",
+    "korean": "절차, 수속",
+    "english": "procedure, (legal) process, formalities",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '절차, 수속' (手続き), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1708",
+    "level": "N2",
+    "kanji": "車掌",
+    "hiragana": "しゃしょう",
+    "korean": "차장(열차 승무원)",
+    "english": "(train) conductor",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차장(열차 승무원)' (車掌), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n2_1735",
+    "level": "N2",
+    "kanji": "蹴る",
+    "hiragana": "ける",
+    "korean": "차다",
+    "english": "to kick",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "Ghibli style, schoolyard dust, kicking vintage leather soccer ball, energetic kids, warm afternoon sun rays, nostalgic childhood play, watercolor"
+  },
+  {
+    "id": "n2_1765",
+    "level": "N2",
+    "kanji": "停車",
+    "hiragana": "ていしゃ",
+    "korean": "정차",
+    "english": "stopping (e.g. train)",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "Ghibli style, train stopping at country station, wooden benches, wild flowers on platform, peaceful warm afternoon sun, steam puffing, cozy travel vibe"
+  },
+  {
+    "id": "n1_0019",
+    "level": "N1",
+    "kanji": "落ち着き",
+    "hiragana": "おちつき",
+    "korean": "차분함, 침착함",
+    "english": "calm; composure",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차분함, 침착함' (落ち着き), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0157",
+    "level": "N1",
+    "kanji": "練る",
+    "hiragana": "ねる",
+    "korean": "반죽하다; 계획 등을 다듬다",
+    "english": "to knead; to work over; to polish up",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "chef kneading bread dough on wooden counter, flour dusting air, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0262",
+    "level": "N1",
+    "kanji": "時差",
+    "hiragana": "じさ",
+    "korean": "시차",
+    "english": "time difference",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '시차' (時差), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0754",
+    "level": "N1",
+    "kanji": "パトカー",
+    "hiragana": "パトカー",
+    "korean": "순찰차; 경찰차",
+    "english": "patrol car",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '순찰차; 경찰차' (パトカー), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0858",
+    "level": "N1",
+    "kanji": "チャイム",
+    "hiragana": "チャイム",
+    "korean": "차임벨",
+    "english": "chime",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차임벨' (チャイム), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_0874",
+    "level": "N1",
+    "kanji": "始発",
+    "hiragana": "しはつ",
+    "korean": "첫차, 시발",
+    "english": "first train",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '첫차, 시발' (始発), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1146",
+    "level": "N1",
+    "kanji": "ガレージ",
+    "hiragana": "ガレージ",
+    "korean": "차고, 개러지",
+    "english": "garage (at house)",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차고, 개러지' (ガレージ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1252",
+    "level": "N1",
+    "kanji": "ずれ",
+    "hiragana": "ずれ",
+    "korean": "어긋남, 차이",
+    "english": "gap; slippage",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '어긋남, 차이' (ずれ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1253",
+    "level": "N1",
+    "kanji": "次",
+    "hiragana": "し",
+    "korean": "차례, 순서",
+    "english": "order; sequence; times; next; below",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "ghibli style, running towards a waiting train on a sunny platform, steam engine, vintage luggage, setting off on a journey, bright blue sky, adventure mood"
+  },
+  {
+    "id": "n1_1344",
+    "level": "N1",
+    "kanji": "いっそ",
+    "hiragana": "いっそ",
+    "korean": "차라리",
+    "english": "rather; sooner; might as well",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차라리' (いっそ), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1362",
+    "level": "N1",
+    "kanji": "身なり",
+    "hiragana": "みなり",
+    "korean": "옷차림",
+    "english": "personal appearance",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '옷차림' (身なり), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1461",
+    "level": "N1",
+    "kanji": "遮る",
+    "hiragana": "さえぎる",
+    "korean": "가로막다, 차단하다",
+    "english": "to interrupt; to intercept; to obstruct",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '가로막다, 차단하다' (遮る), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1581",
+    "level": "N1",
+    "kanji": "差額",
+    "hiragana": "さがく",
+    "korean": "차액",
+    "english": "balance; difference; margin",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차액' (差額), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_1705",
+    "level": "N1",
+    "kanji": "手筈",
+    "hiragana": "てはず",
+    "korean": "절차; 채비",
+    "english": "arrangement; plan; programme",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "Ghibli style, packed leather suitcases, cozy wooden hallway, warm morning light, map spread on table, hiking boots by the door, exciting journey prep, nostalgic vibe"
+  },
+  {
+    "id": "n1_1958",
+    "level": "N1",
+    "kanji": "回送",
+    "hiragana": "かいそう",
+    "korean": "(버스·열차의) 회송",
+    "english": "forwarding",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '(버스·열차의) 회송' (回送), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2015",
+    "level": "N1",
+    "kanji": "埋まる",
+    "hiragana": "うずまる",
+    "korean": "파묻히다, 가득 차다",
+    "english": "to be buried; to be surrounded; to overflow; to be filled",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "ghibli style, packed outdoor theater night, glowing stage lights, wooden benches crowd, forest animal spectators"
+  },
+  {
+    "id": "n1_2070",
+    "level": "N1",
+    "kanji": "誤差",
+    "hiragana": "ごさ",
+    "korean": "오차",
+    "english": "error",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '오차' (誤差), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2101",
+    "level": "N1",
+    "kanji": "蹴飛ばす",
+    "hiragana": "けとばす",
+    "korean": "걷어차다; 발로 차버리다",
+    "english": "to kick away; to kick off; to kick (someone); to refuse; to reject",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '걷어차다; 발로 차버리다' (蹴飛ばす), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2102",
+    "level": "N1",
+    "kanji": "盛装",
+    "hiragana": "せいそう",
+    "korean": "성장; 화려하게 차려입음",
+    "english": "be dressed up; wear rich clothes",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "neatly arranged clothing item (성장; 화려하게 차려입음), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2326",
+    "level": "N1",
+    "kanji": "ずらっと",
+    "hiragana": "ずらっと",
+    "korean": "죽, 줄줄이(늘어선 모양)",
+    "english": "in a line; in a row",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "neat long row of colorful lanterns lined up along festival street, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2600",
+    "level": "N1",
+    "kanji": "死",
+    "hiragana": "し",
+    "korean": "죽음, 사망",
+    "english": "death; decease",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "single pure white lily flower on wooden table by quiet window, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2621",
+    "level": "N1",
+    "kanji": "しいんと",
+    "hiragana": "しいんと",
+    "korean": "쥐 죽은 듯이 조용함",
+    "english": "silent (as the grave); (deathly) quiet",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "tranquil bamboo forest in morning mist, quiet nature, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2635",
+    "level": "N1",
+    "kanji": "滅茶苦茶",
+    "hiragana": "めちゃくちゃ",
+    "korean": "엉망진창, 뒤죽박죽",
+    "english": "absurd; unreasonable; excessive; messed up; spoiled; wreaked",
+    "reason": "부분 문자열 매칭 오작동 ('죽' -> 죽다/반죽 등 비음식 단어)",
+    "fixed_prompt": "Ghibli style illustration, wildly messy artist's room with papers, books, and paint pots strewn everywhere in vibrant chaotic fun, cozy creative clutter, warm sunlight"
+  },
+  {
+    "id": "n1_2739",
+    "level": "N1",
+    "kanji": "じっくり",
+    "hiragana": "じっくり",
+    "korean": "차분히, 곰곰이",
+    "english": "deliberately; carefully",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '차분히, 곰곰이' (じっくり), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2761",
+    "level": "N1",
+    "kanji": "差異",
+    "hiragana": "さい",
+    "korean": "차이",
+    "english": "difference; disparity",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "two different tea cups, rustic wooden table, cozy kitchen background, morning light, subtle differences, warm slice of life illustration, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2769",
+    "level": "N1",
+    "kanji": "しまった",
+    "hiragana": "しまった",
+    "korean": "아차!, 아뿔싸!",
+    "english": "Damn it!",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '아차!, 아뿔싸!' (しまった), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2773",
+    "level": "N1",
+    "kanji": "着飾る",
+    "hiragana": "きかざる",
+    "korean": "치장하다, 화려하게 차려입다",
+    "english": "to dress up",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "neatly arranged clothing item (치장하다, 화려하게 차려입다), wardrobe closet setting, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2890",
+    "level": "N1",
+    "kanji": "段々",
+    "hiragana": "だんだん",
+    "korean": "점점, 차츰",
+    "english": "gradually; by degrees",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '점점, 차츰' (段々), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_2983",
+    "level": "N1",
+    "kanji": "十字路",
+    "hiragana": "じゅうじろ",
+    "korean": "사거리, 교차로",
+    "english": "crossroads",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '사거리, 교차로' (十字路), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_3094",
+    "level": "N1",
+    "kanji": "手順",
+    "hiragana": "てじゅん",
+    "korean": "순서, 절차",
+    "english": "process; procedure; protocol",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '순서, 절차' (手順), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_3153",
+    "level": "N1",
+    "kanji": "ドライブイン",
+    "hiragana": "ドライブイン",
+    "korean": "드라이브인 (자동차 이용객을 위한 휴게소·식당)",
+    "english": "drive in",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '드라이브인 (자동차 이용객을 위한 휴게소·식당)' (ドライブイン), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_3272",
+    "level": "N1",
+    "kanji": "交わる",
+    "hiragana": "まじわる",
+    "korean": "교차하다, 사귀다",
+    "english": "to cross; to intersect; to associate with; to mingle with; to interest; to join",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '교차하다, 사귀다' (交わる), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_3328",
+    "level": "N1",
+    "kanji": "準急",
+    "hiragana": "じゅんきゅう",
+    "korean": "준급행 (열차)",
+    "english": "local express (train  slower than an express)",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '준급행 (열차)' (準急), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "n1_3342",
+    "level": "N1",
+    "kanji": "格差",
+    "hiragana": "かくさ",
+    "korean": "격차",
+    "english": "qualitative difference; disparity",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "railroad tracks, high-rise skyscrapers, rustic village, contrasting scenery, distant mountains, Ghibli landscape, steam train, spatial layout"
+  },
+  {
+    "id": "n1_3439",
+    "level": "N1",
+    "kanji": "隔たる",
+    "hiragana": "へだたる",
+    "korean": "멀어지다, 차이가 나다",
+    "english": "to be distant",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "two people sitting far apart, long wooden table, cold dining room window light, cup of tea steam, distance silence, relationship distance, studio ghibli style"
+  },
+  {
+    "id": "7",
+    "level": "LEGACY",
+    "kanji": "車",
+    "hiragana": "くるま",
+    "korean": "자동차",
+    "english": "",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "iconic visual illustration representing '자동차' (車), cozy aesthetic environment, studio ghibli style, warm color palette, soft volumetric lighting"
+  },
+  {
+    "id": "9",
+    "level": "LEGACY",
+    "kanji": "お茶",
+    "hiragana": "おちゃ",
+    "korean": "차(마시는)",
+    "english": "",
+    "reason": "부분 문자열 매칭 오작동 ('차' -> 자동차/열차/차고/차임벨 등 비음식 단어)",
+    "fixed_prompt": "steaming hot green tea in ceramic cup, wooden tray, cozy afternoon tea time, soothing warm steam, studio ghibli relaxed lifestyle illustration, gentle color palette"
+  }
+]

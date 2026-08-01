@@ -1,0 +1,30 @@
+import json
+
+ROOT_DIR = "/Users/youngseok/Desktop/love-log/haru-nihonggo"
+
+def inspect_two():
+    tags_path = f"{ROOT_DIR}/utils/image_pipeline_v2/expanded_tags_cache.json"
+    with open(tags_path, "r", encoding="utf-8") as f:
+        tags_cache = json.load(f)
+        
+    cat_path = f"{ROOT_DIR}/utils/image_pipeline_v2/word_categories_all.json"
+    with open(cat_path, "r", encoding="utf-8") as f:
+        categories_data = json.load(f)
+        
+    print("=== '영어', '필름' 프롬프트 진단 ===")
+    
+    for cat_name, word_list in categories_data.items():
+        for w in word_list:
+            korean = w.get("korean", "")
+            kanji = w.get("kanji", "")
+            hiragana = w.get("hiragana", "")
+            w_id = w["id"]
+            
+            if "영어" in korean or "필름" in korean or kanji in ["英語", "フィルム"]:
+                prompt = tags_cache.get(w_id, "")
+                print(f"[{w.get('level', 'n5').upper()}] ID: {w_id} | 단어: {kanji} ({hiragana}) = {korean}")
+                print(f"  - Category: {cat_name}")
+                print(f"  - Current Prompt: {prompt}\n")
+
+if __name__ == "__main__":
+    inspect_two()

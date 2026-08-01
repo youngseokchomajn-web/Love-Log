@@ -148,11 +148,11 @@ export default function SRSScreen() {
 
       {/* Flashcard */}
       <TouchableOpacity 
-        className="flex-1 bg-white rounded-3xl p-6 shadow-sm border border-gray-100 items-center mb-10 overflow-hidden"
+        className="flex-1 bg-white rounded-3xl p-5 shadow-sm border border-gray-100 items-center justify-center mb-6"
         activeOpacity={0.9}
         onPress={handleFlip}
       >
-        <View className={`w-full ${flipped ? 'h-36' : 'aspect-square max-h-72'} bg-[#F0F4F1] rounded-2xl mb-4 items-center justify-center overflow-hidden border border-gray-100 p-2`}>
+        <View className={`w-full ${flipped ? 'h-28' : 'aspect-square max-h-52'} bg-[#F0F4F1] rounded-2xl mb-3 items-center justify-center overflow-hidden border border-gray-100 p-2`}>
           {shouldShowImage ? (
             cardImage ? (
               <Image

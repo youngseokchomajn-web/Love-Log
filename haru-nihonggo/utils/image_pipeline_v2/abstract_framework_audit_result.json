@@ -1,0 +1,624 @@
+{
+  "metadata": {
+    "total_words": 8424,
+    "total_abstract": 4889,
+    "classified": 1920,
+    "unclassified": 2969,
+    "concrete": 3535,
+    "scoring_version": "v2_element_based"
+  },
+  "scoring_validation": {
+    "avg_diff_from_original": 1.1,
+    "max_diff": 3,
+    "within_1_ratio": "15/20"
+  },
+  "category_stats": {
+    "CAT-01: 정도부사": {
+      "total": 110,
+      "high_risk": 1,
+      "medium_risk": 60,
+      "low_risk": 49
+    },
+    "CAT-02: 비교/관계": {
+      "total": 24,
+      "high_risk": 1,
+      "medium_risk": 16,
+      "low_risk": 7
+    },
+    "CAT-03: 의문사": {
+      "total": 75,
+      "high_risk": 6,
+      "medium_risk": 25,
+      "low_risk": 44
+    },
+    "CAT-04: 지시어/대명사": {
+      "total": 69,
+      "high_risk": 1,
+      "medium_risk": 25,
+      "low_risk": 43
+    },
+    "CAT-05: 접속사/논리연결어": {
+      "total": 46,
+      "high_risk": 2,
+      "medium_risk": 19,
+      "low_risk": 25
+    },
+    "CAT-06: 시간/빈도 부사": {
+      "total": 95,
+      "high_risk": 10,
+      "medium_risk": 38,
+      "low_risk": 47
+    },
+    "CAT-06b: 양태/확신 부사": {
+      "total": 102,
+      "high_risk": 8,
+      "medium_risk": 44,
+      "low_risk": 50
+    },
+    "CAT-07: 감정/심리 추상어": {
+      "total": 60,
+      "high_risk": 8,
+      "medium_risk": 29,
+      "low_risk": 23
+    },
+    "CAT-08: 관계/대인 추상어": {
+      "total": 41,
+      "high_risk": 12,
+      "medium_risk": 20,
+      "low_risk": 9
+    },
+    "CAT-09: 동작양태 부사": {
+      "total": 95,
+      "high_risk": 7,
+      "medium_risk": 37,
+      "low_risk": 51
+    },
+    "CAT-10: 시간대/기간 명사": {
+      "total": 112,
+      "high_risk": 6,
+      "medium_risk": 66,
+      "low_risk": 40
+    },
+    "CAT-11: 발화/커뮤니케이션": {
+      "total": 62,
+      "high_risk": 6,
+      "medium_risk": 31,
+      "low_risk": 25
+    },
+    "CAT-12: 논리/학술 추상명사": {
+      "total": 110,
+      "high_risk": 5,
+      "medium_risk": 49,
+      "low_risk": 56
+    },
+    "CAT-13: 추상 형용사": {
+      "total": 37,
+      "high_risk": 2,
+      "medium_risk": 15,
+      "low_risk": 20
+    },
+    "CAT-14: 의지/태도 표현": {
+      "total": 37,
+      "high_risk": 1,
+      "medium_risk": 16,
+      "low_risk": 20
+    },
+    "CAT-15: 사회/제도 추상명사": {
+      "total": 56,
+      "high_risk": 2,
+      "medium_risk": 27,
+      "low_risk": 27
+    },
+    "CAT-16: 경제/거래 추상어": {
+      "total": 47,
+      "high_risk": 1,
+      "medium_risk": 24,
+      "low_risk": 22
+    },
+    "CAT-17: 결과/성취 추상어": {
+      "total": 31,
+      "high_risk": 5,
+      "medium_risk": 18,
+      "low_risk": 8
+    },
+    "CAT-18: 수량사/단위": {
+      "total": 363,
+      "high_risk": 24,
+      "medium_risk": 143,
+      "low_risk": 196
+    },
+    "CAT-19: 정도/양적 개념": {
+      "total": 64,
+      "high_risk": 1,
+      "medium_risk": 32,
+      "low_risk": 31
+    },
+    "CAT-20: 방향/위치": {
+      "total": 207,
+      "high_risk": 11,
+      "medium_risk": 99,
+      "low_risk": 97
+    },
+    "CAT-21: 경어/기능어": {
+      "total": 25,
+      "high_risk": 0,
+      "medium_risk": 13,
+      "low_risk": 12
+    },
+    "CAT-22: 상태변화 동사": {
+      "total": 24,
+      "high_risk": 0,
+      "medium_risk": 15,
+      "low_risk": 9
+    },
+    "CAT-23: 인지/사고 동사": {
+      "total": 28,
+      "high_risk": 3,
+      "medium_risk": 16,
+      "low_risk": 9
+    },
+    "UNCLASSIFIED: 미분류 추상어": {
+      "total": 2969,
+      "high_risk": 142,
+      "medium_risk": 1378,
+      "low_risk": 1449
+    }
+  },
+  "unclassified_sample_audit": {
+    "sample_size": 335,
+    "confidence_level": "95%",
+    "margin_of_error": "±5%",
+    "high_risk_pct": 3.0,
+    "medium_risk_pct": 47.5,
+    "low_risk_pct": 49.6,
+    "estimated_high_in_population": 88,
+    "estimated_medium_in_population": 1409,
+    "high_risk_samples": [
+      {
+        "id": "n1_1156",
+        "kanji": "季刊",
+        "kana": "きかん",
+        "korean": "계간",
+        "score": 4,
+        "breakdown": {
+          "계절/자연 배경": {
+            "score": 1,
+            "matched": [
+              "cherry blossom",
+              "autumn leaves",
+              "snow",
+              "winter",
+              "autumn"
+            ]
+          },
+          "구체적 장소": {
+            "score": 1,
+            "matched": [
+              "beach",
+              "studio"
+            ]
+          },
+          "등장인물 관계성 서사": {
+            "score": 1,
+            "matched": [
+              "son"
+            ]
+          },
+          "감정 유발 소품": {
+            "score": 1,
+            "matched": [
+              "ring"
+            ]
+          },
+          "인물 수 ≥ 2 + 상호작용": {
+            "score": 0,
+            "matched": []
+          },
+          "시간대 묘사": {
+            "score": 0,
+            "matched": []
+          }
+        },
+        "prompt_preview": "cozy magazine rack, autumn leaves cover, winter snow cover, spring cherry blossoms cover, summer beach cover, quarterly seasons, studio ghibli style, "
+      },
+      {
+        "id": "n1_2763",
+        "kanji": "ご苦労様",
+        "kana": "ごくろうさま",
+        "korean": "수고하셨습니다(윗사람이 아랫사람에게)",
+        "score": 4,
+        "breakdown": {
+          "계절/자연 배경": {
+            "score": 1,
+            "matched": [
+              "sunset",
+              "dusk"
+            ]
+          },
+          "구체적 장소": {
+            "score": 1,
+            "matched": [
+              "market",
+              "shop"
+            ]
+          },
+          "등장인물 관계성 서사": {
+            "score": 0,
+            "matched": []
+          },
+          "감정 유발 소품": {
+            "score": 1,
+            "matched": [
+              "lantern"
+            ]
+          },
+          "인물 수 ≥ 2 + 상호작용": {
+            "score": 0,
+            "matched": []
+          },
+          "시간대 묘사": {
+            "score": 1,
+            "matched": [
+              "dusk"
+            ]
+          }
+        },
+        "prompt_preview": "Ghibli style, kind shopkeeper handing hot steamed bun to tired young worker at dusk, cozy market stall, lanterns hanging, warm orange sunset sky, hear"
+      },
+      {
+        "id": "n5_0241",
+        "kanji": "秋",
+        "kana": "あき",
+        "korean": "가을",
+        "score": 4,
+        "breakdown": {
+          "계절/자연 배경": {
+            "score": 1,
+            "matched": [
+              "maple",
+              "autumn"
+            ]
+          },
+          "구체적 장소": {
+            "score": 1,
+            "matched": [
+              "mountain",
+              "forest"
+            ]
+          },
+          "등장인물 관계성 서사": {
+            "score": 0,
+            "matched": []
+          },
+          "감정 유발 소품": {
+            "score": 1,
+            "matched": [
+              "scarf"
+            ]
+          },
+          "인물 수 ≥ 2 + 상호작용": {
+            "score": 0,
+            "matched": []
+          },
+          "시간대 묘사": {
+            "score": 1,
+            "matched": [
+              "afternoon",
+              "noon"
+            ]
+          }
+        },
+        "prompt_preview": "ghibli style, colorful autumn forest, orange and red maple leaves falling, crisp mountain breeze, cozy knit scarf, walking down a gravel path, nostalg"
+      },
+      {
+        "id": "n2_1727",
+        "kanji": "売り切れ",
+        "kana": "うりきれ",
+        "korean": "품절, 매진",
+        "score": 4,
+        "breakdown": {
+          "계절/자연 배경": {
+            "score": 1,
+            "matched": [
+              "rain"
+            ]
+          },
+          "구체적 장소": {
+            "score": 1,
+            "matched": [
+              "train station"
+            ]
+          },
+          "등장인물 관계성 서사": {
+            "score": 0,
+            "matched": []
+          },
+          "감정 유발 소품": {
+            "score": 1,
+            "matched": [
+              "ticket"
+            ]
+          },
+          "인물 수 ≥ 2 + 상호작용": {
+            "score": 0,
+            "matched": []
+          },
+          "시간대 묘사": {
+            "score": 1,
+            "matched": [
+              "evening"
+            ]
+          }
+        },
+        "prompt_preview": "Ghibli style, old cinema ticket booth, sold-out sign, nostalgic evening rain, wet streets reflecting neon, vintage train station vibe, sad but cozy at"
+      },
+      {
+        "id": "n1_0005",
+        "kanji": "賭け",
+        "kana": "かけ",
+        "korean": "내기, 도박",
+        "score": 4,
+        "breakdown": {
+          "계절/자연 배경": {
+            "score": 1,
+            "matched": [
+              "rainy",
+              "rain"
+            ]
+          },
+          "구체적 장소": {
+            "score": 1,
+            "matched": [
+              "attic"
+            ]
+          },
+          "등장인물 관계성 서사": {
+            "score": 0,
+            "matched": []
+          },
+          "감정 유발 소품": {
+            "score": 1,
+            "matched": [
+              "ring"
+            ]
+          },
+          "인물 수 ≥ 2 + 상호작용": {
+            "score": 0,
+            "matched": []
+          },
+          "시간대 묘사": {
+            "score": 1,
+            "matched": [
+              "night"
+            ]
+          }
+        },
+        "prompt_preview": "rainy night outside window, flickering lamp in cozy attic, scattered playing cards on table, melancholic nostalgic mood, warm wooden interior, Ghibli "
+      },
+      {
+        "id": "n1_2350",
+        "kanji": "浪費",
+        "kana": "ろうひ",
+        "korean": "낭비",
+        "score": 4,
+        "breakdown": {
+          "계절/자연 배경": {
+            "score": 0,
+            "matched": []
+          },
+          "구체적 장소": {
+            "score": 1,
+            "matched": [
+              "bedroom"
+            ]
+          },
+          "등장인물 관계성 서사": {
+            "score": 1,
+            "matched": [
+              "father",
+              "grandfather"
+            ]
+          },
+          "감정 유발 소품": {
+            "score": 1,
+            "matched": [
+              "ring"
+            ]
+          },
+          "인물 수 ≥ 2 + 상호작용": {
+            "score": 0,
+            "matched": []
+          },
+          "시간대 묘사": {
+            "score": 1,
+            "matched": [
+              "afternoon",
+              "noon"
+            ]
+          }
+        },
+        "prompt_preview": "ghibli style, boy staring at a grandfather clock, bedroom filled with toys and books, afternoon shadow lengthening, lazy summer day, quiet regrets, no"
+      },
+      {
+        "id": "n1_2030",
+        "kanji": "ルーズ",
+        "kana": "ルーズ",
+        "korean": "느슨함",
+        "score": 4,
+        "breakdown": {
+          "계절/자연 배경": {
+            "score": 0,
+            "matched": []
+          },
+          "구체적 장소": {
+            "score": 1,
+            "matched": [
+              "village"
+            ]
+          },
+          "등장인물 관계성 서사": {
+            "score": 1,
+            "matched": [
+              "son"
+            ]
+          },
+          "감정 유발 소품": {
+            "score": 1,
+            "matched": [
+              "pocket watch"
+            ]
+          },
+          "인물 수 ≥ 2 + 상호작용": {
+            "score": 0,
+            "matched": []
+          },
+          "시간대 묘사": {
+            "score": 1,
+            "matched": [
+              "afternoon",
+              "noon"
+            ]
+          }
+        },
+        "prompt_preview": "Ghibli style illustration, carefree relaxed person casually strolling late while glancing at a pocket watch with an unbothered easygoing smile, sunny "
+      },
+      {
+        "id": "n3_0298",
+        "kanji": "火災",
+        "kana": "かさい",
+        "korean": "화재",
+        "score": 4,
+        "breakdown": {
+          "계절/자연 배경": {
+            "score": 1,
+            "matched": [
+              "sunset"
+            ]
+          },
+          "구체적 장소": {
+            "score": 0,
+            "matched": []
+          },
+          "등장인물 관계성 서사": {
+            "score": 0,
+            "matched": []
+          },
+          "감정 유발 소품": {
+            "score": 1,
+            "matched": [
+              "ring"
+            ]
+          },
+          "인물 수 ≥ 2 + 상호작용": {
+            "score": 1,
+            "matched": [
+              "gathering"
+            ]
+          },
+          "시간대 묘사": {
+            "score": 1,
+            "matched": [
+              "evening"
+            ]
+          }
+        },
+        "prompt_preview": "ghibli style, distant smoke in evening sky, glowing embers, firefighters in vintage uniforms, dramatic sunset, community gathering"
+      },
+      {
+        "id": "n1_1228",
+        "kanji": "瞬き",
+        "kana": "またたき",
+        "korean": "눈 깜빡임",
+        "score": 4,
+        "breakdown": {
+          "계절/자연 배경": {
+            "score": 1,
+            "matched": [
+              "fireflies"
+            ]
+          },
+          "구체적 장소": {
+            "score": 1,
+            "matched": [
+              "forest",
+              "studio"
+            ]
+          },
+          "등장인물 관계성 서사": {
+            "score": 0,
+            "matched": []
+          },
+          "감정 유발 소품": {
+            "score": 1,
+            "matched": [
+              "lantern"
+            ]
+          },
+          "인물 수 ≥ 2 + 상호작용": {
+            "score": 0,
+            "matched": []
+          },
+          "시간대 묘사": {
+            "score": 1,
+            "matched": [
+              "night"
+            ]
+          }
+        },
+        "prompt_preview": "blinking eyes, starry night sky, fireflies rising, glowing lantern, magical forest night, fantasy scenery, wonder, studio ghibli style, warm color pal"
+      },
+      {
+        "id": "n2_0091",
+        "kanji": "学年",
+        "kana": "がくねん",
+        "korean": "학년",
+        "score": 4,
+        "breakdown": {
+          "계절/자연 배경": {
+            "score": 1,
+            "matched": [
+              "spring morning",
+              "spring"
+            ]
+          },
+          "구체적 장소": {
+            "score": 1,
+            "matched": [
+              "school",
+              "garden"
+            ]
+          },
+          "등장인물 관계성 서사": {
+            "score": 1,
+            "matched": [
+              "brother"
+            ]
+          },
+          "감정 유발 소품": {
+            "score": 1,
+            "matched": [
+              "ring"
+            ]
+          },
+          "인물 수 ≥ 2 + 상호작용": {
+            "score": 0,
+            "matched": []
+          },
+          "시간대 묘사": {
+            "score": 0,
+            "matched": []
+          }
+        },
+        "prompt_preview": "new school backpack, proud little brother, school uniform, sunny garden path, spring morning, Ghibli youth, fresh start, childhood"
+      }
+    ]
+  },
+  "total_risk_summary": {
+    "classified_high_risk": 265,
+    "classified_medium_risk": 2255,
+    "unclassified_estimated_high": 88,
+    "unclassified_estimated_medium": 1409,
+    "grand_total_high_risk": 353,
+    "grand_total_medium_risk": 3664
+  }
+}

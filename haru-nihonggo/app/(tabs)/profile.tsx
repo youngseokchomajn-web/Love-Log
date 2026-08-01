@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity, ScrollView, Switch } from 'react-native';
 import { useWordStore } from '../../store/useWordStore';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
+import { FeedbackModal } from '../../components/FeedbackModal';
 
 export default function ProfileScreen() {
   const words = useWordStore((state) => state.words);
@@ -10,6 +11,7 @@ export default function ProfileScreen() {
   const updateSettings = useWordStore((state) => state.updateSettings);
   const resetData = useWordStore((state) => state.resetData);
   const router = useRouter();
+  const [feedbackVisible, setFeedbackVisible] = React.useState(false);
 
   const totalWords = words.length;
   const masteredWords = words.filter(w => w.status === 'mastered').length;
@@ -123,6 +125,23 @@ export default function ProfileScreen() {
           </View>
         </TouchableOpacity>
 
+        {/* Furigana Toggle */}
+        <View className="flex-row justify-between items-center p-5 border-b border-gray-100">
+          <View className="flex-row items-center">
+            <Ionicons name="eye-outline" size={22} color="#555" />
+            <View className="ml-3">
+              <Text className="text-gray-700 font-medium">후리가나(가나) 기본 표시</Text>
+              <Text className="text-gray-400 text-xs mt-1">카드 앞면에서 히라가나 읽기 표시</Text>
+            </View>
+          </View>
+          <Switch
+            trackColor={{ false: '#E5E5E5', true: '#8EAAA3' }}
+            thumbColor={'#FFFFFF'}
+            onValueChange={(val) => updateSettings({ showFurigana: val })}
+            value={settings.showFurigana}
+          />
+        </View>
+
         {/* Auto TTS */}
         <View className="flex-row justify-between items-center p-5">
           <View className="flex-row items-center">
@@ -155,6 +174,17 @@ export default function ProfileScreen() {
           <Ionicons name="chevron-forward" size={20} color="#CCC" />
         </TouchableOpacity>
         <TouchableOpacity 
+          className="flex-row justify-between items-center p-5 border-b border-gray-100"
+          onPress={() => setFeedbackVisible(true)}
+        >
+          <View className="flex-row items-center">
+            <Ionicons name="chatbubble-ellipses-outline" size={22} color="#4A725D" />
+            <Text className="ml-3 text-gray-700 font-medium">의견 보내기 / 단어 오류 제보</Text>
+          </View>
+          <Ionicons name="chevron-forward" size={20} color="#CCC" />
+        </TouchableOpacity>
+
+        <TouchableOpacity 
           className="flex-row justify-between items-center p-5"
           onPress={handleReset}
         >
@@ -165,6 +195,11 @@ export default function ProfileScreen() {
           <Ionicons name="chevron-forward" size={20} color="#CCC" />
         </TouchableOpacity>
       </View>
+
+      <FeedbackModal
+        visible={feedbackVisible}
+        onClose={() => setFeedbackVisible(false)}
+      />
     </ScrollView>
   );
 }
