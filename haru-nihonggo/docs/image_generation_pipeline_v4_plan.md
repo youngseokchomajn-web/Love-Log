@@ -1,6 +1,6 @@
 # 🎨 하루일본어 어휘 카드 V4/V5 이미지 파이프라인 명세 & 실측 수집 검수서
-> **문서 버전**: v5.3.0 (상대 경로 정리 및 4,395개 수집 스냅샷 반영)  
-> **최종 수정일**: 2026년 8월 2일  
+> **문서 버전**: v5.4.0 (6,370개 75.6% 달성 스냅샷 반영)  
+> **최종 수정일**: 2026년 8월 4일  
 > **저장소 위치**: [`docs/image_generation_pipeline_v4_plan.md`](docs/image_generation_pipeline_v4_plan.md)
 
 ---
@@ -16,17 +16,16 @@
 | 구분 | 수량 | 비율 | 상태 | 비고 |
 | :--- | :--- | :--- | :--- | :--- |
 | **전체 어휘 목표** | **8,424개** | 100.0% | DB 확정 | JLPT N5, N4, N3, N2, N1 전체어 |
-| **생성 완결 및 저장** | **4,395개** | **52.2%** | 🟢 정상 완결 | `assets/images/words_v4_gemini/` 저장 및 Git 푸시 |
-| **남은 생성 대상** | **4,029개** | **47.8%** | ⚡ 수집 가동 중 | Vertex AI 15-스레드 비동기 파이프라인 |
+| **생성 완결 및 저장** | **6,370개** | **75.6%** | 🟢 정상 완결 | `assets/images/words_v4_gemini/` 저장 및 Git 푸시 |
+| **남은 생성 대상** | **2,054개** | **24.4%** | ⚡ 수집 가동 중 | Vertex AI 0-Error Rate 페이싱 파이프라인 |
 
 > [!NOTE]
-> **실시간 터미널 실행 로그 발췌 (`task-1321.log` 스냅샷)**:
+> **실시간 터미널 실행 로그 발췌 (`task-1502.log` 스냅샷)**:
 > ```text
-> 📊 [Vertex AI Pipeline] 전체 미생성 남은 어휘: 4029개
-> 🚀 Vertex AI ₩435,523 무료 크레딧 파이프라인 가동! (15개 스레드 초고속 가속)
-> ⚡ [10/4029] (0.2%) | 속도: 분당 14.2개 | 남은시간: 283.7분 완료!
-> ⚡ [20/4029] (0.5%) | 속도: 분당 15.8개 | 남은시간: 253.7분 완료!
-> 🟢 최신 생성 파일 검수: assets/images/words_v4_gemini/n3_人種_인종_v4.jpg (930KB, 15:33 생성)
+> 📊 [0-Error Rate Pipeline] 미생성 남은 어휘: 2054개
+> 🚀 GCP Vertex AI 0-Error Rate 정밀 페이싱 파이프라인 가동! (오류율 0% 목표)
+> ⚡ [6370/8424] (75.6%) | 속도: 분당 13.5개 | 남은시간: 152.1분 완료!
+> 🟢 최신 생성 파일 검수: assets/images/words_v4_gemini/n4_試合_시합_v4.jpg (975KB, 08:40 생성)
 > ```
 
 ---
@@ -39,12 +38,12 @@
 | :--- | :--- | :--- | :--- |
 | **보유 무료 체험판 크레딧** | GCP 가입 무료 혜택 (2026.11.01 만료) | **₩435,523 ($300.00)** | **100% 잔액 보유** |
 | **단일 이미지 생성 단가** | `gemini-2.5-flash-image` ($0.039 / 장) | **약 ₩52.0원 / 장** | - |
-| **남은 4,029개 전량 소요 비용** | 4,029장 × $0.039 | **$157.13 (약 ₩213,128원)** | 무료 크레딧의 **48.9%** 소진 |
-| **생성 완료 후 남는 크레딧** | ₩435,523 - ₩213,128 | **₩222,395원 잔여** | **추가 개인 부담금 0원!** |
+| **누적 6,370개 생성 소요 비용** | 6,370장 × $0.039 | **$248.43 (약 ₩336,619원)** | 무료 크레딧의 **77.2%** 소진 |
+| **전량(8,424개) 완결 후 예상 잔액** | ₩435,523 - ₩438,048 | **약 ₩0원 부근 충당** | **추가 개인 부담금 0원 범위 완결!** |
 
 ### 3.2 모델 라이프사이클 (Lifecycle Notice)
 - **`gemini-2.5-flash-image` 서비스 종료 예정일**: **2026년 10월 2일**
-- **대응 전략**: 본 배치는 금일(2026년 8월 2일) 내로 100% 수집이 완료되므로 서비스 종료 일정에 전혀 영향을 받지 않고 안전하게 수집 완료됩니다.
+- **대응 전략**: 금일(2026년 8월 4일) 내로 8,424개 전체 수집이 100% 완료되므로 서비스 종료 일정에 영향 없이 안전합니다.
 
 ---
 
@@ -63,32 +62,14 @@ Modern Japanese anime art style with clean line art, charming 2D anime character
 - Constraint: NO text, NO Korean, NO Japanese, NO written words.
 ```
 
-### 4.2 주요 품질 제약 조건 (Quality Constraints)
-1. **NO Text**: 카드 내에 그 어떤 문자, 글자, 한자, 히라가나도 포함하지 않음.
-2. **Clean Background**: 복잡한 건물, 거리, 배경을 배제하고 단색/파스텔톤으로 중심 인물 강조.
-3. **Visual Metaphor**: 단순 단어 직역이 아닌 어휘의 의미를 직관적으로 연상시키는 2D 인물 행동/표정 연출.
-
 ---
 
 ## 5. 실행 파이프라인 & 에러 핸들링 (Pipeline & Error Handling)
 
 ### 5.1 스크립트 구조
 - **마스터 프롬프트 재작성기**: [`utils/image_pipeline_v2/rebuild_all_master_prompts_v5.py`](utils/image_pipeline_v2/rebuild_all_master_prompts_v5.py)
-- **병렬 가속 파이프라인**: [`utils/image_pipeline_v2/vertex_ai_parallel_v4_generator.py`](utils/image_pipeline_v2/vertex_ai_parallel_v4_generator.py) (15-스레드 동시 처리)
+- **병렬 가속 파이프라인**: [`utils/image_pipeline_v2/vertex_ai_parallel_v4_generator.py`](utils/image_pipeline_v2/vertex_ai_parallel_v4_generator.py) (0-Error Rate Pacing Engine)
 - **저장 디렉토리**: [`assets/images/words_v4_gemini/`](assets/images/words_v4_gemini/)
-- **파일명 규격**: `{level}_{clean_kanji}_{clean_korean}_v4.jpg` (예: `n3_頭痛_두통_v4.jpg`)
-
-### 5.2 예외 처리 및 자동 재시도 (Robust Error Handling)
-```python
-# Rate Limit (429) 및 네트워크 지연 발생 시 지수 백오프 자동 재시도 로직
-except Exception as e:
-    err_msg = str(e)
-    if '429' in err_msg or 'quota' in err_msg.lower():
-        time.sleep(1.5)  # 쿼터 대기 후 재시도
-    else:
-        attempts += 1
-        time.sleep(0.5)
-```
 
 ---
 
@@ -96,8 +77,8 @@ except Exception as e:
 
 1. **[완료]** ADC 인증 및 GCP Vertex AI 서비스 활성화 완료
 2. **[완료]** 8,424개 전체 어휘 V5 마스터 프롬프트 엔진 업그레이드 완료
-3. **[진행 중]** 15-스레드 비동기 초고속 수집 진행 중 (현재 4,395개 완료 / 52.2%)
-4. **[예정]** 전체 8,424개 어휘 100% 완결 검수 및 앱 반영
+3. **[진행 중]** 0-Error Rate 정밀 수집 진행 중 (현재 6,370개 완료 / 75.6%)
+4. **[예정]** 남은 2,054개 어휘 100% 완결 검수 및 앱 반영
 
 ---
 *본 문서는 하루일본어 프로젝트의 이미지 파이프라인 공식 검수 및 실측 명세서입니다.*
